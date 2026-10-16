@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Trump Family Investment Mention Tracker</title>
+<script>/*__CHARTJS__*/</script>
+<style>
+body{font-family:system-ui,Arial;margin:0;background:#0f1420;color:#e6e9ef}
+header{padding:18px 24px;background:#1a2133;border-bottom:1px solid #2c3550}h1{margin:0;font-size:22px}
+.sub{color:#9aa4bd;font-size:13px}main{padding:16px 24px}
+.cards{display:flex;gap:12px;flex-wrap:wrap}.card{background:#1a2133;border:1px solid #2c3550;border-radius:8px;padding:12px 16px;min-width:170px}
+.card b{display:block;font-size:22px}.card span{color:#9aa4bd;font-size:12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.panel{background:#1a2133;border:1px solid #2c3550;border-radius:8px;padding:12px}
+h2{font-size:16px;margin:4px 0 10px}table{border-collapse:collapse;width:100%;font-size:12px}
+th,td{border-bottom:1px solid #2c3550;padding:4px 6px;text-align:left;vertical-align:top}th{color:#9aa4bd;cursor:pointer}
+.pos{color:#4ade80}.neg{color:#f87171}.muted{color:#6b7591}a{color:#7cb4ff}select{background:#0f1420;color:#e6e9ef;border:1px solid #2c3550}
+.disc{font-size:11px;color:#9aa4bd;margin-top:16px}
+</style></head><body>
+<header><h1>Trump Family Investment Mention Tracker</h1><div class="sub" id="gen"></div></header>
+<main>
+<div class="cards" id="cards"></div>
+<div class="grid">
+<div class="panel"><h2>Virtual portfolio: $1,000 per mention, held to date vs same cash in SPY</h2><canvas id="eq"></canvas></div>
+<div class="panel"><h2>Variant: 30-day hold, then cash</h2><canvas id="eq30"></canvas></div>
+<div class="panel"><h2>Win rate by horizon (all priced mentions)</h2><canvas id="wr"></canvas></div>
+<div class="panel"><h2>Median return &amp; mean excess vs benchmark</h2><canvas id="avg"></canvas></div>
+</div>
+<div class="panel" style="margin-top:16px"><h2>Patterns: stats by group <select id="hz"></select></h2><table id="grp"></table>
+<p class="sub" id="sig"></p></div>
+<div class="panel" style="margin-top:16px"><h2>Mentions (click headers to sort)</h2><table id="tbl"></table></div>
+<p class="disc">Data: Yahoo Finance via yfinance (daily closes, split/dividend-adjusted). Entry = close on the mention day (or next trading day/first available close). Horizons are calendar days (±1d = adjacent trading close). Because entry is the mention-day close, the -7d and -1d windows <b>include the mention-day reaction itself</b> (e.g. SPY +10.5% on Apr 9 2025), so they measure "run-up into the close", not purely pre-announcement moves. Benchmark: SPY for stocks, BTC for crypto. "Beat" = return above benchmark over the same window. Includes direct "buy" calls plus company/product praise and family-linked ventures; classification shown in the Category column. Not investment advice; small sample, heavy overlap of crypto names on single dates.</p>
+</main>
+<script>
+const D=/*__DATA__*/null;
+const pct=(x,d=1)=>x==null?'<span class="muted">–</span>':`<span class="${x>=0?'pos':'neg'}">${(x*100).toFixed(d)}%</span>`;
+const H=['-7d','-1d','+1d','+7d','+30d','+90d','to date'];
+document.getElementById('gen').textContent=`Generated ${D.generated} · ${D.rows.length} sourced mentions · ${D.rows.filter(r=>r.status=='ok').length} with price data`;
+const A=D.stats.all,P=D.portfolio.hold,P3=D.portfolio.hold30;
+const c=[['Mentions tracked',D.rows.length],['Win rate +30d',pct(A['+30d'].win,0)],['Beat benchmark +30d',pct(A['+30d'].beat,0)],
+['Median to date',pct(A['to date'].median)],['Portfolio (hold) return',pct(P.final_value/P.invested_total-1)],['Same cash in SPY',pct(P.final_spy/P.invested_total-1)],
+['30d-hold portfolio',pct(P3.final_value/P3.invested_total-1)],['30d-hold SPY',pct(P3.final_spy/P3.invested_total-1)]];
+document.getElementById('cards').innerHTML=c.map(([a,b])=>`<div class="card"><b>${b}</b><span>${a}</span></div>`).join('');
+Chart.defaults.color='#9aa4bd';Chart.defaults.borderColor='#2c3550';
+function eq(id,p){new Chart(document.getElementById(id),{type:'line',data:{labels:p.dates,datasets:[
+{label:'Mentions portfolio',data:p.value,borderColor:'#f59e0b',pointRadius:0,borderWidth:2},
+{label:'SPY (same cash flows)',data:p.spy,borderColor:'#60a5fa',pointRadius:0,borderWidth:2},
+{label:'Cash invested',data:p.invested,borderColor:'#6b7591',borderDash:[4,4],pointRadius:0,borderWidth:1}]},options:{animation:false,scales:{x:{ticks:{maxTicksLimit:10}}}}})}
+eq('eq',P);eq('eq30',P3);
+const hs=H.filter(h=>A[h]);
+new Chart(document.getElementById('wr'),{type:'bar',data:{labels:hs,datasets:[{label:'% positive',data:hs.map(h=>A[h].win*100),backgroundColor:'#4ade80'},{label:'% beat benchmark',data:hs.map(h=>A[h].beat*100),backgroundColor:'#60a5fa'}]},options:{animation:false,scales:{y:{max:100}}}});
+new Chart(document.getElementById('avg'),{type:'bar',data:{labels:hs,datasets:[{label:'Median return %',data:hs.map(h=>A[h].median*100),backgroundColor:'#f59e0b'},{label:'Mean excess vs bench %',data:hs.map(h=>A[h].mean_excess*100),backgroundColor:'#a78bfa'}]},options:{animation:false}});
+const hz=document.getElementById('hz');hz.innerHTML=hs.map(h=>`<option ${h=='+30d'?'selected':''}>${h}</option>`).join('');
+function grp(){const h=hz.value;document.getElementById('grp').innerHTML='<tr><th>Group</th><th>n</th><th>Win %</th><th>Beat bench %</th><th>Mean</th><th>Median</th><th>Mean excess</th></tr>'+
+Object.entries(D.stats).filter(([k,v])=>v[h]).map(([k,v])=>{const s=v[h];return `<tr><td>${k}</td><td>${s.n}</td><td>${pct(s.win,0)}</td><td>${pct(s.beat,0)}</td><td>${pct(s.mean)}</td><td>${pct(s.median)}</td><td>${pct(s.mean_excess)}</td></tr>`}).join('')}
+hz.onchange=grp;grp();
+const S=D.signal;document.getElementById('sig').innerHTML=`Pre-mention run-up check: ${pct(S.share_outperform_pre7,0)} of ${S.n} mentions outperformed their benchmark in the 7 days <i>before</i> the mention (mean excess ${pct(S.mean_excess_pre7)}; prior-day mean excess ${pct(S.mean_excess_pre1)}). These windows include the mention-day move. Run-up alone is not evidence of front-running; many mentions coincide with news.`;
+let rows=D.rows.slice(),sk='date',sd=1;
+function tbl(){rows.sort((a,b)=>{let x=sk.startsWith('r:')?(a.returns[sk.slice(2)]??-1e9):a[sk],y=sk.startsWith('r:')?(b.returns[sk.slice(2)]??-1e9):b[sk];return (x>y?1:x<y?-1:0)*sd});
+document.getElementById('tbl').innerHTML='<tr>'+[['date','Date'],['who','Who'],['asset','Asset'],['ticker','Ticker'],['category','Category']].map(([k,l])=>`<th data-k="${k}">${l}</th>`).join('')+'<th>Quote / summary</th>'+H.map(h=>`<th data-k="r:${h}">${h}</th>`).join('')+'<th>Excess to date</th><th>Source</th></tr>'+
+rows.map(r=>`<tr><td>${r.date}</td><td>${r.who}</td><td>${r.asset}</td><td>${r.ticker||'–'}</td><td>${r.category}</td><td>${r.quote}${r.status!='ok'?`<br><span class="muted">${r.status}</span>`:(r.note?`<br><span class="muted">${r.note}</span>`:'')}</td>`+H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')+`<td>${pct(r.excess['to date'])}</td><td><a href="${r.source}" target="_blank">link</a></td></tr>`).join('');
+document.querySelectorAll('#tbl th[data-k]').forEach(th=>th.onclick=()=>{sd=sk==th.dataset.k?-sd:1;sk=th.dataset.k;tbl()})}
+tbl();
+</script></body></html>
