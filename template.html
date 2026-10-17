@@ -49,10 +49,14 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 <li><b>+7d / +30d / +90d / to date:</b> 7, 30 or 90 calendar days after the mention, or from the mention until today.</li>
 <li><b>Pre-move (-30d / -7d):</b> how the asset moved in the month or week <i>before</i> the comment, compared with the index.</li>
 <li><b>Basket:</b> for whole-sector comments (e.g. "rare earths"), an equal mix of the related stocks/ETFs listed in that sector's card.</li>
+<li><b>95% range / "luck":</b> how far the average could plausibly swing just from which mentions happened to be in the sample. If the range includes zero, the result could easily be chance.</li>
 <li><b>Virtual portfolio:</b> pretend $1,000 went into each mentioned asset at the close on the day it was mentioned.</li></ul></details>
 <div class="cav">Caveats: past results don't predict future ones. Samples are small and overlap in time. Timing patterns are correlation, not proof of anything. Prices exclude fees and taxes. This is not financial advice.</div></div>
 <div class="cards" id="cards"></div>
 <div class="hcards" id="hcards"></div>
+<div class="panel"><h2>Is this more than luck? <span class="sub">(average excess vs <span class="bml"></span>, with a 95% range)</span></h2>
+<div class="sub">For each time window, we resample the mentions 2,000 times (a "bootstrap") to see how much the average could swing by chance. If the 95% range crosses zero, the result <b>can't be told apart from luck</b>. The coin-flip check asks whether the share of mentions beating the index is unusually far from 50%. Small, overlapping samples make these ranges wide.</div>
+<div style="overflow-x:auto"><table id="tSig"></table></div></div>
 <div class="grid">
  <div class="panel"><h2>Average excess return by horizon vs <span class="bml"></span></h2><canvas id="cEx"></canvas></div>
  <div class="panel"><h2>Virtual portfolio ($1,000 per mention) vs same cash in indexes <span id="fHold"></span></h2><div class="cbx" id="pIdx"></div><canvas id="cEq"></canvas></div>
@@ -114,6 +118,7 @@ function insights(sel,ok,P){const L=P.val.length-1,I=P.inv[L],b=BL[BM],out=[];co
  out.push(`If you'd put <b>$1,000</b> into every one of these ${ok.length} assets on the day it was mentioned${hold=='hold'?' and held':' and sold 30 days later'}, you'd have about <b>${usd(v)}</b> today from <b>${usd(I)}</b> put in (${v>=I?'a gain':'a loss'} of ${Math.abs((v/I-1)*100).toFixed(0)}%). The same money in the ${b} would be about <b>${usd(ix)}</b>, so the mentions ${v>=ix?'came out <b>ahead</b>':'came out <b>behind</b>'} by about ${usd(Math.abs(v-ix))}.`);
  const s=stats(ok,'+30d');if(s.n)out.push(`One month after being mentioned, about <b>${inTen(s.win)}</b> were up in price, and <b>${inTen(s.beat)}</b> did better than the ${b}.`);
  if(s.aex!=null)out.push(`On average, a mentioned asset did <b>${pp(s.aex)} ${s.aex>=0?'better':'worse'}</b> than the ${b} in the month after the comment. The typical (middle) case was ${pp(s.mex)} ${s.mex>=0?'better':'worse'}, so ${Math.abs(s.aex-s.mex)>0.03?'a few big winners or losers pull the average around.':'the average is fairly representative.'}`);
+ {const g=sig(ok,'+30d');if(g.ci)out.push(`Is that more than luck? Resampling the ${g.n} one-month results, the average gap vs the ${b} plausibly sits anywhere from ${(g.ci[0]*100).toFixed(1)}% to ${(g.ci[1]*100).toFixed(1)}%. ${g.ci[0]>0?'The whole range is above zero, so the edge is <b>bigger than chance alone would usually produce</b> (it still doesn\'t say why).':g.ci[1]<0?'The whole range is below zero, so mentioned assets <b>reliably lagged</b> the index over that month.':'That range includes zero, so the one-month result <b>can\'t be told apart from luck</b>.'}`)}
  const d0a=ok.map(r=>r.returns['day0']).filter(x=>x!=null),d0=avg(d0a),d0m=med(d0a);if(d0!=null)out.push(`On the day of the comment itself, prices moved ${d0>=0?'up':'down'} about ${Math.abs(d0*100).toFixed(1)}% on average, but the typical (middle) move was ${d0m>=0?'+':''}${(d0m*100).toFixed(1)}%.${Math.abs(d0-d0m)>0.03?' A few huge first-day jumps (for example, newly launched coins) inflate the average.':''}`);
  const td=ok.filter(r=>X(r)['to date']!=null).sort((a,b2)=>X(b2)['to date']-X(a)['to date']);
  if(td.length>1){const B=td[0],W=td[td.length-1];out.push(`Best so far: <b>${B.asset}</b> (${B.who}, ${B.date}), ${pp(X(B)['to date'])} ahead of the index. Worst: <b>${W.asset}</b> (${W.who}, ${W.date}), ${pp(X(W)['to date'])} behind.`)}
@@ -124,6 +129,15 @@ function insights(sel,ok,P){const L=P.val.length-1,I=P.inv[L],b=BL[BM],out=[];co
  const nd=sel.filter(r=>r.disclosures.length).length,nc=sel.filter(r=>r.congress.length).length;if(nd||nc)out.push(`${nd} mention(s) involve an asset the speaker, their family or a linked company has publicly disclosed owning or trading, and ${nc} had congressional trades in that asset around the time of the comment. These are timing overlaps from public filings, not evidence of wrongdoing.`);
  document.getElementById('insL').innerHTML=out.map(x=>`<li>${x}</li>`).join('')}
 
+
+function rng(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function boot(a,B=2000){if(a.length<5)return null;const R=rng(12345),n=a.length,m=[];for(let b=0;b<B;b++){let s=0;for(let i=0;i<n;i++)s+=a[(R()*n)|0];m.push(s/n)}m.sort((x,y)=>x-y);return[m[Math.floor(.025*B)],m[Math.floor(.975*B)]]}
+function binP(k,n){if(!n)return null;const lf=x=>{let s=0;for(let i=2;i<=x;i++)s+=Math.log(i);return s},pk=i=>Math.exp(lf(n)-lf(i)-lf(n-i)-n*Math.LN2);const p0=pk(k);let p=0;for(let i=0;i<=n;i++){const q=pk(i);if(q<=p0*(1+1e-9))p+=q}return Math.min(1,p)}
+function sig(ok,h){const a=ok.map(r=>X(r)[h]).filter(x=>x!=null),n=a.length,k=a.filter(x=>x>0).length,ci=boot(a),p=binP(k,n);
+ let v='Too few mentions to judge';if(ci){v=ci[0]>0?'<span class="pos">Reliably better than the index</span>':ci[1]<0?'<span class="neg">Reliably worse than the index</span>':'Can\'t be told apart from luck'}
+ return{n,a:avg(a),m:med(a),ci,k,p,v}}
+function sigTable(ok){const rows=H.map(h=>[h,sig(ok,h)]);document.getElementById('tSig').innerHTML='<tr><th>Window</th><th>n</th><th>Avg excess</th><th>95% range of the average</th><th>Median</th><th>Beat index</th><th>Coin-flip check</th><th>Plain-English verdict</th></tr>'+
+ rows.map(([h,s])=>`<tr><td>${h}</td><td>${s.n}</td><td>${pct(s.a)}</td><td>${s.ci?pct(s.ci[0])+' to '+pct(s.ci[1]):'<span class="muted">–</span>'}</td><td>${pct(s.m)}</td><td>${s.k} of ${s.n}</td><td>${s.p==null?'–':s.p<0.05?`unusual (p=${s.p.toFixed(3)})`:`ordinary (p=${s.p.toFixed(2)})`}</td><td>${s.v}</td></tr>`).join('');return rows}
 function takeaway(ok,P){const el=document.getElementById('takeP');if(!ok.length){el.textContent='No priced mentions match these filters.';return}
  const L=P.val.length-1,I=P.inv[L],b=BL[BM],v=P.val[L]/I-1,ix=P[BM][L]/I-1,s=stats(ok,'+30d');
  const base=D.rows.filter(r=>F.category.has(r.category)&&F.type.has(r.type)&&r.status=='ok');
@@ -155,7 +169,7 @@ function render(){
  document.getElementById('tGrp').innerHTML='<tr><th>Who</th><th>n</th>'+KH.map(h=>`<th>${h} win</th><th>${h} beat</th><th>${h} avg excess</th>`).join('')+`<th>Portfolio vs ${BL[BM]}</th></tr>`+
  ['Trump','Family','Admin'].map(g=>{const rs=base.filter(r=>r.group==g);if(!rs.length)return'';const p=port(rs,'hold'),l=p.val.length-1,i=p.inv[l];
  return `<tr><td><span class="tag" style="background:${GC[g]};color:#111">${g}</span></td><td>${rs.length}</td>`+KH.map(h=>{const s=stats(rs,h);return `<td>${pct(s.win,0)}</td><td>${pct(s.beat,0)}</td><td>${pct(s.aex)}</td>`}).join('')+`<td>${pct(p.val[l]/i-1)} vs ${pct(p[BM][l]/i-1)}</td></tr>`}).join('');
- takeaway(ok,P);insights(sel,ok,P);tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
+ sigTable(ok); takeaway(ok,P);insights(sel,ok,P);tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
 function pre(ok){const t=(+thrEl.value||10)/100,m=r=>Math.max(Math.abs(X(r)['-30d']||0),Math.abs(X(r)['-7d']||0));const rs=[...ok].sort((a,b)=>m(b)-m(a));const n=rs.filter(big).length;
  document.getElementById('pre').innerHTML=`<div class="sub" style="margin-bottom:6px"><b>${n}</b> of ${rs.length} mentions in filter had an abnormal pre-move ≥ ${(t*100).toFixed(0)}% vs ${BL[BM]} (up ${rs.filter(r=>['-7d','-30d'].some(h=>(X(r)[h]??0)>=t)).length}, down ${rs.filter(r=>['-7d','-30d'].some(h=>(X(r)[h]??0)<=-t)).length}).</div><table><tr><th>Date</th><th>Who</th><th>Asset</th><th>-30d raw</th><th>-30d excess</th><th>-7d raw</th><th>-7d excess</th><th>Day 0</th><th>+1d</th><th>+30d excess</th><th>Flags</th></tr>`+rs.map(r=>{const c=h=>`<td class="${X(r)[h]!=null&&Math.abs(X(r)[h])>=t?'hl':''}">${pct(X(r)[h])}</td>`;return `<tr><td>${r.date}</td><td>${r.who}</td><td>${r.asset}</td><td>${pct(r.returns['-30d'])}</td>${c('-30d')}<td>${pct(r.returns['-7d'])}</td>${c('-7d')}<td>${pct(r.returns['day0'])}</td><td>${pct(r.returns['+1d'])}</td><td>${pct(X(r)['+30d'])}</td><td>${fl(r)}</td></tr>`}).join('')+'</table>'}
 const fl=r=>(r.disclosures.length?`<span class="flag" title="${r.disclosures.map(d=>d.party+': '+d.kind+' '+d.date).join(' | ')}">${r.disclosures.length} disclosure</span> `:'')+(r.congress.length?`<span class="cflag" title="${r.congress.map(c=>c.member+' '+c.type+' '+c.date).join(' | ')}">${r.congress.length} Congress</span>`:'');
