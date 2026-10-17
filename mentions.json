@@ -1721,5 +1721,21 @@
   "ticker": "TMO",
   "quote": "\"Well, it's a great company. We were just talking about how the expansion's going. And a lot of expansion because of Trump, I have to say... But this is a great honor being here. It's a great company. I've known it for a long time.\" (site visit, Thermo Fisher plant, Reading, Ohio)",
   "note": "Said while touring Thermo Fisher Scientific's contract drug-manufacturing plant in Reading, Ohio, near Cincinnati, on Wed Mar 11 2026, alongside CEO Marc Casper and CMS Administrator Mehmet Oz (American Presidency Project transcript; White House video; Roll Call Factbase). The travel pool says he came out to greet employees and take questions at 2:50 PM ET, during trading hours, so day 0 is Mar 11: Thermo Fisher closed down about 0.9%, roughly 0.8 points worse than the S&P 500. In a local TV interview at the plant (WKRC Local 12) he called it \"really a great company\" that is bringing medicine production back to the US, and at his Hebron, Kentucky speech later that day he called it \"the great American company that's investing $2 billion in domestic manufacturing\" (Washington Examiner); those are counted with this row, not separately. See Disclosures: Trump's OGE periodic transaction report lists a Thermo Fisher purchase the same day. Quiver lists 3 congressional TMO trades in the window (all Rep. Ro Khanna), for context only. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-02-27",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-energy-corpus-christi-texas",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-february-27-2026",
+  "time_et": "2026-02-27 16:48",
+  "time_src": "American Presidency Project note: the President spoke at 3:48 p.m. local time (4:48 PM ET) at the Port of Corpus Christi; the Dell line comes about 21 minutes in (Roll Call Factbase timestamps), after the 4 PM ET close",
+  "after_close": true,
+  "category": "Explicit buy call",
+  "asset": "Dell Technologies",
+  "ticker": "DELL",
+  "quote": "\"We have a new thing, and it was Michael and Susan Dell—Dell computer. Go out and buy a Dell computer. They're great.\" (energy speech, Port of Corpus Christi, Texas)",
+  "note": "Said in his energy speech at the Port of Corpus Christi, Texas on Fri Feb 27 2026 while promoting the Trump Accounts that Michael and Susan Dell pledged $6.25 billion to fund (American Presidency Project transcript; Roll Call Factbase). The speech began at 3:48 PM Central (4:48 PM ET), after the market close, so day 0 is Mon Mar 2 (Dell +3.7%, S&P 500 +0.1%). Context: Dell had reported record quarterly results and raised guidance after the close on Feb 26, and its shares jumped 22% on Feb 27 before he spoke (Dell press release; CNBC), so the -7d and -30d moves mostly reflect earnings. It repeats the \"go out and buy a Dell computer\" line from his Feb 19 Rome, Georgia speech eight days earlier. See Disclosures: Trump's OGE report lists a Dell purchase on Feb 10, 17 days before. The three congressional Dell trades Quiver lists in this window (Sen. Markwayne Mullin Feb 4, Rep. Ro Khanna Feb 5 and Feb 17, all sales) are already shown under the Feb 19 row and are not counted twice; no others were filed in the week after. Context only. No wrongdoing alleged."
  }
 ]
