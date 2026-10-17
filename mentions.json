@@ -1192,5 +1192,21 @@
    "https://governor.alabama.gov/newsroom/2025/02/governor-ivey-announces-that-arcelormittal-plans-1-2-billion-alabama-mill-to-produce-electrical-steel/",
    "https://www.reuters.com/markets/commodities/arcelormittal-build-new-steel-plant-us-meet-auto-sector-demand-2025-02-06/"
   ]
+ },
+ {
+  "date": "2026-10-03",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/0fe892bb-c841-40ad-883b-b50f6d81f538",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-3-2026",
+  "time_et": "2026-10-03 19:45",
+  "time_src": "White House travel pool report 4 (POTUS took the stage at 7:45 pm)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Stellantis N.V.",
+  "ticker": "STLA",
+  "quote": "\"Stellantis is investing $400 million at his plant in Ohio to bring 900 new jobs back just as an example, that's in Toledo, brand new trucks made by Stellantis in Toledo.\" (rally, Vandalia, Ohio)",
+  "note": "Said at Trump's midterm campaign rally at the Butler-Vandalia Student Activity Center near Dayton, Ohio on Saturday Oct 3 2026. The White House travel pool report says he took the stage at 7:45 PM ET; markets were closed for the weekend, so day 0 is the next session (Mon Oct 5). The investment is real: Stellantis announced on Oct 14 2025, as part of its $13 billion US plan, nearly $400 million to build an all-new midsize truck at the Toledo Assembly Complex, which could create more than 900 jobs, with launch expected in 2028 (Stellantis press release). This is Trump's second tracked Stellantis mention, after his Sep 26 2026 post. Quiver: no congressional trades in STLA within 30 days before to 7 days after (the latest listed trade is Sen. Alan Armstrong's Mar 30 2026 purchase; checked 2026-10-17)."
  }
 ]

@@ -138,5 +138,10 @@
   "item": "U.S. Steel's Birmingham plant, the Fannie Mae office move and the Navy submarine and Coast Guard cutter yards (Trump, Oct 2 2026 Mobile, Alabama rally)",
   "reason": "Trump said \"US Steel is investing $475 million in its plant in Birmingham\"; U.S. Steel has been owned by Nippon Steel since its 2025 acquisition and its shares are no longer listed, so there is no price to score (we did not check the $475 million figure). He said Fannie Mae's offices \"will move from San Francisco, California to Birmingham, Alabama\", an administration decision about a government-controlled company, not praise of its business. He also mentioned \"a brand new facility to build US Navy submarines in Cherokee, Alabama\" and Coast Guard cutters built in Mobile Bay without naming any company. None is scored; the Eli Lilly, Mercedes-Benz and ArcelorMittal lines from the same rally are (Trump Archive transcript).",
   "kind": "notcall"
+ },
+ {
+  "item": "Electra, the repeat Bayer line and \"the big oil companies\" (Trump, Oct 3 2026 Vandalia, Ohio rally)",
+  "reason": "Trump said \"Electra announced it's investing $850 million to create nearly 2,000 new jobs a few miles away in Springfield\"; the investment is real (Electra and the Ohio governor's office announced the $850 million EL9 aircraft plant at AirPark Ohio on Jul 21 2026, with 1,975 jobs), but Electra is a privately held company with no share price. His Bayer aspirin story and the $2.2 billion Columbus campus repeat his Truth Social post from earlier the same evening, which is already scored as the Oct 3 Bayer mention, so it is not counted twice. \"The big oil companies\" names no company. None of these is scored; the Stellantis line from the same rally is (Trump Archive transcript).",
+  "kind": "notcall"
  }
 ]
