@@ -1,0 +1,138 @@
+{
+ "_note": "Sector per Yahoo Finance company profile (retrieved 2026-10-17), mapped to the matching Select Sector SPDR ETF. X (U.S. Steel) is no longer listed after its 2025 acquisition by Nippon Steel; it is classed as Basic Materials (steel). Skipped: ALTS and TZUP (no Yahoo profile) and 3350.T (Tokyo-listed, no US sector ETF fits).",
+ "etf_names": {
+  "XLK": "Technology Select Sector SPDR (XLK)",
+  "XLC": "Communication Services Select Sector SPDR (XLC)",
+  "XLY": "Consumer Cyclical Select Sector SPDR (XLY)",
+  "XLP": "Consumer Defensive Select Sector SPDR (XLP)",
+  "XLE": "Energy Select Sector SPDR (XLE)",
+  "XLF": "Financial Services Select Sector SPDR (XLF)",
+  "XLV": "Healthcare Select Sector SPDR (XLV)",
+  "XLI": "Industrials Select Sector SPDR (XLI)",
+  "XLB": "Basic Materials Select Sector SPDR (XLB)",
+  "XLRE": "Real Estate Select Sector SPDR (XLRE)",
+  "XLU": "Utilities Select Sector SPDR (XLU)"
+ },
+ "tickers": {
+  "AAPL": {
+   "sector": "Technology",
+   "industry": "Consumer Electronics",
+   "etf": "XLK"
+  },
+  "ABTC": {
+   "sector": "Financial Services",
+   "industry": "Capital Markets",
+   "etf": "XLF"
+  },
+  "AEO": {
+   "sector": "Consumer Cyclical",
+   "industry": "Apparel Retail",
+   "etf": "XLY"
+  },
+  "BA": {
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "etf": "XLI"
+  },
+  "BDX": {
+   "sector": "Healthcare",
+   "industry": "Medical Instruments & Supplies",
+   "etf": "XLV"
+  },
+  "CCJ": {
+   "sector": "Energy",
+   "industry": "Uranium",
+   "etf": "XLE"
+  },
+  "DELL": {
+   "sector": "Technology",
+   "industry": "Computer Hardware",
+   "etf": "XLK"
+  },
+  "DJT": {
+   "sector": "Communication Services",
+   "industry": "Internet Content & Information",
+   "etf": "XLC"
+  },
+  "DOMH": {
+   "sector": "Financial Services",
+   "industry": "Capital Markets",
+   "etf": "XLF"
+  },
+  "GFS": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK"
+  },
+  "INTC": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK"
+  },
+  "KO": {
+   "sector": "Consumer Defensive",
+   "industry": "Beverages - Non-Alcoholic",
+   "etf": "XLP"
+  },
+  "LAC": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB"
+  },
+  "MP": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB"
+  },
+  "MU": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK"
+  },
+  "NVDA": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK"
+  },
+  "PEW": {
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "etf": "XLI"
+  },
+  "PLTR": {
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "etf": "XLK"
+  },
+  "PSQH": {
+   "sector": "Technology",
+   "industry": "Software - Application",
+   "etf": "XLK"
+  },
+  "TM": {
+   "sector": "Consumer Cyclical",
+   "industry": "Auto Manufacturers",
+   "etf": "XLY"
+  },
+  "TMQ": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB"
+  },
+  "TSLA": {
+   "sector": "Consumer Cyclical",
+   "industry": "Auto Manufacturers",
+   "etf": "XLY"
+  },
+  "USAR": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB"
+  },
+  "X": {
+   "sector": "Basic Materials",
+   "industry": "Steel",
+   "etf": "XLB"
+  }
+ }
+}
