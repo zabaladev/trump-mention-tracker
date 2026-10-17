@@ -1503,5 +1503,48 @@
   "ticker": "INFQ",
   "quote": "\"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; Infleqtion: $100 million in planned funding for neutral-atom systems.)",
   "note": "The Commerce Department's CHIPS Research and Development Office announced on Thu May 21 2026 nine letters of intent for $2.013 billion in CHIPS Act incentives to quantum companies, and said it 'will receive a minority, non-controlling equity stake in each company' (NIST release; Reuters; CNBC; WSJ). The awards are letters of intent, not final agreements. The news was out before the open (CNBC 6:55 AM ET; the WSJ reported it first), so day 0 is May 21. Commerce Secretary Lutnick referred back to it at the Jun 22 quantum executive order signing ('the government invested $2 billion just a couple of weeks ago in quantum'). The five listed recipients are tracked as one announcement; the other four (Atom Computing, PsiQuantum, Quantinuum, Diraq) are private. Infleqtion: $100 million in planned funding for neutral-atom systems. Quiver lists no congressional INFQ trades (checked 2026-10-17)."
+ },
+ {
+  "date": "2026-06-23",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/c3eb336e-4241-40ff-8f65-9b3cb62fb4ad",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-june-23-2026",
+  "time_et": "2026-06-23 15:07",
+  "time_src": "UCSB travel pool report #8 (took the stage 2:48 PM ET) + transcript offset ~19 min; official text govinfo DCPD-202600423",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "Eli Lilly",
+  "ticker": "LLY",
+  "quote": "\"Right here in Lehigh Valley, Eli Lilly has just announced -- great company, by the way, drug company -- a $3.5 billion investment in a brand new state of the art manufacturing facility right down the road that's going to create over 1,000 jobs.\" (Mack Trucks plant, Macungie, Pennsylvania)",
+  "note": "Said about 19 minutes into Trump's speech at Mack Trucks' Lehigh Valley Operations plant in Macungie, Pennsylvania on Tue Jun 23 2026. The White House travel pool report says he took the stage at 2:48 PM ET, so the line came at roughly 3:07 PM ET, before the close, and day 0 is the same session. The investment is real and was already public: Lilly announced on Jan 30 2026 a more-than-$3.5 billion injectable medicine and device plant in Fogelsville (Upper Macungie Township), Lehigh Valley, with 850 permanent jobs and about 2,000 construction jobs, operating from 2031 (Lilly press release; Pennsylvania Governor's office; Reuters). 'Over 1,000 jobs' is his figure. Lilly is also tracked from the Oct 2 2026 Mobile, Alabama rally. Quiver lists two House LLY purchases within 30 days before (Ro Khanna, Jun 2; Gilbert Cisneros, Jun 10) and none in the 7 days after (checked 2026-10-17).",
+  "verify": [
+   "https://investor.lilly.com/news-releases/news-release-details/lilly-selects-pennsylvania-home-its-newest-injectable-medicine",
+   "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-secures-historic--3-5-billion-investment-from-l",
+   "https://www.lehighvalleylive.com/lehigh-county/2026/06/trump-lauds-eli-lillys-35b-venture-in-lehigh-valley-pa-workforce-in-mack-trucks-speech.html",
+   "https://www.govinfo.gov/content/pkg/DCPD-202600423/html/DCPD-202600423.htm"
+  ]
+ },
+ {
+  "date": "2026-06-23",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/c3eb336e-4241-40ff-8f65-9b3cb62fb4ad",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-june-23-2026",
+  "time_et": "2026-06-23 14:49",
+  "time_src": "UCSB travel pool report #8 (took the stage 2:48 PM ET); line about 1 minute in; official text govinfo DCPD-202600423",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Volvo Group (Mack Trucks)",
+  "ticker": "VOLV-B.ST",
+  "quote": "\"I'm especially honored to be here in the place that builds some of the toughest vehicles on the road, Mack Trucks. Mack Trucks is doing a great job.\" Later: \"I imposed a 25 percent tariff on medium and heavy-duty trucks so that Mack Truck could do very well with its factory in Pennsylvania.\" (Mack Trucks plant, Macungie, Pennsylvania)",
+  "note": "Said about one minute into Trump's speech at Mack Trucks' Lehigh Valley Operations plant on Tue Jun 23 2026, which began at 2:48 PM ET (White House travel pool report). Mack Trucks is a division of Sweden's Volvo Group (Fox Business; lehighvalleylive.com), so the tracked stock is Volvo's Stockholm-listed B share. Stockholm had already closed (11:30 AM ET), so day 0 is the next Stockholm session (Wed Jun 24). Mack is only one part of Volvo Group, which also makes Volvo trucks, buses and construction equipment, so Volvo's share price reflects much more than Mack. Stockholm-listed shares, priced in Swedish kronor, so index comparisons include currency moves. Quiver: no congressional trades in Volvo's US OTC tickers (VLVLY, VLVLF) in the window (last listed trade Jul 2023; checked 2026-10-17).",
+  "verify": [
+   "https://www.foxbusiness.com/politics/trump-visits-mack-trucks-plant-battleground-pennsylvania-district-to-tout-economic-agenda-midterms-loom",
+   "https://www.govinfo.gov/content/pkg/DCPD-202600423/html/DCPD-202600423.htm",
+   "https://www.ttnews.com/articles/trump-mack-trucks-rally"
+  ]
  }
 ]
