@@ -611,6 +611,24 @@
     "committee": "Senate Committee on Environment and Public Works",
     "why": "power-plant and environmental rules"
    }
+  ],
+  "DE": [
+   {
+    "committee": "House Committee on Agriculture",
+    "why": "farm equipment and rural economy"
+   },
+   {
+    "committee": "Senate Committee on Agriculture, Nutrition, and Forestry",
+    "why": "farm equipment and rural economy"
+   },
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "manufacturing and commerce"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "manufacturing and commerce"
+   }
   ]
  }
 }

@@ -313,5 +313,30 @@
   "item": "John Deere (Trump, Feb 12 2026 endangerment-finding repeal)",
   "reason": "Used \"John Deere as an example\" of farm equipment made expensive by environmental rules (Roll Call Factbase transcript). Criticism of regulations, not of the company, so not scored.",
   "kind": "notcall"
+ },
+ {
+  "item": "Eli Lilly MFN story (Trump, Jan 16 2026 rural health roundtable)",
+  "reason": "He called Lilly's CEO \"an unbelievable executive\" and Lilly \"one of the most successful companies\" while recounting Most Favored Nation drug-pricing talks (Roll Call Factbase / APP). Strong praise, but it is the same MFN negotiation story told many times; the Jun 23 and Oct 2 Lilly plant lines are the scored ones. Logged so the January sweep is documented.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Investment roll-call (Trump, Jan 20 2026 White House press briefing)",
+  "reason": "Listed Apple, Nvidia, SoftBank, Oracle, TSMC, J&J, Lilly, Micron, AstraZeneca, GM, Hyundai, Ford, Honda, GE Aerospace as \"$18 trillion in commitments\" and separately named Pfizer/AstraZeneca/Lilly/Novo/Gilead/EMD Serono for MFN deals (Roll Call Factbase). A group list / program partners, not a single-company pick.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Toyota $10B aside (Trump, Jan 21 2026 Davos business reception)",
+  "reason": "Told an Akio Toyoda anecdote and said Toyota \"just announced\" $10 billion of plants while praising the investment boom (APP). Investment roll-call beside the scored Apple line; no separate \"great company\" for Toyota here.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Eli Lilly six plants (Trump, Jan 29 2026 Cabinet meeting)",
+  "reason": "Called Lilly's CEO \"a fantastic guy, a star\" and said he is \"building six plants,\" then listed Merck and Pfizer as also building (Roll Call Factbase). Praise, but a Cabinet-meeting repeat of the MFN/reshoring story; Jun 23 / Oct 2 remain the scored Lilly mentions.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Ford plant recap (Trump, Jan 20 press briefing and Jan 29 Cabinet)",
+  "reason": "Repeated that a Ford plant in Michigan he visited was going \"24 hours around the clock\" and that he spoke with Bill Ford (Roll Call Factbase). Factual plant recap already covered by later Ford/GM asides in exclusions; not a fresh stock call.",
+  "kind": "notcall"
  }
 ]

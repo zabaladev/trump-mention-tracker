@@ -284,6 +284,11 @@
    "sector": "Energy",
    "industry": "Thermal Coal",
    "etf": "XLE"
+  },
+  "DE": {
+   "sector": "Industrials",
+   "industry": "Farm & Heavy Construction Machinery",
+   "etf": "XLI"
   }
  },
  "peer_etf_names": {
