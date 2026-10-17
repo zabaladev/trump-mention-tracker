@@ -1,27 +1,483 @@
 [
-{"applies":[["2025-04-09","DJT"]],"party":"Donald J. Trump Revocable Trust (Don Jr. trustee)","relation":"Family entity","kind":"Holding","date":"2024-12-17","amount":"114,750,000 DJT shares (53% at transfer; ~41% of voting power per 2026 10-K)","detail":"Trump is sole beneficiary; Don Jr. is sole trustee with voting/investment power and a DJT director.","source":"https://www.sec.gov/Archives/edgar/data/947033/000114036124050512/xslSCHEDULE_13D_X01/primary_doc.xml"},
-{"applies":[["2025-01-17","TRUMP35336-USD"]],"party":"Two Trump-owned companies (CIC Digital / Fight Fight Fight LLC)","relation":"Family entity","kind":"Holding","date":"2025-01-17","amount":"800M of 1B $TRUMP tokens","detail":"Only 200M tokens were released at launch; the rest is held by Trump-owned entities.","source":"https://en.wikipedia.org/wiki/$Trump"},
-{"applies":[["2025-09-01","WLFI33251-USD"],["2025-08-12","ALTS"]],"party":"DT Marks DEFI LLC (Trump family entity) and family members","relation":"Family entity","kind":"Holding","date":"2025-09-03","amount":"~38% of WLF Holdco + 22.5B WLFI tokens; 75% of net token-sale proceeds","detail":"Per World Liberty's own disclosures as reported by Reuters.","source":"https://www.reuters.com/markets/wealth/coins-miners-trump-familys-crypto-playbook-2025-09-03/"},
-{"applies":[["2025-01-21","ETH-USD"],["2025-02-03","ETH-USD"],["2025-02-06","BTC-USD"],["2025-03-02","BTC-USD"],["2025-03-02","ETH-USD"]],"party":"World Liberty Financial (family-linked)","relation":"Family entity","kind":"Purchase","date":"2025-01-21","amount":"$47M ETH and $47M wBTC (plus smaller AAVE, LINK, TRX, ENA)","detail":"Announced by Don Jr. on X as WLFI 'strategic purchases'. Bloomberg also reported WLFI appeared to buy ETH after the Feb 3 tariff selloff.","source":"https://x.com/DonaldJTrumpJr/status/1881494777293611302"},
-{"applies":[["2025-02-03","ETH-USD"]],"party":"World Liberty Financial (family-linked)","relation":"Family entity","kind":"Purchase (reported)","date":"2025-02-03","amount":"Not disclosed","detail":"Bloomberg: WLFI-linked wallets appeared to buy ether around the time of Eric's post.","source":"https://www.bloomberg.com/news/articles/2025-02-04/trump-s-crypto-project-appears-to-have-bought-ether-after-tariff-meltdown"},
-{"applies":[["2025-09-03","ABTC"],["2025-10-22","ABTC"],["2026-08-03","ABTC"]],"party":"Eric Trump & Donald Trump Jr.","relation":"Family (speaker)","kind":"Holding","date":"2025-09-03","amount":"Stake worth ~$1.5B at debut","detail":"Eric is co-founder & chief strategy officer.","source":"https://www.reuters.com/business/trumps-oldest-sons-american-bitcoin-stake-worth-15-billion-stock-debut-2025-09-03/"},
-{"applies":[["2025-02-11","DOMH"]],"party":"Donald Trump Jr. and Eric Trump","relation":"Family (speaker)","kind":"Holding (SEC 13G)","date":"2025-02-21","amount":"966,138 shares each (6.71%) + warrants for 432,276 each","detail":"Bought in private placement and joined advisory board; 13G filed after the announcement.","source":"https://www.sec.gov/Archives/edgar/data/12239/000121390025016617/xslSCHEDULE_13G_X01/primary_doc.xml"},
-{"applies":[["2024-12-03","PSQH"],["2026-02-04","PSQH"],["2026-08-14","PSQH"]],"party":"Donald Trump Jr.","relation":"Family (speaker)","kind":"Holding / purchase","date":"2024-12-04","amount":"Not disclosed","detail":"Says he invested before PSQ went public and never sold; board member; said on Aug 14 2026 he is increasing his stake.","source":"https://x.com/DonaldJTrumpJr/status/1864320112162898118"},
-{"applies":[["2025-07-16","PEW"],["2025-08-06","PEW"]],"party":"Donald Trump Jr.","relation":"Family (speaker)","kind":"Holding","date":"2025-07-16","amount":"Not disclosed","detail":"Board member, adviser and shareholder of GrabAGun.","source":"https://www.investopedia.com/shares-of-donald-trump-jr-backed-grabagun-falter-in-nyse-trading-debut-11773771"},
-{"applies":[["2025-07-09","TZUP"]],"party":"Donald Trump Jr.","relation":"Family (speaker)","kind":"Purchase","date":"2025-07-09","amount":"350,000 shares (~$3.6–4M)","detail":"An S-3 filed the same day registered the shares for resale.","source":"https://www.sec.gov/Archives/edgar/data/1853825/000164117225018266/forms-3.htm"},
-{"applies":[["2025-08-26","CRO-USD"]],"party":"Trump Media & Technology Group (Trump trust is largest holder)","relation":"Family entity","kind":"Purchase","date":"2025-08-26","amount":"684,427,004 CRO (~$105M) for DJT shares + $50M cash","detail":"Closed the same day as the CRO treasury announcement.","source":"https://www.sec.gov/Archives/edgar/data/1849635/000114036125032615/ef20054552_8k.htm"},
-{"applies":[["2025-08-12","ALTS"]],"party":"World Liberty Financial / Eric Trump","relation":"Family entity","kind":"Deal","date":"2025-08-12","amount":"ALT5 acquired ~7.3B WLFI tokens in $1.5B financing","detail":"Eric Trump was named to the board, later described in filings as an observer.","source":"https://www.sec.gov/Archives/edgar/data/862861/000164117225024661/form8-k.htm"},
-{"applies":[["2025-04-15","NVDA"]],"party":"Donald J. Trump (personal accounts)","relation":"Speaker","kind":"Purchase","date":"2025-04 (days before)","amount":"$200,001–$500,000","detail":"Per CNN's analysis of the 2025 OGE disclosure; accounts are discretionary, and the White House says Trump plays no role in trades.","source":"https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"},
-{"applies":[["2025-03-11","TSLA"],["2025-03-19","TSLA"]],"party":"Donald J. Trump (personal accounts)","relation":"Speaker / President (for Lutnick's call)","kind":"Purchase","date":"2025-03 (days before Mar 11 event)","amount":"At least $17,000 across several buys; 50+ Tesla buys in 2025 (≥$4M)","detail":"Per CNN's analysis of the 2025 OGE disclosure.","source":"https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"},
-{"applies":[["2025-03-19","TSLA"]],"party":"Cantor Fitzgerald (run by Lutnick's sons)","relation":"Official's family-linked firm","kind":"Analyst upgrade (not a trade)","date":"2025-03-19","amount":"n/a","detail":"Axios: Cantor upgraded Tesla hours before Lutnick's 'buy Tesla' remark. Lutnick said he was not allowed to own stocks.","source":"https://www.axios.com/2025/03/20/tesla-musk-lutnick"},
-{"applies":[["2025-08-04","AEO"]],"party":"Donald J. Trump (personal accounts)","relation":"Speaker","kind":"Purchase","date":"2025-07-31","amount":"$15,001–$50,000","detail":"Four days before the post.","source":"https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"},
-{"applies":[["2025-08-22","INTC"]],"party":"Donald J. Trump (personal accounts)","relation":"Speaker","kind":"Purchase","date":"2025-08-18","amount":"At least $250,000","detail":"Reported by the WSJ from the 2025 OGE 278e (as summarized by Seoul Economic Daily). The same day saw the year's largest buying (>$75M across many stocks).","source":"https://en.sedaily.com/international/2026/07/04/trump-bought-327-stocks-just-before-tariff-pause-filings"},
-{"applies":[["2025-08-22","INTC"]],"party":"Stephen Miller (WH deputy chief of staff; report covers filer/spouse/dependents)","relation":"Official / spouse","kind":"Sale","date":"2025-08-14","amount":"$100,001–$250,000 + $15,001–$50,000","detail":"OGE 278-T dated 08.29.25. These were sales (opposite direction), 8 days before the Intel stake post.","source":"https://www.whitehouse.gov/wp-content/uploads/2025/11/Miller-Stephen-Periodic-Transaction-Report-%E2%80%93-08.29.25.pdf"},
-{"applies":[["2025-07-10","MP"]],"party":"Donald J. Trump (personal accounts)","relation":"President (administration deal)","kind":"Purchases, later partial sales","date":"2025-01 to 2025-05","amount":"8 purchases totaling $22,000–$155,000","detail":"Per WSJ reporting on the 2025 OGE 278e; later sold part of the position.","source":"https://en.sedaily.com/international/2026/07/04/trump-bought-327-stocks-just-before-tariff-pause-filings"},
-{"applies":[["2026-07-15","BASKET:MAGNETS"]],"party":"1789 Capital (Donald Trump Jr. partner)","relation":"Family-linked entity","kind":"Private investment","date":"~3 months before the Pentagon loan","amount":"Not disclosed","detail":"Invested in Vulcan Elements (private magnet maker) before a $620M Pentagon loan, ~7 weeks before the 'do magnets' remark. Sector overlap only; Vulcan is not in the basket.","source":"https://www.yahoo.com/news/politics/articles/trump-hypes-magnets-son-firm-024024392.html"},
-{"applies":[["2026-02-19","BASKET:DELL"],["2026-02-19","DELL"],["2026-05-08","DELL"],["2026-07-06","DELL"]],"party":"Donald J. Trump (personal accounts)","relation":"Speaker","kind":"Purchase","date":"2026-02-10","amount":"$1,000,001–$5,000,000 (+3 smaller March buys)","detail":"OGE 278-T made public May 8 2026, 87 days after the trade (45-day limit). Whether the position was held at the later mentions isn't disclosed.","source":"https://www.cnbc.com/2026/05/28/michael-dell-trump-accounts-dod.html"},
-{"applies":[["2025-04-09","SPY"],["2025-04-11","SPY"]],"party":"Donald J. Trump (personal accounts)","relation":"Speaker / President","kind":"Purchases (broad)","date":"2025-04-08","amount":"327 stocks, >$3.6M (buys only that day)","detail":"WSJ analysis of the 2025 OGE 278e, as summarized by Seoul Economic Daily.","source":"https://en.sedaily.com/international/2026/07/04/trump-bought-327-stocks-just-before-tariff-pause-filings"},
-{"applies":[["2025-10-06","TMQ"]],"party":"Investor position (as described in congressional hearing / Bloomberg)","relation":"Reported adviser-linked holding","kind":"Holding, later sold","date":"late Sep 2025","amount":"~$30M position (Paulson's firm), sold between Oct and Dec 2025","detail":"Rep. Huffman stated a 'senior White House economic advisor' held a significant equity position. Bloomberg/Northern Journal reported Paulson's firm held ~$30M in late September; exact sale date not listed.","source":"https://alaskapublic.org/news/politics/washington-d-c/2026-03-26/u-s-house-democrat-derides-trump-admins-investment-in-alaska-mine-project"},
-{"applies":[["2025-01-06","X"]],"party":"Donald J. Trump (personal accounts)","relation":"Speaker","kind":"Purchase","date":"2025-01-06","amount":"At least $1,000","detail":"Same day as the post; order unclear.","source":"https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"},
-{"applies":[["2025-10-28","CCJ"]],"party":"Stephen Miller (report covers filer/spouse/dependents)","relation":"Official / spouse","kind":"Sale","date":"2025-08-14","amount":"$15,001–$50,000","detail":"75 days before the Westinghouse deal; a sale (opposite direction). Outside the 30-day window, shown for context.","source":"https://www.whitehouse.gov/wp-content/uploads/2025/11/Miller-Stephen-Periodic-Transaction-Report-%E2%80%93-08.29.25.pdf"}
+ {
+  "applies": [
+   [
+    "2025-04-09",
+    "DJT"
+   ]
+  ],
+  "party": "Donald J. Trump Revocable Trust (Don Jr. trustee)",
+  "relation": "Family entity",
+  "kind": "Holding",
+  "date": "2024-12-17",
+  "amount": "114,750,000 DJT shares (53% at transfer; ~41% of voting power per 2026 10-K)",
+  "detail": "Trump is sole beneficiary; Don Jr. is sole trustee with voting/investment power and a DJT director.",
+  "source": "https://www.sec.gov/Archives/edgar/data/947033/000114036124050512/xslSCHEDULE_13D_X01/primary_doc.xml"
+ },
+ {
+  "applies": [
+   [
+    "2025-01-17",
+    "TRUMP35336-USD"
+   ]
+  ],
+  "party": "Two Trump-owned companies (CIC Digital / Fight Fight Fight LLC)",
+  "relation": "Family entity",
+  "kind": "Holding",
+  "date": "2025-01-17",
+  "amount": "800M of 1B $TRUMP tokens",
+  "detail": "Only 200M tokens were released at launch; the rest is held by Trump-owned entities.",
+  "source": "https://en.wikipedia.org/wiki/$Trump"
+ },
+ {
+  "applies": [
+   [
+    "2025-09-01",
+    "WLFI33251-USD"
+   ],
+   [
+    "2025-08-12",
+    "ALTS"
+   ]
+  ],
+  "party": "DT Marks DEFI LLC (Trump family entity) and family members",
+  "relation": "Family entity",
+  "kind": "Holding",
+  "date": "2025-09-03",
+  "amount": "~38% of WLF Holdco + 22.5B WLFI tokens; 75% of net token-sale proceeds",
+  "detail": "Per World Liberty's own disclosures as reported by Reuters.",
+  "source": "https://www.reuters.com/markets/wealth/coins-miners-trump-familys-crypto-playbook-2025-09-03/"
+ },
+ {
+  "applies": [
+   [
+    "2025-01-21",
+    "ETH-USD"
+   ],
+   [
+    "2025-02-03",
+    "ETH-USD"
+   ],
+   [
+    "2025-02-06",
+    "BTC-USD"
+   ],
+   [
+    "2025-03-02",
+    "BTC-USD"
+   ],
+   [
+    "2025-03-02",
+    "ETH-USD"
+   ]
+  ],
+  "party": "World Liberty Financial (family-linked)",
+  "relation": "Family entity",
+  "kind": "Purchase",
+  "date": "2025-01-21",
+  "amount": "$47M ETH and $47M wBTC (plus smaller AAVE, LINK, TRX, ENA)",
+  "detail": "Announced by Don Jr. on X as WLFI 'strategic purchases'. Bloomberg also reported WLFI appeared to buy ETH after the Feb 3 tariff selloff.",
+  "source": "https://x.com/DonaldJTrumpJr/status/1881494777293611302"
+ },
+ {
+  "applies": [
+   [
+    "2025-02-03",
+    "ETH-USD"
+   ]
+  ],
+  "party": "World Liberty Financial (family-linked)",
+  "relation": "Family entity",
+  "kind": "Purchase (reported)",
+  "date": "2025-02-03",
+  "amount": "Not disclosed",
+  "detail": "Bloomberg: WLFI-linked wallets appeared to buy ether around the time of Eric's post.",
+  "source": "https://www.bloomberg.com/news/articles/2025-02-04/trump-s-crypto-project-appears-to-have-bought-ether-after-tariff-meltdown"
+ },
+ {
+  "applies": [
+   [
+    "2025-09-03",
+    "ABTC"
+   ],
+   [
+    "2025-10-22",
+    "ABTC"
+   ],
+   [
+    "2026-08-03",
+    "ABTC"
+   ]
+  ],
+  "party": "Eric Trump & Donald Trump Jr.",
+  "relation": "Family (speaker)",
+  "kind": "Holding",
+  "date": "2025-09-03",
+  "amount": "Stake worth ~$1.5B at debut",
+  "detail": "Eric is co-founder & chief strategy officer.",
+  "source": "https://www.reuters.com/business/trumps-oldest-sons-american-bitcoin-stake-worth-15-billion-stock-debut-2025-09-03/"
+ },
+ {
+  "applies": [
+   [
+    "2025-02-11",
+    "DOMH"
+   ]
+  ],
+  "party": "Donald Trump Jr. and Eric Trump",
+  "relation": "Family (speaker)",
+  "kind": "Holding (SEC 13G)",
+  "date": "2025-02-21",
+  "amount": "966,138 shares each (6.71%) + warrants for 432,276 each",
+  "detail": "Bought in private placement and joined advisory board; 13G filed after the announcement.",
+  "source": "https://www.sec.gov/Archives/edgar/data/12239/000121390025016617/xslSCHEDULE_13G_X01/primary_doc.xml"
+ },
+ {
+  "applies": [
+   [
+    "2024-12-03",
+    "PSQH"
+   ],
+   [
+    "2026-02-04",
+    "PSQH"
+   ],
+   [
+    "2026-08-14",
+    "PSQH"
+   ]
+  ],
+  "party": "Donald Trump Jr.",
+  "relation": "Family (speaker)",
+  "kind": "Holding / purchase",
+  "date": "2024-12-04",
+  "amount": "Not disclosed",
+  "detail": "Says he invested before PSQ went public and never sold; board member; said on Aug 14 2026 he is increasing his stake.",
+  "source": "https://x.com/DonaldJTrumpJr/status/1864320112162898118"
+ },
+ {
+  "applies": [
+   [
+    "2025-07-16",
+    "PEW"
+   ],
+   [
+    "2025-08-06",
+    "PEW"
+   ]
+  ],
+  "party": "Donald Trump Jr.",
+  "relation": "Family (speaker)",
+  "kind": "Holding",
+  "date": "2025-07-16",
+  "amount": "Not disclosed",
+  "detail": "Board member, adviser and shareholder of GrabAGun.",
+  "source": "https://www.investopedia.com/shares-of-donald-trump-jr-backed-grabagun-falter-in-nyse-trading-debut-11773771"
+ },
+ {
+  "applies": [
+   [
+    "2025-07-09",
+    "TZUP"
+   ]
+  ],
+  "party": "Donald Trump Jr.",
+  "relation": "Family (speaker)",
+  "kind": "Purchase",
+  "date": "2025-07-09",
+  "amount": "350,000 shares (~$3.6–4M)",
+  "detail": "An S-3 filed the same day registered the shares for resale.",
+  "source": "https://www.sec.gov/Archives/edgar/data/1853825/000164117225018266/forms-3.htm"
+ },
+ {
+  "applies": [
+   [
+    "2025-08-26",
+    "CRO-USD"
+   ]
+  ],
+  "party": "Trump Media & Technology Group (Trump trust is largest holder)",
+  "relation": "Family entity",
+  "kind": "Purchase",
+  "date": "2025-08-26",
+  "amount": "684,427,004 CRO (~$105M) for DJT shares + $50M cash",
+  "detail": "Closed the same day as the CRO treasury announcement.",
+  "source": "https://www.sec.gov/Archives/edgar/data/1849635/000114036125032615/ef20054552_8k.htm"
+ },
+ {
+  "applies": [
+   [
+    "2025-08-12",
+    "ALTS"
+   ]
+  ],
+  "party": "World Liberty Financial / Eric Trump",
+  "relation": "Family entity",
+  "kind": "Deal",
+  "date": "2025-08-12",
+  "amount": "ALT5 acquired ~7.3B WLFI tokens in $1.5B financing",
+  "detail": "Eric Trump was named to the board, later described in filings as an observer.",
+  "source": "https://www.sec.gov/Archives/edgar/data/862861/000164117225024661/form8-k.htm"
+ },
+ {
+  "applies": [
+   [
+    "2025-04-15",
+    "NVDA"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2025-04 (days before)",
+  "amount": "$200,001–$500,000",
+  "detail": "Per CNN's analysis of the 2025 OGE disclosure; accounts are discretionary, and the White House says Trump plays no role in trades.",
+  "source": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"
+ },
+ {
+  "applies": [
+   [
+    "2025-03-11",
+    "TSLA"
+   ],
+   [
+    "2025-03-19",
+    "TSLA"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker / President (for Lutnick's call)",
+  "kind": "Purchase",
+  "date": "2025-03 (days before Mar 11 event)",
+  "amount": "At least $17,000 across several buys; 50+ Tesla buys in 2025 (≥$4M)",
+  "detail": "Per CNN's analysis of the 2025 OGE disclosure.",
+  "source": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"
+ },
+ {
+  "applies": [
+   [
+    "2025-03-19",
+    "TSLA"
+   ]
+  ],
+  "party": "Cantor Fitzgerald (run by Lutnick's sons)",
+  "relation": "Official's family-linked firm",
+  "kind": "Analyst upgrade (not a trade)",
+  "date": "2025-03-19",
+  "amount": "n/a",
+  "detail": "Axios: Cantor upgraded Tesla hours before Lutnick's 'buy Tesla' remark. Lutnick said he was not allowed to own stocks.",
+  "source": "https://www.axios.com/2025/03/20/tesla-musk-lutnick"
+ },
+ {
+  "applies": [
+   [
+    "2025-08-04",
+    "AEO"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2025-07-31",
+  "amount": "$15,001–$50,000",
+  "detail": "Four days before the post.",
+  "source": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"
+ },
+ {
+  "applies": [
+   [
+    "2025-08-22",
+    "INTC"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2025-08-18",
+  "amount": "At least $250,000",
+  "detail": "Reported by the WSJ from the 2025 OGE 278e (as summarized by Seoul Economic Daily). The same day saw the year's largest buying (>$75M across many stocks).",
+  "source": "https://en.sedaily.com/international/2026/07/04/trump-bought-327-stocks-just-before-tariff-pause-filings"
+ },
+ {
+  "applies": [
+   [
+    "2025-08-22",
+    "INTC"
+   ]
+  ],
+  "party": "Stephen Miller (WH deputy chief of staff; report covers filer/spouse/dependents)",
+  "relation": "Official / spouse",
+  "kind": "Sale",
+  "date": "2025-08-14",
+  "amount": "$100,001–$250,000 + $15,001–$50,000",
+  "detail": "OGE 278-T dated 08.29.25. These were sales (opposite direction), 8 days before the Intel stake post.",
+  "source": "https://www.whitehouse.gov/wp-content/uploads/2025/11/Miller-Stephen-Periodic-Transaction-Report-%E2%80%93-08.29.25.pdf"
+ },
+ {
+  "applies": [
+   [
+    "2025-07-10",
+    "MP"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "President (administration deal)",
+  "kind": "Purchases, later partial sales",
+  "date": "2025-01 to 2025-05",
+  "amount": "8 purchases totaling $22,000–$155,000",
+  "detail": "Per WSJ reporting on the 2025 OGE 278e; later sold part of the position.",
+  "source": "https://en.sedaily.com/international/2026/07/04/trump-bought-327-stocks-just-before-tariff-pause-filings"
+ },
+ {
+  "applies": [
+   [
+    "2026-07-15",
+    "BASKET:MAGNETS"
+   ]
+  ],
+  "party": "1789 Capital (Donald Trump Jr. partner)",
+  "relation": "Family-linked entity",
+  "kind": "Private investment",
+  "date": "~3 months before the Pentagon loan",
+  "amount": "Not disclosed",
+  "detail": "Invested in Vulcan Elements (private magnet maker) before a $620M Pentagon loan, ~7 weeks before the 'do magnets' remark. Sector overlap only; Vulcan is not in the basket.",
+  "source": "https://www.yahoo.com/news/politics/articles/trump-hypes-magnets-son-firm-024024392.html"
+ },
+ {
+  "applies": [
+   [
+    "2026-02-19",
+    "BASKET:DELL"
+   ],
+   [
+    "2026-02-19",
+    "DELL"
+   ],
+   [
+    "2026-05-08",
+    "DELL"
+   ],
+   [
+    "2026-07-06",
+    "DELL"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2026-02-10",
+  "amount": "$1,000,001–$5,000,000 (+3 smaller March buys)",
+  "detail": "OGE 278-T made public May 8 2026, 87 days after the trade (45-day limit). Whether the position was held at the later mentions isn't disclosed.",
+  "source": "https://www.cnbc.com/2026/05/28/michael-dell-trump-accounts-dod.html"
+ },
+ {
+  "applies": [
+   [
+    "2025-04-09",
+    "SPY"
+   ],
+   [
+    "2025-04-11",
+    "SPY"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker / President",
+  "kind": "Purchases (broad)",
+  "date": "2025-04-08",
+  "amount": "327 stocks, >$3.6M (buys only that day)",
+  "detail": "WSJ analysis of the 2025 OGE 278e, as summarized by Seoul Economic Daily.",
+  "source": "https://en.sedaily.com/international/2026/07/04/trump-bought-327-stocks-just-before-tariff-pause-filings"
+ },
+ {
+  "applies": [
+   [
+    "2025-10-06",
+    "TMQ"
+   ]
+  ],
+  "party": "Investor position (as described in congressional hearing / Bloomberg)",
+  "relation": "Reported adviser-linked holding",
+  "kind": "Holding, later sold",
+  "date": "late Sep 2025",
+  "amount": "~$30M position (Paulson's firm), sold between Oct and Dec 2025",
+  "detail": "Rep. Huffman stated a 'senior White House economic advisor' held a significant equity position. Bloomberg/Northern Journal reported Paulson's firm held ~$30M in late September; exact sale date not listed.",
+  "source": "https://alaskapublic.org/news/politics/washington-d-c/2026-03-26/u-s-house-democrat-derides-trump-admins-investment-in-alaska-mine-project"
+ },
+ {
+  "applies": [
+   [
+    "2025-01-06",
+    "X"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2025-01-06",
+  "amount": "At least $1,000",
+  "detail": "Same day as the post; order unclear.",
+  "source": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"
+ },
+ {
+  "applies": [
+   [
+    "2025-10-28",
+    "CCJ"
+   ]
+  ],
+  "party": "Stephen Miller (report covers filer/spouse/dependents)",
+  "relation": "Official / spouse",
+  "kind": "Sale",
+  "date": "2025-08-14",
+  "amount": "$15,001–$50,000",
+  "detail": "75 days before the Westinghouse deal; a sale (opposite direction). Outside the 30-day window, shown for context.",
+  "source": "https://www.whitehouse.gov/wp-content/uploads/2025/11/Miller-Stephen-Periodic-Transaction-Report-%E2%80%93-08.29.25.pdf"
+ },
+ {
+  "applies": [
+   [
+    "2026-02-19",
+    "BASKET:DELL"
+   ],
+   [
+    "2026-02-19",
+    "DELL"
+   ],
+   [
+    "2026-05-08",
+    "DELL"
+   ],
+   [
+    "2026-07-06",
+    "DELL"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Sale",
+  "date": "2026-08-21",
+  "amount": "$500,001–$1,000,000 (+ $15,001–$50,000 on Aug 28)",
+  "detail": "August OGE 278-T (signed Sep 17, made public Oct 8 2026). Came 46 days after the Jul 6 'buy a Dell' remark; the report lists no August Dell purchases. Ranges only, so it doesn't show how many shares, if any, remain. The White House says the accounts are run independently by third-party managers.",
+  "source": "https://finance.yahoo.com/markets/stocks/articles/trump-keeps-telling-americans-buy-235000210.html"
+ },
+ {
+  "applies": [
+   [
+    "2026-09-23",
+    "BA"
+   ],
+   [
+    "2026-10-01",
+    "BA"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Sale",
+  "date": "2026-08-21",
+  "amount": "$500,001–$1,000,000",
+  "detail": "August OGE 278-T (made public Oct 8 2026). A sale (opposite direction), 33 days before the Sep 23 Boeing praise; outside the 30-day window, shown for context. One of several same-day sales in that range (also Home Depot, T-Mobile, Datadog, Dell, Palo Alto Networks, Nvidia). The White House says the accounts are run independently.",
+  "source": "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+ }
 ]
