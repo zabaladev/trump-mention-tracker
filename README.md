@@ -1,12 +1,16 @@
-# Trump Family Investment Mention Tracker
+# Trump, Family & Administration — Investment Mention Tracker
 
-Static dashboard tracking publicly sourced investment endorsements/promotions by Donald Trump and family members (47 mentions, each with a source link), with asset returns at -7d/-1d/+1d/+7d/+30d/+90d/to-date vs SPY (stocks) or BTC (crypto), win rates, group patterns, and a virtual $1,000-per-mention portfolio.
+Static dashboard (GitHub Pages) tracking publicly sourced investment endorsements, buy calls, sector/theme calls and government stake announcements by Donald Trump, his family and administration officials. Each mention has a source link. Returns are shown at -30d/-7d (pre-mention), day 0, +1d/+7d/+30d/+90d and to date, vs the S&P 500 (SPY) and the Dow (DIA).
 
-- `index.html` – self-contained dashboard (Chart.js inlined)
+Features: client-side filters (Trump / Family / Admin, category, asset type), KPI cards, excess-return charts, a virtual $1,000-per-mention portfolio vs S&P and Dow, sector-comment baskets with a "foreshadowing" (pre-comment abnormal return) metric, an adjustable highlight threshold for big pre-moves, a disclosure-overlap panel (public OGE/SEC filings and reporting), and coverage notes listing what wasn't counted and why.
+
+- `index.html` – self-contained dashboard
 - `mentions.json` – curated, sourced mentions
-- `data.json` – computed returns/stats
-- `update.py` – re-fetches prices (yfinance) and regenerates `index.html` / `data.json` (`pip install yfinance pandas && python update.py`)
+- `disclosures.json` – documented holdings/trades overlaps, with sources
+- `exclusions.json` – items not counted and why
+- `data.json` – computed output
+- `update.py` – re-fetches prices (yfinance) and regenerates `index.html` / `data.json`
 
-Data: Yahoo Finance via yfinance. Some mentions lack price data (private/delisted assets).
+Disclosure overlaps are factual timing correlations from public filings (amounts are ranges, and filings can lag trades by up to 45+ days). They are not allegations of wrongdoing.
 
-**Not financial advice.** For informational/research purposes only; past performance does not predict future results.
+**Not financial advice.** For informational/research purposes only. Past performance does not predict future results.

@@ -8,7 +8,8 @@
   "category": "Product endorsement",
   "quote": "\"If it's Goya, it has to be good. Si es Goya, tiene que ser bueno.\" (photo holding Goya black beans)",
   "source": "https://www.cbsnews.com/news/ivanka-trump-goya-beans-tweet-backlash/",
-  "note": "Goya is privately held - no price data"
+  "note": "Goya is privately held - no price data",
+  "group": "Family"
  },
  {
   "date": "2020-07-15",
@@ -19,7 +20,8 @@
   "category": "Product endorsement",
   "quote": "Posted Oval Office photo with Goya products, thumbs up; tweeted Goya 'doing GREAT', 'people are buying like crazy!'",
   "source": "https://abcnews.com/Politics/ivanka-trumps-social-media-posts-goya-beans-provoke/story?id=71795732",
-  "note": "Goya is privately held - no price data"
+  "note": "Goya is privately held - no price data",
+  "group": "Trump"
  },
  {
   "date": "2024-10-31",
@@ -30,7 +32,8 @@
   "category": "Policy promotion",
   "quote": "\"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"",
   "source": "https://x.com/realDonaldTrump/status/1852033244729860397",
-  "note": "Is the crypto benchmark itself; excess = 0"
+  "note": "Is the crypto benchmark itself; excess = 0",
+  "group": "Trump"
  },
  {
   "date": "2024-12-03",
@@ -40,7 +43,8 @@
   "type": "stock",
   "category": "Family venture",
   "quote": "Don Jr. appointed to board of PublicSquare; shares rose ~270% that day.",
-  "source": "https://www.cnbc.com/2024/12/03/psq-holdings-doubles-in-latest-stock-to-rip-higher-on-news-of-donald-trump-jrs-involvement.html"
+  "source": "https://www.cnbc.com/2024/12/03/psq-holdings-doubles-in-latest-stock-to-rip-higher-on-news-of-donald-trump-jrs-involvement.html",
+  "group": "Family"
  },
  {
   "date": "2025-01-06",
@@ -51,7 +55,8 @@
   "category": "Company praise",
   "quote": "\"Why would they want to sell U.S. Steel now when Tariffs will make it a much more profitable and valuable company?\"",
   "source": "https://www.trumpstruth.org/statuses/28925",
-  "note": "Acquired by Nippon Steel Jun 2025; delisted, no free price data"
+  "note": "Acquired by Nippon Steel Jun 2025; delisted, no free price data",
+  "group": "Trump"
  },
  {
   "date": "2025-01-17",
@@ -62,7 +67,8 @@
   "category": "Family venture",
   "quote": "\"My NEW Official Trump Meme is HERE! It's time to celebrate everything we stand for: WINNING! ... GET YOUR $TRUMP NOW.\"",
   "source": "https://x.com/realDonaldTrump/status/1880446012168249386",
-  "note": "Launch-day: price data begins Jan 18, so entry uses first available close"
+  "note": "Launch-day: price data begins Jan 18, so entry uses first available close",
+  "group": "Trump"
  },
  {
   "date": "2025-01-19",
@@ -72,7 +78,39 @@
   "type": "crypto",
   "category": "Family venture",
   "quote": "\"The Official Melania Meme is live! You can buy $MELANIA now.\"",
-  "source": "https://x.com/MELANIATRUMP/status/1881087523847593995"
+  "source": "https://x.com/MELANIATRUMP/status/1881087523847593995",
+  "group": "Family"
+ },
+ {
+  "date": "2025-01-20",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "asset": "Oil & gas basket",
+  "ticker": "BASKET:OIL",
+  "type": "sector basket",
+  "category": "Sector/theme call",
+  "quote": "Inaugural address: \"We will drill, baby, drill\"; called US oil and gas \"liquid gold\".",
+  "source": "https://www.presidency.ucsb.edu/documents/inaugural-address-54",
+  "note": "Sector call (no company named) - equal-weight basket: XLE, XOP, USO, CL=F",
+  "basket": [
+   [
+    "XLE",
+    "Energy Select Sector ETF"
+   ],
+   [
+    "XOP",
+    "S&P Oil & Gas E&P ETF"
+   ],
+   [
+    "USO",
+    "US Oil Fund (crude)"
+   ],
+   [
+    "CL=F",
+    "WTI crude futures"
+   ]
+  ],
+  "basket_note": "Standard US oil/gas equity ETFs plus crude oil fund and front-month WTI futures."
  },
  {
   "date": "2025-01-21",
@@ -82,7 +120,8 @@
   "type": "crypto",
   "category": "Family venture",
   "quote": "\"$WLFI is proud to announce the following strategic purchases today: $47,000,000 ETH, $47,000,000 wBTC...\"",
-  "source": "https://x.com/DonaldJTrumpJr/status/1881494777293611302"
+  "source": "https://x.com/DonaldJTrumpJr/status/1881494777293611302",
+  "group": "Family"
  },
  {
   "date": "2025-02-03",
@@ -92,7 +131,8 @@
   "type": "crypto",
   "category": "Explicit buy call",
   "quote": "\"In my opinion, it's a great time to add $ETH. You can thank me later.\" (later edited)",
-  "source": "https://x.com/EricTrump/status/1886533206188679576"
+  "source": "https://x.com/EricTrump/status/1886533206188679576",
+  "group": "Family"
  },
  {
   "date": "2025-02-06",
@@ -103,7 +143,8 @@
   "category": "Explicit buy call",
   "quote": "\"Feels like a great time to enter #BTC! @worldlibertyfi\"",
   "source": "https://x.com/EricTrump/status/1887315608381108271",
-  "note": "Is the crypto benchmark itself; excess = 0"
+  "note": "Is the crypto benchmark itself; excess = 0",
+  "group": "Family"
  },
  {
   "date": "2025-02-11",
@@ -113,7 +154,8 @@
   "type": "stock",
   "category": "Family venture",
   "quote": "Sons join advisory board and invest in private placement; stock up as much as 84%.",
-  "source": "https://www.cnbc.com/2025/02/11/dominari-holdings-shares-surge-after-donald-trump-jr-and-eric-trump-join-advisory-board.html"
+  "source": "https://www.cnbc.com/2025/02/11/dominari-holdings-shares-surge-after-donald-trump-jr-and-eric-trump-join-advisory-board.html",
+  "group": "Family"
  },
  {
   "date": "2025-03-02",
@@ -123,7 +165,8 @@
   "type": "crypto",
   "category": "Policy promotion",
   "quote": "\"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"",
-  "source": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124"
+  "source": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
+  "group": "Trump"
  },
  {
   "date": "2025-03-02",
@@ -133,7 +176,8 @@
   "type": "crypto",
   "category": "Policy promotion",
   "quote": "\"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"",
-  "source": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124"
+  "source": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
+  "group": "Trump"
  },
  {
   "date": "2025-03-02",
@@ -143,7 +187,8 @@
   "type": "crypto",
   "category": "Policy promotion",
   "quote": "\"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"",
-  "source": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124"
+  "source": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
+  "group": "Trump"
  },
  {
   "date": "2025-03-02",
@@ -153,7 +198,8 @@
   "type": "crypto",
   "category": "Policy promotion",
   "quote": "\"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"",
-  "source": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025"
+  "source": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
+  "group": "Trump"
  },
  {
   "date": "2025-03-02",
@@ -163,7 +209,8 @@
   "type": "crypto",
   "category": "Policy promotion",
   "quote": "\"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"",
-  "source": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025"
+  "source": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
+  "group": "Trump"
  },
  {
   "date": "2025-03-11",
@@ -173,7 +220,20 @@
   "type": "stock",
   "category": "Product endorsement",
   "quote": "\"I'm going to buy a brand new Tesla tomorrow morning as a show of confidence and support for Elon Musk\"; bought one at White House: \"it's a great product\".",
-  "source": "https://edition.cnn.com/2025/03/11/media/elon-musk-companies-x-tesla-spacex/index.html"
+  "source": "https://edition.cnn.com/2025/03/11/media/elon-musk-companies-x-tesla-spacex/index.html",
+  "group": "Trump"
+ },
+ {
+  "date": "2025-03-19",
+  "group": "Admin",
+  "who": "Howard Lutnick (Commerce Sec.)",
+  "asset": "Tesla",
+  "ticker": "TSLA",
+  "type": "stock",
+  "category": "Explicit buy call",
+  "quote": "\"If you want to learn something on this show tonight, buy Tesla... It'll never be this cheap again.\" (Fox News, evening)",
+  "source": "https://www.cnbc.com/2025/03/20/trump-commerce-lutnick-elon-musk-tesla-stock-doge-cybertruck.html",
+  "note": "Said after the close; entry = Mar 19 close"
  },
  {
   "date": "2025-03-21",
@@ -183,7 +243,51 @@
   "type": "stock",
   "category": "Family venture",
   "quote": "Eric Trump appointed to Metaplanet's Strategic Board of Advisors.",
-  "source": "https://www.coindesk.com/markets/2025/03/21/japan-s-biggest-corporate-bitcoin-holder-adds-eric-trump-as-advisor"
+  "source": "https://www.coindesk.com/markets/2025/03/21/japan-s-biggest-corporate-bitcoin-holder-adds-eric-trump-as-advisor",
+  "group": "Family"
+ },
+ {
+  "date": "2025-04-06",
+  "group": "Admin",
+  "who": "Peter Navarro (trade adviser)",
+  "asset": "Dow Jones Industrial Average",
+  "ticker": "DIA",
+  "type": "etf",
+  "category": "Bullish call",
+  "quote": "\"The smart strategy is not to panic, just stay in... We will hit 50,000 on the Dow by the end of this term.\" (Fox, Sunday)",
+  "source": "https://www.cnbc.com/2025/04/11/trump-peter-navarro-stock-market-tariff-.html",
+  "note": "Index call; DIA is the Dow benchmark itself (excess vs Dow = 0)"
+ },
+ {
+  "date": "2025-04-08",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "asset": "Coal basket",
+  "ticker": "BASKET:COAL",
+  "type": "sector basket",
+  "category": "Sector/theme call",
+  "quote": "Signed orders 'Reinvigorating America's Beautiful Clean Coal Industry'; coal stocks rallied after hours.",
+  "source": "https://apnews.com/article/trump-coal-ai-data-centers-energy-dominance-693e2604785c07ff790d9afd2e06d543",
+  "note": "Sector call (no company named) - equal-weight basket: BTU, CNR, HCC, AMR",
+  "basket": [
+   [
+    "BTU",
+    "Peabody Energy"
+   ],
+   [
+    "CNR",
+    "Core Natural Resources"
+   ],
+   [
+    "HCC",
+    "Warrior Met Coal"
+   ],
+   [
+    "AMR",
+    "Alpha Metallurgical Resources"
+   ]
+  ],
+  "basket_note": "Largest US-listed coal miners; Peabody & Core Natural were named in coverage of the rally (no listed coal ETF remains)."
  },
  {
   "date": "2025-04-09",
@@ -193,7 +297,8 @@
   "type": "stock",
   "category": "Explicit buy call",
   "quote": "\"THIS IS A GREAT TIME TO BUY!!! DJT\" (9:37am ET, hours before 90-day tariff pause)",
-  "source": "https://www.trumpstruth.org/statuses/30586"
+  "source": "https://www.trumpstruth.org/statuses/30586",
+  "group": "Trump"
  },
  {
   "date": "2025-04-09",
@@ -204,7 +309,20 @@
   "category": "Explicit buy call",
   "quote": "\"THIS IS A GREAT TIME TO BUY!!!\" - S&P 500 rose 9.5% that day after tariff pause.",
   "source": "https://www.cnbc.com/2025/04/09/trumps-morning-buy-call-nets-huge-returns-for-those-who-listened.html",
-  "note": "Is the benchmark itself, so excess return is 0 by construction"
+  "note": "Is the benchmark itself, so excess return is 0 by construction",
+  "group": "Trump"
+ },
+ {
+  "date": "2025-04-11",
+  "group": "Admin",
+  "who": "Peter Navarro (trade adviser)",
+  "asset": "US stock market (S&P 500)",
+  "ticker": "SPY",
+  "type": "etf",
+  "category": "Explicit buy call",
+  "quote": "\"If you're not long, you're going to get left behind... The market should trust in Trump.\" (Fox Business)",
+  "source": "https://www.cnbc.com/2025/04/11/trump-peter-navarro-stock-market-tariff-.html",
+  "note": "SPY is the S&P benchmark itself (excess vs S&P = 0)"
  },
  {
   "date": "2025-04-15",
@@ -214,7 +332,43 @@
   "type": "stock",
   "category": "Company praise",
   "quote": "Shared 'very big and exciting news' of Nvidia US AI supercomputers; 'All necessary permits will be expedited'.",
-  "source": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"
+  "source": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis",
+  "group": "Trump"
+ },
+ {
+  "date": "2025-05-23",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "asset": "Nuclear/uranium basket",
+  "ticker": "BASKET:NUCLEAR",
+  "type": "sector basket",
+  "category": "Sector/theme call",
+  "quote": "Signed executive orders to fast-track nuclear licensing and expand uranium supply; Oklo +23%, NuScale +20%.",
+  "source": "https://www.reuters.com/business/energy/nuclear-stocks-surge-report-trump-executive-orders-boost-industry-2025-05-23/",
+  "note": "Sector call (no company named) - equal-weight basket: NLR, URA, OKLO, SMR, CCJ",
+  "basket": [
+   [
+    "NLR",
+    "VanEck Uranium & Nuclear ETF"
+   ],
+   [
+    "URA",
+    "Global X Uranium ETF"
+   ],
+   [
+    "OKLO",
+    "Oklo"
+   ],
+   [
+    "SMR",
+    "NuScale Power"
+   ],
+   [
+    "CCJ",
+    "Cameco"
+   ]
+  ],
+  "basket_note": "Uranium/nuclear ETFs plus Oklo and NuScale (named by Reuters as top movers) and Cameco (largest US-listed uranium producer)."
  },
  {
   "date": "2025-07-09",
@@ -225,7 +379,20 @@
   "category": "Family venture",
   "quote": "Don Jr. disclosed purchase of 350,000 Thumzup shares.",
   "source": "https://www.bloomberg.com/news/articles/2025-07-09/trump-jr-invests-in-social-media-firm-building-crypto-hoard",
-  "note": "No price data from Yahoo (ticker unavailable)"
+  "note": "No price data from Yahoo (ticker unavailable)",
+  "group": "Family"
+ },
+ {
+  "date": "2025-07-10",
+  "group": "Admin",
+  "who": "Department of Defense",
+  "asset": "MP Materials",
+  "ticker": "MP",
+  "type": "stock",
+  "category": "Government stake/deal",
+  "quote": "Pentagon buys $400M preferred stock (≈15% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
+  "source": "https://www.cnbc.com/2025/07/10/pentagon-to-become-largest-shareholder-in-rare-earth-magnet-maker-mp-materials.html",
+  "note": "Announced pre-market; entry = Jul 10 close (after the jump)"
  },
  {
   "date": "2025-07-16",
@@ -235,7 +402,8 @@
   "type": "stock",
   "category": "Product endorsement",
   "quote": "Said Coca-Cola agreed to use real cane sugar at his suggestion: 'a very good move'.",
-  "source": "https://www.hudson-labs.com/research/trump-praised-companies"
+  "source": "https://www.hudson-labs.com/research/trump-praised-companies",
+  "group": "Trump"
  },
  {
   "date": "2025-07-16",
@@ -246,7 +414,8 @@
   "category": "Family venture",
   "quote": "Board member Don Jr. rang NYSE opening bell for GrabAGun debut.",
   "source": "https://www.cnbc.com/2025/07/16/trump-jr-grabagun-stock-gun-merger.html",
-  "note": "Pre-debut prices are SPAC (Colombier II) shares"
+  "note": "Pre-debut prices are SPAC (Colombier II) shares",
+  "group": "Family"
  },
  {
   "date": "2025-07-29",
@@ -257,7 +426,8 @@
   "category": "Bullish call",
   "quote": "\"You're welcome! Ps, I believe the best is yet to come! $BTC $ETH\"",
   "source": "https://x.com/EricTrump/status/1950322859886379046",
-  "note": "Is the crypto benchmark itself; excess = 0"
+  "note": "Is the crypto benchmark itself; excess = 0",
+  "group": "Family"
  },
  {
   "date": "2025-07-29",
@@ -267,7 +437,8 @@
   "type": "crypto",
   "category": "Bullish call",
   "quote": "\"You're welcome! Ps, I believe the best is yet to come! $BTC $ETH\"",
-  "source": "https://x.com/EricTrump/status/1950322859886379046"
+  "source": "https://x.com/EricTrump/status/1950322859886379046",
+  "group": "Family"
  },
  {
   "date": "2025-08-02",
@@ -277,7 +448,8 @@
   "type": "crypto",
   "category": "Explicit buy call",
   "quote": "\"Buy the dips!!! $BTC $ETH\"",
-  "source": "https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/"
+  "source": "https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/",
+  "group": "Family"
  },
  {
   "date": "2025-08-02",
@@ -287,7 +459,8 @@
   "type": "crypto",
   "category": "Explicit buy call",
   "quote": "\"Buy the dips!!! $BTC $ETH\"",
-  "source": "https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/"
+  "source": "https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/",
+  "group": "Family"
  },
  {
   "date": "2025-08-04",
@@ -297,7 +470,8 @@
   "type": "stock",
   "category": "Product endorsement",
   "quote": "\"Sydney Sweeney... has the 'HOTTEST' ad out there. It's for American Eagle, and the jeans are 'flying off the shelves.'\"",
-  "source": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis"
+  "source": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis",
+  "group": "Trump"
  },
  {
   "date": "2025-08-06",
@@ -307,7 +481,8 @@
   "type": "stock",
   "category": "Company praise",
   "quote": "Shared report of Apple $100B US manufacturing pledge; White House event praising Apple / Tim Cook.",
-  "source": "https://altindex.com/news/trump-post-stock-moves"
+  "source": "https://altindex.com/news/trump-post-stock-moves",
+  "group": "Trump"
  },
  {
   "date": "2025-08-06",
@@ -317,7 +492,8 @@
   "type": "stock",
   "category": "Family venture",
   "quote": "\"@GrabAGun just announced a $20 MILLION stock buyback... now buying back shares because it's undervalued. $PEW\"",
-  "source": "https://x.com/DonaldJTrumpJr/status/1953092050242453510"
+  "source": "https://x.com/DonaldJTrumpJr/status/1953092050242453510",
+  "group": "Family"
  },
  {
   "date": "2025-08-12",
@@ -328,7 +504,8 @@
   "category": "Family venture",
   "quote": "ALT5 adopts $1.5B WLFI treasury strategy; Eric Trump named to board (later observer).",
   "source": "https://www.businesswire.com/news/home/20250813491821/en/ALT5-Sigma-Corporation-Appoints-Zach-Witkoff-as-Chairman-and-Welcomes-Eric-Trump-to-Board-of-Directors",
-  "note": "No price data from Yahoo (ticker unavailable)"
+  "note": "No price data from Yahoo (ticker unavailable)",
+  "group": "Family"
  },
  {
   "date": "2025-08-22",
@@ -336,9 +513,10 @@
   "asset": "Intel",
   "ticker": "INTC",
   "type": "stock",
-  "category": "Company praise",
+  "category": "Government stake/deal",
   "quote": "US 'now fully owns and controls 10% of INTEL, a Great American Company that has an even more incredible future.'",
-  "source": "https://trumpstruth.org/statuses/32698"
+  "source": "https://trumpstruth.org/statuses/32698",
+  "group": "Trump"
  },
  {
   "date": "2025-08-26",
@@ -348,7 +526,8 @@
   "type": "crypto",
   "category": "Family venture",
   "quote": "Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).",
-  "source": "https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/"
+  "source": "https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/",
+  "group": "Trump"
  },
  {
   "date": "2025-09-01",
@@ -359,7 +538,8 @@
   "category": "Family venture",
   "quote": "WLFI token begins public trading; promoted by Eric and Don Jr.",
   "source": "https://www.reuters.com/business/trumps-world-liberty-token-falls-first-day-trading-2025-09-01/",
-  "note": "Launch-day: no pre-mention prices"
+  "note": "Launch-day: no pre-mention prices",
+  "group": "Family"
  },
  {
   "date": "2025-09-03",
@@ -370,7 +550,31 @@
   "category": "Family venture",
   "quote": "Co-founder Eric Trump celebrates Nasdaq debut of ABTC. Don Jr.: \"ABTC is on a mission to build the largest Bitcoin reserve in America. When our shareholders win, America wins.\"",
   "source": "https://www.reuters.com/business/trumps-oldest-sons-american-bitcoin-stake-worth-15-billion-stock-debut-2025-09-03/",
-  "note": "Pre-debut prices are Gryphon Digital Mining (merger predecessor)"
+  "note": "Pre-debut prices are Gryphon Digital Mining (merger predecessor)",
+  "group": "Family"
+ },
+ {
+  "date": "2025-10-01",
+  "group": "Admin",
+  "who": "Department of Energy",
+  "asset": "Lithium Americas",
+  "ticker": "LAC",
+  "type": "stock",
+  "category": "Government stake/deal",
+  "quote": "DOE takes 5% stake in Lithium Americas and 5% of Thacker Pass JV with GM; shares +23%.",
+  "source": "https://www.reuters.com/business/autos-transportation/us-government-take-5-stake-lithium-americas-joint-venture-with-general-motors-2025-09-30/"
+ },
+ {
+  "date": "2025-10-06",
+  "group": "Admin",
+  "who": "White House / Dept. of War",
+  "asset": "Trilogy Metals",
+  "ticker": "TMQ",
+  "type": "stock",
+  "category": "Government stake/deal",
+  "quote": "US to acquire ~10% of Trilogy Metals plus warrants for 7.5% (announced after close); shares tripled next day.",
+  "source": "https://www.reuters.com/business/trilogy-metals-shares-soar-us-takes-strategic-stake-2025-10-07/",
+  "note": "Announced after close; entry = Oct 6 close (before the jump)"
  },
  {
   "date": "2025-10-22",
@@ -380,7 +584,20 @@
   "type": "stock",
   "category": "Family venture",
   "quote": "\"We love America and we love the asset known as Bitcoin. That's why we launched $ABTC. Review our latest investor deck...\"",
-  "source": "https://x.com/EricTrump/status/1981006770157097251"
+  "source": "https://x.com/EricTrump/status/1981006770157097251",
+  "group": "Family"
+ },
+ {
+  "date": "2025-10-28",
+  "group": "Admin",
+  "who": "Commerce Dept. (Lutnick)",
+  "asset": "Westinghouse owners: Cameco",
+  "ticker": "CCJ",
+  "type": "stock",
+  "category": "Government stake/deal",
+  "quote": "US strikes $80B deal for Westinghouse reactors with profit share / IPO warrant; Cameco +20%+.",
+  "source": "https://www.reuters.com/business/energy/westinghouse-electric-cameco-corp-brookfield-asset-management-80-bln-nuclear-2025-10-28/",
+  "note": "Westinghouse is private; Cameco (49% owner) used as proxy"
  },
  {
   "date": "2026-01-08",
@@ -390,7 +607,19 @@
   "type": "stock",
   "category": "Company praise",
   "quote": "Touted meeting with CEO Lip-Bu Tan and Intel's US-built sub-2nm chip.",
-  "source": "https://altindex.com/news/trump-post-stock-moves"
+  "source": "https://altindex.com/news/trump-post-stock-moves",
+  "group": "Trump"
+ },
+ {
+  "date": "2026-01-26",
+  "group": "Admin",
+  "who": "Commerce Dept. (CHIPS)",
+  "asset": "USA Rare Earth",
+  "ticker": "USAR",
+  "type": "stock",
+  "category": "Government stake/deal",
+  "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8–16% stake).",
+  "source": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-letter-intent-us-government-access-16"
  },
  {
   "date": "2026-02-04",
@@ -400,7 +629,8 @@
   "type": "stock",
   "category": "Family venture",
   "quote": "\"$PSQH will continue to take serious steps to deliver shareholder value... We all believe in the future of this company. Onward!\"",
-  "source": "https://x.com/DonaldJTrumpJr/status/2019173836554723408"
+  "source": "https://x.com/DonaldJTrumpJr/status/2019173836554723408",
+  "group": "Family"
  },
  {
   "date": "2026-02-19",
@@ -410,7 +640,8 @@
   "type": "stock",
   "category": "Explicit buy call",
   "quote": "\"Go out and buy a Dell computer\" (Rome, Georgia speech)",
-  "source": "https://www.ainvest.com/news/trump-buy-dell-computer-2602/"
+  "source": "https://www.ainvest.com/news/trump-buy-dell-computer-2602/",
+  "group": "Trump"
  },
  {
   "date": "2026-04-10",
@@ -420,7 +651,19 @@
   "type": "stock",
   "category": "Company praise",
   "quote": "\"Palantir Technologies (PLTR) has proven to have great war fighting capabilities...\"",
-  "source": "https://www.trumpstruth.org/statuses/37688"
+  "source": "https://www.trumpstruth.org/statuses/37688",
+  "group": "Trump"
+ },
+ {
+  "date": "2026-04-29",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "asset": "Intel",
+  "ticker": "INTC",
+  "type": "stock",
+  "category": "Company praise",
+  "quote": "Said he was 'very proud' of Intel, citing share rise and >$30B value of the US stake.",
+  "source": "https://www.hudson-labs.com/research/trump-praised-companies"
  },
  {
   "date": "2026-05-08",
@@ -430,7 +673,8 @@
   "type": "stock",
   "category": "Explicit buy call",
   "quote": "\"Go out and buy a Dell!\" (White House Trump Accounts event)",
-  "source": "https://www.hudson-labs.com/research/trump-praised-companies"
+  "source": "https://www.hudson-labs.com/research/trump-praised-companies",
+  "group": "Trump"
  },
  {
   "date": "2026-07-01",
@@ -440,7 +684,8 @@
   "type": "stock",
   "category": "Company praise",
   "quote": "\"BIG NEWS! Micron, a truly GREAT American Company, and one of the 'HOTTEST' anywhere in the World...\"",
-  "source": "https://trumpstruth.org/statuses/39656"
+  "source": "https://trumpstruth.org/statuses/39656",
+  "group": "Trump"
  },
  {
   "date": "2026-07-06",
@@ -450,7 +695,35 @@
   "type": "stock",
   "category": "Explicit buy call",
   "quote": "\"Go out and buy a Dell. We'll get them that money back one way or another.\" (NYSE opening bell)",
-  "source": "https://finance.yahoo.com/markets/stocks/articles/trump-buy-dell-remark-ignites-152050115.html"
+  "source": "https://finance.yahoo.com/markets/stocks/articles/trump-buy-dell-remark-ignites-152050115.html",
+  "group": "Trump"
+ },
+ {
+  "date": "2026-07-15",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "asset": "Rare-earth magnets basket",
+  "ticker": "BASKET:MAGNETS",
+  "type": "sector basket",
+  "category": "Sector/theme call",
+  "quote": "\"I hope you're gonna do magnets... Magnets. Do magnets, ok? I'll tell you how to make money. Do magnets.\" (Pennsylvania Defense & Innovation Summit)",
+  "source": "https://www.yahoo.com/news/politics/articles/trump-hypes-magnets-son-firm-024024392.html",
+  "basket": [
+   [
+    "MP",
+    "MP Materials"
+   ],
+   [
+    "USAR",
+    "USA Rare Earth"
+   ],
+   [
+    "REMX",
+    "VanEck Rare Earth & Strategic Metals ETF"
+   ]
+  ],
+  "basket_note": "Only US-listed pure-play magnet producers (both government-backed) plus the rare-earth ETF; named as beneficiaries in Benzinga coverage.",
+  "note": "Sector call (no company named) - equal-weight basket: MP, USAR, REMX. Previously missed because no ticker was named."
  },
  {
   "date": "2026-07-28",
@@ -460,7 +733,8 @@
   "type": "stock",
   "category": "Company praise",
   "quote": "Shared op-ed 'Toyota to Texas', crediting tariffs.",
-  "source": "https://altindex.com/news/trump-post-stock-moves"
+  "source": "https://altindex.com/news/trump-post-stock-moves",
+  "group": "Trump"
  },
  {
   "date": "2026-08-03",
@@ -470,7 +744,8 @@
   "type": "stock",
   "category": "Family venture",
   "quote": "\"Just wrapped $ABTC's earnings call. Q2 2026 was our strongest quarter of Bitcoin production yet... reserve has grown to ~8,300 BTC!\"",
-  "source": "https://x.com/EricTrump/status/2084280678183469193"
+  "source": "https://x.com/EricTrump/status/2084280678183469193",
+  "group": "Family"
  },
  {
   "date": "2026-08-14",
@@ -480,6 +755,7 @@
   "type": "stock",
   "category": "Family venture",
   "quote": "\"I have remained an investor - and am now increasing my stake, along with my fellow board members... $PSQH\"",
-  "source": "https://x.com/DonaldJTrumpJr/status/2088347669445959837"
+  "source": "https://x.com/DonaldJTrumpJr/status/2088347669445959837",
+  "group": "Family"
  }
 ]
