@@ -243,5 +243,10 @@
   "item": "Trump Accounts sponsor list (Jul 6 2026 Rose Garden lunch)",
   "reason": "Trump read out companies adding Trump Accounts to employee benefits (Uber, Wells Fargo, Goldman Sachs, Visa, Robinhood, Mastercard, Intel, IBM, AMD, Steak 'n Shake) and greeted Goldman Sachs, Blackstone and BlackRock guests. It's a thank-you list, not praise of any one company; Dell is already tracked from the same day (Trump Archive Jul 6 item).",
   "kind": "notcall"
+ },
+ {
+  "item": "Intel stake remarks (May 1 and May 4 2026)",
+  "reason": "In the May 1 Marine One gaggle Trump said \"we made an Intel deal... we ended up making $40 billion\", and at the May 4 Small Business Summit \"I made an investment, Intel, a chip maker\". Both repeat the US-stake boast already tracked on Apr 29 (\"very proud\" of Intel) within a week, so they aren't scored again (Trump Archive items 6741cb6b, 2d442348).",
+  "kind": "notcall"
  }
 ]
