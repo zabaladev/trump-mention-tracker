@@ -61,7 +61,7 @@ h3{font-size:16px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}.two>.panel{margin-top:16px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.grid .panel{margin-top:0}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:16px}
-.card{background:var(--pn);border:1px solid var(--bd);border-radius:12px;padding:14px 16px}.card>b{display:block;font-size:26px;line-height:1.15}.card>span{color:var(--mu);font-size:13px}
+.card{background:var(--pn);border:1px solid var(--bd);border-radius:12px;padding:14px 16px}.card>b{display:block;font-size:26px;line-height:1.15}.card>span{display:block;color:var(--tx2);font-size:13.5px;line-height:1.35;margin-top:4px}.card>small{display:block;color:var(--mu);font-size:12.5px;line-height:1.35;margin-top:6px}.cards{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}@media(max-width:560px){.cards{grid-template-columns:1fr 1fr;gap:10px}.card{padding:12px 13px}.card>b{font-size:23px}}
 .hcards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .hc{background:var(--pn2);border:1px solid var(--bd);border-radius:12px;padding:12px 14px}.hc h3{margin:0 0 6px;font-size:15px}.hc .kv{display:flex;justify-content:space-between;font-size:14px;padding:2px 0}.hc .kv b{font-size:15px}
 /* progressive disclosure */
@@ -209,6 +209,7 @@ canvas{max-width:100%}
 <script>
 const D=/*__DATA__*/null;
 const H=D.horizons,KH=['+7d','+30d','+90d','to date'],BL=Object.fromEntries(D.benches.map(b=>[b[0],b[1]]));let BM='sp';
+const rt=x=>x==null||isNaN(x)?'<span class="muted">–</span>':`${Math.round(x*100)}%`;
 const pct=(x,d=1)=>x==null||isNaN(x)?'<span class="muted">–</span>':`<span class="${x>=0?'pos':'neg'}">${x>=0?'+':''}${(x*100).toFixed(d)}%</span>`;
 const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null,med=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
 const PAT={};function pat(g,a){a=a||'';const k=g+a;if(PAT[k])return PAT[k];const c=document.createElement('canvas');c.width=c.height=8;const x=c.getContext('2d');x.fillStyle=GC[g]+a;x.fillRect(0,0,8,8);x.strokeStyle=x.fillStyle='rgba(17,17,17,.6)';x.lineWidth=1.6;if(g=='Family'){x.beginPath();x.moveTo(0,8);x.lineTo(8,0);x.moveTo(-2,2);x.lineTo(2,-2);x.moveTo(6,10);x.lineTo(10,6);x.stroke()}else if(g=='Admin'){x.beginPath();x.arc(4,4,1.5,0,7);x.fill()}return PAT[k]=x.createPattern(c,'repeat')||GC[g]+a}
@@ -438,10 +439,9 @@ function render(){syncAll();
  const sel0=D.rows.filter(r=>F.group.has(r.group)&&F.category.has(r.category)&&F.type.has(r.type));SEL0=sel0;const sel=FM(sel0),ok=sel.filter(r=>r.status=='ok');
  const P=port(ok,hold),L=P.val.length-1,I=P.inv[L]||1,s30=stats(ok,'+30d');
  {const pu=document.getElementById('pUnit');if(pu)pu.textContent=DEDUP?'$1,000 per post, split across its assets':'$1,000 per mention'}
- document.getElementById('cards').innerHTML=[[sel.length,`Mentions in filter (${ok.length} priced)`],[pct(s30.win,0),'Win rate +30d'],[pct(s30.beat,0),`Beat ${BL[BM]} +30d`],[pct(s30.aex),`Avg excess vs ${BL[BM]} +30d`],
-  [pct(P.val[L]/I-1),`Portfolio (${hold=='hold'?'held':'30d'})`],[pct(P[BM][L]/I-1),`Same cash in ${BL[BM]}`],[pct(P.val[L]/I-P[BM][L]/I),'Portfolio minus index']].map(([a,b])=>`<div class="card"><b>${a}</b><span>${b}</span></div>`).join('');heroK(sel,ok,P,s30);
+ {const pv0=P.val[L]/I-1,ix0=P[BM][L]/I-1;document.getElementById('cards').innerHTML=[[`${ok.length}`,`mentions with prices`,`of ${sel.length} in your filters`],[rt(s30.beat),`beat the ${BL[BM]} a month later`,`${rt(s30.win)} rose at all`],[pct(s30.aex),`average gap vs the ${BL[BM]} a month later`,`typical (median) ${pct(s30.mex)}`],[pct(pv0-ix0),`virtual portfolio vs the same cash in the ${BL[BM]}`,`portfolio ${pct(pv0)} (${hold=='hold'?'held':'30 days'}), index ${pct(ix0)}`]].map(([a,b,c])=>`<div class="card"><b>${a}</b><span>${b}</span><small>${c}</small></div>`).join('');}heroK(sel,ok,P,s30);
  document.getElementById('hcards').innerHTML=KH.map(h=>{const s=stats(ok,h);return `<div class="hc"><h3>${h} <span class="sub">(n=${s.n})</span></h3>
- <div class="kv"><span>Win rate (positive)</span><b>${pct(s.win,0)}</b></div><div class="kv"><span>Beat ${BL[BM]}</span><b>${pct(s.beat,0)}</b></div>
+ <div class="kv"><span>Win rate (positive)</span><b>${rt(s.win)}</b></div><div class="kv"><span>Beat ${BL[BM]}</span><b>${rt(s.beat)}</b></div>
  <div class="kv"><span>Avg / median excess</span><b>${pct(s.aex)} / ${pct(s.mex)}</b></div><div class="kv"><span>Avg / median raw return</span><b>${pct(s.avg)} / ${pct(s.med)}</b></div></div>`}).join('');
  const SH=H.map(h=>stats(ok,h));
  mk('cEx',{type:'bar',data:{labels:H,datasets:[{label:`Avg excess vs ${BL[BM]} %`,data:SH.map(s=>s.aex*100),backgroundColor:'#60a5fa',yAxisID:'y'},{label:'Median excess %',data:SH.map(s=>s.mex*100),backgroundColor:'#8b9fd1',yAxisID:'y'},{label:'% beating index',data:SH.map(s=>s.beat*100),backgroundColor:'#4ade8055',type:'line',borderColor:'#4ade80',yAxisID:'y2'}]},options:{scales:{y:{position:'left',title:{display:true,text:'Excess return (%)'}},y2:{position:'right',min:0,max:100,grid:{display:false},title:{display:true,text:'% beating index'}}}}});
