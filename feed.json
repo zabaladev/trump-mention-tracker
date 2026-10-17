@@ -891,6 +891,19 @@
    ]
   },
   {
+   "id": "ab6bdf077640c573",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTU",
+   "external_url": "https://www.presidency.ucsb.edu/documents/remarks-signing-executive-order-domestic-coal-production",
+   "title": "Donald Trump on Peabody Energy (BTU): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Peabody Energy (BTU) on 2026-02-11 at 16:30 ET.\nQuote: \"I want to thank you and invite the chairman of our National Coal Council, Peabody Energy CEO—which is a great company, by the way—Jim Grech to come up and say a few words.\" (Champion of Coal event, White House)\nVersus the S&P 500: -2.9% on the comment day, -43.5% to date.\nSource: https://www.presidency.ucsb.edu/documents/remarks-signing-executive-order-domestic-coal-production\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-02-11T16:30:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
    "id": "fd08d815d645e74b",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=PSQH",
    "external_url": "https://x.com/DonaldJTrumpJr/status/2019173836554723408",
@@ -900,6 +913,19 @@
    "tags": [
     "Family",
     "Family venture",
+    "stock"
+   ]
+  },
+  {
+   "id": "0f77eb162e133c51",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=GM",
+   "external_url": "https://www.presidency.ucsb.edu/documents/remarks-the-united-states-strategic-critical-minerals-reserve-and-exchange-with-reporters",
+   "title": "Donald Trump on General Motors (GM): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned General Motors (GM) on 2026-02-02 at 16:23 ET.\nQuote: \"General Motors CEO Mary Barra, who is setting records, huh? I hear you're doing unbelievably. Twenty-four hours, round the clock your factories.\" Later: \"Mary Barra, the chairman, CEO of General Motors—which is setting records every single day, and she's doing a fantastic job\" (Strategic Critical Minerals Reserve announcement, Oval Office)\nVersus the S&P 500: +2.5% on the comment day, -12.1% to date.\nSource: https://www.presidency.ucsb.edu/documents/remarks-the-united-states-strategic-critical-minerals-reserve-and-exchange-with-reporters\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-02-02T16:23:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
     "stock"
    ]
   },
@@ -1337,7 +1363,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -42.2% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -42.3% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T12:00:00-05:00",
    "tags": [
     "Trump",

@@ -597,6 +597,20 @@
     "committee": "Senate Committee on Finance",
     "why": "Medicare and drug pricing"
    }
+  ],
+  "BTU": [
+   {
+    "committee": "House Committee on Natural Resources",
+    "why": "coal mining and federal coal leasing"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "coal and mining"
+   },
+   {
+    "committee": "Senate Committee on Environment and Public Works",
+    "why": "power-plant and environmental rules"
+   }
   ]
  }
 }
