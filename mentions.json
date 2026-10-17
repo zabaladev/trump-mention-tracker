@@ -399,7 +399,7 @@
     "ticker": "MP",
     "type": "stock",
     "category": "Government stake/deal",
-    "quote": "Pentagon buys $400M preferred stock (≈15% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
+    "quote": "Pentagon buys $400M preferred stock (\u224815% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
     "source": "https://www.cnbc.com/2025/07/10/pentagon-to-become-largest-shareholder-in-rare-earth-magnet-maker-mp-materials.html",
     "note": "Announced pre-market; entry = Jul 10 close (after the jump)"
   },
@@ -673,7 +673,7 @@
     "ticker": "USAR",
     "type": "stock",
     "category": "Government stake/deal",
-    "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8–16% stake).",
+    "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8\u201316% stake).",
     "source": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-letter-intent-us-government-access-16"
   },
   {
@@ -829,7 +829,7 @@
     "quote": "\"Prysmian invests more than $1 billion to expand fiber optic cable manufacturing facility in North Carolina\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117190839730903416",
     "group": "Trump",
-    "note": "Posted 11:31 AM ET Mon Aug 31 (trumpstruth.org/statuses/41420 archive; UCSB daily archive). Linked a Plant Services report on the Claremont, NC expansion (Catawba County; ~385 jobs; WSOC-TV / Hickory Record coverage). Prysmian S.p.A. trades in Milan (PRY.MI); PRYMY is its US over-the-counter ADR. Quiver −30d/+7d: no congressional trades in window (only a Jul 2023 Goldman sale and a Mar 2026 Armstrong buy outside the window)."
+    "note": "Posted 11:31 AM ET Mon Aug 31 (trumpstruth.org/statuses/41420 archive; UCSB daily archive). Linked a Plant Services report on the Claremont, NC expansion (Catawba County; ~385 jobs; WSOC-TV / Hickory Record coverage). Prysmian S.p.A. trades in Milan (PRY.MI); PRYMY is its US over-the-counter ADR. Quiver \u221230d/+7d: no congressional trades in window (only a Jul 2023 Goldman sale and a Mar 2026 Armstrong buy outside the window)."
   },
   {
     "date": "2026-09-07",
@@ -838,7 +838,7 @@
     "ticker": "BBD-B.TO",
     "type": "stock",
     "category": "Company criticism",
-    "quote": "\"NO MORE SELLING BOMBARDIER IN THE UNITED STATES! Their products aren't good enough! ... If they want our Market, they must build here, and stop treating America like a “piggybank.”\"",
+    "quote": "\"NO MORE SELLING BOMBARDIER IN THE UNITED STATES! Their products aren't good enough! ... If they want our Market, they must build here, and stop treating America like a \u201cpiggybank.\u201d\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117230978314061095",
     "group": "Trump",
     "note": "Posted 1:39 PM ET Mon Sep 7 2026 (trumpstruth.org/statuses/41619 archive), which was Labor Day in the US and Labour Day in Canada, so the first tradable session is Tue Sep 8. Toronto-listed Class B shares (BBD.B), priced in Canadian dollars, so index comparisons include currency moves. Coverage: Reuters and BBC (Sep 7); no ban, tariff or other formal action had taken effect per Reuters' Sep 9 update. The same post said Canada 'blocked Gulfstream Aerospace' (General Dynamics), a passing reference that is not scored. Quiver: no congressional trades listed for Bombardier's US OTC ticker (BDRBF). Second tracked Company criticism (Negative #7)."
@@ -853,7 +853,7 @@
     "quote": "\"Google has recently stated that they want to build a massive Plant in Finland, all because they are finding permitting too difficult in the United States. I am not happy about this, and want them to change their thinking.\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117270591511950591",
     "group": "Trump",
-    "note": "Posted 1:33 PM ET Mon Sep 14 (trumpstruth.org/statuses/41720 archive). Part of a longer AI-regulation post that also named Anthropic (private; not scored). Google had announced a €13B Finland data-centre plan the prior week (Yle News Sep 15; Reuters Sep 10). First tracked Company criticism (Negative #7). Quiver −30d/+7d: 3 House sales in window (Sessions day 0; Kean −18d; Rulli −21d)."
+    "note": "Posted 1:33 PM ET Mon Sep 14 (trumpstruth.org/statuses/41720 archive). Part of a longer AI-regulation post that also named Anthropic (private; not scored). Google had announced a \u20ac13B Finland data-centre plan the prior week (Yle News Sep 15; Reuters Sep 10). First tracked Company criticism (Negative #7). Quiver \u221230d/+7d: 3 House sales in window (Sessions day 0; Kean \u221218d; Rulli \u221221d)."
   },
   {
     "date": "2026-09-21",
@@ -874,7 +874,7 @@
     "ticker": "BA",
     "type": "stock",
     "category": "Company praise",
-    "quote": "\"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"",
+    "quote": "\"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, T\u00fcrkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes\u2014with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117323148147220269",
     "group": "Trump",
     "note": "Posted 8:19 PM ET Sep 23 (after the close; trumpstruth.org/statuses/41855 archive), so the first session that could react is Sep 24. Credits Commerce Secretary Howard Lutnick and the Commerce Department for the orders.",
@@ -930,7 +930,7 @@
     "asset": "Nvidia",
     "ticker": "NVDA",
     "quote": "\"As an example, Nvidia. ... In the stock market, it's very easy to value. The most valuable company anywhere in the world. ... And this man has done a great job.\" (post-AI-luncheon gaggle, referring to Jensen Huang)",
-    "note": "Said about 6½ minutes into Trump's post-lunch gaggle with tech executives at the White House on Tue Sep 29 2026. Pool report #20 says he re-entered the White House at 4:13 PM ET after a 33-minute gaggle, so the Nvidia line is about 3:46 PM ET (before the close); day 0 is Sep 29. Standing with Nvidia CEO Jensen Huang, Trump called Nvidia \"the most valuable company anywhere in the world\" and said Huang \"has done a great job\" (Trump Archive item for the Sep 29 press gaggle / Factba.se transcript). This is a second tracked Nvidia praise (earlier: Apr 15 2025). Quiver: one Daniel Meuser House sale of NVDA on Aug 31 2026 (filed Oct 14), 29 days before the comment (checked 2026-10-17)."
+    "note": "Said about 6\u00bd minutes into Trump's post-lunch gaggle with tech executives at the White House on Tue Sep 29 2026. Pool report #20 says he re-entered the White House at 4:13 PM ET after a 33-minute gaggle, so the Nvidia line is about 3:46 PM ET (before the close); day 0 is Sep 29. Standing with Nvidia CEO Jensen Huang, Trump called Nvidia \"the most valuable company anywhere in the world\" and said Huang \"has done a great job\" (Trump Archive item for the Sep 29 press gaggle / Factba.se transcript). This is a second tracked Nvidia praise (earlier: Apr 15 2025). Quiver: one Daniel Meuser House sale of NVDA on Aug 31 2026 (filed Oct 14), 29 days before the comment (checked 2026-10-17)."
   },
   {
     "date": "2026-09-30",
@@ -958,7 +958,7 @@
     "quote": "\"Congratulations to the GREAT Boeing Company for producing a plane, the 737 Max, that was able to withstand G Forces and Strain far beyond what it was designed and expected to do... The Boeing Company, which builds, by far, the finest commercial airliners in the sky\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117363810994521058",
     "group": "Trump",
-    "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23 2026, 8:19 PM ET) he had praised Boeing for the Türkiye/Bangladesh orders (tracked separately). The widely shared \"Sep 23 Boeing criticism\" dates from 2023, not 2026; an earlier version of this note had that wrong."
+    "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23 2026, 8:19 PM ET) he had praised Boeing for the T\u00fcrkiye/Bangladesh orders (tracked separately). The widely shared \"Sep 23 Boeing criticism\" dates from 2023, not 2026; an earlier version of this note had that wrong."
   },
   {
     "date": "2026-10-01",
@@ -1011,7 +1011,7 @@
     "asset": "Mercedes-Benz Group",
     "ticker": "MBG.DE",
     "quote": "\"But in Alabama, Mercedes Benz is investing $4 billion to expand its plant in a place called Tuscaloosa.\" (Mobile, Alabama rally)",
-    "note": "Said about 26 minutes into Trump's midterm campaign rally in Mobile, Alabama on Fri Oct 2 2026 (Trump Archive transcript). The White House travel pool report says he walked out at 6:28 PM Central (7:28 PM ET, after the close), so day 0 is the next session (Mon Oct 5). The investment is real and was already public: on Mar 31 2026 Mercedes-Benz said it will invest $4 billion in its Tuscaloosa County, Alabama plant through 2030, including moving GLC production there by 2029, as part of more than $7 billion planned for its US operations (Mercedes-Benz USA press release; Reuters; Made in Alabama). Frankfurt-listed shares, priced in euros, so index comparisons include currency moves; Frankfurt was closed at the time of the speech, so day 0 is also Mon Oct 5 there. Quiver: no congressional trades in Mercedes' US OTC tickers in the window (MBGYY's only listed trade is from Jul 2023; MBGAF none; old DDAIF trades are from 2018–2019; checked 2026-10-17).",
+    "note": "Said about 26 minutes into Trump's midterm campaign rally in Mobile, Alabama on Fri Oct 2 2026 (Trump Archive transcript). The White House travel pool report says he walked out at 6:28 PM Central (7:28 PM ET, after the close), so day 0 is the next session (Mon Oct 5). The investment is real and was already public: on Mar 31 2026 Mercedes-Benz said it will invest $4 billion in its Tuscaloosa County, Alabama plant through 2030, including moving GLC production there by 2029, as part of more than $7 billion planned for its US operations (Mercedes-Benz USA press release; Reuters; Made in Alabama). Frankfurt-listed shares, priced in euros, so index comparisons include currency moves; Frankfurt was closed at the time of the speech, so day 0 is also Mon Oct 5 there. Quiver: no congressional trades in Mercedes' US OTC tickers in the window (MBGYY's only listed trade is from Jul 2023; MBGAF none; old DDAIF trades are from 2018\u20132019; checked 2026-10-17).",
     "verify": [
       "https://media.mbusa.com/releases/world-premieres-of-new-gle-and-gls-marked-by-five-millionth-model-assembled-at-mbusi-in-tuscaloosa",
       "https://www.reuters.com/business/autos-transportation/german-automaker-mercedes-benz-invest-4-billion-alabama-suv-plant-2026-03-31/",
@@ -1302,5 +1302,37 @@
     "ticker": "UCB.BR",
     "quote": "\"Here in Georgia, the company UCB is investing $2 billion to build its first ever pharmaceutical factory in the United States.\" (Dalton, Georgia rally)",
     "note": "Said about 48 minutes into a campaign rally speech that began at 4:24 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Mon Oct 19). Transcript also published by The Singju Post. The $2 billion Gwinnett County biologics plant was announced Mar 24 2026 (Georgia Governor's office) and its site was dedicated Oct 9 2026 (UCB). Brussels-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades in UCB's US OTC ticker (UCBJY) within 30 days before to 7 days after (last listed trade Sep 23 2025; checked 2026-10-17)."
+  },
+  {
+    "date": "2026-09-02",
+    "group": "Trump",
+    "who": "Donald Trump",
+    "type": "stock",
+    "source": "https://trump-archive.com/item/733f25d0-d54b-43f6-8552-046628154ea9",
+    "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-september-2-2026",
+    "time_et": "2026-09-02 19:31",
+    "time_src": "Estimated from White House in-town pool report #10 (Trump entered the Rose Garden at 7:08 PM ET) and the Factba.se transcript timestamp 00:23:11 for the Chevron line, after the close",
+    "after_close": true,
+    "category": "Company praise",
+    "asset": "Chevron",
+    "ticker": "CVX",
+    "quote": "\"Venezuela is doing better than it's done in many years and ExxonMobil and Chevron. And I think Chevron announced today they're going to spend $18 billion on rebuilding the entire infrastructure for their oil sections.\" (Rose Garden dinner for GOP lawmakers)",
+    "note": "Said about 23 minutes into Trump's Rose Garden dinner speech for Republican lawmakers on Wed Sep 2 2026 (pool report #10: he entered the Rose Garden at 7:08 PM ET), after the close, so day 0 is Thu Sep 3. The announcement is real but the figure differs: that morning Chevron said its Venezuela joint ventures plan to invest more than $7 billion over five years to roughly double output to about 600,000 barrels a day (Chevron newsroom, Reuters, CNBC, Bloomberg, Sep 2 2026); $18 billion is closer to Chevron's whole-company 2026 capital budget ($18\u201319 billion). Because Chevron announced before the open on Sep 2, the stock's reaction to the news itself came the session before this comment. ExxonMobil was named in passing with no project, so it isn't scored. Quiver: one House purchase of CVX in the window, by Rep. Maria Elvira Salazar (R-FL) on Sep 2 2026, the comment day ($1,001\u2013$15,000, filed Oct 7; checked 2026-10-17)."
+  },
+  {
+    "date": "2026-09-09",
+    "group": "Trump",
+    "who": "Donald Trump",
+    "type": "stock",
+    "source": "https://trump-archive.com/item/a37dd8de-565e-465e-9185-8285cd7d4628",
+    "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-september-9-2026",
+    "time_et": "2026-09-09 22:00",
+    "time_src": "Estimated from out-of-town pool report #12 (Trump took the stage at 8:09 PM CDT = 9:09 PM ET) and the Factba.se transcript timestamp 00:50:43 for the Intel line, after the close",
+    "after_close": true,
+    "category": "Company praise",
+    "asset": "Intel",
+    "ticker": "INTC",
+    "quote": "\"Intel is a good, really good company. ... what happened to Intel is amazing. It like became the number one stock on the exchange.\" (RNC midterm convention, Dallas)",
+    "note": "Said about 51 minutes into Trump's speech on the first night of the Republican midterm convention in Dallas on Wed Sep 9 2026 (out-of-town pool report #12: he took the stage at 8:09 PM CDT, 9:09 PM ET; report #15: he finished at 9:56 PM CDT), after the close, so day 0 is Thu Sep 10. He retold the August 2025 deal for a 10% U.S. government stake in Intel (already tracked as the Aug 22 2025 mention) and praised the company and its share-price gain; the profit and gain figures he gave are his own and weren't checked here. This is Intel's fourth tracked mention. Quiver lists no congressional INTC trades from 30 days before to 7 days after (the latest listed is Aug 3 2026; checked 2026-10-17)."
   }
 ]

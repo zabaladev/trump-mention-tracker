@@ -1968,5 +1968,22 @@
     "amount": "$1,001 - $15,000",
     "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
     "filed": "2026-10-14"
+  },
+  {
+    "mention": [
+      "2026-09-02",
+      "CVX"
+    ],
+    "ticker": "CVX",
+    "member": "Maria Elvira Salazar",
+    "chamber": "House",
+    "party": "R",
+    "state": "FL",
+    "date": "2026-09-02",
+    "days": 0,
+    "type": "Purchase",
+    "amount": "$1,001 - $15,000",
+    "source": "https://www.quiverquant.com/congresstrading/stock/CVX",
+    "filed": "2026-10-07"
   }
 ]

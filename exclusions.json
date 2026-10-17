@@ -193,5 +193,20 @@
     "item": "Anthropic dinner (Trump, Sep 27 2026 Fox News interview in Illinois)",
     "reason": "In a Fox News interview Trump confirmed he might have dinner with \"Dario\" of Anthropic (Trump Archive Sep 27 interview item). Anthropic is privately held, and a dinner mention is not scored as company praise.",
     "kind": "private"
+  },
+  {
+    "item": "Travel-industry executives and Netflix at the Sep 2 2026 Oval Office travel meeting",
+    "reason": "Opening a meeting with U.S. travel executives, Trump thanked \"great companies like American Airlines, Hilton, Marriott, IHG Hotels and Resorts, booking.com, MGM Resorts, Caesars, the Venetian, Hard Rock, Carnival, Universal, Raffles and Fairmont\" for attending, and later said he had spoken to Netflix's \"Ted, who's fantastic\" about reviving Hollywood (Trump Archive Sep 2 meeting transcript). A thank-you list of attendees and praise of an executive personally are not scored as company calls, the same rule as the Trump Accounts contributor list.",
+    "kind": "notcall"
+  },
+  {
+    "item": "General car-plant lines (Honda, Toyota, General Motors, Ford), Sep 2, 9 and 10 2026",
+    "reason": "In the Sep 2 travel meeting, the Sep 9 Dallas convention speech and the Sep 10 Medal of Honor Museum remarks Trump repeated that carmakers are building U.S. plants (\"Honda's coming in\", \"General Motors is going wild\", \"Ford is ... doing great\", \"Toyota just announced they're leaving Mexico\") without naming a new project or amount (Trump Archive transcripts). General lines like these aren't scored; his specific Toyota, GM, Ford and Stellantis lines are tracked separately.",
+    "kind": "notcall"
+  },
+  {
+    "item": "Jensen Huang phone call (Trump, Sep 14 2026, live on stage)",
+    "reason": "Trump phoned into a live event where Nvidia CEO Jensen Huang was on stage and said Huang \"has done an amazing job\"; praise of the executive personally, with no comment on Nvidia the company or its stock, isn't scored (Trump Archive Sep 14 item). His Google Finland complaint in the same call repeats his Truth Social post earlier that day, which is already tracked as Company criticism.",
+    "kind": "notcall"
   }
 ]
