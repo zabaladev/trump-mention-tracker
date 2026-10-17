@@ -7,6 +7,32 @@
  "description": "Every sourced investment mention by Donald Trump, newest first. Public data only; no wrongdoing alleged.",
  "items": [
   {
+   "id": "18af319bb208676d",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=UCB.BR",
+   "external_url": "https://trump-archive.com/item/9429da01-f6ab-4a12-9628-5b795ef8a841",
+   "title": "Donald Trump on UCB (UCB.BR): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned UCB (UCB.BR) on 2026-10-16 at 16:24 ET.\nQuote: \"Here in Georgia, the company UCB is investing $2 billion to build its first ever pharmaceutical factory in the United States.\" (Dalton, Georgia rally)\nSource: https://trump-archive.com/item/9429da01-f6ab-4a12-9628-5b795ef8a841\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-10-16T16:24:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "89216ff3c01748ee",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=PIRC.MI",
+   "external_url": "https://trump-archive.com/item/9429da01-f6ab-4a12-9628-5b795ef8a841",
+   "title": "Donald Trump on Pirelli (PIRC.MI): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Pirelli (PIRC.MI) on 2026-10-16 at 16:24 ET.\nQuote: \"The tire manufacturer Pirelli just announced it's investing 1.2 billion, that's a lot of money, to expand its factory in Rome, Georgia with about 1,900 new jobs.\" (Dalton, Georgia rally)\nSource: https://trump-archive.com/item/9429da01-f6ab-4a12-9628-5b795ef8a841\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-10-16T16:24:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
    "id": "d82ee6d3d1e0792c",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=IE",
    "external_url": "https://ktar.com/arizona-politics-news/election/donald-trump-bullhead-city-2",
@@ -323,7 +349,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=CRO-USD",
    "external_url": "https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/",
    "title": "Donald Trump (Trump Media) on Cronos (CRO) (CRO-USD): Family venture",
-   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -89.7% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -89.8% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-08-26T12:00:00-04:00",
    "tags": [
     "Trump",
@@ -505,7 +531,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=SOL-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on Solana (SOL-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.3% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.2% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -518,7 +544,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=XRP-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on XRP (XRP-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned XRP (XRP-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +34.1% on the comment day, -84.3% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned XRP (XRP-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +34.1% on the comment day, -84.4% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -570,7 +596,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://x.com/realDonaldTrump/status/1852033244729860397",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.3% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.2% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2024-10-31T13:01:00-04:00",
    "tags": [
     "Trump",
