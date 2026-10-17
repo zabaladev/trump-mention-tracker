@@ -182,6 +182,18 @@ for r in rows:
     valid = j < len(idx); jj = np.where(valid, j, len(idx) - 1)
     r30 = pd.Series(np.where(valid, s.values[jj] / s.values - 1 - (sp_al.values[jj] / sp_al.values - 1), np.nan), index=idx)
     v30 = r30[ok_d].dropna()
+    # pre-comment placebo: biggest of |-30d| and |-7d| excess vs S&P, both windows ending at the close before the entry day
+    pm = {}
+    for n in (30, 7):
+        jn = idx.searchsorted(idx - pd.Timedelta(days=n), side='right') - 1
+        pos = np.arange(len(idx)); vd = (jn >= 0) & (jn < pos - 1); jc = np.clip(jn, 0, None); pc = np.clip(pos - 1, 0, None)
+        pm[n] = pd.Series(np.where(vd, s.values[pc] / s.values[jc] - 1 - (sp_al.values[pc] / sp_al.values[jc] - 1), np.nan), index=idx)
+    vpre = pd.concat([pm[30].abs(), pm[7].abs()], axis=1).max(axis=1, skipna=True)[ok_d].dropna()
+    a30, a7 = r['ex']['sp'].get('-30d'), r['ex']['sp'].get('-7d')
+    if len(vpre) >= 60 and (a30 is not None or a7 is not None):
+        act = max(abs(a30 or 0), abs(a7 or 0))
+        out['pre'] = dict(q=[round(float(x), 5) for x in np.quantile(vpre.values, _qs)], n=int(len(vpre)), act=round(act, 5),
+                          pct=round(float((vpre.values < act).mean() + 0.5 * (vpre.values == act).mean()), 3))
     for h, v in (('day0', v0), ('+30d', v30)):
         if len(v) < 60 or r['ex']['sp'].get(h) is None: continue
         act = r['ex']['sp'][h]
