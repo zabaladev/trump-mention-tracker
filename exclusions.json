@@ -108,5 +108,20 @@
   "item": "Eli Lilly, Merck and Pfizer plants and the Cleveland submarine repair center (Trump, Oct 12 2026 Youngstown, Ohio rally)",
   "reason": "The drugmaker line is a general claim that pharmaceutical companies are building in the US, with no specific new project named. The U.S. Submarine Component Repair Center that Trump said the Department of War picked for Cleveland is a government facility, and no company was named for it. Neither is scored as a company mention.",
   "kind": "notcall"
+ },
+ {
+  "item": "Anduril Industries' Arsenal-2 shipyard and the 40% government stake (Trump, Oct 6 2026 Sparrows Point, Maryland)",
+  "reason": "Not a listed company: Trump said \"Anduril is investing $3.7 billion in a state-of-the-art shipyard that will be known forever as Arsenal-2\", that the Navy is adding $2.9 billion, and that \"American taxpayers will receive a 40 percent stake in the new shipyard\" (Trump Archive transcript). Anduril is privately held, so there is no share price to score. Context: ABC News's corrected report (editor's note) says 1789 Capital, which lists Donald Trump Jr. as a partner, invested about $50 million in Anduril as part of a $2.5 billion funding round, and a 1789 Capital spokesperson said Trump Jr. is not on the three-person committee that makes its investment decisions.",
+  "kind": "private"
+ },
+ {
+  "item": "Hadrian Manufacturing and Saronic shipyard lines (Trump, Oct 6 2026 Sparrows Point, Maryland)",
+  "reason": "Trump said \"Hadrian Manufacturing and the US Navy are investing 2.4 billion in Alabama\" and \"Saronic is investing $3.2 billion in Texas to build a new shipyard\". Both are privately held companies, so there is no share price to score.",
+  "kind": "private"
+ },
+ {
+  "item": "Peterbilt repeat and the Eli Lilly, Merck and Pfizer line (Trump, Oct 6 2026 Sparrows Point, Maryland)",
+  "reason": "Trump recalled his Oct 1 Peterbilt plant visit (\"Peterbilt, a very fine company\"), which is already scored from the Oct 1 visit itself, so it isn't counted twice. \"Eli Lilly, Merck, Pfizer, they're all building massive, hundreds of billions of dollars' worth of plants\" is a general claim with no specific new project named, as in the Oct 12 Youngstown rally. Neither is scored as a new company mention.",
+  "kind": "notcall"
  }
 ]

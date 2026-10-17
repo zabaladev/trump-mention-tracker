@@ -1092,5 +1092,21 @@
   "ticker": "PCAR",
   "quote": "\"I've always been a big fan of this company. I didn't know I'd be doing this someday, but they asked me to come because you're doing massive expansions.\" ... \"just like you make the greatest trucks in the world.\" (Peterbilt plant, Denton, Texas)",
   "note": "Said in remarks to workers at the Peterbilt Motors truck plant in Denton, Texas. Peterbilt is owned by PACCAR (Nasdaq: PCAR). The White House travel pool report says his remarks began at 4:45 PM Central (5:45 PM ET, after the close), so day 0 is the next session (Fri Oct 2). Trump added: \"don't make a commercial out of that statement, okay? 'Cause I got other truck companies that do a nice job also.\" The expansion is real: Denton city documents describe about $59 million in planned PACCAR upgrades at the plant (a new Model 520 production cell in 2028-29 plus about $25 million through 2031), and FreightWaves (Oct 2 2026) reported Peterbilt saying it has added more than 1,000 jobs in Denton. Quiver: no congressional trades in PCAR within 30 days before to 7 days after (the latest listed trade is Sen. Alan Armstrong's Mar 27 2026 purchase; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-06",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/dc38c38f-0dfc-410f-a775-a7724acc0052",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-6-2026",
+  "time_et": "2026-10-06 16:30",
+  "time_src": "White House travel pool report 3 (took the stage at 4:02 PM ET; line about 28 minutes in)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Hanwha Ocean (Hanwha Philly Shipyard)",
+  "ticker": "042660.KS",
+  "quote": "\"The Korean company Hanwha is spending billions of dollars to revitalize the historic shipyard in Philadelphia, big old shipyard, billions of dollars.\" (Anduril shipyard announcement, Sparrows Point, Maryland)",
+  "note": "Said about 28 minutes into Trump's remarks at the Anduril shipyard event at Sparrows Point near Baltimore, which began at 4:02 PM ET (after the U.S. close, per the White House travel pool report), so day 0 is the next Seoul session (Wed Oct 7). Hanwha Philly Shipyard is jointly owned by Hanwha Systems (60%, Seoul: 272210) and Hanwha Ocean (40%, Seoul: 042660) since Dec 19 2024 (Hanwha and Korea JoongAng Daily). We score Hanwha Ocean because it is the group's shipbuilder and Hanwha says the yard will build LNG carriers, naval modules and, later, naval vessels. Hanwha announced the $5 billion Philly expansion on Aug 26 2025 (Hanwha press release; Reuters), as part of South Korea's $150 billion U.S. shipbuilding pledge. Seoul-listed shares, priced in won, so index comparisons include currency moves. No congressional check: no U.S.-listed ticker."
  }
 ]
