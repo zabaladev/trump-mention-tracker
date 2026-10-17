@@ -33,6 +33,11 @@ for _m in M:
 EX = json.load(open(f'{HERE}/exclusions.json'))
 DISC = json.load(open(f'{HERE}/disclosures.json'))
 CONG = json.load(open(f'{HERE}/congress.json'))
+CMTE = json.load(open(f'{HERE}/committees.json'))  # current committee seats + our ticker->committee guide
+for _c in CONG:
+    _mm = CMTE['members'].get(_c['member'], {})
+    _c['cmte_chk'] = _mm.get('committees') is not None
+    _c['cmte'] = [x for x in CMTE['related'].get(_c['ticker'], []) if x['committee'] in (_mm.get('committees') or [])]
 SEC = json.load(open(f'{HERE}/sectors.json'))  # ticker -> Yahoo sector -> SPDR sector ETF
 FAM = json.load(open(f'{HERE}/family_cos.json'))  # family-linked listed cos + SEC milestones
 DNOTES = [
