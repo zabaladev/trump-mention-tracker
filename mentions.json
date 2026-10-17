@@ -1129,5 +1129,68 @@
    "https://global.toyota/en/newsroom/corporate/44599187.html",
    "https://gov.texas.gov/news/post/governor-abbott-announces-toyota-expansion-in-san-antonio"
   ]
+ },
+ {
+  "date": "2026-10-02",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/873f725e-37e2-4a97-a972-95c4ebff0d57",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-2-2026",
+  "time_et": "2026-10-02 19:28",
+  "time_src": "White House travel pool report 5 (walked out at 6:28 PM CDT; these lines came about 26 minutes in)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Eli Lilly",
+  "ticker": "LLY",
+  "quote": "\"Eli Lilly, great company, is investing $6 billion to create a brand new factory in Huntsville.\" (Mobile, Alabama rally)",
+  "note": "Said about 26 minutes into Trump's midterm campaign rally in Mobile, Alabama on Fri Oct 2 2026 (Trump Archive transcript). The White House travel pool report says he walked out at 6:28 PM Central (7:28 PM ET, after the close), so day 0 is the next session (Mon Oct 5). The investment is real and was already public: Lilly announced a more-than-$6 billion plant in Huntsville, Alabama on Dec 9 2025 to make active pharmaceutical ingredients, including its oral GLP-1 pill orforglipron, with about 450 permanent jobs, construction from 2026 and completion expected in 2032 (Lilly press release; Alabama Governor's office; City of Huntsville; CNBC). Unlike the general \"Eli Lilly, Merck and Pfizer\" line at other October rallies, this names a specific project, so it is scored. Quiver: no congressional trades in LLY within 30 days before to 7 days after (the latest listed is Rep. Dan Newhouse's Jul 10 2026 sale; checked 2026-10-17).",
+  "verify": [
+   "https://investor.lilly.com/news-releases/news-release-details/lilly-build-6-billion-facility-manufacture-active-pharmaceutical",
+   "https://governor.alabama.gov/newsroom/2025/12/governor-ivey-announces-pharmaceutical-giant-lilly-plans-6-billion-advanced-manufacturing-plant-in-huntsville/",
+   "https://www.cnbc.com/2025/12/09/eli-lilly-6-billion-alabama-manufacturing-plant-obesity-pill.html"
+  ]
+ },
+ {
+  "date": "2026-10-02",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/873f725e-37e2-4a97-a972-95c4ebff0d57",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-2-2026",
+  "time_et": "2026-10-02 19:28",
+  "time_src": "White House travel pool report 5 (walked out at 6:28 PM CDT; these lines came about 26 minutes in)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Mercedes-Benz Group",
+  "ticker": "MBG.DE",
+  "quote": "\"But in Alabama, Mercedes Benz is investing $4 billion to expand its plant in a place called Tuscaloosa.\" (Mobile, Alabama rally)",
+  "note": "Said about 26 minutes into Trump's midterm campaign rally in Mobile, Alabama on Fri Oct 2 2026 (Trump Archive transcript). The White House travel pool report says he walked out at 6:28 PM Central (7:28 PM ET, after the close), so day 0 is the next session (Mon Oct 5). The investment is real and was already public: on Mar 31 2026 Mercedes-Benz said it will invest $4 billion in its Tuscaloosa County, Alabama plant through 2030, including moving GLC production there by 2029, as part of more than $7 billion planned for its US operations (Mercedes-Benz USA press release; Reuters; Made in Alabama). Frankfurt-listed shares, priced in euros, so index comparisons include currency moves; Frankfurt was closed at the time of the speech, so day 0 is also Mon Oct 5 there. Quiver: no congressional trades in Mercedes' US OTC tickers in the window (MBGYY's only listed trade is from Jul 2023; MBGAF none; old DDAIF trades are from 2018–2019; checked 2026-10-17).",
+  "verify": [
+   "https://media.mbusa.com/releases/world-premieres-of-new-gle-and-gls-marked-by-five-millionth-model-assembled-at-mbusi-in-tuscaloosa",
+   "https://www.reuters.com/business/autos-transportation/german-automaker-mercedes-benz-invest-4-billion-alabama-suv-plant-2026-03-31/",
+   "https://www.madeinalabama.com/2026/03/mercedes-to-invest-4-billion-in-alabama-plant/"
+  ]
+ },
+ {
+  "date": "2026-10-02",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/873f725e-37e2-4a97-a972-95c4ebff0d57",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-2-2026",
+  "time_et": "2026-10-02 19:28",
+  "time_src": "White House travel pool report 5 (walked out at 6:28 PM CDT; these lines came about 26 minutes in)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "ArcelorMittal",
+  "ticker": "MT",
+  "quote": "\"And the steel company, ArcelorMittal, is investing $1.2 billion to build an advanced steel manufacturing facility to go along with the one they already have.\" (Mobile, Alabama rally)",
+  "note": "Said about 26 minutes into Trump's midterm campaign rally in Mobile, Alabama on Fri Oct 2 2026 (Trump Archive transcript). The White House travel pool report says he walked out at 6:28 PM Central (7:28 PM ET, after the close), so day 0 is the next session (Mon Oct 5). The investment is real and was already public: ArcelorMittal announced a $1.2 billion electrical-steel (NOES) plant at Calvert, Alabama on Feb 6 2025, next to the AM/NS Calvert mill it owns jointly with Nippon Steel, with more than 200 permanent jobs; in Jul 2026 the company said first production is expected in the second half of 2027 (ArcelorMittal press release; Alabama Governor's office; Reuters; SteelOrbis Jul 14 2026). NYSE-listed shares (MT). Quiver: no congressional trades in MT within 30 days before to 7 days after (the latest listed is Sen. Alan Armstrong's Mar 30 2026 purchase; checked 2026-10-17).",
+  "verify": [
+   "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-to-move-forward-with-construction-of-a-new-world-class-electrical-steel-facility-in-alabama",
+   "https://governor.alabama.gov/newsroom/2025/02/governor-ivey-announces-that-arcelormittal-plans-1-2-billion-alabama-mill-to-produce-electrical-steel/",
+   "https://www.reuters.com/markets/commodities/arcelormittal-build-new-steel-plant-us-meet-auto-sector-demand-2025-02-06/"
+  ]
  }
 ]
