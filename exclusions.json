@@ -1,227 +1,247 @@
 [
-  {
-    "item": "\"Do magnets\" (Trump, Jul 15 2026) - previously missed",
-    "reason": "No ticker or company was named (sector-level call), so the original ticker-based search didn't catch it. Now tracked via MP, USAR and REMX as proxies.",
-    "kind": "tracked"
-  },
-  {
-    "item": "Goya Foods (Ivanka, Trump, Jul 2020)",
-    "reason": "Privately held - listed in table, no price data.",
-    "kind": "private"
-  },
-  {
-    "item": "U.S. Steel (Trump Jan 2025 post; 'golden share' deal Jun 2025)",
-    "reason": "Acquired by Nippon Steel and delisted; no free price history.",
-    "kind": "noprice"
-  },
-  {
-    "item": "Vulcan Elements ($620M Pentagon loan; 1789 Capital/Don Jr. stake)",
-    "reason": "Private company; no tradable shares.",
-    "kind": "private"
-  },
-  {
-    "item": "Westinghouse ($80B reactor deal, Oct 2025)",
-    "reason": "Private; tracked via Cameco (CCJ) proxy only. Brookfield not added to avoid double counting.",
-    "kind": "proxy"
-  },
-  {
-    "item": "Kalshi / Polymarket (Don Jr. investor/adviser)",
-    "reason": "Private companies.",
-    "kind": "private"
-  },
-  {
-    "item": "USD1 stablecoin (WLFI, Mar 2025)",
-    "reason": "Pegged to $1; no meaningful return.",
-    "kind": "notinv"
-  },
-  {
-    "item": "World Liberty whitelist (Trump, Sep 2024)",
-    "reason": "WLFI wasn't tradable until Sep 1 2025 (launch is tracked).",
-    "kind": "notyet"
-  },
-  {
-    "item": "Eric Trump 'Buy the dips!' (Aug 17 & Sep 26 2025)",
-    "reason": "No asset named in the post.",
-    "kind": "noasset"
-  },
-  {
-    "item": "Critical Metals (CRML) stake talk",
-    "reason": "Only reported as 'under consideration'; no announced deal found.",
-    "kind": "unverified"
-  },
-  {
-    "item": "Bessent: 'stocks are a safe and great investment' over the long term (Mar 2025)",
-    "reason": "Generic long-term comment, not a buy call; Bessent explicitly declined to call the market.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Hassett / Navarro 'no big deal' (Apr 2025)",
-    "reason": "Reassurance, not a buy/hold call (Navarro's 'stay in'/'be long' calls ARE tracked).",
-    "kind": "notcall"
-  },
-  {
-    "item": "Energy Sec. Chris Wright 'oil is a bargain' (Oct 2025)",
-    "reason": "Only found in a secondary blog; couldn't verify the quote with a primary or mainstream source.",
-    "kind": "unverified"
-  },
-  {
-    "item": "Broad 'great company' praise lists (e.g. ~70 names in Hudson Labs' list)",
-    "reason": "Only direct, high-signal praise/endorsements are included; generic group mentions at events are excluded to avoid noise.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Book promotions (Eric, Melania)",
-    "reason": "Not investable assets.",
-    "kind": "notinv"
-  },
-  {
-    "item": "Resolution Copper mine (Trump, Oct 14 2026 Bullhead City rally)",
-    "reason": "Not a listed company: a joint venture owned by Rio Tinto (55%) and BHP (45%), two large diversified miners for which this one project is a small part of the business, so it is not scored.",
-    "kind": "private"
-  },
-  {
-    "item": "Hyundai Transys West Point plant (Trump, Oct 16 2026 Dalton rally)",
-    "reason": "Not a listed company: Hyundai Transys is a privately held unit of the Hyundai Motor Group, so its nearly $560 million West Point, Georgia expansion (announced Oct 8 2026 by the Georgia Governor's office) is not scored.",
-    "kind": "private"
-  },
-  {
-    "item": "Eli Lilly, Pfizer and Merck 'coming back' (Trump, Oct 16 2026 Dalton rally)",
-    "reason": "A general claim that drugmakers are building in the US, with no specific new project named, so it is not scored as a company mention.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Janicki Industries Great Falls factory (Trump, Oct 14 2026 Kalispell, Montana rally)",
-    "reason": "Not a listed company: Trump said \"Janicki Industries is investing $800 million to build 2 million square feet of defense and aerospace factory in Great Falls\" (Trump Archive transcript). The project is real (announced Jun 2 2026 by Janicki and Montana Governor Greg Gianforte; ground broken Jul 10 2026), but Janicki describes itself as a privately owned company, so there is no share price to score.",
-    "kind": "private"
-  },
-  {
-    "item": "Fannie Mae and Freddie Mac $3 billion for Montana mortgages (Trump, Oct 14 2026 Kalispell rally)",
-    "reason": "A housing-policy announcement (\"Fannie Mae and Freddie Mac will be investing $3 billion in Montana mortgages to help 10,000 Montana homebuyers\"), not a comment about either company's shares, which have been under government conservatorship since 2008 and trade only over the counter. Not scored as a company mention.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Colstrip power plant and lumber tariff lines (Trump, Oct 14 2026 Kalispell rally)",
-    "reason": "Trump said he \"rescued your Colstrip power plant\" and that Montana sawmills \"are booming\" because of his lumber tariff. Both are claims of credit for policy, with no company or stock named as a pick and no sourced stock move tied to the remarks, so they are not scored.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Eli Lilly, Merck and Pfizer plants and the Cleveland submarine repair center (Trump, Oct 12 2026 Youngstown, Ohio rally)",
-    "reason": "The drugmaker line is a general claim that pharmaceutical companies are building in the US, with no specific new project named. The U.S. Submarine Component Repair Center that Trump said the Department of War picked for Cleveland is a government facility, and no company was named for it. Neither is scored as a company mention.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Anduril Industries' Arsenal-2 shipyard and the 40% government stake (Trump, Oct 6 2026 Sparrows Point, Maryland)",
-    "reason": "Not a listed company: Trump said \"Anduril is investing $3.7 billion in a state-of-the-art shipyard that will be known forever as Arsenal-2\", that the Navy is adding $2.9 billion, and that \"American taxpayers will receive a 40 percent stake in the new shipyard\" (Trump Archive transcript). Anduril is privately held, so there is no share price to score. Context: ABC News's corrected report (editor's note) says 1789 Capital, which lists Donald Trump Jr. as a partner, invested about $50 million in Anduril as part of a $2.5 billion funding round, and a 1789 Capital spokesperson said Trump Jr. is not on the three-person committee that makes its investment decisions.",
-    "kind": "private"
-  },
-  {
-    "item": "Hadrian Manufacturing and Saronic shipyard lines (Trump, Oct 6 2026 Sparrows Point, Maryland)",
-    "reason": "Trump said \"Hadrian Manufacturing and the US Navy are investing 2.4 billion in Alabama\" and \"Saronic is investing $3.2 billion in Texas to build a new shipyard\". Both are privately held companies, so there is no share price to score.",
-    "kind": "private"
-  },
-  {
-    "item": "Peterbilt repeat and the Eli Lilly, Merck and Pfizer line (Trump, Oct 6 2026 Sparrows Point, Maryland)",
-    "reason": "Trump recalled his Oct 1 Peterbilt plant visit (\"Peterbilt, a very fine company\"), which is already scored from the Oct 1 visit itself, so it isn't counted twice. \"Eli Lilly, Merck, Pfizer, they're all building massive, hundreds of billions of dollars' worth of plants\" is a general claim with no specific new project named, as in the Oct 12 Youngstown rally. Neither is scored as a new company mention.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Michael and Susan Dell's Trump Accounts gift, and the Uber, Intel, NVIDIA and Steak 'n Shake line (Trump, Oct 7 2026 White House Trump Accounts event)",
-    "reason": "Trump thanked Michael and Susan Dell for their personal $6.25 billion gift to children's Trump Accounts and Brad Gerstner for his donation; that is praise for a private donation, not for Dell Technologies the company. He also said \"More than 70 companies have also committed to Trump Accounts... including Uber, Intel, NVIDIA, Steak 'n Shake\", a passing list of employers that pledged contributions rather than praise of any one company's business. Neither is scored as a company mention (Trump Archive transcript, Oct 7 2026).",
-    "kind": "notcall"
-  },
-  {
-    "item": "Goya, the unnamed gas power plant deal and the Eli Lilly, Merck and Pfizer line (Trump, Oct 7 2026 San Antonio, Texas rally)",
-    "reason": "Trump greeted former Goya president Bob Unanue and said \"I will get Goya whenever I can\"; Goya Foods is privately owned, so there is no share price (his 2020 Goya endorsements are listed but unpriced). He mentioned \"a deal that we reached to build a colossal new natural gas power plant\" without naming a company. \"Eli Lilly, Merck and Pfizer all coming back\" is the same general line as at other October rallies, with no specific new project. None is scored; the Toyota line from the same rally is (Trump Archive transcript).",
-    "kind": "notcall"
-  },
-  {
-    "item": "U.S. Steel's Birmingham plant, the Fannie Mae office move and the Navy submarine and Coast Guard cutter yards (Trump, Oct 2 2026 Mobile, Alabama rally)",
-    "reason": "Trump said \"US Steel is investing $475 million in its plant in Birmingham\"; U.S. Steel has been owned by Nippon Steel since its 2025 acquisition and its shares are no longer listed, so there is no price to score (we did not check the $475 million figure). He said Fannie Mae's offices \"will move from San Francisco, California to Birmingham, Alabama\", an administration decision about a government-controlled company, not praise of its business. He also mentioned \"a brand new facility to build US Navy submarines in Cherokee, Alabama\" and Coast Guard cutters built in Mobile Bay without naming any company. None is scored; the Eli Lilly, Mercedes-Benz and ArcelorMittal lines from the same rally are (Trump Archive transcript).",
-    "kind": "notcall"
-  },
-  {
-    "item": "Electra, the repeat Bayer line and \"the big oil companies\" (Trump, Oct 3 2026 Vandalia, Ohio rally)",
-    "reason": "Trump said \"Electra announced it's investing $850 million to create nearly 2,000 new jobs a few miles away in Springfield\"; the investment is real (Electra and the Ohio governor's office announced the $850 million EL9 aircraft plant at AirPark Ohio on Jul 21 2026, with 1,975 jobs), but Electra is a privately held company with no share price. His Bayer aspirin story and the $2.2 billion Columbus campus repeat his Truth Social post from earlier the same evening, which is already scored as the Oct 3 Bayer mention, so it is not counted twice. \"The big oil companies\" names no company. None of these is scored; the Stellantis line from the same rally is (Trump Archive transcript).",
-    "kind": "notcall"
-  },
-  {
-    "item": "Toyota repeat and \"two great companies\" moving to the Texas Stock Exchange (Trump, Oct 9 2026 Syracuse, New York rally)",
-    "reason": "Trump said \"Toyota just announced they're going to build a massive new plant in the United States\"; this repeats the Toyota San Antonio line from his Oct 7 rally, which is already scored, so it is not counted twice. He also said \"two great companies are leaving the New York Stock Exchange for the Texas Stock Exchange\" without naming them, and spoke generally about auto and pharmaceutical plants. None of these is scored; the Micron line from the same rally is (Trump Archive transcript).",
-    "kind": "notcall"
-  },
-  {
-    "item": "The unnamed Oklahoma aluminum smelter, Harold Hamm, the Peterbilt repeat and the Texas gas power plant (Trump, Oct 1 2026 Durant, Oklahoma rally)",
-    "reason": "Trump told the crowd \"You're gonna build the largest aluminum factory perhaps in the world\" and \"I know the people that are financing it\" without naming any company. The project in Oklahoma that fits is the planned Inola smelter (Oklahoma Primary Aluminum), 60% owned by Emirates Global Aluminium, which is owned by UAE state funds and has no listed shares, and 40% by Century Aluminum (EGA and Century announcement, Jan 26 2026; Oklahoma Attorney General releases Jun 2 and Aug 11 2026); because Trump named neither company, it is not scored. He praised oilman Harold Hamm, whose Continental Resources has been privately owned by the Hamm family since Nov 22 2022 (SEC filings), so there is no share price. His Peterbilt story repeats his visit to the Denton, Texas plant earlier that day, which is already scored as the Oct 1 PACCAR mention, and \"a colossal new natural gas power plant in Texas\" names no company. None of these is scored (Trump Archive transcript).",
-    "kind": "notcall"
-  },
-  {
-    "item": "Repeat Becton Dickinson line (Trump, Oct 5 2026 Grand Island, Nebraska rally)",
-    "reason": "Trump called Becton Dickinson a \"great company\" and said its new U.S. manufacturing investment has its biggest expansion in Nebraska. The same investment is already scored from his Truth Social post later that night (Oct 5, 11:18 PM ET), and both come after the close and before the same first session (Oct 6), so it is not counted twice. The NioCorp line from the same rally is scored (Trump Archive transcript).",
-    "kind": "notcall"
-  },
-  {
-    "item": "FedEx and Fred Smith story, and the unnamed Tennessee smelter repeat (Trump, Oct 10 2026 Clarksville, Tennessee rally)",
-    "reason": "Trump told a story about his late friend Fred Smith, FedEx's founder, including what Smith told him about board members walking from the FedEx building to a nearby hotel; it is a personal story, not a comment on FedEx's business or an investment, so it is not scored. His \"first new mineral smelter in the United States\" line refers to the Korea Zinc project he named a moment earlier, which is scored once. The General Motors and Korea Zinc lines from the same rally are scored (Trump Archive transcript).",
-    "kind": "notcall"
-  },
-  {
-    "item": "Mesabi Metallics / Essar Group Iowa steel mill (Trump, Sep 28 2026 White House announcement)",
-    "reason": "Trump announced that Mesabi Metallics will build what he called the largest steel plant in American history in Iowa, praising it as \"a great company\" (Trump Archive / Factba.se transcript). Mesabi Metallics is a wholly owned Essar Group subsidiary (mesabimetallics.com; AP and ENR coverage of the Sep 28 2026 announcement) with no listed shares, so it is not scored.",
-    "kind": "private"
-  },
-  {
-    "item": "Westinghouse, Lewis Energy and Glenfarne (Trump, Sep 30 2026 Oval Office energy announcement)",
-    "reason": "At the same Sep 30 energy event where he praised NextEra, Trump also praised Westinghouse CEO Dan Sumner for \"bringing a company to a very high level\" and greeted Lewis Energy CEO Rod Lewis and Glenfarne CEO Brendan Duval. Westinghouse remains private (already tracked via the Cameco CCJ proxy from the Oct 2025 reactor deal). Lewis Energy and Glenfarne (Alaska LNG developer) are privately held. None of these three is scored as a listed-company mention.",
-    "kind": "private"
-  },
-  {
-    "item": "Korean-funded Texas gas plant, eight nuclear reactors and Alaska LNG package (Trump, Sep 30 2026)",
-    "reason": "Trump announced a package of Korean-government-funded projects (about $200 billion): a large Texas natural-gas power plant, eight nuclear reactors, and the Alaska LNG pipeline. He named no listed developer for those three projects in the scored sense (the NextEra praise from the same event is scored separately). Treated as a policy / project announcement, not a company mention.",
-    "kind": "notcall"
-  },
-  {
-    "item": "OpenAI identification at Sep 29 2026 AI gaggle",
-    "reason": "During the post-lunch gaggle Trump introduced Greg Brockman with \"This is OpenAI\"; that identifies the speaker's employer and is not scored as company praise. OpenAI is privately held. The Nvidia praise from the same gaggle is scored.",
-    "kind": "notcall"
-  },
-  {
-    "item": "National Medal of Science / Technology ceremony naming Nvidia, AMD, Microsoft, Dell, Alphabet and SpaceX/Tesla (Trump, Oct 8 2026 White House science summit)",
-    "reason": "At a White House summit Trump awarded National Medals of Science and of Technology and Innovation to Elon Musk (SpaceX/Tesla), Sergey Brin (Alphabet/Google), Jensen Huang (Nvidia), Lisa Su (AMD), Michael Dell (Dell) and Satya Nadella (Microsoft), with strong praise of each company (e.g. \"The entire world is now running on Nvidia\"; AMD \"under $2 billion to over $1 trillion\"). Trump Archive item 0c7699fd. This is a ceremonial awards event recognising individuals for scientific achievement, not an investment announcement, plant deal or buy/sell tip, so it is not scored as company praise (same rule as the Oct 7 Trump Accounts contributor list). Nvidia and Dell already have separate tracked mentions; SpaceX remains private.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Anthropic dinner (Trump, Sep 27 2026 Fox News interview in Illinois)",
-    "reason": "In a Fox News interview Trump confirmed he might have dinner with \"Dario\" of Anthropic (Trump Archive Sep 27 interview item). Anthropic is privately held, and a dinner mention is not scored as company praise.",
-    "kind": "private"
-  },
-  {
-    "item": "Travel-industry executives and Netflix at the Sep 2 2026 Oval Office travel meeting",
-    "reason": "Opening a meeting with U.S. travel executives, Trump thanked \"great companies like American Airlines, Hilton, Marriott, IHG Hotels and Resorts, booking.com, MGM Resorts, Caesars, the Venetian, Hard Rock, Carnival, Universal, Raffles and Fairmont\" for attending, and later said he had spoken to Netflix's \"Ted, who's fantastic\" about reviving Hollywood (Trump Archive Sep 2 meeting transcript). A thank-you list of attendees and praise of an executive personally are not scored as company calls, the same rule as the Trump Accounts contributor list.",
-    "kind": "notcall"
-  },
-  {
-    "item": "General car-plant lines (Honda, Toyota, General Motors, Ford), Sep 2, 9 and 10 2026",
-    "reason": "In the Sep 2 travel meeting, the Sep 9 Dallas convention speech and the Sep 10 Medal of Honor Museum remarks Trump repeated that carmakers are building U.S. plants (\"Honda's coming in\", \"General Motors is going wild\", \"Ford is ... doing great\", \"Toyota just announced they're leaving Mexico\") without naming a new project or amount (Trump Archive transcripts). General lines like these aren't scored; his specific Toyota, GM, Ford and Stellantis lines are tracked separately.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Jensen Huang phone call (Trump, Sep 14 2026, live on stage)",
-    "reason": "Trump phoned into a live event where Nvidia CEO Jensen Huang was on stage and said Huang \"has done an amazing job\"; praise of the executive personally, with no comment on Nvidia the company or its stock, isn't scored (Trump Archive Sep 14 item). His Google Finland complaint in the same call repeats his Truth Social post earlier that day, which is already tracked as Company criticism.",
-    "kind": "notcall"
-  },
-  {
-    "item": "Las Vegas economy speech leftovers (Trump, Aug 5 2026)",
-    "reason": "In the same Las Vegas speech Trump said \"Forge Industries and others are investing $150 million in manufacturing facilities in North Las Vegas\" (we could not match that name to a listed company, so it isn't scored) and thanked Michael and Susan Dell and listed Dell, Micron and Apple among Trump Accounts contributors (a thank-you list, not scored, same as the Oct 7 Trump Accounts event). General Motors is named only as Lithium Americas' Thacker Pass partner, so the line is counted once under LAC (Trump Archive Aug 5 item).",
-    "kind": "notcall"
-  },
-  {
-    "item": "Mining roundtable leftovers (Trump, Aug 7 2026)",
-    "reason": "After the MP Materials line Trump repeated that the government's Intel stake \"was worth $12 billion\" and that \"the stock has gone up\"; Intel already has four tracked mentions including his Aug 22 2025 stake post and Apr 29 2026 praise, so this repeat isn't added as a new event. Department of War awards to Niron Magnetics (privately held) and an unnamed scandium project in Australia, and a Global Advanced Metals factory in Pennsylvania (we found no listed share for it), aren't scored (Trump Archive Aug 7 item).",
-    "kind": "notcall"
-  },
-  {
-    "item": "\"Honda just announced, Toyota just announced\" (Trump, Aug 19 2026)",
-    "reason": "At a White House meeting with technology leaders Trump said car makers including Honda and Toyota \"just announced they're moving their operations from Mexico, from Canada\". It's a general line about car plants with no specific project, so it isn't scored; Toyota's Jul 6 2026 San Antonio announcement is already tracked through his Jul 28 and Oct 7 mentions (Trump Archive Aug 19 item).",
-    "kind": "notcall"
-  }
+ {
+  "item": "\"Do magnets\" (Trump, Jul 15 2026) - previously missed",
+  "reason": "No ticker or company was named (sector-level call), so the original ticker-based search didn't catch it. Now tracked via MP, USAR and REMX as proxies.",
+  "kind": "tracked"
+ },
+ {
+  "item": "Goya Foods (Ivanka, Trump, Jul 2020)",
+  "reason": "Privately held - listed in table, no price data.",
+  "kind": "private"
+ },
+ {
+  "item": "U.S. Steel (Trump Jan 2025 post; 'golden share' deal Jun 2025)",
+  "reason": "Acquired by Nippon Steel and delisted; no free price history.",
+  "kind": "noprice"
+ },
+ {
+  "item": "Vulcan Elements ($620M Pentagon loan; 1789 Capital/Don Jr. stake)",
+  "reason": "Private company; no tradable shares.",
+  "kind": "private"
+ },
+ {
+  "item": "Westinghouse ($80B reactor deal, Oct 2025)",
+  "reason": "Private; tracked via Cameco (CCJ) proxy only. Brookfield not added to avoid double counting.",
+  "kind": "proxy"
+ },
+ {
+  "item": "Kalshi / Polymarket (Don Jr. investor/adviser)",
+  "reason": "Private companies.",
+  "kind": "private"
+ },
+ {
+  "item": "USD1 stablecoin (WLFI, Mar 2025)",
+  "reason": "Pegged to $1; no meaningful return.",
+  "kind": "notinv"
+ },
+ {
+  "item": "World Liberty whitelist (Trump, Sep 2024)",
+  "reason": "WLFI wasn't tradable until Sep 1 2025 (launch is tracked).",
+  "kind": "notyet"
+ },
+ {
+  "item": "Eric Trump 'Buy the dips!' (Aug 17 & Sep 26 2025)",
+  "reason": "No asset named in the post.",
+  "kind": "noasset"
+ },
+ {
+  "item": "Critical Metals (CRML) stake talk",
+  "reason": "Only reported as 'under consideration'; no announced deal found.",
+  "kind": "unverified"
+ },
+ {
+  "item": "Bessent: 'stocks are a safe and great investment' over the long term (Mar 2025)",
+  "reason": "Generic long-term comment, not a buy call; Bessent explicitly declined to call the market.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Hassett / Navarro 'no big deal' (Apr 2025)",
+  "reason": "Reassurance, not a buy/hold call (Navarro's 'stay in'/'be long' calls ARE tracked).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Energy Sec. Chris Wright 'oil is a bargain' (Oct 2025)",
+  "reason": "Only found in a secondary blog; couldn't verify the quote with a primary or mainstream source.",
+  "kind": "unverified"
+ },
+ {
+  "item": "Broad 'great company' praise lists (e.g. ~70 names in Hudson Labs' list)",
+  "reason": "Only direct, high-signal praise/endorsements are included; generic group mentions at events are excluded to avoid noise.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Book promotions (Eric, Melania)",
+  "reason": "Not investable assets.",
+  "kind": "notinv"
+ },
+ {
+  "item": "Resolution Copper mine (Trump, Oct 14 2026 Bullhead City rally)",
+  "reason": "Not a listed company: a joint venture owned by Rio Tinto (55%) and BHP (45%), two large diversified miners for which this one project is a small part of the business, so it is not scored.",
+  "kind": "private"
+ },
+ {
+  "item": "Hyundai Transys West Point plant (Trump, Oct 16 2026 Dalton rally)",
+  "reason": "Not a listed company: Hyundai Transys is a privately held unit of the Hyundai Motor Group, so its nearly $560 million West Point, Georgia expansion (announced Oct 8 2026 by the Georgia Governor's office) is not scored.",
+  "kind": "private"
+ },
+ {
+  "item": "Eli Lilly, Pfizer and Merck 'coming back' (Trump, Oct 16 2026 Dalton rally)",
+  "reason": "A general claim that drugmakers are building in the US, with no specific new project named, so it is not scored as a company mention.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Janicki Industries Great Falls factory (Trump, Oct 14 2026 Kalispell, Montana rally)",
+  "reason": "Not a listed company: Trump said \"Janicki Industries is investing $800 million to build 2 million square feet of defense and aerospace factory in Great Falls\" (Trump Archive transcript). The project is real (announced Jun 2 2026 by Janicki and Montana Governor Greg Gianforte; ground broken Jul 10 2026), but Janicki describes itself as a privately owned company, so there is no share price to score.",
+  "kind": "private"
+ },
+ {
+  "item": "Fannie Mae and Freddie Mac $3 billion for Montana mortgages (Trump, Oct 14 2026 Kalispell rally)",
+  "reason": "A housing-policy announcement (\"Fannie Mae and Freddie Mac will be investing $3 billion in Montana mortgages to help 10,000 Montana homebuyers\"), not a comment about either company's shares, which have been under government conservatorship since 2008 and trade only over the counter. Not scored as a company mention.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Colstrip power plant and lumber tariff lines (Trump, Oct 14 2026 Kalispell rally)",
+  "reason": "Trump said he \"rescued your Colstrip power plant\" and that Montana sawmills \"are booming\" because of his lumber tariff. Both are claims of credit for policy, with no company or stock named as a pick and no sourced stock move tied to the remarks, so they are not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Eli Lilly, Merck and Pfizer plants and the Cleveland submarine repair center (Trump, Oct 12 2026 Youngstown, Ohio rally)",
+  "reason": "The drugmaker line is a general claim that pharmaceutical companies are building in the US, with no specific new project named. The U.S. Submarine Component Repair Center that Trump said the Department of War picked for Cleveland is a government facility, and no company was named for it. Neither is scored as a company mention.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Anduril Industries' Arsenal-2 shipyard and the 40% government stake (Trump, Oct 6 2026 Sparrows Point, Maryland)",
+  "reason": "Not a listed company: Trump said \"Anduril is investing $3.7 billion in a state-of-the-art shipyard that will be known forever as Arsenal-2\", that the Navy is adding $2.9 billion, and that \"American taxpayers will receive a 40 percent stake in the new shipyard\" (Trump Archive transcript). Anduril is privately held, so there is no share price to score. Context: ABC News's corrected report (editor's note) says 1789 Capital, which lists Donald Trump Jr. as a partner, invested about $50 million in Anduril as part of a $2.5 billion funding round, and a 1789 Capital spokesperson said Trump Jr. is not on the three-person committee that makes its investment decisions.",
+  "kind": "private"
+ },
+ {
+  "item": "Hadrian Manufacturing and Saronic shipyard lines (Trump, Oct 6 2026 Sparrows Point, Maryland)",
+  "reason": "Trump said \"Hadrian Manufacturing and the US Navy are investing 2.4 billion in Alabama\" and \"Saronic is investing $3.2 billion in Texas to build a new shipyard\". Both are privately held companies, so there is no share price to score.",
+  "kind": "private"
+ },
+ {
+  "item": "Peterbilt repeat and the Eli Lilly, Merck and Pfizer line (Trump, Oct 6 2026 Sparrows Point, Maryland)",
+  "reason": "Trump recalled his Oct 1 Peterbilt plant visit (\"Peterbilt, a very fine company\"), which is already scored from the Oct 1 visit itself, so it isn't counted twice. \"Eli Lilly, Merck, Pfizer, they're all building massive, hundreds of billions of dollars' worth of plants\" is a general claim with no specific new project named, as in the Oct 12 Youngstown rally. Neither is scored as a new company mention.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Michael and Susan Dell's Trump Accounts gift, and the Uber, Intel, NVIDIA and Steak 'n Shake line (Trump, Oct 7 2026 White House Trump Accounts event)",
+  "reason": "Trump thanked Michael and Susan Dell for their personal $6.25 billion gift to children's Trump Accounts and Brad Gerstner for his donation; that is praise for a private donation, not for Dell Technologies the company. He also said \"More than 70 companies have also committed to Trump Accounts... including Uber, Intel, NVIDIA, Steak 'n Shake\", a passing list of employers that pledged contributions rather than praise of any one company's business. Neither is scored as a company mention (Trump Archive transcript, Oct 7 2026).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Goya, the unnamed gas power plant deal and the Eli Lilly, Merck and Pfizer line (Trump, Oct 7 2026 San Antonio, Texas rally)",
+  "reason": "Trump greeted former Goya president Bob Unanue and said \"I will get Goya whenever I can\"; Goya Foods is privately owned, so there is no share price (his 2020 Goya endorsements are listed but unpriced). He mentioned \"a deal that we reached to build a colossal new natural gas power plant\" without naming a company. \"Eli Lilly, Merck and Pfizer all coming back\" is the same general line as at other October rallies, with no specific new project. None is scored; the Toyota line from the same rally is (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "U.S. Steel's Birmingham plant, the Fannie Mae office move and the Navy submarine and Coast Guard cutter yards (Trump, Oct 2 2026 Mobile, Alabama rally)",
+  "reason": "Trump said \"US Steel is investing $475 million in its plant in Birmingham\"; U.S. Steel has been owned by Nippon Steel since its 2025 acquisition and its shares are no longer listed, so there is no price to score (we did not check the $475 million figure). He said Fannie Mae's offices \"will move from San Francisco, California to Birmingham, Alabama\", an administration decision about a government-controlled company, not praise of its business. He also mentioned \"a brand new facility to build US Navy submarines in Cherokee, Alabama\" and Coast Guard cutters built in Mobile Bay without naming any company. None is scored; the Eli Lilly, Mercedes-Benz and ArcelorMittal lines from the same rally are (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Electra, the repeat Bayer line and \"the big oil companies\" (Trump, Oct 3 2026 Vandalia, Ohio rally)",
+  "reason": "Trump said \"Electra announced it's investing $850 million to create nearly 2,000 new jobs a few miles away in Springfield\"; the investment is real (Electra and the Ohio governor's office announced the $850 million EL9 aircraft plant at AirPark Ohio on Jul 21 2026, with 1,975 jobs), but Electra is a privately held company with no share price. His Bayer aspirin story and the $2.2 billion Columbus campus repeat his Truth Social post from earlier the same evening, which is already scored as the Oct 3 Bayer mention, so it is not counted twice. \"The big oil companies\" names no company. None of these is scored; the Stellantis line from the same rally is (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Toyota repeat and \"two great companies\" moving to the Texas Stock Exchange (Trump, Oct 9 2026 Syracuse, New York rally)",
+  "reason": "Trump said \"Toyota just announced they're going to build a massive new plant in the United States\"; this repeats the Toyota San Antonio line from his Oct 7 rally, which is already scored, so it is not counted twice. He also said \"two great companies are leaving the New York Stock Exchange for the Texas Stock Exchange\" without naming them, and spoke generally about auto and pharmaceutical plants. None of these is scored; the Micron line from the same rally is (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "The unnamed Oklahoma aluminum smelter, Harold Hamm, the Peterbilt repeat and the Texas gas power plant (Trump, Oct 1 2026 Durant, Oklahoma rally)",
+  "reason": "Trump told the crowd \"You're gonna build the largest aluminum factory perhaps in the world\" and \"I know the people that are financing it\" without naming any company. The project in Oklahoma that fits is the planned Inola smelter (Oklahoma Primary Aluminum), 60% owned by Emirates Global Aluminium, which is owned by UAE state funds and has no listed shares, and 40% by Century Aluminum (EGA and Century announcement, Jan 26 2026; Oklahoma Attorney General releases Jun 2 and Aug 11 2026); because Trump named neither company, it is not scored. He praised oilman Harold Hamm, whose Continental Resources has been privately owned by the Hamm family since Nov 22 2022 (SEC filings), so there is no share price. His Peterbilt story repeats his visit to the Denton, Texas plant earlier that day, which is already scored as the Oct 1 PACCAR mention, and \"a colossal new natural gas power plant in Texas\" names no company. None of these is scored (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Repeat Becton Dickinson line (Trump, Oct 5 2026 Grand Island, Nebraska rally)",
+  "reason": "Trump called Becton Dickinson a \"great company\" and said its new U.S. manufacturing investment has its biggest expansion in Nebraska. The same investment is already scored from his Truth Social post later that night (Oct 5, 11:18 PM ET), and both come after the close and before the same first session (Oct 6), so it is not counted twice. The NioCorp line from the same rally is scored (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "FedEx and Fred Smith story, and the unnamed Tennessee smelter repeat (Trump, Oct 10 2026 Clarksville, Tennessee rally)",
+  "reason": "Trump told a story about his late friend Fred Smith, FedEx's founder, including what Smith told him about board members walking from the FedEx building to a nearby hotel; it is a personal story, not a comment on FedEx's business or an investment, so it is not scored. His \"first new mineral smelter in the United States\" line refers to the Korea Zinc project he named a moment earlier, which is scored once. The General Motors and Korea Zinc lines from the same rally are scored (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Mesabi Metallics / Essar Group Iowa steel mill (Trump, Sep 28 2026 White House announcement)",
+  "reason": "Trump announced that Mesabi Metallics will build what he called the largest steel plant in American history in Iowa, praising it as \"a great company\" (Trump Archive / Factba.se transcript). Mesabi Metallics is a wholly owned Essar Group subsidiary (mesabimetallics.com; AP and ENR coverage of the Sep 28 2026 announcement) with no listed shares, so it is not scored.",
+  "kind": "private"
+ },
+ {
+  "item": "Westinghouse, Lewis Energy and Glenfarne (Trump, Sep 30 2026 Oval Office energy announcement)",
+  "reason": "At the same Sep 30 energy event where he praised NextEra, Trump also praised Westinghouse CEO Dan Sumner for \"bringing a company to a very high level\" and greeted Lewis Energy CEO Rod Lewis and Glenfarne CEO Brendan Duval. Westinghouse remains private (already tracked via the Cameco CCJ proxy from the Oct 2025 reactor deal). Lewis Energy and Glenfarne (Alaska LNG developer) are privately held. None of these three is scored as a listed-company mention.",
+  "kind": "private"
+ },
+ {
+  "item": "Korean-funded Texas gas plant, eight nuclear reactors and Alaska LNG package (Trump, Sep 30 2026)",
+  "reason": "Trump announced a package of Korean-government-funded projects (about $200 billion): a large Texas natural-gas power plant, eight nuclear reactors, and the Alaska LNG pipeline. He named no listed developer for those three projects in the scored sense (the NextEra praise from the same event is scored separately). Treated as a policy / project announcement, not a company mention.",
+  "kind": "notcall"
+ },
+ {
+  "item": "OpenAI identification at Sep 29 2026 AI gaggle",
+  "reason": "During the post-lunch gaggle Trump introduced Greg Brockman with \"This is OpenAI\"; that identifies the speaker's employer and is not scored as company praise. OpenAI is privately held. The Nvidia praise from the same gaggle is scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "National Medal of Science / Technology ceremony naming Nvidia, AMD, Microsoft, Dell, Alphabet and SpaceX/Tesla (Trump, Oct 8 2026 White House science summit)",
+  "reason": "At a White House summit Trump awarded National Medals of Science and of Technology and Innovation to Elon Musk (SpaceX/Tesla), Sergey Brin (Alphabet/Google), Jensen Huang (Nvidia), Lisa Su (AMD), Michael Dell (Dell) and Satya Nadella (Microsoft), with strong praise of each company (e.g. \"The entire world is now running on Nvidia\"; AMD \"under $2 billion to over $1 trillion\"). Trump Archive item 0c7699fd. This is a ceremonial awards event recognising individuals for scientific achievement, not an investment announcement, plant deal or buy/sell tip, so it is not scored as company praise (same rule as the Oct 7 Trump Accounts contributor list). Nvidia and Dell already have separate tracked mentions; SpaceX remains private.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Anthropic dinner (Trump, Sep 27 2026 Fox News interview in Illinois)",
+  "reason": "In a Fox News interview Trump confirmed he might have dinner with \"Dario\" of Anthropic (Trump Archive Sep 27 interview item). Anthropic is privately held, and a dinner mention is not scored as company praise.",
+  "kind": "private"
+ },
+ {
+  "item": "Travel-industry executives and Netflix at the Sep 2 2026 Oval Office travel meeting",
+  "reason": "Opening a meeting with U.S. travel executives, Trump thanked \"great companies like American Airlines, Hilton, Marriott, IHG Hotels and Resorts, booking.com, MGM Resorts, Caesars, the Venetian, Hard Rock, Carnival, Universal, Raffles and Fairmont\" for attending, and later said he had spoken to Netflix's \"Ted, who's fantastic\" about reviving Hollywood (Trump Archive Sep 2 meeting transcript). A thank-you list of attendees and praise of an executive personally are not scored as company calls, the same rule as the Trump Accounts contributor list.",
+  "kind": "notcall"
+ },
+ {
+  "item": "General car-plant lines (Honda, Toyota, General Motors, Ford), Sep 2, 9 and 10 2026",
+  "reason": "In the Sep 2 travel meeting, the Sep 9 Dallas convention speech and the Sep 10 Medal of Honor Museum remarks Trump repeated that carmakers are building U.S. plants (\"Honda's coming in\", \"General Motors is going wild\", \"Ford is ... doing great\", \"Toyota just announced they're leaving Mexico\") without naming a new project or amount (Trump Archive transcripts). General lines like these aren't scored; his specific Toyota, GM, Ford and Stellantis lines are tracked separately.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Jensen Huang phone call (Trump, Sep 14 2026, live on stage)",
+  "reason": "Trump phoned into a live event where Nvidia CEO Jensen Huang was on stage and said Huang \"has done an amazing job\"; praise of the executive personally, with no comment on Nvidia the company or its stock, isn't scored (Trump Archive Sep 14 item). His Google Finland complaint in the same call repeats his Truth Social post earlier that day, which is already tracked as Company criticism.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Las Vegas economy speech leftovers (Trump, Aug 5 2026)",
+  "reason": "In the same Las Vegas speech Trump said \"Forge Industries and others are investing $150 million in manufacturing facilities in North Las Vegas\" (we could not match that name to a listed company, so it isn't scored) and thanked Michael and Susan Dell and listed Dell, Micron and Apple among Trump Accounts contributors (a thank-you list, not scored, same as the Oct 7 Trump Accounts event). General Motors is named only as Lithium Americas' Thacker Pass partner, so the line is counted once under LAC (Trump Archive Aug 5 item).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Mining roundtable leftovers (Trump, Aug 7 2026)",
+  "reason": "After the MP Materials line Trump repeated that the government's Intel stake \"was worth $12 billion\" and that \"the stock has gone up\"; Intel already has four tracked mentions including his Aug 22 2025 stake post and Apr 29 2026 praise, so this repeat isn't added as a new event. Department of War awards to Niron Magnetics (privately held) and an unnamed scandium project in Australia, and a Global Advanced Metals factory in Pennsylvania (we found no listed share for it), aren't scored (Trump Archive Aug 7 item).",
+  "kind": "notcall"
+ },
+ {
+  "item": "\"Honda just announced, Toyota just announced\" (Trump, Aug 19 2026)",
+  "reason": "At a White House meeting with technology leaders Trump said car makers including Honda and Toyota \"just announced they're moving their operations from Mexico, from Canada\". It's a general line about car plants with no specific project, so it isn't scored; Toyota's Jul 6 2026 San Antonio announcement is already tracked through his Jul 28 and Oct 7 mentions (Trump Archive Aug 19 item).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Intel, Micron, Dell and Nvidia lines in Trump's CNBC interview (Jul 2 2026)",
+  "reason": "In Joe Kernen's Oval Office interview for CNBC, Trump said \"Intel has gone through the roof... it's one of the hottest companies\", called Micron \"a great company\", praised Michael Dell's Trump Accounts gift, and said of a story about Nvidia that \"I have some stock. I think it's very small\", adding that his son Eric handles his investing through \"semi-blind trusts, or blind trusts\". All four companies are already tracked from other dates, and the interview's release time is not given (CNBC released it later that day), so day 0 can't be set; noted, not scored (Trump Archive Jul 2 item).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Repeated \"Toyota is leaving Mexico\" lines (Jul 15, 22, 23 and 29 2026)",
+  "reason": "At the Army War College summit (Jul 15), in Georgia (Jul 22), at the EPA (Jul 23) and at Dulles (Jul 29) Trump said Toyota just announced it is leaving Mexico and building one of the world's largest car plants in Texas. These repeat the Jul 6 2026 San Antonio announcement already tracked through his Jul 28 and Oct 7 mentions, so they aren't scored separately (Trump Archive items).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Company investment roll-calls, July 2026 (Ford, General Dynamics, Voyager, Meta, Google, Intel, JPMorgan)",
+  "reason": "Trump listed company investments without praise or a call: General Dynamics' $2.5 billion submarine work with Rhoads Industries (\"they're a little slower than we want\"), Voyager Technologies' Pittsburgh hub and JPMorgan, Intel and others expanding in Pennsylvania (Jul 15 Army War College); Meta's $27 billion Louisiana project and Google's Georgia data center taxes (Jul 23 EPA); Ford's $3 billion Michigan truck-parts investment (Jul 27 GM speech). Noted, not scored (Trump Archive items).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Trump Accounts sponsor list (Jul 6 2026 Rose Garden lunch)",
+  "reason": "Trump read out companies adding Trump Accounts to employee benefits (Uber, Wells Fargo, Goldman Sachs, Visa, Robinhood, Mastercard, Intel, IBM, AMD, Steak 'n Shake) and greeted Goldman Sachs, Blackstone and BlackRock guests. It's a thank-you list, not praise of any one company; Dell is already tracked from the same day (Trump Archive Jul 6 item).",
+  "kind": "notcall"
+ }
 ]

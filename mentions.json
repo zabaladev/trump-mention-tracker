@@ -760,6 +760,22 @@
     "group": "Trump"
   },
   {
+    "date": "2026-07-13",
+    "group": "Trump",
+    "who": "Donald Trump",
+    "type": "stock",
+    "source": "https://trump-archive.com/item/14e27abe-53b2-410b-bba9-39d8594cb3cd",
+    "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-july-13-2026",
+    "time_et": "2026-07-13 14:00",
+    "time_src": "UCSB in-town pool report #4 (remarks 2:00-2:10 PM ET)",
+    "after_close": false,
+    "category": "Company praise",
+    "asset": "General Motors",
+    "ticker": "GM",
+    "quote": "\"The President of General Motors, Mark Reuss... It's a great company. It's a hot company. We just ordered a lot of Escalades for security purposes\" (Freedom 250 Grand Prix showcase, White House)",
+    "note": "Said in the first two minutes of short remarks at the White House Freedom 250 Grand Prix showcase, which ran 2:00-2:10 PM ET (pool report), so day 0 is the same session (Mon Jul 13). GM's president Mark Reuss stood with him at the event (pool report). GM's Jul 21 quarterly results fall inside the first 30 days. Quiver: no congressional GM trades within 30 days before to 7 days after (last listed trade Apr 13 2026; checked 2026-10-17)."
+  },
+  {
     "date": "2026-07-15",
     "group": "Trump",
     "who": "Donald Trump",
@@ -785,6 +801,38 @@
     ],
     "basket_note": "Only US-listed pure-play magnet producers (both government-backed) plus the rare-earth ETF; named as beneficiaries in Benzinga coverage.",
     "note": "Sector call (no company named) - equal-weight basket: MP, USAR, REMX. Previously missed because no ticker was named."
+  },
+  {
+    "date": "2026-07-22",
+    "group": "Trump",
+    "who": "Donald Trump",
+    "type": "stock",
+    "source": "https://trump-archive.com/item/3c1e6e30-5987-4ef1-9676-f398ce6e7106",
+    "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-july-22-2026",
+    "time_et": "2026-07-22 15:47",
+    "time_src": "UCSB travel pool note 17 (entered 3:33 PM ET) + transcript offset ~14 min",
+    "after_close": true,
+    "category": "Company praise",
+    "asset": "UCB",
+    "ticker": "UCB.BR",
+    "quote": "\"But the big pharmaceutical company, UCB, is investing $2 billion to build its first ever American manufacturing plant right here in Gwinnett, Georgia.\" (Marietta/Roswell, Georgia speech)",
+    "note": "Said about 14 minutes into a speech at Wheeler High School that began when Trump entered at 3:33 PM ET (pool report), roughly 3:47 PM ET. Brussels had already closed (11:30 AM ET), so day 0 is the next Brussels session (Thu Jul 23). The $2 billion Gwinnett County plant was announced Mar 24 2026 (Georgia Governor's office); Trump repeated the line in Dalton, Georgia on Oct 16 (also tracked). Brussels-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades in UCB's US OTC tickers (UCBJY, UCBJF) in the window (last listed trade Sep 23 2025; checked 2026-10-17)."
+  },
+  {
+    "date": "2026-07-27",
+    "group": "Trump",
+    "who": "Donald Trump",
+    "type": "stock",
+    "source": "https://trump-archive.com/item/fcffb7cc-a534-408b-b214-76c0828288df",
+    "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-july-27-2026",
+    "time_et": "2026-07-27 14:25",
+    "time_src": "UCSB travel pool report #9 (garage tour 2:20-2:31 PM ET); speech began 3:10 PM ET (#11)",
+    "after_close": false,
+    "category": "Company praise",
+    "asset": "General Motors",
+    "ticker": "GM",
+    "quote": "\"It's amazing what tariffs will do for General Motors... They're having the best year they have ever had.\" Then, in his speech: \"So I just want to congratulate General Motors. That's why I'm here today. I'm very proud of General Motors.\" (GM Milford Proving Ground, Michigan)",
+    "note": "Said to the pool during a garage tour at GM's Milford Proving Ground (2:20-2:31 PM ET) and again in a speech there that began at 3:10 PM ET, both before the 4 PM close, so day 0 is the same session (Mon Jul 27). In the speech he also cited GM's figures that truck and SUV output rose 20% in 2026 and that it invested $9 billion in US factories over two years (his figures, as stated). GM had reported quarterly results on Jul 21, six days earlier (Yahoo Finance earnings calendar). Quiver: no congressional GM trades within 30 days before to 7 days after (last listed trade Apr 13 2026; checked 2026-10-17)."
   },
   {
     "date": "2026-07-28",
