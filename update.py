@@ -135,6 +135,32 @@ for m in M:
             comp.append(cr)
         r['components'] = comp
     rows.append(r)
+# Market-model (beta-adjusted) abnormal returns vs the S&P 500: beta from daily returns over the 250 S&P sessions
+# ending 30 sessions before the entry day (so the comment itself and the run-up don't affect it). abnormal = return - beta * S&P return.
+# Alpha is deliberately left out (it would extrapolate any pre-period trend). Needs >= 100 overlapping daily returns.
+_spx = px[BENCH['sp']]
+for r in rows:
+    if r.get('status') != 'ok': continue
+    s = px.get(r['ticker']); e = pd.Timestamp(r['entry_date'])
+    si = _spx.index[_spx.index < e]
+    if len(si) < 60: continue
+    est = si[max(0, len(si) - 280):max(0, len(si) - 30)]
+    if not len(est): continue
+    al = s[(s.index >= est[0] - pd.Timedelta(days=7)) & (s.index <= est[-1])]
+    if len(al) < 50: continue
+    a2 = al.reindex(al.index.union(est)).ffill().reindex(est)
+    df = pd.concat([a2.pct_change(), _spx.reindex(est).pct_change()], axis=1).dropna()
+    df = df[(df.iloc[:, 0] != 0) | (df.iloc[:, 1] != 0)]
+    if len(df) < 100 or df.iloc[:, 1].var() == 0: continue
+    b = float(df.iloc[:, 0].cov(df.iloc[:, 1]) / df.iloc[:, 1].var())
+    _, W = windows(s, pd.Timestamp(r['date']))
+    ab = {}
+    for k in ('day0', '+1d', '+7d', '+30d', '+90d', 'to date'):
+        if k in W and r['returns'].get(k) is not None:
+            mv = ret(_spx, *W[k])
+            if mv is not None: ab[k] = r['returns'][k] - b * mv
+    r['beta'] = dict(b=round(b, 3), n=int(len(df)), start=str(est[0].date()), end=str(est[-1].date()))
+    r['abn'] = ab
 for r in rows:
     r['disclosures'] = [d for d in DISC if [r['date'], r.get('ticker')] in d['applies']]
     r['congress'] = [c for c in CONG if c['mention'] == [r['date'], r.get('ticker')]]
