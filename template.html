@@ -293,15 +293,18 @@ function tkChart(t,rs){const P=D.tkpx,e=P&&P.t[t],cn=document.getElementById('tk
  const lab=P.dates.slice(e.i0),v=e.v,bs=P.bench[BM].slice(e.i0),j0=v.findIndex(x=>x!=null),bk=bs[j0]?v[j0]/bs[j0]:null,bl=bs.map(x=>x!=null&&bk?x*bk:null);
  const mk_=Array(lab.length).fill(null),mc=Array(lab.length).fill('#fff'),mst=Array(lab.length).fill('circle'),mt={};rs.forEach(r=>{let i=lab.findIndex(d=>d>=r.date);if(i<0)i=lab.length-1;if(v[i]==null)return;mk_[i]=v[i];mc[i]=GC[r.group]||'#fff';mst[i]=GS[r.group]||'circle';(mt[i]=mt[i]||[]).push(`${r.date} ${r.who}: ${r.category}`)});
  const isB=t.startsWith('BASKET:');
+ const sc_=(k,c,d)=>{const e_=e[k],s_=e_&&P.etf&&P.etf[e_];if(!s_)return null;const q=s_.slice(e.i0),kk=q[j0]?v[j0]/q[j0]:null;return kk?{e:e_,q,ds:{label:(k=='sec'?'Sector fund ':'Industry peer ')+e_+' (scaled)',data:q.map(x=>x!=null?x*kk:null),borderColor:c,borderDash:d,borderWidth:1,pointRadius:0,spanGaps:true}}:null};
+ const SX=sc_('sec','#a3e635',[2,3]),PX=sc_('peer','#f472b6',[8,3]);
  mk('tkC',{type:'line',data:{labels:lab,datasets:[{label:isB?'Basket value (start = 1)':t+' weekly close ($)',data:v,borderColor:'#e5e7eb',borderWidth:1.5,pointRadius:0,spanGaps:true},
   {label:BL[BM]+' (scaled to start at the same value)',data:bl,borderColor:'#60a5fa',borderDash:[5,4],borderWidth:1,pointRadius:0,spanGaps:true},
+  ...[SX,PX].filter(Boolean).map(x=>x.ds),
   {label:'Mention',data:mk_,showLine:false,pointRadius:7,pointHoverRadius:9,pointStyle:mst,pointBackgroundColor:mc,pointBorderColor:'#111',borderColor:'#f59e0b',backgroundColor:'#f59e0b'}]},
   options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},scales:{x:{ticks:{maxTicksLimit:10}}},
   plugins:{tooltip:{callbacks:{afterBody:c=>{const i=c[0].dataIndex;return mt[i]||[]}},filter:x=>x.raw!=null}}}});
  const f=rs.map(r=>r.date).sort()[0];let i=lab.findIndex(d=>d>=f);if(i<0)i=lab.length-1;const L=v.length-1;
  const a=v[i]&&v[L]?v[L]/v[i]-1:null,b=bs[i]&&bs[L]?bs[L]/bs[i]-1:null;
  cn.innerHTML=`The line shows ${isB?'an equal-weight basket of the stocks behind this sector call':t+"'s weekly closing price (adjusted for dividends and splits)"}, starting about four months before its first mention. Coloured dots mark each mention (orange = Trump, purple = family, teal = administration). The dashed line is the ${BL[BM]}, scaled to start at the same level, so you can see whether it simply moved with the market.`+
-  (i==L?` The first mention (${f}) is too recent for a weekly comparison yet.`:a!=null&&b!=null?` From the week of the first mention (${f}) to ${lab[L]}, it ${a>=0?'rose':'fell'} about <b>${Math.abs(a*100).toFixed(0)}%</b>, while the ${BL[BM]} ${b>=0?'rose':'fell'} about ${Math.abs(b*100).toFixed(0)}%.`:'')+' Weekly data, so day-by-day moves are smoothed out.'}
+  (i==L?` The first mention (${f}) is too recent for a weekly comparison yet.`:a!=null&&b!=null?` From the week of the first mention (${f}) to ${lab[L]}, it ${a>=0?'rose':'fell'} about <b>${Math.abs(a*100).toFixed(0)}%</b>, while the ${BL[BM]} ${b>=0?'rose':'fell'} about ${Math.abs(b*100).toFixed(0)}%.`:'')+' '+(()=>{if(i==L)return'';const pts=[SX,PX].filter(Boolean).map(x=>{const r_=x.q[i]&&x.q[L]?x.q[L]/x.q[i]-1:null;return r_==null?null:`its ${x===SX?'sector fund':'industry peer fund'} ${x.e} ${r_>=0?'rose':'fell'} about ${Math.abs(r_*100).toFixed(0)}%`}).filter(Boolean);return pts.length?` Over the same span ${pts.join(' and ')} (thin green and pink lines), which shows whether the whole industry moved too.`:''})()+' Weekly data, so day-by-day moves are smoothed out.'}
 function apiPanel(ok){const el=document.getElementById('apiP'),A='2026-08-01',ts=r=>r.who=='Donald Trump'&&/truthsocial\.com|trumpstruth\.org/.test(r.source||'');
  const rs=ok.filter(ts),pre=rs.filter(r=>r.date<A),post=rs.filter(r=>r.date>=A);
  if(!post.length){el.innerHTML='No priced Truth Social mentions by Donald Trump since August 1, 2026 match your filters.';return}

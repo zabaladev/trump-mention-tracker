@@ -260,11 +260,17 @@ for r in ok:
 _wk = pd.date_range(pd.Timestamp(min(r['entry_date'] for r in ok)) - pd.Timedelta(days=120), TODAY, freq='W-FRI')
 def _wser(s): return s.reindex(s.index.union(_wk)).ffill().reindex(_wk)
 def _sig(x): return None if pd.isna(x) else float(f'{float(x):.5g}')
-tkpx = {'dates': [str(d.date()) for d in _wk], 'bench': {k: [_sig(x) for x in _wser(px[BENCH[k]])] for k in BKEYS}, 't': {}}
+tkpx = {'dates': [str(d.date()) for d in _wk], 'bench': {k: [_sig(x) for x in _wser(px[BENCH[k]])] for k in BKEYS}, 'etf': {}, 't': {}}
 for t in sorted({r['ticker'] for r in ok}):
     first = min(pd.Timestamp(r['date']) for r in ok if r['ticker'] == t) - pd.Timedelta(days=120)
     w = _wser(px[t]); i0 = max(int((_wk < first).sum()), int(w.isna().values.argmin()) if w.notna().any() else 0)
     tkpx['t'][t] = {'i0': i0, 'v': [_sig(x) for x in w.iloc[i0:]], 'last': [str(px[t].index[-1].date()), _sig(px[t].iloc[-1])]}
+    _sc = SEC['tickers'].get(t) or {}
+    for _k in ('etf', 'peer'):
+        _e = _sc.get(_k)
+        if _e and _e in px and len(px[_e]):
+            tkpx['t'][t]['sec' if _k == 'etf' else 'peer'] = _e
+            if _e not in tkpx['etf']: tkpx['etf'][_e] = [_sig(x) for x in _wser(px[_e])]
 # family-linked listed companies vs indexes (context panel; not accusation)
 def _ret_since(s, d0):
     a = asof(s, pd.Timestamp(d0)); b = float(s.iloc[-1]) if len(s) else None
