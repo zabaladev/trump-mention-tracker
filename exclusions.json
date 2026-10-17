@@ -183,5 +183,15 @@
     "item": "OpenAI identification at Sep 29 2026 AI gaggle",
     "reason": "During the post-lunch gaggle Trump introduced Greg Brockman with \"This is OpenAI\"; that identifies the speaker's employer and is not scored as company praise. OpenAI is privately held. The Nvidia praise from the same gaggle is scored.",
     "kind": "notcall"
+  },
+  {
+    "item": "National Medal of Science / Technology ceremony naming Nvidia, AMD, Microsoft, Dell, Alphabet and SpaceX/Tesla (Trump, Oct 8 2026 White House science summit)",
+    "reason": "At a White House summit Trump awarded National Medals of Science and of Technology and Innovation to Elon Musk (SpaceX/Tesla), Sergey Brin (Alphabet/Google), Jensen Huang (Nvidia), Lisa Su (AMD), Michael Dell (Dell) and Satya Nadella (Microsoft), with strong praise of each company (e.g. \"The entire world is now running on Nvidia\"; AMD \"under $2 billion to over $1 trillion\"). Trump Archive item 0c7699fd. This is a ceremonial awards event recognising individuals for scientific achievement, not an investment announcement, plant deal or buy/sell tip, so it is not scored as company praise (same rule as the Oct 7 Trump Accounts contributor list). Nvidia and Dell already have separate tracked mentions; SpaceX remains private.",
+    "kind": "notcall"
+  },
+  {
+    "item": "Anthropic dinner (Trump, Sep 27 2026 Fox News interview in Illinois)",
+    "reason": "In a Fox News interview Trump confirmed he might have dinner with \"Dario\" of Anthropic (Trump Archive Sep 27 interview item). Anthropic is privately held, and a dinner mention is not scored as company praise.",
+    "kind": "private"
   }
 ]
