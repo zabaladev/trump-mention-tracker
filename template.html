@@ -156,6 +156,10 @@ const tlH=document.getElementById('tlH');tlH.innerHTML=['day0','+7d','+30d','+90
 document.getElementById('fHold').innerHTML=`<button class="chip on" data-h="hold">Hold to date</button><button class="chip" data-h="hold30">30-day hold</button>`;
 document.getElementById('fHold').onclick=e=>{const b=e.target.closest('button');if(!b)return;hold=b.dataset.h;document.querySelectorAll('#fHold .chip').forEach(x=>x.classList.toggle('on',x.dataset.h==hold));render()};
 document.getElementById('gen').textContent=`Generated ${D.generated} · ${D.rows.length} sourced mentions (${D.rows.filter(r=>r.status=='ok').length} priced) · ${D.benches.length} index benchmarks`;
+{const pa=D.prices_asof||{},fd=d=>{const t=new Date(d+'T12:00:00Z');return t.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric',timeZone:'UTC'})};
+ if(pa.stocks){const el=document.createElement('div');el.className='sub';el.id='pxAsof';
+  el.textContent=`Prices run through the market close on ${fd(pa.stocks)}`+(pa.crypto&&pa.crypto!=pa.stocks?` (crypto trades every day, so it uses the latest price available on ${fd(pa.crypto)})`:'')+`. "To date" and "held to today" results use those latest prices, so they will change after the next trading day.`;
+  document.getElementById('gen').after(el)}}
 const X=(r,k)=>r.ex[k||BM]||{};
 let DEDUP=false,FIRST=false,SEL0=[];
 function FM(rs){if(!FIRST)return rs;const o=rs.map((r,i)=>[r,i]).sort((a,c)=>(a[0].date||'9999').localeCompare(c[0].date||'9999')||(a[0].time_et||'').localeCompare(c[0].time_et||'')||a[1]-c[1]),k=new Set(),keep=new Set();o.forEach(([r])=>{const t=r.ticker||r.asset;if(k.has(t))return;k.add(t);keep.add(r)});return rs.filter(r=>keep.has(r))}

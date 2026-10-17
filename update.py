@@ -334,7 +334,8 @@ fam_px = {'dates': [str(d.date()) for d in _fam_wk],
           'note': FAM['_note'], 'rows': fam_rows}
 
 gridd = dict(dates=[str(d.date()) for d in grid], **{k: [round(float(x), 3) for x in ff[BENCH[k]].reindex(grid)] for k in BKEYS})
-data = dict(grid=gridd, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
+_pxa = {'stocks': str(_spx.index[-1].date()), 'crypto': str(px['BTC-USD'].index[-1].date()) if 'BTC-USD' in px and len(px['BTC-USD']) else None}
+data = dict(grid=gridd, prices_asof=_pxa, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
             rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx, sector_note=SEC['_note'], sector_etfs=SEC['etf_names'], peer_etfs=SEC.get('peer_etf_names', {}), family=fam_px)
 # #17 Smaller page: keep 7 significant digits on every float (the page shows at most 1 decimal of a percent,
 # so the rendered text is unchanged) and embed the data without spaces. Big numbers (>= 1e6) are left as-is.
