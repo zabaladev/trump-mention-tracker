@@ -143,5 +143,10 @@
   "item": "Electra, the repeat Bayer line and \"the big oil companies\" (Trump, Oct 3 2026 Vandalia, Ohio rally)",
   "reason": "Trump said \"Electra announced it's investing $850 million to create nearly 2,000 new jobs a few miles away in Springfield\"; the investment is real (Electra and the Ohio governor's office announced the $850 million EL9 aircraft plant at AirPark Ohio on Jul 21 2026, with 1,975 jobs), but Electra is a privately held company with no share price. His Bayer aspirin story and the $2.2 billion Columbus campus repeat his Truth Social post from earlier the same evening, which is already scored as the Oct 3 Bayer mention, so it is not counted twice. \"The big oil companies\" names no company. None of these is scored; the Stellantis line from the same rally is (Trump Archive transcript).",
   "kind": "notcall"
+ },
+ {
+  "item": "Toyota repeat and \"two great companies\" moving to the Texas Stock Exchange (Trump, Oct 9 2026 Syracuse, New York rally)",
+  "reason": "Trump said \"Toyota just announced they're going to build a massive new plant in the United States\"; this repeats the Toyota San Antonio line from his Oct 7 rally, which is already scored, so it is not counted twice. He also said \"two great companies are leaving the New York Stock Exchange for the Texas Stock Exchange\" without naming them, and spoke generally about auto and pharmaceutical plants. None of these is scored; the Micron line from the same rally is (Trump Archive transcript).",
+  "kind": "notcall"
  }
 ]

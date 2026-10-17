@@ -1208,5 +1208,21 @@
   "ticker": "STLA",
   "quote": "\"Stellantis is investing $400 million at his plant in Ohio to bring 900 new jobs back just as an example, that's in Toledo, brand new trucks made by Stellantis in Toledo.\" (rally, Vandalia, Ohio)",
   "note": "Said at Trump's midterm campaign rally at the Butler-Vandalia Student Activity Center near Dayton, Ohio on Saturday Oct 3 2026. The White House travel pool report says he took the stage at 7:45 PM ET; markets were closed for the weekend, so day 0 is the next session (Mon Oct 5). The investment is real: Stellantis announced on Oct 14 2025, as part of its $13 billion US plan, nearly $400 million to build an all-new midsize truck at the Toledo Assembly Complex, which could create more than 900 jobs, with launch expected in 2028 (Stellantis press release). This is Trump's second tracked Stellantis mention, after his Sep 26 2026 post. Quiver: no congressional trades in STLA within 30 days before to 7 days after (the latest listed trade is Sen. Alan Armstrong's Mar 30 2026 purchase; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-09",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/761ac877-dd5b-4b07-b74a-cc9bc07f33e3",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-9-2026",
+  "time_et": "2026-10-09 20:13",
+  "time_src": "White House travel pool notes 4 and 5 (onstage at 8:11 pm ET, began speaking at 8:13 pm)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Micron",
+  "ticker": "MU",
+  "quote": "\"But Micron is investing over $100 billion in creating 50,000 jobs in central New York, including the largest investment in the history of Syracuse, that we had to work with them long and hard. Get them going. This will soon be the home to the largest semiconductor manufacturing facility ever built in the Western Hemisphere.\" (rally, Syracuse, New York)",
+  "note": "Said at Trump's midterm campaign rally at the Oncenter in Syracuse, New York on Friday Oct 9 2026. The White House travel pool notes say he appeared onstage at 8:11 PM ET and began speaking at 8:13 PM, after the close, so day 0 is the next session (Mon Oct 12). The project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab in Clay, New York, creating nearly 50,000 New York jobs including about 9,000 at Micron (Micron press release; Reuters). This is Trump's second tracked Micron mention, after his Jul 1 2026 post. Quiver: no congressional trades in MU within 30 days before to 7 days after (the latest listed trade is Rep. Dan Newhouse's Jul 10 2026 purchase; checked 2026-10-17)."
  }
 ]

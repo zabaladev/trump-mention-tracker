@@ -5,16 +5,16 @@
    "TSLA"
   ],
   "ticker": "TSLA",
-  "member": "Marjorie Taylor Greene",
+  "member": "Julie Johnson",
   "chamber": "House",
-  "party": "R",
-  "state": "GA",
-  "date": "2025-03-07",
-  "days": -4,
-  "type": "Purchase",
+  "party": "D",
+  "state": "TX",
+  "date": "2025-02-11",
+  "days": -28,
+  "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-03-09"
+  "filed": "2025-03-12"
  },
  {
   "mention": [
@@ -22,13 +22,30 @@
    "TSLA"
   ],
   "ticker": "TSLA",
-  "member": "Gilbert Cisneros",
+  "member": "Julie Johnson",
   "chamber": "House",
   "party": "D",
-  "state": "CA",
-  "date": "2025-02-26",
-  "days": -13,
-  "type": "Purchase",
+  "state": "TX",
+  "date": "2025-02-12",
+  "days": -27,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-12"
+ },
+ {
+  "mention": [
+   "2025-03-11",
+   "TSLA"
+  ],
+  "ticker": "TSLA",
+  "member": "Josh Gottheimer",
+  "chamber": "House",
+  "party": "D",
+  "state": "NJ",
+  "date": "2025-02-13",
+  "days": -26,
+  "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
   "filed": "2025-03-06"
@@ -56,13 +73,13 @@
    "TSLA"
   ],
   "ticker": "TSLA",
-  "member": "Josh Gottheimer",
+  "member": "Gilbert Cisneros",
   "chamber": "House",
   "party": "D",
-  "state": "NJ",
-  "date": "2025-02-13",
-  "days": -26,
-  "type": "Sale",
+  "state": "CA",
+  "date": "2025-02-26",
+  "days": -13,
+  "type": "Purchase",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
   "filed": "2025-03-06"
@@ -77,12 +94,46 @@
   "chamber": "House",
   "party": "R",
   "state": "PA",
-  "date": "2025-03-11",
-  "days": 0,
+  "date": "2025-02-27",
+  "days": -12,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-04-09"
+  "filed": "2025-03-27"
+ },
+ {
+  "mention": [
+   "2025-03-11",
+   "TSLA"
+  ],
+  "ticker": "TSLA",
+  "member": "Rob Bresnahan",
+  "chamber": "House",
+  "party": "R",
+  "state": "PA",
+  "date": "2025-03-06",
+  "days": -5,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-27"
+ },
+ {
+  "mention": [
+   "2025-03-11",
+   "TSLA"
+  ],
+  "ticker": "TSLA",
+  "member": "Marjorie Taylor Greene",
+  "chamber": "House",
+  "party": "R",
+  "state": "GA",
+  "date": "2025-03-07",
+  "days": -4,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-09"
  },
  {
   "mention": [
@@ -111,80 +162,12 @@
   "chamber": "House",
   "party": "R",
   "state": "PA",
-  "date": "2025-03-06",
-  "days": -5,
+  "date": "2025-03-11",
+  "days": 0,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-03-27"
- },
- {
-  "mention": [
-   "2025-03-11",
-   "TSLA"
-  ],
-  "ticker": "TSLA",
-  "member": "Julie Johnson",
-  "chamber": "House",
-  "party": "D",
-  "state": "TX",
-  "date": "2025-02-12",
-  "days": -27,
-  "type": "Sale",
-  "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-03-12"
- },
- {
-  "mention": [
-   "2025-03-11",
-   "TSLA"
-  ],
-  "ticker": "TSLA",
-  "member": "Julie Johnson",
-  "chamber": "House",
-  "party": "D",
-  "state": "TX",
-  "date": "2025-02-11",
-  "days": -28,
-  "type": "Sale",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-03-12"
- },
- {
-  "mention": [
-   "2025-03-11",
-   "TSLA"
-  ],
-  "ticker": "TSLA",
-  "member": "Rob Bresnahan",
-  "chamber": "House",
-  "party": "R",
-  "state": "PA",
-  "date": "2025-02-27",
-  "days": -12,
-  "type": "Sale",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-03-27"
- },
- {
-  "mention": [
-   "2025-03-19",
-   "TSLA"
-  ],
-  "ticker": "TSLA",
-  "member": "Marjorie Taylor Greene",
-  "chamber": "House",
-  "party": "R",
-  "state": "GA",
-  "date": "2025-03-07",
-  "days": -12,
-  "type": "Purchase",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-03-09"
+  "filed": "2025-04-09"
  },
  {
   "mention": [
@@ -213,12 +196,46 @@
   "chamber": "House",
   "party": "R",
   "state": "PA",
-  "date": "2025-03-11",
-  "days": -8,
+  "date": "2025-02-27",
+  "days": -20,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-04-09"
+  "filed": "2025-03-27"
+ },
+ {
+  "mention": [
+   "2025-03-19",
+   "TSLA"
+  ],
+  "ticker": "TSLA",
+  "member": "Rob Bresnahan",
+  "chamber": "House",
+  "party": "R",
+  "state": "PA",
+  "date": "2025-03-06",
+  "days": -13,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-27"
+ },
+ {
+  "mention": [
+   "2025-03-19",
+   "TSLA"
+  ],
+  "ticker": "TSLA",
+  "member": "Marjorie Taylor Greene",
+  "chamber": "House",
+  "party": "R",
+  "state": "GA",
+  "date": "2025-03-07",
+  "days": -12,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-09"
  },
  {
   "mention": [
@@ -247,12 +264,12 @@
   "chamber": "House",
   "party": "R",
   "state": "PA",
-  "date": "2025-03-06",
-  "days": -13,
+  "date": "2025-03-11",
+  "days": -8,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-03-27"
+  "filed": "2025-04-09"
  },
  {
   "mention": [
@@ -273,20 +290,55 @@
  },
  {
   "mention": [
-   "2025-03-19",
-   "TSLA"
+   "2025-04-09",
+   "SPY"
   ],
-  "ticker": "TSLA",
-  "member": "Rob Bresnahan",
+  "ticker": "broad market (22 stocks)",
+  "member": "Marjorie Taylor Greene",
   "chamber": "House",
   "party": "R",
-  "state": "PA",
-  "date": "2025-02-27",
-  "days": -20,
+  "state": "GA",
+  "date": "2025-04-08",
+  "days": -1,
+  "type": "Purchase",
+  "amount": "~$21,000–$315,000 total across Apr 8–9 (plus T-bill sale $50,001–$100,000 on Apr 8)",
+  "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029138.pdf",
+  "note": "Filed Apr 11 2025; reported by NYT/Bloomberg/AP. Bought stocks during the selloff the day before and the day of the pause.",
+  "filed": "2025-04-11"
+ },
+ {
+  "mention": [
+   "2025-04-09",
+   "SPY"
+  ],
+  "ticker": "SPY",
+  "member": "Charles J. \"Chuck\" Fleischmann",
+  "chamber": "House",
+  "party": "R",
+  "state": "TN",
+  "date": "2025-04-16",
+  "days": 7,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
-  "filed": "2025-03-27"
+  "source": "https://www.quiverquant.com/congresstrading/stock/SPY",
+  "filed": "2025-05-13"
+ },
+ {
+  "mention": [
+   "2025-04-11",
+   "SPY"
+  ],
+  "ticker": "SPY",
+  "member": "Charles J. \"Chuck\" Fleischmann",
+  "chamber": "House",
+  "party": "R",
+  "state": "TN",
+  "date": "2025-04-16",
+  "days": 5,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/SPY",
+  "filed": "2025-05-13"
  },
  {
   "mention": [
@@ -311,50 +363,16 @@
    "NVDA"
   ],
   "ticker": "NVDA",
-  "member": "Rob Bresnahan",
-  "chamber": "House",
+  "member": "Moody, Ashley B.",
+  "chamber": "Senate",
   "party": "R",
-  "state": "PA",
-  "date": "2025-04-11",
-  "days": -4,
-  "type": "Purchase",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-11"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Jared Moskowitz",
-  "chamber": "House",
-  "party": "D",
   "state": "FL",
-  "date": "2025-04-07",
-  "days": -8,
+  "date": "2025-03-20",
+  "days": -26,
   "type": "Purchase",
-  "amount": "$1,001 - $15,000",
+  "amount": "$100,001 - $250,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-09"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Terri A. Sewell",
-  "chamber": "House",
-  "party": "D",
-  "state": "AL",
-  "date": "2025-04-10",
-  "days": -5,
-  "type": "Purchase",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-12"
+  "filed": "2025-04-20"
  },
  {
   "mention": [
@@ -366,12 +384,63 @@
   "chamber": "Senate",
   "party": "R",
   "state": "FL",
-  "date": "2025-03-20",
-  "days": -26,
+  "date": "2025-03-21",
+  "days": -25,
   "type": "Purchase",
-  "amount": "$100,001 - $250,000",
+  "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
   "filed": "2025-04-20"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Greg Landsman",
+  "chamber": "House",
+  "party": "D",
+  "state": "OH",
+  "date": "2025-03-27",
+  "days": -19,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-08"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Greg Landsman",
+  "chamber": "House",
+  "party": "D",
+  "state": "OH",
+  "date": "2025-03-27",
+  "days": -19,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-08"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Jefferson Shreve",
+  "chamber": "House",
+  "party": "R",
+  "state": "IN",
+  "date": "2025-03-31",
+  "days": -15,
+  "type": "Sale",
+  "amount": "$100,001 - $250,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-11"
  },
  {
   "mention": [
@@ -396,6 +465,125 @@
    "NVDA"
   ],
   "ticker": "NVDA",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-04-04",
+  "days": -11,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-12"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-04-04",
+  "days": -11,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-12"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-04-04",
+  "days": -11,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-12"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Jared Moskowitz",
+  "chamber": "House",
+  "party": "D",
+  "state": "FL",
+  "date": "2025-04-07",
+  "days": -8,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-09"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Jefferson Shreve",
+  "chamber": "House",
+  "party": "R",
+  "state": "IN",
+  "date": "2025-04-07",
+  "days": -8,
+  "type": "Sale",
+  "amount": "$50,001 - $100,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-08"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Julie Johnson",
+  "chamber": "House",
+  "party": "D",
+  "state": "TX",
+  "date": "2025-04-07",
+  "days": -8,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-14"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Michael T. McCaul",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2025-04-08",
+  "days": -7,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-12"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
   "member": "Marjorie Taylor Greene",
   "chamber": "House",
   "party": "R",
@@ -413,16 +601,16 @@
    "NVDA"
   ],
   "ticker": "NVDA",
-  "member": "Jared Moskowitz",
+  "member": "Josh Gottheimer",
   "chamber": "House",
   "party": "D",
-  "state": "FL",
-  "date": "2025-04-16",
-  "days": 1,
-  "type": "Purchase",
+  "state": "NJ",
+  "date": "2025-04-09",
+  "days": -6,
+  "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-09"
+  "filed": "2025-05-14"
  },
  {
   "mention": [
@@ -430,16 +618,50 @@
    "NVDA"
   ],
   "ticker": "NVDA",
-  "member": "Moody, Ashley B.",
-  "chamber": "Senate",
-  "party": "R",
-  "state": "FL",
-  "date": "2025-03-21",
-  "days": -25,
+  "member": "Terri A. Sewell",
+  "chamber": "House",
+  "party": "D",
+  "state": "AL",
+  "date": "2025-04-10",
+  "days": -5,
   "type": "Purchase",
-  "amount": "$15,001 - $50,000",
+  "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-04-20"
+  "filed": "2025-05-12"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Rob Bresnahan",
+  "chamber": "House",
+  "party": "R",
+  "state": "PA",
+  "date": "2025-04-11",
+  "days": -4,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-11"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Dan Newhouse",
+  "chamber": "House",
+  "party": "R",
+  "state": "WA",
+  "date": "2025-04-11",
+  "days": -4,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-16"
  },
  {
   "mention": [
@@ -473,6 +695,23 @@
    "NVDA"
   ],
   "ticker": "NVDA",
+  "member": "Whitehouse, Sheldon",
+  "chamber": "Senate",
+  "party": "D",
+  "state": "RI",
+  "date": "2025-04-14",
+  "days": -1,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-13"
+ },
+ {
+  "mention": [
+   "2025-04-15",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
   "member": "Jared Moskowitz",
   "chamber": "House",
   "party": "D",
@@ -490,84 +729,16 @@
    "NVDA"
   ],
   "ticker": "NVDA",
-  "member": "Josh Gottheimer",
+  "member": "Jared Moskowitz",
   "chamber": "House",
   "party": "D",
-  "state": "NJ",
-  "date": "2025-04-09",
-  "days": -6,
-  "type": "Sale",
+  "state": "FL",
+  "date": "2025-04-16",
+  "days": 1,
+  "type": "Purchase",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-14"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Greg Landsman",
-  "chamber": "House",
-  "party": "D",
-  "state": "OH",
-  "date": "2025-03-27",
-  "days": -19,
-  "type": "Sale",
-  "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-04-08"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Dan Newhouse",
-  "chamber": "House",
-  "party": "R",
-  "state": "WA",
-  "date": "2025-04-11",
-  "days": -4,
-  "type": "Sale",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-16"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Jefferson Shreve",
-  "chamber": "House",
-  "party": "R",
-  "state": "IN",
-  "date": "2025-04-07",
-  "days": -8,
-  "type": "Sale",
-  "amount": "$50,001 - $100,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-08"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Jefferson Shreve",
-  "chamber": "House",
-  "party": "R",
-  "state": "IN",
-  "date": "2025-03-31",
-  "days": -15,
-  "type": "Sale",
-  "amount": "$100,001 - $250,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-04-11"
+  "filed": "2025-05-09"
  },
  {
   "mention": [
@@ -585,74 +756,6 @@
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
   "filed": "2025-05-12"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Julie Johnson",
-  "chamber": "House",
-  "party": "D",
-  "state": "TX",
-  "date": "2025-04-07",
-  "days": -8,
-  "type": "Sale",
-  "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-14"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Greg Landsman",
-  "chamber": "House",
-  "party": "D",
-  "state": "OH",
-  "date": "2025-03-27",
-  "days": -19,
-  "type": "Sale",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-04-08"
- },
- {
-  "mention": [
-   "2025-04-15",
-   "NVDA"
-  ],
-  "ticker": "NVDA",
-  "member": "Whitehouse, Sheldon",
-  "chamber": "Senate",
-  "party": "D",
-  "state": "RI",
-  "date": "2025-04-14",
-  "days": -1,
-  "type": "Sale",
-  "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2025-05-13"
- },
- {
-  "mention": [
-   "2025-07-16",
-   "KO"
-  ],
-  "ticker": "KO",
-  "member": "Lloyd Doggett",
-  "chamber": "House",
-  "party": "D",
-  "state": "TX",
-  "date": "2025-07-01",
-  "days": -15,
-  "type": "Purchase",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/KO",
-  "filed": "2025-08-04"
  },
  {
   "mention": [
@@ -688,6 +791,23 @@
    "KO"
   ],
   "ticker": "KO",
+  "member": "Lloyd Doggett",
+  "chamber": "House",
+  "party": "D",
+  "state": "TX",
+  "date": "2025-07-01",
+  "days": -15,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/KO",
+  "filed": "2025-08-04"
+ },
+ {
+  "mention": [
+   "2025-07-16",
+   "KO"
+  ],
+  "ticker": "KO",
   "member": "Lisa Mcclain",
   "chamber": "House",
   "party": "R",
@@ -715,6 +835,91 @@
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/KO",
   "filed": "2025-08-20"
+ },
+ {
+  "mention": [
+   "2025-08-06",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Ritchie John Torres",
+  "chamber": "House",
+  "party": "D",
+  "state": "NY",
+  "date": "2025-07-11",
+  "days": -26,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-20"
+ },
+ {
+  "mention": [
+   "2025-08-06",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Capito, Shelley Moore",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "WV",
+  "date": "2025-07-18",
+  "days": -19,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-04"
+ },
+ {
+  "mention": [
+   "2025-08-06",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Lisa Mcclain",
+  "chamber": "House",
+  "party": "R",
+  "state": "MI",
+  "date": "2025-07-22",
+  "days": -15,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-13"
+ },
+ {
+  "mention": [
+   "2025-08-06",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-07-25",
+  "days": -12,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-07"
+ },
+ {
+  "mention": [
+   "2025-08-06",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-07-25",
+  "days": -12,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-07"
  },
  {
   "mention": [
@@ -784,33 +989,16 @@
    "AAPL"
   ],
   "ticker": "AAPL",
-  "member": "Lisa Mcclain",
-  "chamber": "House",
-  "party": "R",
-  "state": "MI",
-  "date": "2025-07-22",
-  "days": -15,
-  "type": "Sale",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
-  "filed": "2025-08-13"
- },
- {
-  "mention": [
-   "2025-08-06",
-   "AAPL"
-  ],
-  "ticker": "AAPL",
-  "member": "Ritchie John Torres",
+  "member": "Ro Khanna",
   "chamber": "House",
   "party": "D",
-  "state": "NY",
-  "date": "2025-07-11",
-  "days": -26,
-  "type": "Sale",
+  "state": "CA",
+  "date": "2025-08-04",
+  "days": -2,
+  "type": "Purchase",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
-  "filed": "2025-08-20"
+  "filed": "2025-09-09"
  },
  {
   "mention": [
@@ -818,16 +1006,33 @@
    "AAPL"
   ],
   "ticker": "AAPL",
-  "member": "Capito, Shelley Moore",
-  "chamber": "Senate",
-  "party": "R",
-  "state": "WV",
-  "date": "2025-07-18",
-  "days": -19,
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-08-04",
+  "days": -2,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-09-09"
+ },
+ {
+  "mention": [
+   "2025-08-06",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Adam Smith",
+  "chamber": "House",
+  "party": "D",
+  "state": "WA",
+  "date": "2025-08-08",
+  "days": 2,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
-  "filed": "2025-08-04"
+  "filed": "2025-08-08"
  },
  {
   "mention": [
@@ -839,8 +1044,25 @@
   "chamber": "House",
   "party": "R",
   "state": "NC",
-  "date": "2025-08-08",
-  "days": -14,
+  "date": "2025-07-29",
+  "days": -24,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2025-08-05"
+ },
+ {
+  "mention": [
+   "2025-08-22",
+   "INTC"
+  ],
+  "ticker": "INTC",
+  "member": "Tim Moore",
+  "chamber": "House",
+  "party": "R",
+  "state": "NC",
+  "date": "2025-08-01",
+  "days": -21,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
@@ -856,8 +1078,8 @@
   "chamber": "House",
   "party": "R",
   "state": "NC",
-  "date": "2025-08-01",
-  "days": -21,
+  "date": "2025-08-08",
+  "days": -14,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
@@ -890,12 +1112,12 @@
   "chamber": "House",
   "party": "R",
   "state": "NC",
-  "date": "2025-07-29",
-  "days": -24,
-  "type": "Purchase",
-  "amount": "$15,001 - $50,000",
+  "date": "2025-08-13",
+  "days": -9,
+  "type": "Sale",
+  "amount": "$100,001 - $250,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
-  "filed": "2025-08-05"
+  "filed": "2025-09-03"
  },
  {
   "mention": [
@@ -903,16 +1125,33 @@
    "INTC"
   ],
   "ticker": "INTC",
-  "member": "Tim Moore",
+  "member": "Michael T. McCaul",
   "chamber": "House",
   "party": "R",
-  "state": "NC",
-  "date": "2025-08-13",
-  "days": -9,
+  "state": "TX",
+  "date": "2025-08-22",
+  "days": 0,
   "type": "Sale",
-  "amount": "$100,001 - $250,000",
+  "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
-  "filed": "2025-09-03"
+  "filed": "2025-09-11"
+ },
+ {
+  "mention": [
+   "2025-08-22",
+   "INTC"
+  ],
+  "ticker": "INTC",
+  "member": "Michael T. McCaul",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2025-08-22",
+  "days": 0,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2025-09-11"
  },
  {
   "mention": [
@@ -937,23 +1176,6 @@
    "INTC"
   ],
   "ticker": "INTC",
-  "member": "Gilbert Cisneros",
-  "chamber": "House",
-  "party": "D",
-  "state": "CA",
-  "date": "2026-01-09",
-  "days": 1,
-  "type": "Purchase",
-  "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
-  "filed": "2026-02-13"
- },
- {
-  "mention": [
-   "2026-01-08",
-   "INTC"
-  ],
-  "ticker": "INTC",
   "member": "Peters, Gary",
   "chamber": "Senate",
   "party": "D",
@@ -964,6 +1186,23 @@
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
   "filed": "2026-01-07"
+ },
+ {
+  "mention": [
+   "2026-01-08",
+   "INTC"
+  ],
+  "ticker": "INTC",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-09",
+  "days": 1,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2026-02-13"
  },
  {
   "mention": [
@@ -981,6 +1220,57 @@
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
   "filed": "2026-03-02"
+ },
+ {
+  "mention": [
+   "2026-02-19",
+   "DELL"
+  ],
+  "ticker": "DELL",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-02-05",
+  "days": -14,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
+  "filed": "2026-03-09"
+ },
+ {
+  "mention": [
+   "2026-02-19",
+   "DELL"
+  ],
+  "ticker": "DELL",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-02-17",
+  "days": -2,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
+  "filed": "2026-03-09"
+ },
+ {
+  "mention": [
+   "2026-04-10",
+   "PLTR"
+  ],
+  "ticker": "PLTR",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-13",
+  "days": -28,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
+  "filed": "2026-04-07"
  },
  {
   "mention": [
@@ -1009,12 +1299,12 @@
   "chamber": "House",
   "party": "D",
   "state": "CA",
-  "date": "2026-04-14",
-  "days": 4,
-  "type": "Purchase",
-  "amount": "$15,001 - $50,000",
+  "date": "2026-03-16",
+  "days": -25,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
-  "filed": "2026-05-08"
+  "filed": "2026-04-07"
  },
  {
   "mention": [
@@ -1048,16 +1338,16 @@
    "PLTR"
   ],
   "ticker": "PLTR",
-  "member": "Gilbert Cisneros",
+  "member": "Ro Khanna",
   "chamber": "House",
   "party": "D",
   "state": "CA",
-  "date": "2026-03-16",
-  "days": -25,
+  "date": "2026-04-13",
+  "days": 3,
   "type": "Sale",
-  "amount": "$1,001 - $15,000",
+  "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
-  "filed": "2026-04-07"
+  "filed": "2026-05-11"
  },
  {
   "mention": [
@@ -1069,12 +1359,12 @@
   "chamber": "House",
   "party": "D",
   "state": "CA",
-  "date": "2026-03-13",
-  "days": -28,
-  "type": "Sale",
+  "date": "2026-04-14",
+  "days": 4,
+  "type": "Purchase",
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
-  "filed": "2026-04-07"
+  "filed": "2026-05-08"
  },
  {
   "mention": [
@@ -1092,6 +1382,193 @@
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
   "filed": "2026-05-09"
+ },
+ {
+  "mention": [
+   "2026-04-29",
+   "INTC"
+  ],
+  "ticker": "INTC",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-24",
+  "days": -5,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2026-05-11"
+ },
+ {
+  "mention": [
+   "2026-04-29",
+   "INTC"
+  ],
+  "ticker": "INTC",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-01",
+  "days": 2,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-08",
+   "DELL"
+  ],
+  "ticker": "DELL",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-13",
+  "days": -25,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
+  "filed": "2026-05-11"
+ },
+ {
+  "mention": [
+   "2026-05-08",
+   "DELL"
+  ],
+  "ticker": "DELL",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-15",
+  "days": -23,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
+  "filed": "2026-05-11"
+ },
+ {
+  "mention": [
+   "2026-05-08",
+   "DELL"
+  ],
+  "ticker": "DELL",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-24",
+  "days": -14,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
+  "filed": "2026-05-11"
+ },
+ {
+  "mention": [
+   "2026-05-08",
+   "DELL"
+  ],
+  "ticker": "DELL",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-01",
+  "days": -7,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-07-01",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-06-02",
+  "days": -29,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-06"
+ },
+ {
+  "mention": [
+   "2026-07-01",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-06-05",
+  "days": -26,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-02"
+ },
+ {
+  "mention": [
+   "2026-07-01",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-06-16",
+  "days": -15,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-06"
+ },
+ {
+  "mention": [
+   "2026-07-01",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-06-23",
+  "days": -8,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-06"
+ },
+ {
+  "mention": [
+   "2026-07-01",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-06-23",
+  "days": -8,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-06"
  },
  {
   "mention": [
@@ -1133,52 +1610,121 @@
    "MU"
   ],
   "ticker": "MU",
-  "member": "Gilbert Cisneros",
+  "member": "Ro Khanna",
   "chamber": "House",
   "party": "D",
   "state": "CA",
-  "date": "2026-06-05",
-  "days": -26,
+  "date": "2026-06-30",
+  "days": -1,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-06"
+ },
+ {
+  "mention": [
+   "2026-07-01",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-07-06",
+  "days": 5,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/MU",
-  "filed": "2026-07-02"
+  "filed": "2026-08-07"
  },
  {
   "mention": [
-   "2025-04-09",
-   "SPY"
+   "2026-07-01",
+   "MU"
   ],
-  "ticker": "broad market (22 stocks)",
-  "member": "Marjorie Taylor Greene",
+  "ticker": "MU",
+  "member": "Ro Khanna",
   "chamber": "House",
-  "party": "R",
-  "state": "GA",
-  "date": "2025-04-08",
-  "days": -1,
-  "type": "Purchase",
-  "amount": "~$21,000–$315,000 total across Apr 8–9 (plus T-bill sale $50,001–$100,000 on Apr 8)",
-  "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029138.pdf",
-  "note": "Filed Apr 11 2025; reported by NYT/Bloomberg/AP. Bought stocks during the selloff the day before and the day of the pause.",
-  "filed": "2025-04-11"
- },
- {
-  "mention": [
-   "2026-10-01",
-   "BA"
-  ],
-  "ticker": "BA",
-  "member": "Maria Elvira Salazar",
-  "chamber": "House",
-  "party": "R",
-  "state": "FL",
-  "date": "2026-09-24",
-  "days": -7,
+  "party": "D",
+  "state": "CA",
+  "date": "2026-07-06",
+  "days": 5,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/BA",
-  "note": "Filed Oct 7, 2026 (after the comment).",
-  "filed": "2026-10-07"
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-08-07"
+ },
+ {
+  "mention": [
+   "2026-07-01",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-07-08",
+  "days": 7,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-08-07"
+ },
+ {
+  "mention": [
+   "2026-09-14",
+   "GOOGL"
+  ],
+  "ticker": "GOOGL",
+  "member": "Michael Rulli",
+  "chamber": "House",
+  "party": "R",
+  "state": "OH",
+  "date": "2026-08-24",
+  "days": -21,
+  "type": "Sale",
+  "amount": "$50,001 - $100,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
+  "filed": "2026-08-25",
+  "note": "Filed Aug 25, 2026 (before the comment)."
+ },
+ {
+  "mention": [
+   "2026-09-14",
+   "GOOGL"
+  ],
+  "ticker": "GOOGL",
+  "member": "Thomas H. Kean Jr.",
+  "chamber": "House",
+  "party": "R",
+  "state": "NJ",
+  "date": "2026-08-27",
+  "days": -18,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
+  "filed": "2026-09-12",
+  "note": "Filed Sep 12, 2026 (before the comment)."
+ },
+ {
+  "mention": [
+   "2026-09-14",
+   "GOOGL"
+  ],
+  "ticker": "GOOGL",
+  "member": "Pete Sessions",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2026-09-14",
+  "days": 0,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
+  "filed": "2026-09-18",
+  "note": "Filed Sep 18, 2026 (after the comment). Same calendar day as the Truth Social post (timing overlap only; no wrongdoing alleged)."
  },
  {
   "mention": [
@@ -1322,57 +1868,21 @@
  },
  {
   "mention": [
-   "2026-09-14",
-   "GOOGL"
+   "2026-10-01",
+   "BA"
   ],
-  "ticker": "GOOGL",
-  "member": "Michael Rulli",
+  "ticker": "BA",
+  "member": "Maria Elvira Salazar",
   "chamber": "House",
   "party": "R",
-  "state": "OH",
-  "date": "2026-08-24",
-  "days": -21,
-  "type": "Sale",
-  "amount": "$50,001 - $100,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
-  "filed": "2026-08-25",
-  "note": "Filed Aug 25, 2026 (before the comment)."
- },
- {
-  "mention": [
-   "2026-09-14",
-   "GOOGL"
-  ],
-  "ticker": "GOOGL",
-  "member": "Thomas H. Kean Jr.",
-  "chamber": "House",
-  "party": "R",
-  "state": "NJ",
-  "date": "2026-08-27",
-  "days": -18,
+  "state": "FL",
+  "date": "2026-09-24",
+  "days": -7,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
-  "filed": "2026-09-12",
-  "note": "Filed Sep 12, 2026 (before the comment)."
- },
- {
-  "mention": [
-   "2026-09-14",
-   "GOOGL"
-  ],
-  "ticker": "GOOGL",
-  "member": "Pete Sessions",
-  "chamber": "House",
-  "party": "R",
-  "state": "TX",
-  "date": "2026-09-14",
-  "days": 0,
-  "type": "Sale",
-  "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
-  "filed": "2026-09-18",
-  "note": "Filed Sep 18, 2026 (after the comment). Same calendar day as the Truth Social post (timing overlap only; no wrongdoing alleged)."
+  "source": "https://www.quiverquant.com/congresstrading/stock/BA",
+  "note": "Filed Oct 7, 2026 (after the comment).",
+  "filed": "2026-10-07"
  },
  {
   "mention": [
