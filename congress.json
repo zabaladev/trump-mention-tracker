@@ -2393,5 +2393,107 @@
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/MU",
   "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-14",
+   "V"
+  ],
+  "ticker": "V",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-15",
+  "days": 1,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/V",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-14",
+   "V"
+  ],
+  "ticker": "V",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-01",
+  "days": -13,
+  "type": "Purchase",
+  "amount": "$50,001 - $100,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/V",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-14",
+   "V"
+  ],
+  "ticker": "V",
+  "member": "Michael T. McCaul",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2026-04-27",
+  "days": -17,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/V",
+  "filed": "2026-05-04"
+ },
+ {
+  "mention": [
+   "2026-05-14",
+   "V"
+  ],
+  "ticker": "V",
+  "member": "David J. Taylor",
+  "chamber": "House",
+  "party": "R",
+  "state": "OH",
+  "date": "2026-04-27",
+  "days": -17,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/V",
+  "filed": "2026-05-07"
+ },
+ {
+  "mention": [
+   "2026-05-14",
+   "V"
+  ],
+  "ticker": "V",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-24",
+  "days": -20,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/V",
+  "filed": "2026-05-11"
+ },
+ {
+  "mention": [
+   "2026-05-14",
+   "V"
+  ],
+  "ticker": "V",
+  "member": "Jonathan Jackson",
+  "chamber": "House",
+  "party": "D",
+  "state": "IL",
+  "date": "2026-04-24",
+  "days": -20,
+  "type": "Sale",
+  "amount": "$50,001 - $100,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/V",
+  "filed": "2026-05-27"
  }
 ]
