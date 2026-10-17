@@ -10,6 +10,7 @@ EX = json.load(open(f'{HERE}/exclusions.json'))
 DISC = json.load(open(f'{HERE}/disclosures.json'))
 CONG = json.load(open(f'{HERE}/congress.json'))
 SEC = json.load(open(f'{HERE}/sectors.json'))  # ticker -> Yahoo sector -> SPDR sector ETF
+FAM = json.load(open(f'{HERE}/family_cos.json'))  # family-linked listed cos + SEC milestones
 DNOTES = [
  'Sources are public only: OGE Form 278e/278-T (via OGE, whitehouse.gov, and reporting by CNN, WSJ, CNBC), SEC 13D/13G/8-K/S-3 filings, company disclosures, and the family members\' own posts.',
  'Amounts are disclosed as ranges, not exact figures. Reports can be filed up to 45 days after a trade (some were later), so overlaps were often not public at the time of the comment.',
@@ -31,7 +32,7 @@ tick = {m['ticker'] for m in M if m.get('ticker') and not m['ticker'].startswith
 for m in M:
     for t, _ in m.get('basket', []): tick.add(t)
 tick |= {v['etf'] for v in SEC['tickers'].values()}
-tick |= set(BENCH.values()) | {b[1] for b in BENCHES} | {'SPY', 'DIA'}
+tick |= set(BENCH.values()) | {b[1] for b in BENCHES} | {'SPY', 'DIA'} | {c['ticker'] for c in FAM['companies']}
 px = {}
 for t in sorted(tick):
     try:
@@ -185,9 +186,40 @@ for t in sorted({r['ticker'] for r in ok}):
     first = min(pd.Timestamp(r['date']) for r in ok if r['ticker'] == t) - pd.Timedelta(days=120)
     w = _wser(px[t]); i0 = max(int((_wk < first).sum()), int(w.isna().values.argmin()) if w.notna().any() else 0)
     tkpx['t'][t] = {'i0': i0, 'v': [_sig(x) for x in w.iloc[i0:]], 'last': [str(px[t].index[-1].date()), _sig(px[t].iloc[-1])]}
+# family-linked listed companies vs indexes (context panel; not accusation)
+def _ret_since(s, d0):
+    a = asof(s, pd.Timestamp(d0)); b = float(s.iloc[-1]) if len(s) else None
+    return None if a is None or b is None or a == 0 else float(b / a - 1)
+_fam_wk = pd.date_range(pd.Timestamp('2024-03-01'), TODAY, freq='W-FRI')
+fam_rows = []
+for c in FAM['companies']:
+    tkr = c['ticker']; s = px.get(tkr)
+    row = dict(ticker=tkr, name=c['name'], link=c['link'], holding_source=c['holding_source'],
+               milestones=[], last=None, ytd=None, ytd_sp=None)
+    if s is not None and len(s):
+        row['last'] = [str(s.index[-1].date()), _sig(s.iloc[-1])]
+        y0 = f'{TODAY.year}-01-01'
+        row['ytd'] = _ret_since(s, y0)
+        row['ytd_sp'] = _ret_since(px[BENCH['sp']], y0) if 'sp' in BENCH else None
+        for m in c['milestones']:
+            mr = _ret_since(s, m['date']); br = _ret_since(px[BENCH['sp']], m['date']) if 'sp' in BENCH else None
+            row['milestones'].append(dict(date=m['date'], label=m['label'], source=m['source'],
+                                          ret=mr, ex=(None if mr is None or br is None else mr - br), bench=br))
+        # weekly series for chart (DJT and peers), aligned
+        w = s.reindex(s.index.union(_fam_wk)).ffill().reindex(_fam_wk)
+        i0 = int(w.isna().values.argmin()) if w.notna().any() else 0
+        row['wk'] = {'i0': i0, 'v': [_sig(x) for x in w.iloc[i0:]]}
+    else:
+        row['status'] = 'no price data'
+        row['milestones'] = [dict(date=m['date'], label=m['label'], source=m['source'], ret=None, ex=None, bench=None) for m in c['milestones']]
+    fam_rows.append(row)
+fam_px = {'dates': [str(d.date()) for d in _fam_wk],
+          'bench': {k: [_sig(x) for x in px[BENCH[k]].reindex(px[BENCH[k]].index.union(_fam_wk)).ffill().reindex(_fam_wk)] for k in BKEYS},
+          'note': FAM['_note'], 'rows': fam_rows}
+
 gridd = dict(dates=[str(d.date()) for d in grid], **{k: [round(float(x), 3) for x in ff[BENCH[k]].reindex(grid)] for k in BKEYS})
 data = dict(grid=gridd, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
-            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx, sector_note=SEC['_note'], sector_etfs=SEC['etf_names'])
+            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx, sector_note=SEC['_note'], sector_etfs=SEC['etf_names'], family=fam_px)
 json.dump(data, open(f'{HERE}/data.json', 'w'), indent=1, default=float)
 html = open(f'{HERE}/template.html').read()
 html = html.replace('/*__DATA__*/null', json.dumps(data, default=float)).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())
