@@ -377,23 +377,33 @@ def _feed_item(r):
     return dict(id=gid, when=when, title=title, link=link, text='\n'.join(bits), src=r.get('source'), tags=[r['group'], r['category'], r['type']])
 _items = sorted((_feed_item(r) for r in rows), key=lambda i: i['when'], reverse=True)
 _now = dt.datetime.now(dt.timezone.utc)
-_rss = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>',
-        '<title>Trump, Family &amp; Administration — Investment Mention Tracker</title>', f'<link>{SITE}</link>',
-        f'<atom:link href="{SITE}feed.xml" rel="self" type="application/rss+xml"/>',
-        '<description>Every sourced stock, fund and crypto mention by Donald Trump, his family and administration officials, with how the asset did against the S&amp;P 500. Public data only; no wrongdoing alleged.</description>',
-        '<language>en-us</language>', f'<lastBuildDate>{_eu.format_datetime(_now)}</lastBuildDate>']
-for i in _items:
-    _rss.append('<item>' + f'<title>{_x(i["title"])}</title><link>{_x(i["link"])}</link>'
-                + f'<guid isPermaLink="false">{i["id"]}</guid><pubDate>{_eu.format_datetime(i["when"])}</pubDate>'
-                + ''.join(f'<category>{_x(c)}</category>' for c in i['tags'])
-                + f'<description>{_x(i["text"]).replace(chr(10), "&lt;br&gt;")}</description></item>')
-_rss.append('</channel></rss>')
-open(f'{HERE}/feed.xml', 'w').write('\n'.join(_rss))
-json.dump({'version': 'https://jsonfeed.org/version/1.1', 'title': 'Trump, Family & Administration — Investment Mention Tracker',
-           'home_page_url': SITE, 'feed_url': SITE + 'feed.json', 'language': 'en-US',
-           'description': 'Every sourced investment mention, newest first. Public data only; no wrongdoing alleged.',
-           'items': [{'id': i['id'], 'url': i['link'], 'external_url': i['src'], 'title': i['title'], 'content_text': i['text'],
-                      'date_published': i['when'].isoformat(), 'tags': i['tags']} for i in _items]},
-          open(f'{HERE}/feed.json', 'w'), indent=1, ensure_ascii=False)
+# One combined feed plus one per group (Trump / Family / Admin), so readers can follow just the people they care about.
+_FT = 'Trump, Family &amp; Administration — Investment Mention Tracker'
+def _write_feed(items, stem, label, who_desc):
+    t_x = _FT + (f' ({_x(label)} only)' if label else '')
+    t_j = t_x.replace('&amp;', '&')
+    rss = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>',
+           f'<title>{t_x}</title>', f'<link>{SITE}</link>',
+           f'<atom:link href="{SITE}{stem}.xml" rel="self" type="application/rss+xml"/>',
+           f'<description>Every sourced stock, fund and crypto mention by {_x(who_desc)}, with how the asset did against the S&amp;P 500. Public data only; no wrongdoing alleged.</description>',
+           '<language>en-us</language>', f'<lastBuildDate>{_eu.format_datetime(_now)}</lastBuildDate>']
+    for i in items:
+        rss.append('<item>' + f'<title>{_x(i["title"])}</title><link>{_x(i["link"])}</link>'
+                   + f'<guid isPermaLink="false">{i["id"]}</guid><pubDate>{_eu.format_datetime(i["when"])}</pubDate>'
+                   + ''.join(f'<category>{_x(c)}</category>' for c in i['tags'])
+                   + f'<description>{_x(i["text"]).replace(chr(10), "&lt;br&gt;")}</description></item>')
+    rss.append('</channel></rss>')
+    open(f'{HERE}/{stem}.xml', 'w').write('\n'.join(rss))
+    json.dump({'version': 'https://jsonfeed.org/version/1.1', 'title': t_j,
+               'home_page_url': SITE, 'feed_url': SITE + stem + '.json', 'language': 'en-US',
+               'description': f'Every sourced investment mention by {who_desc}, newest first. Public data only; no wrongdoing alleged.',
+               'items': [{'id': i['id'], 'url': i['link'], 'external_url': i['src'], 'title': i['title'], 'content_text': i['text'],
+                          'date_published': i['when'].isoformat(), 'tags': i['tags']} for i in items]},
+              open(f'{HERE}/{stem}.json', 'w'), indent=1, ensure_ascii=False)
+    return len(items)
+_write_feed(_items, 'feed', None, 'Donald Trump, his family and administration officials')
+_GF = {'Trump': ('feed-trump', 'Donald Trump'), 'Family': ('feed-family', 'members of the Trump family'), 'Admin': ('feed-admin', 'Trump administration officials')}
+for _g, (_stem, _wd) in _GF.items():
+    print('feed', _stem, _write_feed([i for i in _items if i['tags'][0] == _g], _stem, _g, _wd))
 print('feed items', len(_items))
 
