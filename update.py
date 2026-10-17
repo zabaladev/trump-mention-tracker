@@ -22,10 +22,13 @@ TODAY = pd.Timestamp(dt.date.today())
 # pre windows END at the last close BEFORE the entry day (pure pre-mention);
 # 'day0' = prior close -> entry-day close (mention-day reaction); post windows start at entry close.
 HOR = ['-30d', '-7d', 'day0', '+1d', '+7d', '+30d', '+90d', 'to date']
-# Index benchmarks (price indices); ETF fallback if Yahoo lacks the index.
+# Index benchmarks (price indices, plus dividend-reinvested ETF total-return proxies); ETF fallback if Yahoo lacks the index.
 BENCHES = [('sp', '^GSPC', 'SPY', 'S&P 500'), ('dow', '^DJI', 'DIA', 'Dow Jones (DJIA)'), ('ixic', '^IXIC', 'ONEQ', 'Nasdaq Composite'),
            ('ndx', '^NDX', 'QQQ', 'Nasdaq 100'), ('rut', '^RUT', 'IWM', 'Russell 2000'), ('rui', '^RUI', 'IWB', 'Russell 1000'),
-           ('rua', '^RUA', 'IWV', 'Russell 3000'), ('w5000', '^W5000', 'VTI', 'Wilshire 5000 (total market)'), ('mid', '^MID', 'MDY', 'S&P MidCap 400')]
+           ('rua', '^RUA', 'IWV', 'Russell 3000'), ('w5000', '^W5000', 'VTI', 'Wilshire 5000 (total market)'), ('mid', '^MID', 'MDY', 'S&P MidCap 400'),
+           # Total-return proxies: ETF closes adjusted for dividends (auto_adjust), i.e. dividends reinvested, minus small ETF fees.
+           ('sp_tr', 'SPY', 'SPY', 'S&P 500 total return (SPY)'), ('dow_tr', 'DIA', 'DIA', 'Dow total return (DIA)'),
+           ('ndx_tr', 'QQQ', 'QQQ', 'Nasdaq 100 total return (QQQ)'), ('vti_tr', 'VTI', 'VTI', 'US total market total return (VTI)')]
 BENCH = {'btc': 'BTC-USD'}
 
 tick = {m['ticker'] for m in M if m.get('ticker') and not m['ticker'].startswith('BASKET:')}
