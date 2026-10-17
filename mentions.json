@@ -1652,5 +1652,21 @@
   "ticker": "UCB.BR",
   "quote": "\"Here in Georgia, the company UCB is investing $2 billion to build its first ever pharmaceutical factory in the United States.\" (Dalton, Georgia rally)",
   "note": "Said about 48 minutes into a campaign rally speech that began at 4:24 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Mon Oct 19). Transcript also published by The Singju Post. The $2 billion Gwinnett County biologics plant was announced Mar 24 2026 (Georgia Governor's office) and its site was dedicated Oct 9 2026 (UCB). Brussels-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades in UCB's US OTC ticker (UCBJY) within 30 days before to 7 days after (last listed trade Sep 23 2025; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-04-13",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-receiving-doordash-order-and-exchange-with-reporters",
+  "archive_url": "https://trump-archive.com/item/be70f2c5-c722-4f65-bfb3-d3ad1000c7c6",
+  "time_et": "2026-04-13 12:38",
+  "time_src": "American Presidency Project note: the President spoke at 12:38 p.m. on the West Wing Colonnade; the DoorDash line is about 15 seconds in, so during trading hours",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "DoorDash",
+  "ticker": "DASH",
+  "quote": "\"These are good. DoorDash is doing a good job.\" (receiving a McDonald's DoorDash order outside the Oval Office)",
+  "note": "Said on Mon Apr 13 2026 when Arkansas DoorDash driver Sharon Simmons delivered two bags of McDonald's to the West Wing Colonnade at 12:38 PM ET, an event the White House staged to promote the no-tax-on-tips law; Trump tipped her $100 (AP; CBS News; American Presidency Project transcript). The remark came during trading hours, so day 0 is Apr 13. This is praise of the delivery service during a policy event, not a buy call. Quiver lists 10 congressional DoorDash trades from 30 days before to 7 days after: 7 by Rep. Gilbert Cisneros (purchases on Mar 18, Mar 27, Apr 6, Apr 13, Apr 14 and Apr 15, and a sale on Mar 18), 2 by Rep. Ro Khanna (a sale on Mar 23 and a purchase on Apr 13; his filings list many stocks) and a full sale by Sen. Alan Armstrong on Mar 27, all in small ranges. They are listed for context only. No wrongdoing alleged."
  }
 ]

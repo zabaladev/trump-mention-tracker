@@ -2529,5 +2529,175 @@
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
   "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-15",
+  "days": 2,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-05-08"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-14",
+  "days": 1,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-05-08"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-13",
+  "days": 0,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-05-11"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-13",
+  "days": 0,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-05-08"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-06",
+  "days": -7,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-05-08"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Armstrong, Alan",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "OK",
+  "date": "2026-03-27",
+  "days": -17,
+  "type": "Sale (Full)",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-07-21"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-27",
+  "days": -17,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-23",
+  "days": -21,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-18",
+  "days": -26,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-04-13",
+   "DASH"
+  ],
+  "ticker": "DASH",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-18",
+  "days": -26,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
+  "filed": "2026-04-07"
  }
 ]
