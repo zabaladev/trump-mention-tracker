@@ -388,6 +388,8 @@ def _site_updates(n=10):
         if len(out) >= n: break
     return out
 data['updates'] = _site_updates()
+# Peer-outperformance ranking of members of Congress (built by rank.py from public PTR data via Quiver)
+if os.path.exists(f'{HERE}/rankings.json'): data['rank'] = json.load(open(f'{HERE}/rankings.json'))
 data = _compact(json.loads(json.dumps(data, default=float)))
 json.dump(data, open(f'{HERE}/data.json', 'w'), indent=1, default=float)
 html = open(f'{HERE}/template.html').read()

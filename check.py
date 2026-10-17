@@ -18,7 +18,7 @@ import json, re, sys, pathlib, datetime, xml.etree.ElementTree as ET
 ROOT = pathlib.Path(__file__).resolve().parent
 LIVE = "https://zabaladev.github.io/trump-mention-tracker/"
 JSON_FILES = ["data.json", "mentions.json", "disclosures.json", "exclusions.json", "congress.json",
-              "sectors.json", "family_cos.json", "committees.json",
+              "sectors.json", "family_cos.json", "committees.json", "rankings.json",
               "feed.json", "feed-trump.json", "feed-family.json", "feed-admin.json"]
 XML_FILES = ["feed.xml", "feed-trump.xml", "feed-family.xml", "feed-admin.xml"]
 TEXT_FILES = ["index.html", "template.html", "README.md"] + JSON_FILES + XML_FILES
@@ -99,6 +99,17 @@ def check_page(url, label):
                 try: txt = pg.inner_text(sel, timeout=3000).strip()
                 except Exception: txt = ""
                 if len(txt) < 10: fail(f"{label} {w}px: {sel} is empty")
+            k0 = len(errs)
+            # design system v2: six tabs; each must open without errors
+            tabs = pg.evaluate("[...document.querySelectorAll('#tabs a')].map(a=>a.dataset.tab)")
+            if len(tabs) < 6: fail(f"{label} {w}px: expected 6 tabs, found {tabs}")
+            for t in tabs:
+                pg.evaluate(f"showTab('{t}')"); pg.wait_for_timeout(300)
+                if not pg.evaluate(f"document.getElementById('pane-{t}').offsetHeight>0"): fail(f"{label} {w}px: tab {t} is empty")
+            if not pg.evaluate("!!(D.rank&&D.rank.members&&D.rank.members.length)"): fail(f"{label} {w}px: rankings data missing")
+            if len(pg.inner_text('#rkSum').strip()) < 20: fail(f"{label} {w}px: rankings summary is empty")
+            for e in errs[k0:]: fail(f"{label} {w}px (while switching tabs) {e}")
+            pg.evaluate("showTab('overview')"); pg.wait_for_timeout(200)
             n = pg.evaluate("document.querySelectorAll('canvas').length")
             if n < 3: fail(f"{label} {w}px: only {n} charts drawn")
             print(f"{label} {w}px: loaded, {len(errs)} errors, {n} charts")
