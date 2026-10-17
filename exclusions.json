@@ -248,5 +248,10 @@
   "item": "Intel stake remarks (May 1 and May 4 2026)",
   "reason": "In the May 1 Marine One gaggle Trump said \"we made an Intel deal... we ended up making $40 billion\", and at the May 4 Small Business Summit \"I made an investment, Intel, a chip maker\". Both repeat the US-stake boast already tracked on Apr 29 (\"very proud\" of Intel) within a week, so they aren't scored again (Trump Archive items 6741cb6b, 2d442348).",
   "kind": "notcall"
+ },
+ {
+  "item": "JD Vance on banning congressional stock trading (Apr 14 and May 5 2026)",
+  "reason": "At a Turning Point town hall in Athens, Georgia on Apr 14 2026, Vance said he backed the State of the Union call to ban members of Congress from trading stocks, and that buying or selling stocks after a classified briefing \"should be illegal\". He repeated the State of the Union line in a May 5 factory speech in Des Moines, Iowa. Neither speech named a stock or listed company, and his other April events (Apr 1 swearing-in, Apr 7 Budapest rally, bilateral meeting and press conference, Apr 8 and 10 gaggles, Apr 11 Islamabad briefing) named none either (Roll Call Factbase transcripts via the Trump Archive, items 0d79c4eb and 0bb6bdbf).",
+  "kind": "noasset"
  }
 ]
