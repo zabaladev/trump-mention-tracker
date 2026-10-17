@@ -253,5 +253,20 @@
   "item": "JD Vance on banning congressional stock trading (Apr 14 and May 5 2026)",
   "reason": "At a Turning Point town hall in Athens, Georgia on Apr 14 2026, Vance said he backed the State of the Union call to ban members of Congress from trading stocks, and that buying or selling stocks after a classified briefing \"should be illegal\". He repeated the State of the Union line in a May 5 factory speech in Des Moines, Iowa. Neither speech named a stock or listed company, and his other April events (Apr 1 swearing-in, Apr 7 Budapest rally, bilateral meeting and press conference, Apr 8 and 10 gaggles, Apr 11 Islamabad briefing) named none either (Roll Call Factbase transcripts via the Trump Archive, items 0d79c4eb and 0bb6bdbf).",
   "kind": "noasset"
+ },
+ {
+  "item": "Raytheon and Lockheed 'building factories' and the $51 billion buyback line (Trump, Mar 19 2026 bilateral with Japan's Sanae Takaichi)",
+  "reason": "Trump said \"Raytheon is building four factories. Lockheed is building five or six factories\" after \"a very tough meeting with them\", and that a contractor had spent \"$51 billion buying back stock. Now they're not allowed to do that\" (Roll Call Factbase transcript). It's a claim of credit for defense-production policy, not praise or a pick for either stock, so it is not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Ike Perlmutter selling Disney stock (Trump, Mar 16 2026 Kennedy Center board lunch)",
+  "reason": "An anecdote that Perlmutter \"became the largest owner of Disney\" and sold the stock after \"they went woke\" (Roll Call Factbase transcript). It describes someone else's past trade rather than commenting on the company or its shares now, so it is not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "John Deere, Case and Caterpillar (Trump, Mar 27 2026 White House farmers event)",
+  "reason": "Trump recalled meeting \"the chairman of John Deere, great company\" in a story about the new diesel exhaust fluid (DEF) rules, then listed \"John Deere and Case and all of the great companies, Caterpillar\" as makers he wants to build cheaper tractors (Roll Call Factbase transcript). A passing aside and a group list, so not scored under the high-signal rule.",
+  "kind": "notcall"
  }
 ]
