@@ -27,6 +27,9 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 .disc{font-size:11px;color:var(--mu);margin-top:16px;line-height:1.5}.warn{color:#fbbf24;font-size:12px}
 .mx td,.mx th{text-align:center}.mx td:first-child,.mx th:first-child{text-align:left}
 .cbx label{margin-right:10px;font-size:12px;white-space:nowrap}
+.ins{background:linear-gradient(135deg,#1f2a44,#1a2133);border:1px solid #3b4a72;border-radius:12px;padding:14px 18px;margin-top:12px}
+.ins h2{font-size:18px;margin:0 0 8px}.ins ul{margin:0;padding-left:20px}.ins li{font-size:15px;line-height:1.55;margin:4px 0}
+.ins details{margin-top:8px;font-size:13px;color:#c7cee0}.ins summary{cursor:pointer;color:#7cb4ff}.ins .cav{font-size:12px;color:#fbbf24;margin-top:8px}
 @media(max-width:1000px){.grid,.hcards{grid-template-columns:1fr}}
 </style></head><body>
 <header><h1>Trump, Family &amp; Administration — Investment Mention Tracker</h1><div class="sub" id="gen"></div></header>
@@ -37,6 +40,16 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
  <div class="frow"><b>Asset type</b><span id="fType"></span></div>
  <div class="frow"><b>Benchmark</b><select id="bm"></select><span class="sub">Updates every card, chart and table below. The matrix compares all indexes.</span></div>
 </div>
+<div class="ins"><h2>Plain-English insights <span class="sub">(updates with your filters &amp; benchmark)</span></h2><ul id="insL"></ul>
+<details><summary>What do these terms mean?</summary><ul>
+<li><b>Benchmark / index:</b> the "do-nothing" comparison, for example simply owning the whole S&amp;P 500 instead.</li>
+<li><b>Excess return:</b> how much better (or worse) the mentioned asset did than the benchmark over the same days. +5% means it beat the index by 5 percentage points.</li>
+<li><b>Win rate:</b> the share of mentions where the asset's price went up over that period. "Beat the index" is the share that did better than the benchmark.</li>
+<li><b>+7d / +30d / +90d / to date:</b> 7, 30 or 90 calendar days after the mention, or from the mention until today.</li>
+<li><b>Pre-move (-30d / -7d):</b> how the asset moved in the month or week <i>before</i> the comment, compared with the index.</li>
+<li><b>Basket:</b> for whole-sector comments (e.g. "rare earths"), an equal mix of the related stocks/ETFs listed in that sector's card.</li>
+<li><b>Virtual portfolio:</b> pretend $1,000 went into each mentioned asset at the close on the day it was mentioned.</li></ul></details>
+<div class="cav">Caveats: past results don't predict future ones. Samples are small and overlap in time. Timing patterns are correlation, not proof of anything. Prices exclude fees and taxes. This is not financial advice.</div></div>
 <div class="cards" id="cards"></div>
 <div class="hcards" id="hcards"></div>
 <div class="grid">
@@ -89,6 +102,26 @@ let ch={};function mk(id,cfg){ch[id]&&ch[id].destroy();ch[id]=new Chart(document
 Chart.defaults.color='#9aa4bd';Chart.defaults.borderColor='#2c3550';Chart.defaults.animation=false;
 const thrEl=document.getElementById('thr');thrEl.oninput=()=>render();
 const big=r=>{const t=(+thrEl.value||10)/100;return['-7d','-30d'].some(h=>X(r)[h]!=null&&Math.abs(X(r)[h])>=t)};
+
+const usd=x=>'$'+(Math.round(x/10)*10).toLocaleString('en-US');const pp=x=>`${Math.abs(x*100).toFixed(1)} percentage points`;
+const inTen=x=>x==null?'–':`${Math.round(x*10)} in 10`;
+function insights(sel,ok,P){const L=P.val.length-1,I=P.inv[L],b=BL[BM],out=[];const gs=[...F.group];
+ if(!ok.length){document.getElementById('insL').innerHTML='<li>No priced mentions match these filters. Try turning more filters on.</li>';return}
+ const who=gs.length==3?'Trump, his family and his administration':gs.map(g=>({Trump:'Donald Trump',Family:'Trump family members',Admin:'Trump administration officials'})[g]).join(' and ');
+ out.push(`You're looking at <b>${sel.length}</b> public mentions by ${who}, and <b>${ok.length}</b> of them can be priced.`);
+ const v=P.val[L],ix=P[BM][L];
+ out.push(`If you'd put <b>$1,000</b> into every one of these ${ok.length} assets on the day it was mentioned${hold=='hold'?' and held':' and sold 30 days later'}, you'd have about <b>${usd(v)}</b> today from <b>${usd(I)}</b> put in (${v>=I?'a gain':'a loss'} of ${Math.abs((v/I-1)*100).toFixed(0)}%). The same money in the ${b} would be about <b>${usd(ix)}</b>, so the mentions ${v>=ix?'came out <b>ahead</b>':'came out <b>behind</b>'} by about ${usd(Math.abs(v-ix))}.`);
+ const s=stats(ok,'+30d');if(s.n)out.push(`One month after being mentioned, about <b>${inTen(s.win)}</b> were up in price, and <b>${inTen(s.beat)}</b> did better than the ${b}.`);
+ if(s.aex!=null)out.push(`On average, a mentioned asset did <b>${pp(s.aex)} ${s.aex>=0?'better':'worse'}</b> than the ${b} in the month after the comment. The typical (middle) case was ${pp(s.mex)} ${s.mex>=0?'better':'worse'}, so ${Math.abs(s.aex-s.mex)>0.03?'a few big winners or losers pull the average around.':'the average is fairly representative.'}`);
+ const d0a=ok.map(r=>r.returns['day0']).filter(x=>x!=null),d0=avg(d0a),d0m=med(d0a);if(d0!=null)out.push(`On the day of the comment itself, prices moved ${d0>=0?'up':'down'} about ${Math.abs(d0*100).toFixed(1)}% on average, but the typical (middle) move was ${d0m>=0?'+':''}${(d0m*100).toFixed(1)}%.${Math.abs(d0-d0m)>0.03?' A few huge first-day jumps (for example, newly launched coins) inflate the average.':''}`);
+ const td=ok.filter(r=>X(r)['to date']!=null).sort((a,b2)=>X(b2)['to date']-X(a)['to date']);
+ if(td.length>1){const B=td[0],W=td[td.length-1];out.push(`Best so far: <b>${B.asset}</b> (${B.who}, ${B.date}), ${pp(X(B)['to date'])} ahead of the index. Worst: <b>${W.asset}</b> (${W.who}, ${W.date}), ${pp(X(W)['to date'])} behind.`)}
+ const base=D.rows.filter(r=>F.category.has(r.category)&&F.type.has(r.type)&&r.status=='ok');
+ const gp=['Trump','Family','Admin'].map(g=>{const rs=base.filter(r=>r.group==g);if(!rs.length)return null;const p=port(rs,'hold'),l=p.val.length-1;return[g,p.val[l]/p.inv[l]-p[BM][l]/p.inv[l],rs.length]}).filter(Boolean);
+ if(gp.length>1){gp.sort((a,c)=>c[1]-a[1]);const nm={Trump:'Trump\'s own',Family:'family members\'',Admin:'administration officials\''};out.push(`By who's talking (held to date, vs the ${b}): ${gp.map(([g,x,n])=>`${nm[g]} picks are ${x>=0?'ahead':'behind'} by ${Math.abs(x*100).toFixed(0)}% (${n})`).join('; ')}.`)}
+ const t=(+thrEl.value||10)/100,pm=ok.filter(big);out.push(`<b>${pm.length}</b> of ${ok.length} assets had already moved unusually (${(t*100).toFixed(0)}%+ vs the index) in the week or month <i>before</i> the comment. That can mean news, momentum or leaks, and the data can't tell which.`);
+ const nd=sel.filter(r=>r.disclosures.length).length,nc=sel.filter(r=>r.congress.length).length;if(nd||nc)out.push(`${nd} mention(s) involve an asset the speaker, their family or a linked company has publicly disclosed owning or trading, and ${nc} had congressional trades in that asset around the time of the comment. These are timing overlaps from public filings, not evidence of wrongdoing.`);
+ document.getElementById('insL').innerHTML=out.map(x=>`<li>${x}</li>`).join('')}
 function render(){
  document.querySelectorAll('.bml').forEach(e=>e.textContent=BL[BM]);
  const sel=D.rows.filter(r=>F.group.has(r.group)&&F.category.has(r.category)&&F.type.has(r.type)),ok=sel.filter(r=>r.status=='ok');
@@ -110,7 +143,7 @@ function render(){
  document.getElementById('tGrp').innerHTML='<tr><th>Who</th><th>n</th>'+KH.map(h=>`<th>${h} win</th><th>${h} beat</th><th>${h} avg excess</th>`).join('')+`<th>Portfolio vs ${BL[BM]}</th></tr>`+
  ['Trump','Family','Admin'].map(g=>{const rs=base.filter(r=>r.group==g);if(!rs.length)return'';const p=port(rs,'hold'),l=p.val.length-1,i=p.inv[l];
  return `<tr><td><span class="tag" style="background:${GC[g]};color:#111">${g}</span></td><td>${rs.length}</td>`+KH.map(h=>{const s=stats(rs,h);return `<td>${pct(s.win,0)}</td><td>${pct(s.beat,0)}</td><td>${pct(s.aex)}</td>`}).join('')+`<td>${pct(p.val[l]/i-1)} vs ${pct(p[BM][l]/i-1)}</td></tr>`}).join('');
- tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
+ insights(sel,ok,P);tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
 function pre(ok){const t=(+thrEl.value||10)/100,m=r=>Math.max(Math.abs(X(r)['-30d']||0),Math.abs(X(r)['-7d']||0));const rs=[...ok].sort((a,b)=>m(b)-m(a));const n=rs.filter(big).length;
  document.getElementById('pre').innerHTML=`<div class="sub" style="margin-bottom:6px"><b>${n}</b> of ${rs.length} mentions in filter had an abnormal pre-move ≥ ${(t*100).toFixed(0)}% vs ${BL[BM]} (up ${rs.filter(r=>['-7d','-30d'].some(h=>(X(r)[h]??0)>=t)).length}, down ${rs.filter(r=>['-7d','-30d'].some(h=>(X(r)[h]??0)<=-t)).length}).</div><table><tr><th>Date</th><th>Who</th><th>Asset</th><th>-30d raw</th><th>-30d excess</th><th>-7d raw</th><th>-7d excess</th><th>Day 0</th><th>+1d</th><th>+30d excess</th><th>Flags</th></tr>`+rs.map(r=>{const c=h=>`<td class="${X(r)[h]!=null&&Math.abs(X(r)[h])>=t?'hl':''}">${pct(X(r)[h])}</td>`;return `<tr><td>${r.date}</td><td>${r.who}</td><td>${r.asset}</td><td>${pct(r.returns['-30d'])}</td>${c('-30d')}<td>${pct(r.returns['-7d'])}</td>${c('-7d')}<td>${pct(r.returns['day0'])}</td><td>${pct(r.returns['+1d'])}</td><td>${pct(X(r)['+30d'])}</td><td>${fl(r)}</td></tr>`}).join('')+'</table>'}
 const fl=r=>(r.disclosures.length?`<span class="flag" title="${r.disclosures.map(d=>d.party+': '+d.kind+' '+d.date).join(' | ')}">${r.disclosures.length} disclosure</span> `:'')+(r.congress.length?`<span class="cflag" title="${r.congress.map(c=>c.member+' '+c.type+' '+c.date).join(' | ')}">${r.congress.length} Congress</span>`:'');

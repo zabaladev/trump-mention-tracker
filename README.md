@@ -18,3 +18,6 @@ Disclosure overlaps are factual timing correlations from public filings (amounts
 ## Benchmarks & congressional trades (update)
 - Every return is compared against 9 indexes: S&P 500 (^GSPC), Dow (^DJI), Nasdaq Composite (^IXIC), Nasdaq 100 (^NDX), Russell 2000 (^RUT), Russell 1000 (^RUI), Russell 3000 (^RUA), Wilshire 5000 (^W5000) and S&P MidCap 400 (^MID). Each falls back to an ETF proxy if Yahoo lacks the index. A dashboard dropdown picks the benchmark (default S&P 500). An index matrix shows win rate and average excess vs every index per group, and the portfolio chart lets you pick which index curves to show.
 - `congress.json` lists congressional STOCK Act trades (House Clerk / Senate eFD, via Quiver Quantitative's public pages) in each priced mention's asset or basket components, from 30 days before to 7 days after the comment. It includes member, party, chamber, date, amount range and source. These are factual timing overlaps only. Filings lag trades by up to 30–45 days.
+
+## Plain-English insights
+Near the top of the dashboard, a short list of jargon-free sentences (e.g. "If you'd put $1,000 into every one of these assets...") is generated from the data that `update.py` embeds. It recalculates live whenever you change the group, category, asset-type or benchmark filters. The section includes a glossary and caveats.
