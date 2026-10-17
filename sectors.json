@@ -1,5 +1,5 @@
 {
-  "_note": "Sector per Yahoo Finance company profile (retrieved 2026-10-17), mapped to the matching Select Sector SPDR ETF. X (U.S. Steel) is no longer listed after its 2025 acquisition by Nippon Steel; it is classed as Basic Materials (steel). Skipped: ALTS and TZUP (no Yahoo profile) and 3350.T (Tokyo-listed, no US sector ETF fits).",
+  "_note": "Sector per Yahoo Finance company profile (retrieved 2026-10-17), mapped to the matching Select Sector SPDR ETF. X (U.S. Steel) is no longer listed after its 2025 acquisition by Nippon Steel; it is classed as Basic Materials (steel). Skipped: ALTS and TZUP (no Yahoo profile), 3350.T (Tokyo-listed, no US sector ETF fits) and BBD-B.TO (Toronto-listed, priced in Canadian dollars).",
   "etf_names": {
     "XLK": "Technology Select Sector SPDR (XLK)",
     "XLC": "Communication Services Select Sector SPDR (XLC)",
