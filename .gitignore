@@ -1,3 +1,7 @@
 *.zip
 __pycache__/
 private/
+
+# Local OS metadata and generated design review captures
+.DS_Store
+.impeccable/review/
