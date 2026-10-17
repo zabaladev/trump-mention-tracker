@@ -390,7 +390,7 @@
     "ticker": "MP",
     "type": "stock",
     "category": "Government stake/deal",
-    "quote": "Pentagon buys $400M preferred stock (≈15% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
+    "quote": "Pentagon buys $400M preferred stock (\u224815% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
     "source": "https://www.cnbc.com/2025/07/10/pentagon-to-become-largest-shareholder-in-rare-earth-magnet-maker-mp-materials.html",
     "note": "Announced pre-market; entry = Jul 10 close (after the jump)"
   },
@@ -618,7 +618,7 @@
     "ticker": "USAR",
     "type": "stock",
     "category": "Government stake/deal",
-    "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8–16% stake).",
+    "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8\u201316% stake).",
     "source": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-letter-intent-us-government-access-16"
   },
   {
@@ -759,6 +759,18 @@
     "group": "Family"
   },
   {
+    "date": "2026-08-31",
+    "who": "Donald Trump",
+    "asset": "Prysmian S.p.A. (ADR)",
+    "ticker": "PRYMY",
+    "type": "stock",
+    "category": "Company praise",
+    "quote": "\"Prysmian invests more than $1 billion to expand fiber optic cable manufacturing facility in North Carolina\"",
+    "source": "https://truthsocial.com/@realDonaldTrump/117190839730903416",
+    "group": "Trump",
+    "note": "Posted 11:31 AM ET Mon Aug 31 (trumpstruth.org/statuses/41420 archive; UCSB daily archive). Linked a Plant Services report on the Claremont, NC expansion (Catawba County; ~385 jobs; WSOC-TV / Hickory Record coverage). Prysmian S.p.A. trades in Milan (PRY.MI); PRYMY is its US over-the-counter ADR. Quiver \u221230d/+7d: no congressional trades in window (only a Jul 2023 Goldman sale and a Mar 2026 Armstrong buy outside the window)."
+  },
+  {
     "date": "2026-09-21",
     "who": "Donald Trump",
     "asset": "Lockheed Martin",
@@ -777,7 +789,7 @@
     "ticker": "BA",
     "type": "stock",
     "category": "Company praise",
-    "quote": "\"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"",
+    "quote": "\"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, T\u00fcrkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes\u2014with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117323148147220269",
     "group": "Trump",
     "note": "Posted 8:19 PM ET Sep 23 (after the close; trumpstruth.org/statuses/41855 archive), so the first session that could react is Sep 24. Credits Commerce Secretary Howard Lutnick and the Commerce Department for the orders."
@@ -828,7 +840,7 @@
     "quote": "\"Congratulations to the GREAT Boeing Company for producing a plane, the 737 Max, that was able to withstand G Forces and Strain far beyond what it was designed and expected to do... The Boeing Company, which builds, by far, the finest commercial airliners in the sky\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117363810994521058",
     "group": "Trump",
-    "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23 2026, 8:19 PM ET) he had praised Boeing for the Türkiye/Bangladesh orders (tracked separately). The widely shared \"Sep 23 Boeing criticism\" dates from 2023, not 2026; an earlier version of this note had that wrong."
+    "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23 2026, 8:19 PM ET) he had praised Boeing for the T\u00fcrkiye/Bangladesh orders (tracked separately). The widely shared \"Sep 23 Boeing criticism\" dates from 2023, not 2026; an earlier version of this note had that wrong."
   },
   {
     "date": "2026-10-03",
