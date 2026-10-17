@@ -13,7 +13,8 @@
   "days": -4,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-09"
  },
  {
   "mention": [
@@ -29,7 +30,8 @@
   "days": -13,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-06"
  },
  {
   "mention": [
@@ -45,7 +47,8 @@
   "days": -25,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-06"
  },
  {
   "mention": [
@@ -61,7 +64,8 @@
   "days": -26,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-06"
  },
  {
   "mention": [
@@ -77,7 +81,8 @@
   "days": 0,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-04-09"
  },
  {
   "mention": [
@@ -93,7 +98,8 @@
   "days": -1,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-04-09"
  },
  {
   "mention": [
@@ -109,7 +115,8 @@
   "days": -5,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-27"
  },
  {
   "mention": [
@@ -125,7 +132,8 @@
   "days": -27,
   "type": "Sale",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-12"
  },
  {
   "mention": [
@@ -141,7 +149,8 @@
   "days": -28,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-12"
  },
  {
   "mention": [
@@ -157,7 +166,8 @@
   "days": -12,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-27"
  },
  {
   "mention": [
@@ -173,7 +183,8 @@
   "days": -12,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-09"
  },
  {
   "mention": [
@@ -189,7 +200,8 @@
   "days": -21,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-06"
  },
  {
   "mention": [
@@ -205,7 +217,8 @@
   "days": -8,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-04-09"
  },
  {
   "mention": [
@@ -221,7 +234,8 @@
   "days": -9,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-04-09"
  },
  {
   "mention": [
@@ -237,7 +251,8 @@
   "days": -13,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-27"
  },
  {
   "mention": [
@@ -253,7 +268,8 @@
   "days": 0,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-04-10"
  },
  {
   "mention": [
@@ -269,7 +285,8 @@
   "days": -20,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2025-03-27"
  },
  {
   "mention": [
@@ -285,7 +302,8 @@
   "days": -29,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-03-19"
  },
  {
   "mention": [
@@ -301,7 +319,8 @@
   "days": -4,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-11"
  },
  {
   "mention": [
@@ -317,7 +336,8 @@
   "days": -8,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-09"
  },
  {
   "mention": [
@@ -333,7 +353,8 @@
   "days": -5,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-12"
  },
  {
   "mention": [
@@ -349,7 +370,8 @@
   "days": -26,
   "type": "Purchase",
   "amount": "$100,001 - $250,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-20"
  },
  {
   "mention": [
@@ -365,7 +387,8 @@
   "days": -12,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-17"
  },
  {
   "mention": [
@@ -381,7 +404,8 @@
   "days": -6,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-11"
  },
  {
   "mention": [
@@ -397,7 +421,8 @@
   "days": 1,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-09"
  },
  {
   "mention": [
@@ -413,7 +438,8 @@
   "days": -25,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-20"
  },
  {
   "mention": [
@@ -429,7 +455,8 @@
   "days": -1,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2026-01-26"
  },
  {
   "mention": [
@@ -445,7 +472,8 @@
   "days": 1,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-09"
  },
  {
   "mention": [
@@ -461,7 +489,8 @@
   "days": -6,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-14"
  },
  {
   "mention": [
@@ -477,7 +506,8 @@
   "days": -19,
   "type": "Sale",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-08"
  },
  {
   "mention": [
@@ -493,7 +523,8 @@
   "days": -4,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-16"
  },
  {
   "mention": [
@@ -509,7 +540,8 @@
   "days": -8,
   "type": "Sale",
   "amount": "$50,001 - $100,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-08"
  },
  {
   "mention": [
@@ -525,7 +557,8 @@
   "days": -15,
   "type": "Sale",
   "amount": "$100,001 - $250,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-11"
  },
  {
   "mention": [
@@ -541,7 +574,8 @@
   "days": 6,
   "type": "Sale",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-12"
  },
  {
   "mention": [
@@ -557,7 +591,8 @@
   "days": -8,
   "type": "Sale",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-14"
  },
  {
   "mention": [
@@ -573,7 +608,8 @@
   "days": -19,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-04-08"
  },
  {
   "mention": [
@@ -589,7 +625,8 @@
   "days": -1,
   "type": "Sale",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA"
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2025-05-13"
  },
  {
   "mention": [
@@ -605,7 +642,8 @@
   "days": -15,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/KO"
+  "source": "https://www.quiverquant.com/congresstrading/stock/KO",
+  "filed": "2025-08-04"
  },
  {
   "mention": [
@@ -621,7 +659,8 @@
   "days": -22,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/KO"
+  "source": "https://www.quiverquant.com/congresstrading/stock/KO",
+  "filed": "2025-08-13"
  },
  {
   "mention": [
@@ -637,7 +676,8 @@
   "days": -6,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/KO"
+  "source": "https://www.quiverquant.com/congresstrading/stock/KO",
+  "filed": "2025-08-13"
  },
  {
   "mention": [
@@ -653,7 +693,8 @@
   "days": -5,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/KO"
+  "source": "https://www.quiverquant.com/congresstrading/stock/KO",
+  "filed": "2025-08-20"
  },
  {
   "mention": [
@@ -669,7 +710,8 @@
   "days": -8,
   "type": "Purchase",
   "amount": "$100,001 - $250,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL"
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-06"
  },
  {
   "mention": [
@@ -685,7 +727,8 @@
   "days": -5,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL"
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-09-03"
  },
  {
   "mention": [
@@ -701,7 +744,8 @@
   "days": -5,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL"
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-08-07"
  },
  {
   "mention": [
@@ -717,7 +761,8 @@
   "days": -15,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL"
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-13"
  },
  {
   "mention": [
@@ -733,7 +778,8 @@
   "days": -26,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL"
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-20"
  },
  {
   "mention": [
@@ -749,7 +795,8 @@
   "days": -19,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL"
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2025-08-04"
  },
  {
   "mention": [
@@ -765,7 +812,8 @@
   "days": -14,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC"
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2025-09-03"
  },
  {
   "mention": [
@@ -781,7 +829,8 @@
   "days": -21,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC"
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2025-09-03"
  },
  {
   "mention": [
@@ -797,7 +846,8 @@
   "days": -11,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC"
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2025-09-03"
  },
  {
   "mention": [
@@ -813,7 +863,8 @@
   "days": -24,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC"
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2025-08-05"
  },
  {
   "mention": [
@@ -829,7 +880,8 @@
   "days": -9,
   "type": "Sale",
   "amount": "$100,001 - $250,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC"
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2025-09-03"
  },
  {
   "mention": [
@@ -845,7 +897,8 @@
   "days": -11,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/CCJ"
+  "source": "https://www.quiverquant.com/congresstrading/stock/CCJ",
+  "filed": "2025-11-18"
  },
  {
   "mention": [
@@ -861,7 +914,8 @@
   "days": 1,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC"
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2026-02-13"
  },
  {
   "mention": [
@@ -877,7 +931,8 @@
   "days": -27,
   "type": "Sale",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC"
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2026-01-07"
  },
  {
   "mention": [
@@ -893,7 +948,8 @@
   "days": -15,
   "type": "Sale",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/DELL"
+  "source": "https://www.quiverquant.com/congresstrading/stock/DELL",
+  "filed": "2026-03-02"
  },
  {
   "mention": [
@@ -909,7 +965,8 @@
   "days": -25,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR"
+  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
+  "filed": "2026-04-07"
  },
  {
   "mention": [
@@ -925,7 +982,8 @@
   "days": 4,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR"
+  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
+  "filed": "2026-05-08"
  },
  {
   "mention": [
@@ -941,7 +999,8 @@
   "days": -14,
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR"
+  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
+  "filed": "2026-07-21"
  },
  {
   "mention": [
@@ -957,7 +1016,8 @@
   "days": -25,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR"
+  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
+  "filed": "2026-04-07"
  },
  {
   "mention": [
@@ -973,7 +1033,8 @@
   "days": -28,
   "type": "Sale",
   "amount": "$15,001 - $50,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR"
+  "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
+  "filed": "2026-04-07"
  },
  {
   "mention": [
@@ -989,7 +1050,8 @@
   "days": -20,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/INTC"
+  "source": "https://www.quiverquant.com/congresstrading/stock/INTC",
+  "filed": "2026-05-09"
  },
  {
   "mention": [
@@ -1005,7 +1067,8 @@
   "days": -6,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/MU"
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-08-07"
  },
  {
   "mention": [
@@ -1021,7 +1084,8 @@
   "days": -6,
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/MU"
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-08"
  },
  {
   "mention": [
@@ -1037,7 +1101,8 @@
   "days": -26,
   "type": "Sale",
   "amount": "$1,001 - $15,000",
-  "source": "https://www.quiverquant.com/congresstrading/stock/MU"
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-02"
  },
  {
   "mention": [
@@ -1054,7 +1119,8 @@
   "type": "Purchase",
   "amount": "~$21,000\u2013$315,000 total across Apr 8\u20139 (plus T-bill sale $50,001\u2013$100,000 on Apr 8)",
   "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029138.pdf",
-  "note": "Filed Apr 11 2025; reported by NYT/Bloomberg/AP. Bought stocks during the selloff the day before and the day of the pause."
+  "note": "Filed Apr 11 2025; reported by NYT/Bloomberg/AP. Bought stocks during the selloff the day before and the day of the pause.",
+  "filed": "2025-04-11"
  },
  {
   "mention": [
@@ -1071,6 +1137,7 @@
   "type": "Sale",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/BA",
-  "note": "Filed Oct 7, 2026 (after the comment)."
+  "note": "Filed Oct 7, 2026 (after the comment).",
+  "filed": "2026-10-07"
  }
 ]
