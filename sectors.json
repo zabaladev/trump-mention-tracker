@@ -64,10 +64,20 @@
       "industry": "Capital Markets",
       "etf": "XLF"
     },
+    "F": {
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "etf": "XLY"
+    },
     "GFS": {
       "sector": "Technology",
       "industry": "Semiconductors",
       "etf": "XLK"
+    },
+    "GM": {
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "etf": "XLY"
     },
     "INTC": {
       "sector": "Technology",
@@ -118,6 +128,11 @@
       "sector": "Technology",
       "industry": "Software - Application",
       "etf": "XLK"
+    },
+    "STLA": {
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "etf": "XLY"
     },
     "TM": {
       "sector": "Consumer Cyclical",
