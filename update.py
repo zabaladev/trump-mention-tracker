@@ -2,6 +2,7 @@
 """Re-fetch prices (Yahoo Finance via yfinance) and regenerate index.html + data.json.
 Usage: pip install yfinance pandas && python update.py"""
 import json, os, datetime as dt, statistics as st
+import numpy as np
 import pandas as pd, yfinance as yf
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -161,6 +162,32 @@ for r in rows:
             if mv is not None: ab[k] = r['returns'][k] - b * mv
     r['beta'] = dict(b=round(b, 3), n=int(len(df)), start=str(est[0].date()), end=str(est[-1].date()))
     r['abn'] = ab
+# Random-date (placebo) baseline: how did the SAME asset do vs the S&P 500 on ordinary days with no comment?
+# Candidate entry days: the asset's trading days from 2 years before the mention to today, excluding +-30 calendar days
+# around any tracked mention of that ticker. Stored as 40 equal-probability quantiles per window so the page can redraw it.
+_mdates = {}
+for r in rows:
+    if r.get('status') == 'ok': _mdates.setdefault(r['ticker'], []).append(pd.Timestamp(r['entry_date']))
+_qs = (np.arange(40) + 0.5) / 40  # midpoints of 40 equal-probability slices (each = 2.5% of days)
+for r in rows:
+    if r.get('status') != 'ok': continue
+    s = px.get(r['ticker']); e = pd.Timestamp(r['entry_date'])
+    sp_al = _spx.reindex(s.index.union(_spx.index)).ffill().reindex(s.index)
+    idx = s.index; ok_d = (idx >= e - pd.Timedelta(days=730))
+    for md in _mdates[r['ticker']]: ok_d &= ~((idx >= md - pd.Timedelta(days=30)) & (idx <= md + pd.Timedelta(days=30)))
+    out = {}
+    d0 = (s / s.shift(1) - 1) - (sp_al / sp_al.shift(1) - 1)
+    v0 = d0[ok_d].dropna()
+    tgt = idx + pd.Timedelta(days=30); j = idx.searchsorted(tgt)
+    valid = j < len(idx); jj = np.where(valid, j, len(idx) - 1)
+    r30 = pd.Series(np.where(valid, s.values[jj] / s.values - 1 - (sp_al.values[jj] / sp_al.values - 1), np.nan), index=idx)
+    v30 = r30[ok_d].dropna()
+    for h, v in (('day0', v0), ('+30d', v30)):
+        if len(v) < 60 or r['ex']['sp'].get(h) is None: continue
+        act = r['ex']['sp'][h]
+        out[h] = dict(q=[round(float(x), 5) for x in np.quantile(v.values, _qs)], mean=round(float(v.mean()), 5), n=int(len(v)),
+                      pct=round(float((v.values < act).mean() + 0.5 * (v.values == act).mean()), 3))
+    if out: r['plc'] = out
 for r in rows:
     r['disclosures'] = [d for d in DISC if [r['date'], r.get('ticker')] in d['applies']]
     r['congress'] = [c for c in CONG if c['mention'] == [r['date'], r.get('ticker')]]
