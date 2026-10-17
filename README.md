@@ -121,3 +121,6 @@ Dashboard extras: a benchmark selector, an index matrix (win rate / mean excess 
 Found an error, a missing statement, a mis-mapped ticker, or a filing we overlooked? **Open an issue** with a link to the primary source. Corrections are published in the commit history.
 
 **Not legal or financial advice. Overlaps are not evidence of wrongdoing. Past performance does not predict future results.**
+
+## Checks before publishing
+`python check.py` validates every public JSON and feed file, checks that each mention has a date, speaker group and source link, makes sure nothing from the local-only `private/` folder ends up in a public file, and loads the dashboard in a headless browser at desktop (1280px) and phone (390px) widths to confirm there are no page errors. `publish.sh` runs it automatically and stops if anything fails; `python check.py --live` also checks the published site.

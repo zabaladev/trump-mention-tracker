@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Daily routine: regenerate dashboard, then push ONLY the allow-listed public files to GitHub.
 set -e; cd "$(dirname "$0")"; source /workspace/venv/bin/activate; python update.py
-PUBLIC=(index.html data.json mentions.json disclosures.json exclusions.json congress.json sectors.json family_cos.json committees.json feed.xml feed.json feed-trump.xml feed-trump.json feed-family.xml feed-family.json feed-admin.xml feed-admin.json update.py template.html README.md publish.sh .gitignore)
+# Pre-publish checks (JSON/XML validity, mentions schema, private-content guard, page loads with no errors at 1280px/390px).
+python check.py
+PUBLIC=(index.html data.json mentions.json disclosures.json exclusions.json congress.json sectors.json family_cos.json committees.json feed.xml feed.json feed-trump.xml feed-trump.json feed-family.xml feed-family.json feed-admin.xml feed-admin.json update.py template.html README.md publish.sh check.py .gitignore)
 # Safety guard: never publish anything from private/ (the unusual-timing watchlist is local-only).
 for f in "${PUBLIC[@]}"; do case "$f" in private/*|*watchlist*) echo "REFUSING to publish $f"; exit 1;; esac; done
 if grep -qi "watchlist" index.html data.json feed*.xml feed*.json; then echo "REFUSING: watchlist content found in public files"; exit 1; fi
