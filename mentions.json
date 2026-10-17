@@ -233,7 +233,8 @@
     "category": "Explicit buy call",
     "quote": "\"If you want to learn something on this show tonight, buy Tesla... It'll never be this cheap again.\" (Fox News, evening)",
     "source": "https://www.cnbc.com/2025/03/20/trump-commerce-lutnick-elon-musk-tesla-stock-doge-cybertruck.html",
-    "note": "Said after the close; entry = Mar 19 close"
+    "note": "Said after the close; entry = next trading day (Mar 20) close, so Day 0 is the first session that could react",
+    "after_close": true
   },
   {
     "date": "2025-03-21",
@@ -574,7 +575,8 @@
     "category": "Government stake/deal",
     "quote": "US to acquire ~10% of Trilogy Metals plus warrants for 7.5% (announced after close); shares tripled next day.",
     "source": "https://www.reuters.com/business/trilogy-metals-shares-soar-us-takes-strategic-stake-2025-10-07/",
-    "note": "Announced after close; entry = Oct 6 close (before the jump)"
+    "note": "Announced after close; entry = next trading day (Oct 7) close, so Day 0 is the first session that could react (the jump)",
+    "after_close": true
   },
   {
     "date": "2025-10-22",
@@ -804,7 +806,8 @@
     "quote": "\"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117323148147220269",
     "group": "Trump",
-    "note": "Posted 8:19 PM ET Sep 23 (after the close; trumpstruth.org/statuses/41855 archive), so the first session that could react is Sep 24. Credits Commerce Secretary Howard Lutnick and the Commerce Department for the orders."
+    "note": "Posted 8:19 PM ET Sep 23 (after the close; trumpstruth.org/statuses/41855 archive), so the first session that could react is Sep 24. Credits Commerce Secretary Howard Lutnick and the Commerce Department for the orders.",
+    "after_close": true
   },
   {
     "date": "2026-09-26",
@@ -876,7 +879,8 @@
     "quote": "\"HUGE INVESTMENT WIN for NEBRASKA AND THE U.S.! Beckton Dickenson (BD), one of the largest Medical Device Manufacturers, has agreed to an Investment of 3 BILLION DOLLARS to Onshore Manufacturing of Essential Medical Products\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117391801119298224",
     "group": "Trump",
-    "note": "Posted 11:18 PM ET Oct 5 (after the close), so the first tradable session is Oct 6. BD confirmed a $19B multi-year U.S. commitment incl. $3B manufacturing on Oct 6 (BD press release; Reuters), with relief from future Section 232 medical-device tariffs tied to milestones."
+    "note": "Posted 11:18 PM ET Oct 5 (after the close), so the first tradable session is Oct 6. BD confirmed a $19B multi-year U.S. commitment incl. $3B manufacturing on Oct 6 (BD press release; Reuters), with relief from future Section 232 medical-device tariffs tied to milestones.",
+    "after_close": true
   },
   {
     "date": "2026-10-14",

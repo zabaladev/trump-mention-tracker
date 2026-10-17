@@ -71,9 +71,10 @@ def basket_series(m):
         norm.append(c2 / b.iloc[0])
     return pd.concat(norm, axis=1).mean(axis=1, skipna=True).dropna() if norm else None
 
-def windows(s, d):
-    """dict horizon -> (start_date, end_date) using trading dates of s. d = mention date."""
-    after = s.index[s.index >= d]
+def windows(s, d, after_close=False):
+    """dict horizon -> (start_date, end_date) using trading dates of s. d = mention date.
+    after_close=True (post/remark after the 4 PM ET close): entry is the NEXT trading day, so day0 is the first session that could react."""
+    after = s.index[s.index > d] if after_close else s.index[s.index >= d]
     if not len(after): return None, {}
     e = after[0]; i = s.index.get_loc(e); W = {}
     prev = s.index[i-1] if i > 0 else None
@@ -103,7 +104,7 @@ for m in M:
     s = px.get(t) if t else None
     if s is None:
         r['status'] = m.get('note') or 'no price data'; rows.append(r); continue
-    e, W = windows(s, pd.Timestamp(m['date']))
+    e, W = windows(s, pd.Timestamp(m['date']), bool(m.get('after_close')) and m['type'] != 'crypto')
     if e is None: r['status'] = 'no price after date'; rows.append(r); continue
     r.update(status='ok', entry_date=str(e.date()), entry_price=float(s.loc[e]))
     for k, (a, b) in W.items():
@@ -165,7 +166,7 @@ for r in rows:
     df = df[(df.iloc[:, 0] != 0) | (df.iloc[:, 1] != 0)]
     if len(df) < 100 or df.iloc[:, 1].var() == 0: continue
     b = float(df.iloc[:, 0].cov(df.iloc[:, 1]) / df.iloc[:, 1].var())
-    _, W = windows(s, pd.Timestamp(r['date']))
+    _, W = windows(s, pd.Timestamp(r['date']), bool(r.get('after_close')) and r['type'] != 'crypto')
     ab = {}
     for k in ('day0', '+1d', '+7d', '+30d', '+90d', 'to date'):
         if k in W and r['returns'].get(k) is not None:
