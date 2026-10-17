@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Re-fetch prices (Yahoo Finance via yfinance) and regenerate index.html + data.json.
 Usage: pip install yfinance pandas && python update.py"""
-import json, os, datetime as dt, statistics as st
+import json, math, os, datetime as dt, statistics as st
 import numpy as np
 import pandas as pd, yfinance as yf
 
@@ -336,9 +336,20 @@ fam_px = {'dates': [str(d.date()) for d in _fam_wk],
 gridd = dict(dates=[str(d.date()) for d in grid], **{k: [round(float(x), 3) for x in ff[BENCH[k]].reindex(grid)] for k in BKEYS})
 data = dict(grid=gridd, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
             rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx, sector_note=SEC['_note'], sector_etfs=SEC['etf_names'], peer_etfs=SEC.get('peer_etf_names', {}), family=fam_px)
+# #17 Smaller page: keep 7 significant digits on every float (the page shows at most 1 decimal of a percent,
+# so the rendered text is unchanged) and embed the data without spaces. Big numbers (>= 1e6) are left as-is.
+def _compact(o):
+    if isinstance(o, dict): return {k: _compact(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)): return [_compact(v) for v in o]
+    if isinstance(o, (float, np.floating)):
+        o = float(o)
+        if not math.isfinite(o) or abs(o) >= 1e6: return o
+        return float(f'{o:.7g}')
+    return o
+data = _compact(json.loads(json.dumps(data, default=float)))
 json.dump(data, open(f'{HERE}/data.json', 'w'), indent=1, default=float)
 html = open(f'{HERE}/template.html').read()
-html = html.replace('/*__DATA__*/null', json.dumps(data, default=float)).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())
+html = html.replace('/*__DATA__*/null', json.dumps(data, default=float, separators=(',', ':'))).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())
 open(f'{HERE}/index.html', 'w').write(html)
 print('mentions', len(rows), 'priced', len(ok))
 # #13 Subscribe feeds: RSS 2.0 (feed.xml) + JSON Feed 1.1 (feed.json) of every sourced mention, newest first.
