@@ -2155,5 +2155,243 @@
   "amount": "$50,001 - $100,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/LLY",
   "filed": "2026-07-02"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-27",
+  "days": -25,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-05-11"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-04-27",
+  "days": -25,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-05-11"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-05",
+  "days": -17,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-11",
+  "days": -11,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-11",
+  "days": -11,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-12",
+  "days": -10,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-12",
+  "days": -10,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-15",
+  "days": -7,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-08"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-21",
+  "days": -1,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Josh Gottheimer",
+  "chamber": "House",
+  "party": "D",
+  "state": "NJ",
+  "date": "2026-05-21",
+  "days": -1,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-03"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-26",
+  "days": 4,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-26",
+  "days": 4,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-27",
+  "days": 5,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
+ },
+ {
+  "mention": [
+   "2026-05-22",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-05-27",
+  "days": 5,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-06-09"
  }
 ]

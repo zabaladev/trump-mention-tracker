@@ -1568,5 +1568,26 @@
    "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-servicemembers-after-new-air-force-one-tour-61926",
    "https://www.presidency.ucsb.edu/documents/pool-reports-june-19-2026"
   ]
+ },
+ {
+  "date": "2026-05-22",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/c4a28a1d-9d4e-4a06-9dfa-b6f6b912db88",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-may-22-2026",
+  "time_et": "2026-05-22 16:18",
+  "time_src": "White House out-of-town pool report no. 6 (walked onstage at 3:39 PM ET, ended 5:09 PM); line about 39 minutes into the transcript",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Micron",
+  "ticker": "MU",
+  "quote": "\"And Micron -- boy, Micron's great. They're investing hundreds of millions. In fact, it'll be probably -- could be, very close by the time they finish out, over $100 billion in Clay, New York.\" (speech on tax cuts and the economy, Rockland Community College, Suffern, New York)",
+  "note": "Said about 39 minutes into Trump's speech on tax cuts and the economy at Rockland Community College in Suffern, New York on Friday May 22 2026. The White House travel pool says he walked onstage at 3:39 PM ET and finished at 5:09 PM, so this line came after the 4 PM close; Monday May 25 was Memorial Day, so day 0 is Tue May 26. The Clay, New York project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab there (Micron press release; Reuters). Big confound on day 0: Micron rose about 19% on Tue May 26 and briefly passed $1 trillion in market value after UBS more than tripled its price target to $1,625 from $535, citing AI memory demand and long-term supply deals (Reuters; Bloomberg), so the day-0 move reflects that analyst call, not this remark. This is the earliest of Trump's three tracked Micron mentions (before his Jul 1 2026 post and Oct 9 2026 Syracuse rally). Quiver lists 14 House MU trades from 30 days before to 7 days after, mostly small sales by Rep. Ro Khanna, whose filings list many stocks, plus one purchase by Rep. Josh Gottheimer on May 21, the day before (checked 2026-10-17). Members trade many stocks, and these trades are listed for context only.",
+  "verify": [
+   "https://www.presidency.ucsb.edu/documents/pool-reports-may-22-2026",
+   "https://www.reuters.com/world/china/micron-joins-1-trillion-club-ai-race-powers-memory-chip-boom-2026-05-26/",
+   "https://www.quiverquant.com/congresstrading/stock/MU"
+  ]
  }
 ]
