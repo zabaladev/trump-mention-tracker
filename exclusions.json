@@ -268,5 +268,20 @@
   "item": "John Deere, Case and Caterpillar (Trump, Mar 27 2026 White House farmers event)",
   "reason": "Trump recalled meeting \"the chairman of John Deere, great company\" in a story about the new diesel exhaust fluid (DEF) rules, then listed \"John Deere and Case and all of the great companies, Caterpillar\" as makers he wants to build cheaper tractors (Roll Call Factbase transcript). A passing aside and a group list, so not scored under the high-signal rule.",
   "kind": "notcall"
+ },
+ {
+  "item": "Google (Trump, Mar 4 2026 Energy Ratepayer Protection roundtable)",
+  "reason": "Thanking Google president Ruth Porat for signing the ratepayer pledge, Trump said \"That's a good company, that's big stuff, Google\" (Roll Call Factbase transcript). A passing aside about a pledge signatory, so not scored under the high-signal rule.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Apple and Ford (Trump, Mar 11 2026 Verst Logistics speech, Hebron, Kentucky)",
+  "reason": "Trump listed Ford's $2 billion Louisville assembly plant (\"a good 'ol staple\") and \"Apple, a great company\" with its $2.5 billion Kentucky glass investment while talking about factories being built (Roll Call Factbase transcript). Recaps of already-announced investments in a list, so not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Merck, Pfizer and Lilly (Trump, Mar 11 2026 Thermo Fisher tour)",
+  "reason": "Named as drugmakers \"building many factories\" in the US while praising Thermo Fisher (American Presidency Project transcript). A group list, so not scored; the Thermo Fisher praise itself is tracked.",
+  "kind": "notcall"
  }
 ]

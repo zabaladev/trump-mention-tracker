@@ -1705,5 +1705,21 @@
   "ticker": "TSLA",
   "quote": "\"I'm very happy for Elon... No, it's great. I don't know from a standpoint whether or not you're gonna see me in that car, but it's pretty impressive, very impressive.\" (asked about the new Tesla Roadster)",
   "note": "Said on Fri Oct 16 2026 in the South Lawn gaggle before Trump left for the Dalton, Georgia rally, in answer to a reporter's question about the new Tesla Roadster that Tesla unveiled at SpaceX's McGregor, Texas site the evening before (Newsweek; 1news.az citing RBC). He also mentioned giving Elon Musk the National Medal of Science on Oct 8. The pool reports put the gaggle at 12:56 to 1:17 PM ET, so day 0 is Oct 16, the first session after the unveiling: Tesla closed down 2.1% (about 1 point more than the S&P 500's 1.1% drop), and with the unveiling the bigger news that day, the move can't be put down to this answer. Product praise in reply to a question, not a buy call. Tesla's third tracked mention (after Mar 11 and Mar 19 2025). Quiver lists no congressional TSLA trades from 30 days before so far (its latest is Rep. Ro Khanna's Aug 24 2026 sale); trades in the week after may not be filed yet. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-03-11",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-during-tour-thermo-fisher-scientific-and-exchange-with-reporters-cincinnati-ohio",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-march-11-2026",
+  "time_et": "2026-03-11 14:50",
+  "time_src": "White House travel pool reports 8 and 9 (emerged to greet employees and take questions at 2:50 pm ET; tour ended 3:05 pm)",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "Thermo Fisher Scientific",
+  "ticker": "TMO",
+  "quote": "\"Well, it's a great company. We were just talking about how the expansion's going. And a lot of expansion because of Trump, I have to say... But this is a great honor being here. It's a great company. I've known it for a long time.\" (site visit, Thermo Fisher plant, Reading, Ohio)",
+  "note": "Said while touring Thermo Fisher Scientific's contract drug-manufacturing plant in Reading, Ohio, near Cincinnati, on Wed Mar 11 2026, alongside CEO Marc Casper and CMS Administrator Mehmet Oz (American Presidency Project transcript; White House video; Roll Call Factbase). The travel pool says he came out to greet employees and take questions at 2:50 PM ET, during trading hours, so day 0 is Mar 11: Thermo Fisher closed down about 0.9%, roughly 0.8 points worse than the S&P 500. In a local TV interview at the plant (WKRC Local 12) he called it \"really a great company\" that is bringing medicine production back to the US, and at his Hebron, Kentucky speech later that day he called it \"the great American company that's investing $2 billion in domestic manufacturing\" (Washington Examiner); those are counted with this row, not separately. See Disclosures: Trump's OGE periodic transaction report lists a Thermo Fisher purchase the same day. Quiver lists 3 congressional TMO trades in the window (all Rep. Ro Khanna), for context only. No wrongdoing alleged."
  }
 ]

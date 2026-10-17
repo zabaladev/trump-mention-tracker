@@ -2835,5 +2835,56 @@
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/MU",
   "filed": "2026-03-09"
+ },
+ {
+  "mention": [
+   "2026-03-11",
+   "TMO"
+  ],
+  "ticker": "TMO",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-02-24",
+  "days": -15,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TMO",
+  "filed": "2026-03-09"
+ },
+ {
+  "mention": [
+   "2026-03-11",
+   "TMO"
+  ],
+  "ticker": "TMO",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-06",
+  "days": -5,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TMO",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-03-11",
+   "TMO"
+  ],
+  "ticker": "TMO",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-10",
+  "days": -1,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TMO",
+  "filed": "2026-04-07"
  }
 ]
