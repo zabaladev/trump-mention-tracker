@@ -701,6 +701,27 @@
   "group": "Trump"
  },
  {
+  "date": "2026-03-26",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-calls-in-to-a-live-interview-on-fox-news-the-five-32626",
+  "archive_url": "https://trump-archive.com/item/fb2ff164-4979-47b9-8091-fbd5f375de26",
+  "time_et": "2026-03-26 17:00",
+  "time_src": "Fox News' The Five airs live from 5 PM ET and Greg Gutfeld opens the call with \"President Trump joins us on the phone live\" (Roll Call Factbase transcript); the Micron line is about 23 minutes in, so after the 4 PM close (5 PM is the earliest possible time)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Micron",
+  "ticker": "MU",
+  "quote": "\"We have 18 coming in and they're building plants all over the United States. It's a- -- I just left the head of Micron. It's one of the hottest companies.\" (live phone interview, Fox News' The Five)",
+  "note": "Said on Thu Mar 26 2026 when Trump called in live to Fox News' The Five (Roll Call Factbase and Senate Democrats transcripts), while talking about companies building plants in the US; he went on to mention NVIDIA's Jensen Huang in a general list of companies building plants, which is not scored. The call aired after the close, so day 0 is Fri Mar 27, when Micron rose 0.5% while the S&P 500 fell 1.7%. This is the earliest of Trump's four tracked Micron mentions (before May 22, Jul 1 and Oct 9 2026). Trump's own OGE periodic transaction report, made public in May 2026, lists a purchase of $50,001 to $100,000 of Micron stock on Mar 25, the day before, and purchases of $217,000 to $530,000 in all from Mar 2 to Mar 25, as reported by Popular Information (republished by Mother Jones) and the Washington Examiner; see the Disclosures tab. The Trump Organization says his accounts are run by outside managers with sole authority over investment decisions. Quiver lists 8 congressional MU trades from 30 days before to 7 days after (small purchases by Rep. Gilbert Cisneros on Feb 24 and Mar 25, sales by Rep. Ro Khanna, whose filings list many stocks, a sale by Rep. Dwight Evans on Mar 24, and purchases by Sen. Alan Armstrong on Mar 27 and Sen. John Fetterman on Mar 30; checked 2026-10-17). Members trade many stocks, and these trades are listed for context only. No wrongdoing alleged.",
+  "verify": [
+   "https://www.motherjones.com/politics/2026/05/donald-trump-trading-buying-stocks-pumping-promoting-companies-speeches-disclosure-corruption-ethical-conflict-interest/",
+   "https://www.washingtonexaminer.com/news/white-house/4583562/trump-praised-companies-within-days-of-buying-their-stock/",
+   "https://www.quiverquant.com/congresstrading/stock/MU"
+  ]
+ },
+ {
   "date": "2026-04-10",
   "who": "Donald Trump",
   "asset": "Palantir",
@@ -904,7 +925,7 @@
   "asset": "Micron",
   "ticker": "MU",
   "quote": "\"And Micron -- boy, Micron's great. They're investing hundreds of millions. In fact, it'll be probably -- could be, very close by the time they finish out, over $100 billion in Clay, New York.\" (speech on tax cuts and the economy, Rockland Community College, Suffern, New York)",
-  "note": "Said about 39 minutes into Trump's speech on tax cuts and the economy at Rockland Community College in Suffern, New York on Friday May 22 2026. The White House travel pool says he walked onstage at 3:39 PM ET and finished at 5:09 PM, so this line came after the 4 PM close; Monday May 25 was Memorial Day, so day 0 is Tue May 26. The Clay, New York project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab there (Micron press release; Reuters). Big confound on day 0: Micron rose about 19% on Tue May 26 and briefly passed $1 trillion in market value after UBS more than tripled its price target to $1,625 from $535, citing AI memory demand and long-term supply deals (Reuters; Bloomberg), so the day-0 move reflects that analyst call, not this remark. This is the earliest of Trump's three tracked Micron mentions (before his Jul 1 2026 post and Oct 9 2026 Syracuse rally). Quiver lists 14 House MU trades from 30 days before to 7 days after, mostly small sales by Rep. Ro Khanna, whose filings list many stocks, plus one purchase by Rep. Josh Gottheimer on May 21, the day before (checked 2026-10-17). Members trade many stocks, and these trades are listed for context only.",
+  "note": "Said about 39 minutes into Trump's speech on tax cuts and the economy at Rockland Community College in Suffern, New York on Friday May 22 2026. The White House travel pool says he walked onstage at 3:39 PM ET and finished at 5:09 PM, so this line came after the 4 PM close; Monday May 25 was Memorial Day, so day 0 is Tue May 26. The Clay, New York project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab there (Micron press release; Reuters). Big confound on day 0: Micron rose about 19% on Tue May 26 and briefly passed $1 trillion in market value after UBS more than tripled its price target to $1,625 from $535, citing AI memory demand and long-term supply deals (Reuters; Bloomberg), so the day-0 move reflects that analyst call, not this remark. This is the second of Trump's four tracked Micron mentions (after his Mar 26 2026 call-in to Fox News' The Five, and before his Jul 1 2026 post and Oct 9 2026 Syracuse rally). Quiver lists 14 House MU trades from 30 days before to 7 days after, mostly small sales by Rep. Ro Khanna, whose filings list many stocks, plus one purchase by Rep. Josh Gottheimer on May 21, the day before (checked 2026-10-17). Members trade many stocks, and these trades are listed for context only.",
   "verify": [
    "https://www.presidency.ucsb.edu/documents/pool-reports-may-22-2026",
    "https://www.reuters.com/world/china/micron-joins-1-trillion-club-ai-race-powers-memory-chip-boom-2026-05-26/",
@@ -1513,7 +1534,7 @@
   "asset": "Micron",
   "ticker": "MU",
   "quote": "\"But Micron is investing over $100 billion in creating 50,000 jobs in central New York, including the largest investment in the history of Syracuse, that we had to work with them long and hard. Get them going. This will soon be the home to the largest semiconductor manufacturing facility ever built in the Western Hemisphere.\" (rally, Syracuse, New York)",
-  "note": "Said at Trump's midterm campaign rally at the Oncenter in Syracuse, New York on Friday Oct 9 2026. The White House travel pool notes say he appeared onstage at 8:11 PM ET and began speaking at 8:13 PM, after the close, so day 0 is the next session (Mon Oct 12). The project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab in Clay, New York, creating nearly 50,000 New York jobs including about 9,000 at Micron (Micron press release; Reuters). This is Trump's second tracked Micron mention, after his Jul 1 2026 post. Quiver: no congressional trades in MU within 30 days before to 7 days after (the latest listed trade is Rep. Dan Newhouse's Jul 10 2026 purchase; checked 2026-10-17)."
+  "note": "Said at Trump's midterm campaign rally at the Oncenter in Syracuse, New York on Friday Oct 9 2026. The White House travel pool notes say he appeared onstage at 8:11 PM ET and began speaking at 8:13 PM, after the close, so day 0 is the next session (Mon Oct 12). The project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab in Clay, New York, creating nearly 50,000 New York jobs including about 9,000 at Micron (Micron press release; Reuters). This is Trump's fourth tracked Micron mention, after Mar 26, May 22 and Jul 1 2026. Quiver: no congressional trades in MU within 30 days before to 7 days after (the latest listed trade is Rep. Dan Newhouse's Jul 10 2026 purchase; checked 2026-10-17)."
  },
  {
   "date": "2026-10-10",
