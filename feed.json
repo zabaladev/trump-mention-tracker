@@ -605,6 +605,32 @@
    ]
   },
   {
+   "id": "966bd3137bc4799c",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=LLY",
+   "external_url": "https://trump-archive.com/item/c3eb336e-4241-40ff-8f65-9b3cb62fb4ad",
+   "title": "Donald Trump on Eli Lilly (LLY): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Eli Lilly (LLY) on 2026-06-23 at 15:07 ET.\nQuote: \"Right here in Lehigh Valley, Eli Lilly has just announced -- great company, by the way, drug company -- a $3.5 billion investment in a brand new state of the art manufacturing facility right down the road that's going to create over 1,000 jobs.\" (Mack Trucks plant, Macungie, Pennsylvania)\nVersus the S&P 500: +1.9% on the comment day, +9.7% to date.\nSource: https://trump-archive.com/item/c3eb336e-4241-40ff-8f65-9b3cb62fb4ad\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-06-23T15:07:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "1d874cfcb032bf99",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=VOLV-B.ST",
+   "external_url": "https://trump-archive.com/item/c3eb336e-4241-40ff-8f65-9b3cb62fb4ad",
+   "title": "Donald Trump on Volvo Group (Mack Trucks) (VOLV-B.ST): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Volvo Group (Mack Trucks) (VOLV-B.ST) on 2026-06-23 at 14:49 ET.\nQuote: \"I'm especially honored to be here in the place that builds some of the toughest vehicles on the road, Mack Trucks. Mack Trucks is doing a great job.\" Later: \"I imposed a 25 percent tariff on medium and heavy-duty trucks so that Mack Truck could do very well with its factory in Pennsylvania.\" (Mack Trucks plant, Macungie, Pennsylvania)\nVersus the S&P 500: +0.3% on the comment day, -1.8% to date.\nSource: https://trump-archive.com/item/c3eb336e-4241-40ff-8f65-9b3cb62fb4ad\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-06-23T14:49:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
    "id": "60ddf2bcd57e8f6e",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=IBM",
    "external_url": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
@@ -856,7 +882,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=CRO-USD",
    "external_url": "https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/",
    "title": "Donald Trump (Trump Media) on Cronos (CRO) (CRO-USD): Family venture",
-   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -90.0% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -90.1% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-08-26T12:00:00-04:00",
    "tags": [
     "Trump",
@@ -934,7 +960,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/",
    "title": "Eric Trump on Bitcoin (BTC-USD): Explicit buy call",
-   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-08-02.\nQuote: \"Buy the dips!!! $BTC $ETH\"\nVersus the S&P 500: -0.7% on the comment day, -50.7% to date.\nSource: https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-08-02.\nQuote: \"Buy the dips!!! $BTC $ETH\"\nVersus the S&P 500: -0.7% on the comment day, -50.6% to date.\nSource: https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-08-02T12:00:00-04:00",
    "tags": [
     "Family",
@@ -1350,7 +1376,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://x.com/realDonaldTrump/status/1852033244729860397",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.7% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.6% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2024-10-31T13:01:00-04:00",
    "tags": [
     "Trump",
