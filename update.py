@@ -61,6 +61,9 @@ BENCHES = [('sp', '^GSPC', 'SPY', 'S&P 500'), ('dow', '^DJI', 'DIA', 'Dow Jones 
 BENCH = {'btc': 'BTC-USD'}
 
 tick = {m['ticker'] for m in M if m.get('ticker') and not m['ticker'].startswith('BASKET:')}
+# Renamed listings: download under the current symbol (price_ticker), keep the symbol used at the time of the mention.
+ALIAS = {m['ticker']: m['price_ticker'] for m in M if m.get('price_ticker')}
+tick = {ALIAS.get(t, t) for t in tick}
 for m in M:
     for t, _ in m.get('basket', []): tick.add(t)
 tick |= {v['etf'] for v in SEC['tickers'].values()} | {v['peer'] for v in SEC['tickers'].values() if v.get('peer')}
@@ -74,6 +77,8 @@ for t in sorted(tick):
             s.index = pd.to_datetime(s.index).tz_localize(None).normalize(); px[t] = s[~s.index.duplicated()]
     except Exception as e:
         print('fail', t, e)
+for t, pt in ALIAS.items():
+    if pt in px: px[t] = px[pt]
 BLABEL = {}
 for k, idx, etf, lab in BENCHES:
     if idx in px and len(px[idx]) > 300: BENCH[k] = idx; BLABEL[k] = lab
