@@ -390,7 +390,7 @@
     "ticker": "MP",
     "type": "stock",
     "category": "Government stake/deal",
-    "quote": "Pentagon buys $400M preferred stock (\u224815% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
+    "quote": "Pentagon buys $400M preferred stock (≈15% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
     "source": "https://www.cnbc.com/2025/07/10/pentagon-to-become-largest-shareholder-in-rare-earth-magnet-maker-mp-materials.html",
     "note": "Announced pre-market; entry = Jul 10 close (after the jump)"
   },
@@ -618,7 +618,7 @@
     "ticker": "USAR",
     "type": "stock",
     "category": "Government stake/deal",
-    "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8\u201316% stake).",
+    "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8–16% stake).",
     "source": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-letter-intent-us-government-access-16"
   },
   {
@@ -771,6 +771,18 @@
     "note": "Posted 2:08 PM ET Sep 21 (trumpstruth.org archive). Ribbon-cutting for the new White House helipad with Lockheed Martin CEO Jim Taiclet (White House / Epoch Times reporting). Also thanked Clark Construction and local construction workers."
   },
   {
+    "date": "2026-09-23",
+    "who": "Donald Trump",
+    "asset": "Boeing",
+    "ticker": "BA",
+    "type": "stock",
+    "category": "Company praise",
+    "quote": "\"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"",
+    "source": "https://truthsocial.com/@realDonaldTrump/117323148147220269",
+    "group": "Trump",
+    "note": "Posted 8:19 PM ET Sep 23 (after the close; trumpstruth.org/statuses/41855 archive), so the first session that could react is Sep 24. Credits Commerce Secretary Howard Lutnick and the Commerce Department for the orders."
+  },
+  {
     "date": "2026-10-01",
     "who": "Donald Trump",
     "asset": "Boeing",
@@ -780,7 +792,19 @@
     "quote": "\"Congratulations to the GREAT Boeing Company for producing a plane, the 737 Max, that was able to withstand G Forces and Strain far beyond what it was designed and expected to do... The Boeing Company, which builds, by far, the finest commercial airliners in the sky\"",
     "source": "https://truthsocial.com/@realDonaldTrump/117363810994521058",
     "group": "Trump",
-    "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23) he had criticised the 737 MAX (AOL/People)."
+    "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23 2026, 8:19 PM ET) he had praised Boeing for the Türkiye/Bangladesh orders (tracked separately). The widely shared \"Sep 23 Boeing criticism\" dates from 2023, not 2026; an earlier version of this note had that wrong."
+  },
+  {
+    "date": "2026-10-03",
+    "who": "Donald Trump",
+    "asset": "Bayer AG (ADR)",
+    "ticker": "BAYRY",
+    "type": "stock",
+    "category": "Company praise",
+    "quote": "\"HUGE NEWS FOR OHIO, where I am heading right now! Bayer just announced a brand new, 2.2 Billion Dollar Pharmaceutical Manufacturing Campus near Columbus... This massive Onshoring WIN is thanks to my strong Pharmaceutical Tariffs\"",
+    "source": "https://truthsocial.com/@realDonaldTrump/117379305275420977",
+    "group": "Trump",
+    "note": "Posted 6:20 PM ET Saturday Oct 3 (trumpstruth.org/statuses/42125 archive), so the first tradable session is Monday Oct 5. Bayer AG trades in Frankfurt; BAYRY is its US over-the-counter ADR. Ohio state announcement of the $2.2B New Albany campus confirms the investment."
   },
   {
     "date": "2026-10-05",

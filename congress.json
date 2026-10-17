@@ -1117,7 +1117,7 @@
     "date": "2025-04-08",
     "days": -1,
     "type": "Purchase",
-    "amount": "~$21,000\u2013$315,000 total across Apr 8\u20139 (plus T-bill sale $50,001\u2013$100,000 on Apr 8)",
+    "amount": "~$21,000–$315,000 total across Apr 8–9 (plus T-bill sale $50,001–$100,000 on Apr 8)",
     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029138.pdf",
     "note": "Filed Apr 11 2025; reported by NYT/Bloomberg/AP. Bought stocks during the selloff the day before and the day of the pause.",
     "filed": "2025-04-11"
@@ -1244,5 +1244,23 @@
     "amount": "$15,001 - $50,000",
     "source": "https://www.quiverquant.com/congresstrading/stock/LMT",
     "filed": "2026-10-13"
+  },
+  {
+    "mention": [
+      "2026-09-23",
+      "BA"
+    ],
+    "ticker": "BA",
+    "member": "Maria Elvira Salazar",
+    "chamber": "House",
+    "party": "R",
+    "state": "FL",
+    "date": "2026-09-24",
+    "days": 1,
+    "type": "Sale",
+    "amount": "$1,001 - $15,000",
+    "source": "https://www.quiverquant.com/congresstrading/stock/BA",
+    "note": "Filed Oct 7, 2026 (after the comment). Same trade also falls in the Oct 1 BA window.",
+    "filed": "2026-10-07"
   }
 ]
