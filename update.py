@@ -314,6 +314,12 @@ for r in ok:
     _i0 = max(0, _e - 30); _i1 = min(len(_zc), _e + 61)
     _w = _s.reindex(_s.index.union(_zc)).ffill().reindex(_zc[_i0:_i1])
     r['zm'] = {'i0': _i0, 'e': _e - _i0, 'v': [_sig(x) for x in _w]}
+    # matching industry fund (peer ETF, else SPDR sector ETF) on the same days, so the close-up can show a like-for-like line
+    _sc = (SEC['tickers'].get(r['ticker']) or {}) if r.get('type') == 'stock' else {}
+    _f = next((x for x in (_sc.get('peer'), _sc.get('etf')) if x and x in px and len(px[x])), None)
+    if _f:
+        _fs = px[_f]; r['zm']['f'] = _f; r['zm']['fk'] = 'peer' if _f == _sc.get('peer') else 'sector'
+        r['zm']['fv'] = [_sig(x) for x in _fs.reindex(_fs.index.union(_zc)).ffill().reindex(_zc[_i0:_i1])]
 # family-linked listed companies vs indexes (context panel; not accusation)
 def _ret_since(s, d0):
     a = asof(s, pd.Timestamp(d0)); b = float(s.iloc[-1]) if len(s) else None
