@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Re-fetch prices (Yahoo Finance via yfinance) and regenerate index.html + data.json.
 Usage: pip install yfinance pandas && python update.py"""
-import json, math, os, datetime as dt, statistics as st
+import json, math, os, re, datetime as dt, statistics as st
 import numpy as np
 import pandas as pd, yfinance as yf
 
@@ -365,6 +365,23 @@ def _compact(o):
         if not math.isfinite(o) or abs(o) >= 1e6: return o
         return float(f'{o:.7g}')
     return o
+# "Recently added to this page": public headlines of the newest CHANGELOG entries (titles only; skips anything about private files).
+def _site_updates(n=10):
+    out, day = [], None
+    try: lines = open(f'{HERE}/CHANGELOG.md').read().splitlines()
+    except OSError: return out
+    for ln in lines:
+        m = re.match(r'^## (\d{4}-\d{2}-\d{2})', ln)
+        if m: day = m.group(1); continue
+        if ln.startswith('## '): day = None; continue
+        m = re.match(r'^- \*\*(.+?)\*\*\s*(\([^)]*\))?\s*:?\s*(.*)$', ln)
+        if not (m and day): continue
+        t, rest = m.group(1).strip(), m.group(3)
+        if re.search(r'watchlist|private', t + ' ' + rest, re.I): continue  # never surface private-file work
+        out.append({'d': day, 't': t})
+        if len(out) >= n: break
+    return out
+data['updates'] = _site_updates()
 data = _compact(json.loads(json.dumps(data, default=float)))
 json.dump(data, open(f'{HERE}/data.json', 'w'), indent=1, default=float)
 html = open(f'{HERE}/template.html').read()
