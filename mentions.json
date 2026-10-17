@@ -632,7 +632,9 @@
     "category": "Family venture",
     "quote": "\"$PSQH will continue to take serious steps to deliver shareholder value... We all believe in the future of this company. Onward!\"",
     "source": "https://x.com/DonaldJTrumpJr/status/2019173836554723408",
-    "group": "Family"
+    "group": "Family",
+    "after_close": true,
+    "note": "Posted 5:18 PM ET Feb 4 (after the close; time read from the X post ID), so the first session that could react is Feb 5."
   },
   {
     "date": "2026-02-19",

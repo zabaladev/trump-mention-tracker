@@ -7,6 +7,28 @@ import pandas as pd, yfinance as yf
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 M = json.load(open(f'{HERE}/mentions.json'))
+
+# Post time from the post's own ID (#12g): Truth Social (Mastodon) IDs carry the creation time in ms (id >> 16);
+# X IDs are Twitter snowflakes ((id >> 22) + 1288834974657 ms). Gives an exact ET timestamp for linked posts,
+# and auto-flags weekday posts at/after 4 PM ET as after_close (stocks/funds only; crypto trades 24/7).
+def _post_time(src):
+    import re as _re, datetime as _dt
+    from zoneinfo import ZoneInfo
+    m = _re.search(r'truthsocial\.com/@\w+/(?:posts/)?(\d{15,})', src or '')
+    if m: ms, k = int(m.group(1)) >> 16, 'Truth Social post ID'
+    else:
+        m = _re.search(r'(?:x|twitter)\.com/\w+/status/(\d{15,})', src or '')
+        if not m: return None
+        ms, k = (int(m.group(1)) >> 22) + 1288834974657, 'X post ID'
+    return _dt.datetime.fromtimestamp(ms / 1000, _dt.timezone.utc).astimezone(ZoneInfo('America/New_York')), k
+for _m in M:
+    _pt = _post_time(_m.get('source'))
+    if not _pt: continue
+    _t, _k = _pt
+    _m.setdefault('time_et', _t.strftime('%Y-%m-%d %H:%M')); _m.setdefault('time_src', _k)
+    if (_m['type'] != 'crypto' and _t.weekday() < 5 and _t.hour >= 16 and _t.strftime('%Y-%m-%d') == _m['date']
+            and 'after_close' not in _m):
+        _m['after_close'] = True; _m['after_close_auto'] = True
 EX = json.load(open(f'{HERE}/exclusions.json'))
 DISC = json.load(open(f'{HERE}/disclosures.json'))
 CONG = json.load(open(f'{HERE}/congress.json'))
