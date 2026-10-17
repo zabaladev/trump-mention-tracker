@@ -456,7 +456,16 @@
   "type": "Purchase",
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
-  "filed": "2026-01-26"
+  "filed": "2026-01-26",
+  "ptr": {
+   "url": "https://efdsearch.senate.gov/search/view/ptr/28e79480-3dcb-4793-86ed-48e7fd214587/",
+   "id": "28e79480-3dcb-4793-86ed-48e7fd214587",
+   "signed": "2026-01-26",
+   "status": "Original report (no amendment listed on eFD)",
+   "owner": "Spouse",
+   "checked": "2026-10-17",
+   "note": "Checked against the official Senate eFD report (Periodic Transaction Report filed Jan 26, 2026): an original report with no amendment listed. It covers 22 trades, all in the spouse's name, dated from Apr 14, 2025 to Nov 7, 2025; the Apr 14, 2025 NVDA purchase ($1,001\u2013$15,000) is one of 11 spouse purchases made that day. (Senate eFD asks you to accept its terms before showing the report.)"
+  }
  },
  {
   "mention": [
@@ -1022,7 +1031,16 @@
   "type": "Purchase",
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/PLTR",
-  "filed": "2026-07-21"
+  "filed": "2026-07-21",
+  "ptr": {
+   "url": "https://efdsearch.senate.gov/search/view/ptr/fda235b3-bad7-4637-8fa1-053f354d929c/",
+   "id": "fda235b3-bad7-4637-8fa1-053f354d929c",
+   "signed": "2026-07-21",
+   "status": "Original report (no amendment listed on eFD)",
+   "owner": "Self",
+   "checked": "2026-10-17",
+   "note": "Checked against the official Senate eFD report (Periodic Transaction Report filed Jul 21, 2026): an original report with no amendment listed. It covers 703 trades, 701 of them dated Mar 24\u201331, 2026; the Mar 27, 2026 PLTR purchase ($15,001\u2013$50,000, own account) is one of them. eFD lists his New Filer Report as dated Mar 24, 2026 and filed the same day as this report, Jul 21, 2026. (Senate eFD asks you to accept its terms before showing the report.)"
+  }
  },
  {
   "mention": [
