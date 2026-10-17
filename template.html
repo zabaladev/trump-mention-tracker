@@ -70,6 +70,7 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 <li><b>Family-linked listed company:</b> a public stock where Trump, a family member, or a family entity has a documented holding (SEC filing or their own post). Tracked separately from "mentions" so you can see how those companies have moved vs the market around merger filings and other milestones.</li></ul></details>
 <div class="cav">Caveats: past results don't predict future ones. Samples are small and overlap in time. Timing patterns are correlation, not proof of anything. Prices exclude fees and taxes. This is not financial advice.</div></div>
 <div class="panel" id="secNew"><h2>Newest mentions <span class="sub">(the 6 most recent in your filters)</span></h2><p class="sub" id="newCap" style="margin:0 0 8px;font-size:14px;line-height:1.5"></p><div id="newL"></div></div>
+<div class="panel" id="secRep"><h2>Mentioned more than once <span class="sub">(the same asset brought up again)</span></h2><p class="sub" id="repCap" style="margin:0 0 8px;font-size:14px;line-height:1.5"></p><div id="repL"></div></div>
 <div class="cards" id="cards"></div>
 <div class="hcards" id="hcards"></div>
 <div class="panel" id="secLuck"><h2>Is this more than luck? <span class="sub">(average excess vs <span class="bml"></span>, with a 95% range)</span></h2>
@@ -264,6 +265,23 @@ const NK=r=>[r.who,r.date,r.asset,r.ticker||''].join('|');
 const SEEN=(()=>{const o={first:true,prev:null,newk:new Set()};try{const ls=window.localStorage,K='tmt_seen_v1',now={g:D.generated,k:D.rows.map(NK)};let st=null;try{st=JSON.parse(ls.getItem(K)||'null')}catch(e){}
  let base=null;if(st&&st.cur){if(st.cur.g==D.generated){base=st.prev}else{base=st.cur;st.prev=st.cur}st.cur=now}else{st={cur:now,prev:null}}
  ls.setItem(K,JSON.stringify(st));if(base&&base.k){o.first=false;o.prev=base.g;const old=new Set(base.k);D.rows.forEach(r=>{if(!old.has(NK(r)))o.newk.add(NK(r))})}}catch(e){o.off=true}return o})();
+function repeats(sel){const el=document.getElementById('repL'),cp=document.getElementById('repCap');if(!el)return;
+ const MO=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],dt=d=>`${MO[+d.slice(5,7)-1]} ${+d.slice(8,10)}, ${d.slice(0,4)}`,b=BL[BM];
+ const esc=t=>String(t||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const G={};sel.filter(r=>r.date&&r.ticker).forEach(r=>{(G[r.ticker]=G[r.ticker]||[]).push(r)});
+ const L=Object.entries(G).filter(([,rs])=>rs.length>1).map(([t,rs])=>[t,rs.slice().sort((a,c)=>a.date.localeCompare(c.date))]).sort((a,c)=>c[1].length-a[1].length||c[1][c[1].length-1].date.localeCompare(a[1][a[1].length-1].date));
+ if(!L.length){el.innerHTML='';cp.innerHTML='<b>In plain English:</b> no asset was mentioned more than once in these filters.';return}
+ const R=r=>r.status=='ok'&&r.returns&&r.returns['to date']!=null?r.returns['to date']:null,pt=v=>`${v>=0?'+':'−'}${Math.abs(v*100).toFixed(1)}%`;
+ let up=0,lat=0;
+ el.innerHTML='<ul style="list-style:none;padding:0;margin:0">'+L.map(([t,rs])=>{const f=rs[0],l=rs[rs.length-1],bk=/^BASKET/.test(t);
+  const nm=bk?esc(f.asset):`<a href="#ticker=${encodeURIComponent(t)}">${esc(f.asset)}</a> (${esc(t)})`,who=[...new Set(rs.map(r=>r.who))].map(esc).join(', ');
+  const ex=f.status=='ok'?X(f)['to date']:null,r0=R(f);
+  const since=ex==null?'There is no price result for the first mention yet.':`Since the first mention it has done ${ex>=0?'<span class="pos">better</span>':'<span class="neg">worse</span>'} than the ${b}, by ${Math.abs(ex*100).toFixed(1)} points.`;
+  const later=rs.slice(1).map(r=>{const rl=R(r);if(r0==null||rl==null)return null;const ch=(1+r0)/(1+rl)-1;lat++;if(ch>0)up++;return `${dt(r.date)}: price ${ch>=0?'up':'down'} ${Math.abs(ch*100).toFixed(1)}% since the first mention`}).filter(Boolean);
+  const each=rs.map(r=>{const e=r.status=='ok'?X(r)['to date']:null;return `${dt(r.date)}${r.who!=f.who?' ('+esc(r.who)+')':''}${e==null?'':` <span class="${e>=0?'pos':'neg'}">${e>=0?'+':'−'}${Math.abs(e*100).toFixed(1)}</span>`}${r.source?` <a href="${esc(r.source)}" target="_blank" rel="noopener">source</a>`:''}`}).join(' · ');
+  return `<li style="padding:8px 0;border-bottom:1px solid #1f2937"><b>${nm}</b> <span class="sub">${rs.length} mentions by ${who}, ${dt(f.date)} to ${dt(l.date)}</span><div style="font-size:14px;line-height:1.5;margin-top:2px">${since}${later.length?' When it came up again: '+later.join('; ')+'.':''}</div><div class="sub" style="font-size:13px;margin-top:2px">Each mention, points ahead (+) or behind (−) the ${b} to the latest price: ${each}</div></li>`}).join('')+'</ul>';
+ const n=L.reduce((a,[,rs])=>a+rs.length,0);
+ cp.innerHTML=`<b>In plain English:</b> ${L.length} asset${L.length==1?' was':'s were'} brought up more than once in these filters, adding up to ${n} of ${sel.filter(r=>r.date).length} mentions. For each one you can see how it has done since it was <i>first</i> mentioned, and whether the price had already gone up or down by the time it was mentioned again${lat?` (for ${up} of ${lat} repeat mentions with prices, the price was higher than at the first mention)`:''}. Repeat comments can make one company count several times in the averages above. This only describes timing and prices; it says nothing about why anyone spoke or traded.`}
 function newest(sel){const el=document.getElementById('newL'),cp=document.getElementById('newCap');if(!el)return;
  const MO=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],dt=d=>`${MO[+d.slice(5,7)-1]} ${+d.slice(8,10)}, ${d.slice(0,4)}`,b=BL[BM];
  const rs=sel.filter(r=>r.date).slice().sort((a,c)=>c.date.localeCompare(a.date)||(c.time_et||'').localeCompare(a.time_et||'')).slice(0,6);
@@ -311,7 +329,7 @@ function render(){
  ['Trump','Family','Admin'].map(g=>{const rs=base.filter(r=>r.group==g);if(!rs.length)return'';const p=port(rs,'hold'),l=p.val.length-1,i=p.inv[l];
  return `<tr><td><span class="tag" style="background:${GC[g]};color:#111">${GSY[g]} ${g}</span></td><td>${rs.length}</td>`+KH.map(h=>{const s=stats(rs,h);return `<td>${pct(s.win,0)}</td><td>${pct(s.beat,0)}</td><td>${pct(s.aex)}</td>`}).join('')+`<td>${pct(p.val[l]/i-1)} vs ${pct(p[BM][l]/i-1)}</td></tr>`}).join('');
  mxCap(grp,h);grpCap(base);
- sigTable(ok);sigGroups(ok);sigCats(ok);secPanel(ok);famPanel();apiPanel(ok); takeaway(ok,P);insights(sel,ok,P);newest(sel);betaPanel(ok);plcPanel(ok);stancePanel(ok);tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
+ sigTable(ok);sigGroups(ok);sigCats(ok);secPanel(ok);famPanel();apiPanel(ok); takeaway(ok,P);insights(sel,ok,P);newest(sel);repeats(sel);betaPanel(ok);plcPanel(ok);stancePanel(ok);tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
 function preBase(ok,t){const o=ok.filter(r=>r.plc&&r.plc.pre);if(o.length<5)return'';const P=o.map(r=>r.plc.pre.q.filter(x=>x>=t).length/r.plc.pre.q.length),E=P.reduce((a,b)=>a+b,0),A=o.filter(r=>r.plc.pre.act>=t).length,G=rng(4243),B=2000,c=[];
  for(let b=0;b<B;b++){let k=0;for(const p of P)if(G()<p)k++;c.push(k)}c.sort((x,y)=>x-y);const lo=c[Math.floor(B*.025)],hi=c[Math.ceil(B*.975)-1],top=o.filter(r=>r.plc.pre.pct>=.9).length,sh=E/o.length,pt=(t*100).toFixed(0),bq=(()=>{const n=o.length;let c=0,pr=Math.pow(.9,n);for(let k=0;k<=n;k++){c+=pr;if(c>=.975)return k;pr=pr*(n-k)/(k+1)*(.1/.9)}return n})();
  const v=A>hi?'<b>more than ordinary days would explain</b>':A<lo?'<b>fewer than ordinary days would give</b>':'<b>within the normal range</b>, so the count alone doesn\'t stand out';
@@ -565,7 +583,7 @@ render();tkSync();if(hTk())setTimeout(()=>document.getElementById('tkPanel').scr
 
 // Section navigation (plain-English names; offsets for the sticky filter bar)
 function goSec(id){const el=document.getElementById(id);if(!el)return;const f=document.querySelector('.filters');const off=(f?f.getBoundingClientRect().height:0)+8;window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-off,behavior:'smooth'})}
-(()=>{const S=[['take','Quick takeaway'],['secIns','Plain-English insights'],['secNew','Newest mentions'],['cards','Headline numbers'],['secLuck','More than luck?'],['secInd','Beat its industry?'],['secBeta','Adjusted for jumpiness'],['secPlc','Vs ordinary days'],['secStance','Praise vs criticism'],['famPanel','Family-linked companies'],['apiPanel','Truth API'],['secPort','Returns & portfolio'],['secMx','All indexes'],['secEach','Each mention'],['secTL','Timeline'],['secGrp','Trump vs Family vs Admin'],['tkPanel','Ticker lookup'],['secSect','Sector calls'],['secPre','Moves before comments'],['secDisc','Disclosures'],['secCong','Congress trades'],['secAll','All mentions table'],['secEx','Coverage notes']].filter(([i])=>document.getElementById(i));
+(()=>{const S=[['take','Quick takeaway'],['secIns','Plain-English insights'],['secNew','Newest mentions'],['secRep','Mentioned more than once'],['cards','Headline numbers'],['secLuck','More than luck?'],['secInd','Beat its industry?'],['secBeta','Adjusted for jumpiness'],['secPlc','Vs ordinary days'],['secStance','Praise vs criticism'],['famPanel','Family-linked companies'],['apiPanel','Truth API'],['secPort','Returns & portfolio'],['secMx','All indexes'],['secEach','Each mention'],['secTL','Timeline'],['secGrp','Trump vs Family vs Admin'],['tkPanel','Ticker lookup'],['secSect','Sector calls'],['secPre','Moves before comments'],['secDisc','Disclosures'],['secCong','Congress trades'],['secAll','All mentions table'],['secEx','Coverage notes']].filter(([i])=>document.getElementById(i));
 const toc=document.getElementById('toc'),j=document.getElementById('jump');
 S.forEach(([i,n])=>{const a=document.createElement('a');a.href='#';a.textContent=n;a.onclick=e=>{e.preventDefault();goSec(i)};toc.appendChild(a);const o=document.createElement('option');o.value=i;o.textContent=n;j.appendChild(o)});
 j.onchange=()=>{if(j.value)goSec(j.value);j.value=''};
