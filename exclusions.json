@@ -123,5 +123,15 @@
   "item": "Peterbilt repeat and the Eli Lilly, Merck and Pfizer line (Trump, Oct 6 2026 Sparrows Point, Maryland)",
   "reason": "Trump recalled his Oct 1 Peterbilt plant visit (\"Peterbilt, a very fine company\"), which is already scored from the Oct 1 visit itself, so it isn't counted twice. \"Eli Lilly, Merck, Pfizer, they're all building massive, hundreds of billions of dollars' worth of plants\" is a general claim with no specific new project named, as in the Oct 12 Youngstown rally. Neither is scored as a new company mention.",
   "kind": "notcall"
+ },
+ {
+  "item": "Michael and Susan Dell's Trump Accounts gift, and the Uber, Intel, NVIDIA and Steak 'n Shake line (Trump, Oct 7 2026 White House Trump Accounts event)",
+  "reason": "Trump thanked Michael and Susan Dell for their personal $6.25 billion gift to children's Trump Accounts and Brad Gerstner for his donation; that is praise for a private donation, not for Dell Technologies the company. He also said \"More than 70 companies have also committed to Trump Accounts... including Uber, Intel, NVIDIA, Steak 'n Shake\", a passing list of employers that pledged contributions rather than praise of any one company's business. Neither is scored as a company mention (Trump Archive transcript, Oct 7 2026).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Goya, the unnamed gas power plant deal and the Eli Lilly, Merck and Pfizer line (Trump, Oct 7 2026 San Antonio, Texas rally)",
+  "reason": "Trump greeted former Goya president Bob Unanue and said \"I will get Goya whenever I can\"; Goya Foods is privately owned, so there is no share price (his 2020 Goya endorsements are listed but unpriced). He mentioned \"a deal that we reached to build a colossal new natural gas power plant\" without naming a company. \"Eli Lilly, Merck and Pfizer all coming back\" is the same general line as at other October rallies, with no specific new project. None is scored; the Toyota line from the same rally is (Trump Archive transcript).",
+  "kind": "notcall"
  }
 ]

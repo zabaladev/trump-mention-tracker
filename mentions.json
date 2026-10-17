@@ -1108,5 +1108,26 @@
   "ticker": "042660.KS",
   "quote": "\"The Korean company Hanwha is spending billions of dollars to revitalize the historic shipyard in Philadelphia, big old shipyard, billions of dollars.\" (Anduril shipyard announcement, Sparrows Point, Maryland)",
   "note": "Said about 28 minutes into Trump's remarks at the Anduril shipyard event at Sparrows Point near Baltimore, which began at 4:02 PM ET (after the U.S. close, per the White House travel pool report), so day 0 is the next Seoul session (Wed Oct 7). Hanwha Philly Shipyard is jointly owned by Hanwha Systems (60%, Seoul: 272210) and Hanwha Ocean (40%, Seoul: 042660) since Dec 19 2024 (Hanwha and Korea JoongAng Daily). We score Hanwha Ocean because it is the group's shipbuilder and Hanwha says the yard will build LNG carriers, naval modules and, later, naval vessels. Hanwha announced the $5 billion Philly expansion on Aug 26 2025 (Hanwha press release; Reuters), as part of South Korea's $150 billion U.S. shipbuilding pledge. Seoul-listed shares, priced in won, so index comparisons include currency moves. No congressional check: no U.S.-listed ticker."
+ },
+ {
+  "date": "2026-10-07",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/7d47d21c-ac24-4402-8fc4-5412d4c7ebb8",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-7-2026",
+  "time_et": "2026-10-07 19:06",
+  "time_src": "White House travel pool report 5 (took the stage at 6:06 PM CDT; the Toyota line came about 44 minutes in)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Toyota",
+  "ticker": "TM",
+  "quote": "\"And Toyota, great company, is pouring $3.6 billion into its manufacturing campus right here in San Antonio. Bringing Toyota production out of Mexico and back to Texas, where it started.\" (San Antonio, Texas rally)",
+  "note": "Said at Trump's midterm campaign rally at the Freeman Coliseum in San Antonio, Texas on Wed Oct 7 2026 (Trump Archive transcript). The White House travel pool report says he took the stage at 6:06 PM Central (7:06 PM ET, after the close), so day 0 is the next session (Thu Oct 8). The investment is real and was already public: Toyota Motor North America announced a $3.6 billion expansion of its San Antonio plant on Jul 6 2026, adding a second assembly line, about 2,000 jobs, and moving most Tacoma pickup production from Baja California, Mexico over about four years (Toyota press release; Toyota global newsroom Jul 7; Texas Governor's office; CNBC and Bloomberg Jul 6). Toyota's US-listed shares are ADRs (NYSE: TM). Quiver: no congressional trades in TM within 30 days before to 7 days after (the latest listed is Sen. Alan Armstrong's Mar 30 2026 purchase; checked 2026-10-17).",
+  "verify": [
+   "https://pressroom.toyota.com/toyota-announces-3-6b-expansion-2000-new-jobs-at-its-san-antonio-plant/",
+   "https://global.toyota/en/newsroom/corporate/44599187.html",
+   "https://gov.texas.gov/news/post/governor-abbott-announces-toyota-expansion-in-san-antonio"
+  ]
  }
 ]
