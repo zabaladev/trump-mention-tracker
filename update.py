@@ -8,23 +8,28 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 M = json.load(open(f'{HERE}/mentions.json'))
 EX = json.load(open(f'{HERE}/exclusions.json'))
 DISC = json.load(open(f'{HERE}/disclosures.json'))
+CONG = json.load(open(f'{HERE}/congress.json'))
 DNOTES = [
  'Sources are public only: OGE Form 278e/278-T (via OGE, whitehouse.gov, and reporting by CNN, WSJ, CNBC), SEC 13D/13G/8-K/S-3 filings, company disclosures, and the family members\' own posts.',
  'Amounts are disclosed as ranges, not exact figures. Reports can be filed up to 45 days after a trade (some were later), so overlaps were often not public at the time of the comment.',
  "Trump's accounts are discretionary and managed by third parties. The White House says he plays no role in trades, and they made 21,000+ trades in 2025, so overlap with any single post is expected by chance.",
- 'Not checked systematically: congressional STOCK Act trades. Only MP Materials was checked (Benzinga congressional-trades page shows one trade, May 2022, outside any window). Capitol Trades / Quiver / House & Senate sites were not scraped for every ticker.',
+ 'Congressional STOCK Act trades come from Quiver Quantitative\'s public per-ticker pages, which compile official House Clerk and Senate eFD filings. Every priced stock/ETF mention and sector-basket component was checked for trades from 30 days before to 7 days after the comment. Members must file within 30–45 days, so most trades weren\'t public at comment time. Not covered: crypto, futures, and members not in the current-legislators list (party/chamber shown as ? if unmatched). Quiver can miss or lag filings.',
  'Not checked: OGE reports for Bessent, Lutnick (said he may not own stocks), Navarro, and other officials for every mentioned asset. No public holdings found for Ivanka/Kushner (Affinity Partners) or Lara Trump in tracked assets.',
  'These are factual timing overlaps and holdings. They are not evidence of wrongdoing, coordination or insider trading, and none is alleged.']
 TODAY = pd.Timestamp(dt.date.today())
 # pre windows END at the last close BEFORE the entry day (pure pre-mention);
 # 'day0' = prior close -> entry-day close (mention-day reaction); post windows start at entry close.
 HOR = ['-30d', '-7d', 'day0', '+1d', '+7d', '+30d', '+90d', 'to date']
-BENCH = {'sp': 'SPY', 'dow': 'DIA', 'btc': 'BTC-USD'}
+# Index benchmarks (price indices); ETF fallback if Yahoo lacks the index.
+BENCHES = [('sp', '^GSPC', 'SPY', 'S&P 500'), ('dow', '^DJI', 'DIA', 'Dow Jones (DJIA)'), ('ixic', '^IXIC', 'ONEQ', 'Nasdaq Composite'),
+           ('ndx', '^NDX', 'QQQ', 'Nasdaq 100'), ('rut', '^RUT', 'IWM', 'Russell 2000'), ('rui', '^RUI', 'IWB', 'Russell 1000'),
+           ('rua', '^RUA', 'IWV', 'Russell 3000'), ('w5000', '^W5000', 'VTI', 'Wilshire 5000 (total market)'), ('mid', '^MID', 'MDY', 'S&P MidCap 400')]
+BENCH = {'btc': 'BTC-USD'}
 
 tick = {m['ticker'] for m in M if m.get('ticker') and not m['ticker'].startswith('BASKET:')}
 for m in M:
     for t, _ in m.get('basket', []): tick.add(t)
-tick |= set(BENCH.values())
+tick |= set(BENCH.values()) | {b[1] for b in BENCHES} | {'SPY', 'DIA'}
 px = {}
 for t in sorted(tick):
     try:
@@ -34,6 +39,13 @@ for t in sorted(tick):
             s.index = pd.to_datetime(s.index).tz_localize(None).normalize(); px[t] = s[~s.index.duplicated()]
     except Exception as e:
         print('fail', t, e)
+BLABEL = {}
+for k, idx, etf, lab in BENCHES:
+    if idx in px and len(px[idx]) > 300: BENCH[k] = idx; BLABEL[k] = lab
+    else:
+        d = yf.download(etf, start='2020-05-01', progress=False, auto_adjust=True)['Close'].squeeze().dropna()
+        d.index = pd.to_datetime(d.index).tz_localize(None).normalize(); px[etf] = d; BENCH[k] = etf; BLABEL[k] = lab + f' ({etf} proxy)'
+BKEYS = [b[0] for b in BENCHES]
 
 def asof(s, d):
     s2 = s[s.index <= d]; return s2.iloc[-1] if len(s2) else None
@@ -76,7 +88,7 @@ def ret(s, a, b):
 
 rows = []
 for m in M:
-    r = dict(m); r.update(returns={}, ex_sp={}, ex_dow={}, ex_btc={})
+    r = dict(m); r.update(returns={}, ex={k: {} for k in BKEYS + ['btc']})
     t = m.get('ticker')
     if t and t.startswith('BASKET:'):
         s = basket_series(m)
@@ -92,25 +104,26 @@ for m in M:
         for key, bt in BENCH.items():
             if key == 'btc' and m['type'] != 'crypto': continue
             bv = ret(px[bt], a, b)
-            if bv is not None: r['ex_' + key][k] = v - bv
+            if bv is not None: r['ex'][key][k] = v - bv
     if m.get('basket'):
         comp = []
         for ct, name in m['basket']:
             cs = px.get(ct)
-            if cs is None: comp.append(dict(ticker=ct, name=name, returns={}, ex_sp={}, ex_dow={})); continue
-            cr = dict(ticker=ct, name=name, returns={}, ex_sp={}, ex_dow={})
+            if cs is None: comp.append(dict(ticker=ct, name=name, returns={}, ex={k: {} for k in BKEYS})); continue
+            cr = dict(ticker=ct, name=name, returns={}, ex={k: {} for k in BKEYS})
             for k, (a, b) in W.items():
                 v = ret(cs, a, b)
                 if v is None: continue
                 cr['returns'][k] = v
-                for key in ('sp', 'dow'):
+                for key in BKEYS:
                     bv = ret(px[BENCH[key]], a, b)
-                    if bv is not None: cr['ex_' + key][k] = v - bv
+                    if bv is not None: cr['ex'][key][k] = v - bv
             comp.append(cr)
         r['components'] = comp
     rows.append(r)
 for r in rows:
     r['disclosures'] = [d for d in DISC if [r['date'], r.get('ticker')] in d['applies']]
+    r['congress'] = [c for c in CONG if c['mention'] == [r['date'], r.get('ticker')]]
 ok = [r for r in rows if r['status'] == 'ok']
 
 # portfolios ($1,000 at entry close per priced mention) vs same cash flows into SPY and DIA
@@ -118,10 +131,10 @@ start = min(pd.Timestamp(r['entry_date']) for r in ok)
 days = pd.date_range(start, TODAY, freq='D')
 ff = {t: s.reindex(days.union(s.index)).ffill().reindex(days) for t, s in px.items()}
 def curve(sel, hold=None):
-    out = {k: pd.Series(0.0, index=days) for k in ('val', 'sp', 'dow', 'inv')}
+    out = {k: pd.Series(0.0, index=days) for k in ['val', 'inv'] + BKEYS}
     for r in sel:
         d0 = pd.Timestamp(r['entry_date']); mask = days >= d0
-        for key, ser in (('val', ff[r['ticker']]), ('sp', ff['SPY']), ('dow', ff['DIA'])):
+        for key, ser in [('val', ff[r['ticker']])] + [(k, ff[BENCH[k]]) for k in BKEYS]:
             p0 = asof(px[r['ticker']] if key == 'val' else px[BENCH[key]], d0)
             a = ser * (1000 / p0)
             if hold:
@@ -143,12 +156,11 @@ for g in ('Trump', 'Family', 'Admin'):
 grid = days[::3]
 for r in ok:
     a = ff[r['ticker']].reindex(grid) / r['entry_price']
-    e0 = pd.Timestamp(r['entry_date']); r['sp0'] = float(asof(px['SPY'], e0)); r['dia0'] = float(asof(px['DIA'], e0))
+    e0 = pd.Timestamp(r['entry_date']); r['b0'] = {k: float(asof(px[BENCH[k]], e0)) for k in BKEYS}
     r['curve'] = [None if (d < pd.Timestamp(r['entry_date']) or pd.isna(v)) else round(float(v), 4) for d, v in zip(grid, a)]
-gridd = dict(dates=[str(d.date()) for d in grid], SPY=[round(float(x), 3) for x in ff['SPY'].reindex(grid)],
-             DIA=[round(float(x), 3) for x in ff['DIA'].reindex(grid)])
+gridd = dict(dates=[str(d.date()) for d in grid], **{k: [round(float(x), 3) for x in ff[BENCH[k]].reindex(grid)] for k in BKEYS})
 data = dict(grid=gridd, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
-            rows=rows, exclusions=EX, disclosure_notes=DNOTES, portfolio=port, group_portfolio=gport)
+            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport)
 json.dump(data, open(f'{HERE}/data.json', 'w'), indent=1, default=float)
 html = open(f'{HERE}/template.html').read()
 html = html.replace('/*__DATA__*/null', json.dumps(data, default=float)).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())

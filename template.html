@@ -2,7 +2,7 @@
 <title>Trump Family &amp; Admin Investment Mention Tracker</title>
 <script>/*__CHARTJS__*/</script>
 <style>
-:root{--bg:#0f1420;--pn:#1a2133;--bd:#2c3550;--mu:#9aa4bd;--tx:#e6e9ef;--g:#4ade80;--r:#f87171;--sp:#60a5fa;--dw:#f472b6}
+:root{--bg:#0f1420;--pn:#1a2133;--bd:#2c3550;--mu:#9aa4bd;--tx:#e6e9ef;--g:#4ade80;--r:#f87171}
 body{font-family:system-ui,Arial;margin:0;background:var(--bg);color:var(--tx)}
 header{padding:16px 24px;background:var(--pn);border-bottom:1px solid var(--bd)}h1{margin:0;font-size:22px}
 .sub{color:var(--mu);font-size:13px}main{padding:14px 24px;max-width:1500px;margin:auto}
@@ -10,19 +10,23 @@ header{padding:16px 24px;background:var(--pn);border-bottom:1px solid var(--bd)}
 .frow{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.frow b{width:90px;font-size:12px;color:var(--mu);text-transform:uppercase}
 .chip{border:1px solid var(--bd);background:var(--pn);color:var(--tx);border-radius:18px;padding:6px 14px;cursor:pointer;font-size:13px}
 .chip.on{background:#f59e0b;color:#111;border-color:#f59e0b;font-weight:600}.chip.big{font-size:15px;padding:8px 18px}
+select,input{background:#0f1420;color:var(--tx);border:1px solid var(--bd);border-radius:6px;padding:5px 8px;font-size:13px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:12px}
 .card{background:var(--pn);border:1px solid var(--bd);border-radius:10px;padding:12px 14px}.card b{display:block;font-size:26px}.card span{color:var(--mu);font-size:12px}
 .hcards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px}
 .hc{background:var(--pn);border:1px solid var(--bd);border-radius:10px;padding:10px 14px}.hc h3{margin:0 0 6px;font-size:15px}
 .hc .kv{display:flex;justify-content:space-between;font-size:13px;padding:2px 0}.hc .kv b{font-size:16px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.panel{background:var(--pn);border:1px solid var(--bd);border-radius:10px;padding:12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.panel{background:var(--pn);border:1px solid var(--bd);border-radius:10px;padding:12px;margin-top:14px}.grid .panel{margin-top:0}
 h2{font-size:16px;margin:2px 0 10px}table{border-collapse:collapse;width:100%;font-size:12px}
 th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical-align:top}th{color:var(--mu);cursor:pointer}
 .pos{color:var(--g)}.neg{color:var(--r)}.muted{color:#6b7591}a{color:#7cb4ff}
 .sector{background:#141b2b;border:1px solid var(--bd);border-radius:8px;padding:10px;margin-bottom:10px}
 .tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:9px;background:#2c3550;margin-right:4px}
 .hl{background:#4a3a0a!important;outline:1px solid #f59e0b}.flag{background:#7c2d12;color:#fde68a;border-radius:9px;padding:1px 7px;font-size:11px;white-space:nowrap}
+.cflag{background:#1e3a5f;color:#bfdbfe;border-radius:9px;padding:1px 7px;font-size:11px;white-space:nowrap}
 .disc{font-size:11px;color:var(--mu);margin-top:16px;line-height:1.5}.warn{color:#fbbf24;font-size:12px}
+.mx td,.mx th{text-align:center}.mx td:first-child,.mx th:first-child{text-align:left}
+.cbx label{margin-right:10px;font-size:12px;white-space:nowrap}
 @media(max-width:1000px){.grid,.hcards{grid-template-columns:1fr}}
 </style></head><body>
 <header><h1>Trump, Family &amp; Administration — Investment Mention Tracker</h1><div class="sub" id="gen"></div></header>
@@ -31,87 +35,103 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
  <div class="frow"><b>Who</b><span id="fGroup"></span></div>
  <div class="frow"><b>Category</b><span id="fCat"></span></div>
  <div class="frow"><b>Asset type</b><span id="fType"></span></div>
+ <div class="frow"><b>Benchmark</b><select id="bm"></select><span class="sub">Updates every card, chart and table below. The matrix compares all indexes.</span></div>
 </div>
 <div class="cards" id="cards"></div>
 <div class="hcards" id="hcards"></div>
 <div class="grid">
- <div class="panel"><h2>Average excess return by horizon (vs S&amp;P 500 and Dow)</h2><canvas id="cEx"></canvas></div>
- <div class="panel"><h2>Virtual portfolio ($1,000 per mention) vs same cash in S&amp;P 500 and Dow <span id="fHold"></span></h2><canvas id="cEq"></canvas></div>
+ <div class="panel"><h2>Average excess return by horizon vs <span class="bml"></span></h2><canvas id="cEx"></canvas></div>
+ <div class="panel"><h2>Virtual portfolio ($1,000 per mention) vs same cash in indexes <span id="fHold"></span></h2><div class="cbx" id="pIdx"></div><canvas id="cEq"></canvas></div>
 </div>
-<div class="panel" style="margin-top:14px"><h2>Each mention: excess return to date vs S&amp;P 500 (sorted; colour = who)</h2><div style="height:320px"><canvas id="cEach"></canvas></div></div>
-<div class="panel" style="margin-top:14px"><h2>Trump vs Family vs Admin (current category/type filters)</h2><table id="tGrp"></table></div>
-<div class="panel" style="margin-top:14px"><h2>Sector / theme comments — basket moves &amp; foreshadowing</h2>
-<p class="warn">Foreshadowing = abnormal (excess vs index) return of the basket in the 30 and 7 days <i>before</i> the comment, ending at the prior close (excludes the mention-day reaction). Correlation, not proof: pre-moves can reflect news, sector momentum, or leaks — this cannot distinguish them.</p><div id="sectors"></div></div>
-<div class="panel" style="margin-top:14px"><h2>Pre-comment moves (every mention) — highlight abnormal moves ≥ <input id="thr" type="number" value="10" min="1" max="200" step="1" style="width:60px;background:#0f1420;color:#e6e9ef;border:1px solid #2c3550;border-radius:4px;padding:2px 4px">% vs S&amp;P over -7d or -30d</h2>
-<p class="warn">Pre windows end at the close before the mention. A large pre-move is a correlation flag only: it can reflect news, momentum or chance.</p><div id="pre"></div></div>
-<div class="panel" style="margin-top:14px"><h2>Disclosure overlap (holdings/trades by speakers, family entities, officials &amp; spouses)</h2><div id="discN" class="sub"></div><div id="disc"></div></div>
-<div class="panel" style="margin-top:14px"><h2>All mentions (click headers to sort)</h2><table id="tbl"></table></div>
-<div class="panel" style="margin-top:14px"><h2>Why some calls weren't counted (coverage notes)</h2><table id="tEx"></table></div>
-<p class="disc">Data: Yahoo Finance via yfinance (daily closes, adjusted). Entry = close on the mention day (or next trading day). Pre windows (-30d, -7d) end at the prior close; "day 0" = prior close → mention-day close (the reaction; for after-hours remarks the reaction shows up in +1d). Post windows start at the entry close; calendar days. Excess = asset return minus SPY (S&amp;P 500) or DIA (Dow) over the same window. Sector/theme comments are scored as an equal-weight basket of documented proxies (see each basket). Categories: Explicit buy call, Bullish call, Company praise, Product endorsement, Policy promotion, Sector/theme call, Government stake/deal, Family venture. Small, overlapping samples; not investment advice.</p>
+<div class="panel"><h2>Index matrix: win rate &amp; average excess vs every index <select id="mxH"></select></h2><div class="sub">Cells show <b>% of mentions beating the index</b> / <b>average excess return</b>. Rows are groups within the current category/type filters.</div><div style="overflow-x:auto"><table class="mx" id="mx"></table></div></div>
+<div class="panel"><h2>Each mention: excess return to date vs <span class="bml"></span> (sorted; colour = who)</h2><div style="height:320px"><canvas id="cEach"></canvas></div></div>
+<div class="panel"><h2>Trump vs Family vs Admin (current category/type filters, vs <span class="bml"></span>)</h2><table id="tGrp"></table></div>
+<div class="panel"><h2>Ticker lookup <select id="tk"></select></h2><div id="tkv"></div></div>
+<div class="panel"><h2>Sector / theme comments: basket moves &amp; foreshadowing</h2>
+<p class="warn">Foreshadowing = the basket's abnormal (excess vs index) return in the 30 and 7 days <i>before</i> the comment, ending at the prior close, so it excludes the mention-day reaction. This is correlation, not proof: pre-moves can reflect news, sector momentum, or leaks, and this data can't tell them apart.</p><div id="sectors"></div></div>
+<div class="panel"><h2>Pre-comment moves (every mention): highlight abnormal moves ≥ <input id="thr" type="number" value="10" min="1" max="200" step="1" style="width:60px">% vs <span class="bml"></span> over -7d or -30d</h2>
+<p class="warn">Pre windows end at the close before the mention. A large pre-move is only a correlation flag; it can reflect news, momentum or chance.</p><div id="pre"></div></div>
+<div class="panel"><h2>Disclosure overlap: speakers, family entities, officials &amp; spouses</h2><div id="discN" class="sub"></div><div id="disc"></div></div>
+<div class="panel"><h2>Congressional STOCK Act trades in the related asset (30 days before → 7 days after)</h2><div id="cong"></div></div>
+<div class="panel"><h2>All mentions (click headers to sort)</h2><div style="overflow-x:auto"><table id="tbl"></table></div></div>
+<div class="panel"><h2>Why some calls weren't counted (coverage notes)</h2><table id="tEx"></table></div>
+<p class="disc">Data: Yahoo Finance via yfinance. Asset prices are daily closes, adjusted for splits and dividends. Benchmarks are the index levels themselves (^GSPC, ^DJI, ^IXIC, ^NDX, ^RUT, ^RUI, ^RUA, ^W5000, ^MID), which are price-only, so long-horizon excess for dividend payers is slightly flattered. Entry = close on the mention day (or next trading day). Pre windows (-30d, -7d) end at the prior close. "Day 0" = prior close → mention-day close; for after-hours remarks the reaction shows up in +1d. Post windows start at the entry close and use calendar days. Sector/theme comments are scored as an equal-weight basket of documented proxies. Disclosure and congressional overlaps are factual timing matches from public filings (amounts are ranges, filings lag trades by up to 30–45+ days). They are not evidence of wrongdoing, and none is alleged. Small, overlapping samples; not investment advice.</p>
 </main>
 <script>
 const D=/*__DATA__*/null;
-const H=D.horizons, KH=['+7d','+30d','+90d','to date'];
+const H=D.horizons,KH=['+7d','+30d','+90d','to date'],BL=Object.fromEntries(D.benches.map(b=>[b[0],b[1]]));let BM='sp';
 const pct=(x,d=1)=>x==null||isNaN(x)?'<span class="muted">–</span>':`<span class="${x>=0?'pos':'neg'}">${x>=0?'+':''}${(x*100).toFixed(d)}%</span>`;
-const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null, med=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
-const GC={Trump:'#f59e0b',Family:'#a78bfa',Admin:'#22d3ee'};
+const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null,med=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
+const GC={Trump:'#f59e0b',Family:'#a78bfa',Admin:'#22d3ee'},IC=['#60a5fa','#f472b6','#34d399','#facc15','#fb923c','#c084fc','#2dd4bf','#e879f9','#a3e635'];
 const uniq=k=>[...new Set(D.rows.map(r=>r[k]))].sort();
-const F={group:new Set(uniq('group')),category:new Set(uniq('category')),type:new Set(uniq('type'))};let hold='hold';
+const F={group:new Set(uniq('group')),category:new Set(uniq('category')),type:new Set(uniq('type'))};let hold='hold';const PI=new Set(['sp','dow']);
 function chips(id,key){const el=document.getElementById(id);const vals=uniq(key);
  el.innerHTML=`<button class="chip" data-all="1">All</button>`+vals.map(v=>`<button class="chip ${key=='group'?'big':''} on" data-v="${v}">${v} (${D.rows.filter(r=>r[key]==v).length})</button>`).join('');
  el.onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.all){vals.forEach(v=>F[key].add(v))}else{const v=b.dataset.v;F[key].has(v)?F[key].delete(v):F[key].add(v)}
   el.querySelectorAll('[data-v]').forEach(x=>x.classList.toggle('on',F[key].has(x.dataset.v)));render()}}
 chips('fGroup','group');chips('fCat','category');chips('fType','type');
+const bmEl=document.getElementById('bm');bmEl.innerHTML=D.benches.map(b=>`<option value="${b[0]}">${b[1]}</option>`).join('');bmEl.onchange=()=>{BM=bmEl.value;render()};
+document.getElementById('pIdx').innerHTML=D.benches.map((b,i)=>`<label><input type="checkbox" data-k="${b[0]}" ${PI.has(b[0])?'checked':''}> <span style="color:${IC[i]}">${b[1]}</span></label>`).join('');
+document.getElementById('pIdx').onchange=e=>{const k=e.target.dataset.k;e.target.checked?PI.add(k):PI.delete(k);render()};
+const mxH=document.getElementById('mxH');mxH.innerHTML=KH.map(h=>`<option ${h=='+30d'?'selected':''}>${h}</option>`).join('');mxH.onchange=()=>render();
 document.getElementById('fHold').innerHTML=`<button class="chip on" data-h="hold">Hold to date</button><button class="chip" data-h="hold30">30-day hold</button>`;
 document.getElementById('fHold').onclick=e=>{const b=e.target.closest('button');if(!b)return;hold=b.dataset.h;document.querySelectorAll('#fHold .chip').forEach(x=>x.classList.toggle('on',x.dataset.h==hold));render()};
-document.getElementById('gen').textContent=`Generated ${D.generated} · ${D.rows.length} sourced mentions (${D.rows.filter(r=>r.status=='ok').length} priced) · benchmarks: S&P 500 (SPY) and Dow (DIA)`;
-function stats(rs,h){const v=rs.map(r=>r.returns[h]).filter(x=>x!=null),s=rs.map(r=>r.ex_sp[h]).filter(x=>x!=null),d=rs.map(r=>r.ex_dow[h]).filter(x=>x!=null);
- return{n:v.length,win:v.length?v.filter(x=>x>0).length/v.length:null,bsp:s.length?s.filter(x=>x>0).length/s.length:null,bdw:d.length?d.filter(x=>x>0).length/d.length:null,
- avg:avg(v),med:med(v),asp:avg(s),msp:med(s),adw:avg(d),mdw:med(d)}}
-function port(rs,mode){const G=D.grid,n=G.dates.length,val=Array(n).fill(0),sp=Array(n).fill(0),dw=Array(n).fill(0),inv=Array(n).fill(0);
- rs.forEach(r=>{const e0=G.dates.findIndex((d,i)=>r.curve[i]!=null);if(e0<0)return;let last=null,lsp,ldw;const exitD=new Date(r.entry_date);exitD.setDate(exitD.getDate()+30);
-  for(let i=e0;i<n;i++){let c=r.curve[i],a=G.SPY[i]/r.sp0,b=G.DIA[i]/r.dia0;if(mode=='hold30'&&new Date(G.dates[i])>exitD){if(last==null){last=c??1;lsp=a;ldw=b}c=last;a=lsp;b=ldw}else if(c==null)c=1;
-   val[i]+=1000*c;sp[i]+=1000*a;dw[i]+=1000*b;inv[i]+=1000}});return{val,sp,dw,inv}}
+document.getElementById('gen').textContent=`Generated ${D.generated} · ${D.rows.length} sourced mentions (${D.rows.filter(r=>r.status=='ok').length} priced) · ${D.benches.length} index benchmarks`;
+const X=(r,k)=>r.ex[k||BM]||{};
+function stats(rs,h,k){const v=rs.map(r=>r.returns[h]).filter(x=>x!=null),s=rs.map(r=>X(r,k)[h]).filter(x=>x!=null);
+ return{n:v.length,win:v.length?v.filter(x=>x>0).length/v.length:null,beat:s.length?s.filter(x=>x>0).length/s.length:null,avg:avg(v),med:med(v),aex:avg(s),mex:med(s)}}
+function port(rs,mode){const G=D.grid,n=G.dates.length,keys=D.benches.map(b=>b[0]),o={val:Array(n).fill(0),inv:Array(n).fill(0)};keys.forEach(k=>o[k]=Array(n).fill(0));
+ rs.forEach(r=>{const e0=r.curve.findIndex(c=>c!=null);if(e0<0)return;const ex=new Date(r.entry_date);ex.setDate(ex.getDate()+30);let fr=null;
+  for(let i=e0;i<n;i++){let cur={val:r.curve[i]??1};keys.forEach(k=>cur[k]=G[k][i]/r.b0[k]);
+   if(mode=='hold30'&&new Date(G.dates[i])>ex){if(!fr)fr=cur;cur=fr}else if(mode=='hold30')fr=null;
+   o.val[i]+=1000*cur.val;keys.forEach(k=>o[k][i]+=1000*cur[k]);o.inv[i]+=1000}});return o}
 let ch={};function mk(id,cfg){ch[id]&&ch[id].destroy();ch[id]=new Chart(document.getElementById(id),cfg)}
 Chart.defaults.color='#9aa4bd';Chart.defaults.borderColor='#2c3550';Chart.defaults.animation=false;
-function render(){
- const sel=D.rows.filter(r=>F.group.has(r.group)&&F.category.has(r.category)&&F.type.has(r.type)),ok=sel.filter(r=>r.status=='ok');
- const P=port(ok,hold),L=P.val.length-1,I=P.inv[L]||1;
- const s30=stats(ok,'+30d'),sTD=stats(ok,'to date');
- document.getElementById('cards').innerHTML=[[sel.length+` <small style="font-size:13px">(${ok.length} priced)</small>`,'Mentions in filter'],[pct(s30.win,0),'Win rate +30d'],[pct(s30.bsp,0),'Beat S&P +30d'],[pct(s30.bdw,0),'Beat Dow +30d'],
-  [pct(P.val[L]/I-1),`Portfolio (${hold=='hold'?'held':'30d'})`],[pct(P.sp[L]/I-1),'Same cash in S&P 500'],[pct(P.dw[L]/I-1),'Same cash in Dow']].map(([a,b])=>`<div class="card"><b>${a}</b><span>${b}</span></div>`).join('');
- document.getElementById('hcards').innerHTML=KH.map(h=>{const s=stats(ok,h);return `<div class="hc"><h3>${h} <span class="sub">(n=${s.n})</span></h3>
- <div class="kv"><span>Win rate</span><b>${pct(s.win,0)}</b></div><div class="kv"><span>Beat S&amp;P / Dow</span><b>${pct(s.bsp,0)} / ${pct(s.bdw,0)}</b></div>
- <div class="kv"><span>Avg / median excess vs S&amp;P</span><b>${pct(s.asp)} / ${pct(s.msp)}</b></div><div class="kv"><span>Avg / median excess vs Dow</span><b>${pct(s.adw)} / ${pct(s.mdw)}</b></div>
- <div class="kv"><span>Median raw return</span><b>${pct(s.med)}</b></div></div>`}).join('');
- const SH=H.map(h=>stats(ok,h));
- mk('cEx',{type:'bar',data:{labels:H,datasets:[{label:'Avg excess vs S&P 500 %',data:SH.map(s=>s.asp*100),backgroundColor:'#60a5fa'},{label:'Avg excess vs Dow %',data:SH.map(s=>s.adw*100),backgroundColor:'#f472b6'},{label:'Median excess vs S&P %',data:SH.map(s=>s.msp*100),backgroundColor:'#334a7a'}]}});
- mk('cEq',{type:'line',data:{labels:D.grid.dates,datasets:[{label:'Mentions portfolio',data:P.val,borderColor:'#f59e0b',pointRadius:0,borderWidth:2},{label:'S&P 500 (SPY)',data:P.sp,borderColor:'#60a5fa',pointRadius:0,borderWidth:2},{label:'Dow (DIA)',data:P.dw,borderColor:'#f472b6',pointRadius:0,borderWidth:2},{label:'Cash invested',data:P.inv,borderColor:'#6b7591',borderDash:[4,4],pointRadius:0,borderWidth:1}]},options:{scales:{x:{ticks:{maxTicksLimit:10}}}}});
- const E=ok.filter(r=>r.ex_sp['to date']!=null).sort((a,b)=>a.ex_sp['to date']-b.ex_sp['to date']);
- mk('cEach',{type:'bar',data:{labels:E.map(r=>`${r.date} ${r.ticker.replace('BASKET:','')}`),datasets:[{label:'Excess vs S&P to date %',data:E.map(r=>Math.max(-100,r.ex_sp['to date']*100)),backgroundColor:E.map(r=>GC[r.group])}]},options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{afterLabel:c=>E[c.dataIndex].asset+' · '+E[c.dataIndex].who}}},scales:{x:{ticks:{autoSkip:false,font:{size:9},maxRotation:90,minRotation:90}}}}});
- const base=D.rows.filter(r=>F.category.has(r.category)&&F.type.has(r.type)&&r.status=='ok');
- document.getElementById('tGrp').innerHTML='<tr><th>Who</th><th>n</th>'+KH.map(h=>`<th>${h} win</th><th>${h} beat S&amp;P / Dow</th><th>${h} avg excess S&amp;P / Dow</th>`).join('')+'<th>Portfolio vs S&amp;P / Dow</th></tr>'+
- ['Trump','Family','Admin'].map(g=>{const rs=base.filter(r=>r.group==g);if(!rs.length)return'';const p=port(rs,'hold'),l=p.val.length-1,i=p.inv[l];
- return `<tr><td><span class="tag" style="background:${GC[g]};color:#111">${g}</span></td><td>${rs.length}</td>`+KH.map(h=>{const s=stats(rs,h);return `<td>${pct(s.win,0)}</td><td>${pct(s.bsp,0)} / ${pct(s.bdw,0)}</td><td>${pct(s.asp)} / ${pct(s.adw)}</td>`}).join('')+`<td>${pct(p.val[l]/i-1)} vs ${pct(p.sp[l]/i-1)} / ${pct(p.dw[l]/i-1)}</td></tr>`}).join('');
- tbl(sel);pre(ok);disc(sel)}
 const thrEl=document.getElementById('thr');thrEl.oninput=()=>render();
-const big=r=>{const t=(+thrEl.value||10)/100;return ['-7d','-30d'].some(h=>r.ex_sp[h]!=null&&Math.abs(r.ex_sp[h])>=t)};
-function pre(ok){const t=(+thrEl.value||10)/100;const rs=[...ok].sort((a,b)=>Math.max(Math.abs(b.ex_sp['-30d']||0),Math.abs(b.ex_sp['-7d']||0))-Math.max(Math.abs(a.ex_sp['-30d']||0),Math.abs(a.ex_sp['-7d']||0)));const n=rs.filter(big).length;
- document.getElementById('pre').innerHTML=`<div class="sub" style="margin-bottom:6px"><b>${n}</b> of ${rs.length} mentions in filter had an abnormal pre-move ≥ ${(t*100).toFixed(0)}% vs S&amp;P (up ${rs.filter(r=>['-7d','-30d'].some(h=>(r.ex_sp[h]??0)>=t)).length}, down ${rs.filter(r=>['-7d','-30d'].some(h=>(r.ex_sp[h]??0)<=-t)).length}).</div><table><tr><th>Date</th><th>Who</th><th>Asset</th><th>-30d raw</th><th>-30d vs S&amp;P</th><th>-30d vs Dow</th><th>-7d raw</th><th>-7d vs S&amp;P</th><th>-7d vs Dow</th><th>Day 0</th><th>+30d vs S&amp;P</th><th>Disclosure overlap</th></tr>`+rs.map(r=>{const c=h=>`<td class="${r.ex_sp[h]!=null&&Math.abs(r.ex_sp[h])>=t?'hl':''}">${pct(r.ex_sp[h])}</td>`;return `<tr><td>${r.date}</td><td>${r.who}</td><td>${r.asset}</td><td>${pct(r.returns['-30d'])}</td>${c('-30d')}<td>${pct(r.ex_dow['-30d'])}</td><td>${pct(r.returns['-7d'])}</td>${c('-7d')}<td>${pct(r.ex_dow['-7d'])}</td><td>${pct(r.returns['day0'])}</td><td>${pct(r.ex_sp['+30d'])}</td><td>${r.disclosures.length?`<span class="flag">${r.disclosures.length} overlap</span>`:''}</td></tr>`}).join('')+'</table>'}
+const big=r=>{const t=(+thrEl.value||10)/100;return['-7d','-30d'].some(h=>X(r)[h]!=null&&Math.abs(X(r)[h])>=t)};
+function render(){
+ document.querySelectorAll('.bml').forEach(e=>e.textContent=BL[BM]);
+ const sel=D.rows.filter(r=>F.group.has(r.group)&&F.category.has(r.category)&&F.type.has(r.type)),ok=sel.filter(r=>r.status=='ok');
+ const P=port(ok,hold),L=P.val.length-1,I=P.inv[L]||1,s30=stats(ok,'+30d');
+ document.getElementById('cards').innerHTML=[[sel.length+` <small style="font-size:13px">(${ok.length} priced)</small>`,'Mentions in filter'],[pct(s30.win,0),'Win rate +30d'],[pct(s30.beat,0),`Beat ${BL[BM]} +30d`],[pct(s30.aex),`Avg excess vs ${BL[BM]} +30d`],
+  [pct(P.val[L]/I-1),`Portfolio (${hold=='hold'?'held':'30d'})`],[pct(P[BM][L]/I-1),`Same cash in ${BL[BM]}`],[pct(P.val[L]/I-P[BM][L]/I),'Portfolio minus index']].map(([a,b])=>`<div class="card"><b>${a}</b><span>${b}</span></div>`).join('');
+ document.getElementById('hcards').innerHTML=KH.map(h=>{const s=stats(ok,h);return `<div class="hc"><h3>${h} <span class="sub">(n=${s.n})</span></h3>
+ <div class="kv"><span>Win rate (positive)</span><b>${pct(s.win,0)}</b></div><div class="kv"><span>Beat ${BL[BM]}</span><b>${pct(s.beat,0)}</b></div>
+ <div class="kv"><span>Avg / median excess</span><b>${pct(s.aex)} / ${pct(s.mex)}</b></div><div class="kv"><span>Avg / median raw return</span><b>${pct(s.avg)} / ${pct(s.med)}</b></div></div>`}).join('');
+ const SH=H.map(h=>stats(ok,h));
+ mk('cEx',{type:'bar',data:{labels:H,datasets:[{label:`Avg excess vs ${BL[BM]} %`,data:SH.map(s=>s.aex*100),backgroundColor:'#60a5fa'},{label:'Median excess %',data:SH.map(s=>s.mex*100),backgroundColor:'#334a7a'},{label:'% beating index',data:SH.map(s=>s.beat*100),backgroundColor:'#4ade8055',type:'line',borderColor:'#4ade80',yAxisID:'y2'}]},options:{scales:{y2:{position:'right',min:0,max:100,grid:{display:false}}}}});
+ mk('cEq',{type:'line',data:{labels:D.grid.dates,datasets:[{label:'Mentions portfolio',data:P.val,borderColor:'#f59e0b',pointRadius:0,borderWidth:2.5}].concat(D.benches.map((b,i)=>PI.has(b[0])?{label:b[1],data:P[b[0]],borderColor:IC[i],pointRadius:0,borderWidth:1.5}:null).filter(Boolean)).concat([{label:'Cash invested',data:P.inv,borderColor:'#6b7591',borderDash:[4,4],pointRadius:0,borderWidth:1}])},options:{scales:{x:{ticks:{maxTicksLimit:10}}}}});
+ const E=ok.filter(r=>X(r)['to date']!=null).sort((a,b)=>X(a)['to date']-X(b)['to date']);
+ mk('cEach',{type:'bar',data:{labels:E.map(r=>`${r.date} ${r.ticker.replace('BASKET:','')}`),datasets:[{label:'Excess to date %',data:E.map(r=>Math.max(-100,X(r)['to date']*100)),backgroundColor:E.map(r=>GC[r.group])}]},options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{afterLabel:c=>E[c.dataIndex].asset+' · '+E[c.dataIndex].who}}},scales:{x:{ticks:{autoSkip:false,font:{size:9},maxRotation:90,minRotation:90}}}}});
+ const base=D.rows.filter(r=>F.category.has(r.category)&&F.type.has(r.type)&&r.status=='ok'),h=mxH.value;
+ const grp=[['All (in filter)',ok]].concat(['Trump','Family','Admin'].map(g=>[g,base.filter(r=>r.group==g)]));
+ document.getElementById('mx').innerHTML=`<tr><th>Group · ${h}</th><th>n</th><th>Win %</th>`+D.benches.map(b=>`<th>${b[1]}</th>`).join('')+'</tr>'+grp.map(([g,rs])=>{if(!rs.length)return'';const s0=stats(rs,h);return `<tr><td>${g}</td><td>${s0.n}</td><td>${pct(s0.win,0)}</td>`+D.benches.map(b=>{const s=stats(rs,h,b[0]);return `<td>${pct(s.beat,0)} / ${pct(s.aex)}</td>`}).join('')+'</tr>'}).join('')+
+ `<tr><td>Portfolio (held) vs index</td><td></td><td>${pct(P.val[L]/I-1)}</td>`+D.benches.map(b=>`<td>${pct(P[b[0]][L]/I-1)}</td>`).join('')+'</tr>';
+ document.getElementById('tGrp').innerHTML='<tr><th>Who</th><th>n</th>'+KH.map(h=>`<th>${h} win</th><th>${h} beat</th><th>${h} avg excess</th>`).join('')+`<th>Portfolio vs ${BL[BM]}</th></tr>`+
+ ['Trump','Family','Admin'].map(g=>{const rs=base.filter(r=>r.group==g);if(!rs.length)return'';const p=port(rs,'hold'),l=p.val.length-1,i=p.inv[l];
+ return `<tr><td><span class="tag" style="background:${GC[g]};color:#111">${g}</span></td><td>${rs.length}</td>`+KH.map(h=>{const s=stats(rs,h);return `<td>${pct(s.win,0)}</td><td>${pct(s.beat,0)}</td><td>${pct(s.aex)}</td>`}).join('')+`<td>${pct(p.val[l]/i-1)} vs ${pct(p[BM][l]/i-1)}</td></tr>`}).join('');
+ tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
+function pre(ok){const t=(+thrEl.value||10)/100,m=r=>Math.max(Math.abs(X(r)['-30d']||0),Math.abs(X(r)['-7d']||0));const rs=[...ok].sort((a,b)=>m(b)-m(a));const n=rs.filter(big).length;
+ document.getElementById('pre').innerHTML=`<div class="sub" style="margin-bottom:6px"><b>${n}</b> of ${rs.length} mentions in filter had an abnormal pre-move ≥ ${(t*100).toFixed(0)}% vs ${BL[BM]} (up ${rs.filter(r=>['-7d','-30d'].some(h=>(X(r)[h]??0)>=t)).length}, down ${rs.filter(r=>['-7d','-30d'].some(h=>(X(r)[h]??0)<=-t)).length}).</div><table><tr><th>Date</th><th>Who</th><th>Asset</th><th>-30d raw</th><th>-30d excess</th><th>-7d raw</th><th>-7d excess</th><th>Day 0</th><th>+1d</th><th>+30d excess</th><th>Flags</th></tr>`+rs.map(r=>{const c=h=>`<td class="${X(r)[h]!=null&&Math.abs(X(r)[h])>=t?'hl':''}">${pct(X(r)[h])}</td>`;return `<tr><td>${r.date}</td><td>${r.who}</td><td>${r.asset}</td><td>${pct(r.returns['-30d'])}</td>${c('-30d')}<td>${pct(r.returns['-7d'])}</td>${c('-7d')}<td>${pct(r.returns['day0'])}</td><td>${pct(r.returns['+1d'])}</td><td>${pct(X(r)['+30d'])}</td><td>${fl(r)}</td></tr>`}).join('')+'</table>'}
+const fl=r=>(r.disclosures.length?`<span class="flag" title="${r.disclosures.map(d=>d.party+': '+d.kind+' '+d.date).join(' | ')}">${r.disclosures.length} disclosure</span> `:'')+(r.congress.length?`<span class="cflag" title="${r.congress.map(c=>c.member+' '+c.type+' '+c.date).join(' | ')}">${r.congress.length} Congress</span>`:'');
 function disc(sel){document.getElementById('discN').innerHTML='<ul>'+D.disclosure_notes.map(x=>`<li>${x}</li>`).join('')+'</ul>';const rs=sel.filter(r=>r.disclosures.length);
  document.getElementById('disc').innerHTML=`<div class="sub"><b>${rs.length}</b> of ${sel.length} mentions in filter have at least one documented overlap.</div><table><tr><th>Mention</th><th>Party</th><th>Relation</th><th>Type</th><th>Date</th><th>Amount (range)</th><th>Details</th><th>Source</th></tr>`+rs.flatMap(r=>r.disclosures.map(d=>`<tr><td>${r.date} · ${r.asset}<br><span class="muted">${r.who}</span></td><td>${d.party}</td><td>${d.relation}</td><td>${d.kind}</td><td>${d.date}</td><td>${d.amount}</td><td>${d.detail}</td><td><a href="${d.source}" target="_blank">link</a></td></tr>`)).join('')+'</table>'}
-// sector view (static)
-document.getElementById('sectors').innerHTML=D.rows.filter(r=>r.basket).map(r=>{const fs=['-30d','-7d'].map(h=>`${h}: ${pct(r.ex_sp[h])} vs S&amp;P, ${pct(r.ex_dow[h])} vs Dow`).join(' · ');
- return `<div class="sector"><b>${r.date} · ${r.asset}</b> <span class="tag">${r.who}</span><div class="sub">${r.quote} <a href="${r.source}" target="_blank">source</a></div>
- <div style="margin:6px 0"><b>Foreshadowing (basket abnormal return before comment):</b> ${fs}</div><div class="sub">Basket rationale: ${r.basket_note}</div>
- <table><tr><th>Component</th>${H.map(h=>`<th>${h}</th>`).join('')}<th>Excess to date S&amp;P / Dow</th></tr>
- <tr style="font-weight:600"><td>Equal-weight basket</td>${H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')}<td>${pct(r.ex_sp['to date'])} / ${pct(r.ex_dow['to date'])}</td></tr>
- ${(r.components||[]).map(c=>`<tr><td>${c.ticker} <span class="muted">${c.name}</span></td>${H.map(h=>`<td>${pct(c.returns[h])}</td>`).join('')}<td>${pct(c.ex_sp['to date'])} / ${pct(c.ex_dow['to date'])}</td></tr>`).join('')}</table></div>`}).join('');
+function cong(sel){const rows=sel.flatMap(r=>r.congress.map(c=>[r,c])).sort((a,b)=>a[1].date<b[1].date?-1:1),pre=rows.filter(x=>x[1].days<0).length;
+ document.getElementById('cong').innerHTML=`<div class="sub"><b>${rows.length}</b> congressional trades in the window (${pre} before the comment, ${rows.length-pre} on/after) across ${new Set(rows.map(x=>x[0].date+x[0].ticker)).size} mentions. Members file within 30–45 days, so trades were mostly not public at comment time. Most are small ($1K–$15K) routine trades; buys and sells both appear.</div><table><tr><th>Mention</th><th>Ticker</th><th>Member</th><th>Chamber</th><th>Party-State</th><th>Trade date</th><th>Days vs comment</th><th>Type</th><th>Amount (range)</th><th>Source</th></tr>`+rows.map(([r,c])=>`<tr><td>${r.date} · ${r.asset}<br><span class="muted">${r.who}</span></td><td>${c.ticker}</td><td>${c.member}</td><td>${c.chamber}</td><td>${c.party}-${c.state}</td><td>${c.date}</td><td>${c.days}</td><td>${c.type}</td><td>${c.amount}${c.note?`<br><span class="muted">${c.note}</span>`:''}</td><td><a href="${c.source}" target="_blank">link</a></td></tr>`).join('')+'</table>'}
+const tkEl=document.getElementById('tk');const TK=[...new Set(D.rows.map(r=>r.ticker).filter(Boolean))].sort();tkEl.innerHTML=TK.map(t=>`<option>${t}</option>`).join('');tkEl.value='DELL';tkEl.onchange=()=>tkv();
+function tkv(){const t=tkEl.value,rs=D.rows.filter(r=>r.ticker==t);document.getElementById('tkv').innerHTML=`<div class="sub">${rs.length} mention(s) of ${t}: ${[...new Set(rs.map(r=>r.asset))].join(', ')}</div><table><tr><th>Date</th><th>Who</th><th>Category</th><th>Quote</th>${H.map(h=>`<th>${h}</th>`).join('')}<th>Excess to date</th><th>Flags</th><th>Src</th></tr>`+rs.map(r=>`<tr><td>${r.date}</td><td>${r.who}</td><td>${r.category}</td><td>${r.quote}</td>${H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')}<td>${pct(X(r)['to date'])}</td><td>${fl(r)}</td><td><a href="${r.source}" target="_blank">link</a></td></tr>`).join('')+'</table>'+
+ (rs.some(r=>r.disclosures.length||r.congress.length)?'<div class="sub" style="margin-top:6px">Overlaps: '+rs.flatMap(r=>r.disclosures.map(d=>`${d.party} – ${d.kind} ${d.date} (${d.amount}) <a href="${d.source}" target="_blank">src</a>`).concat(r.congress.map(c=>`${c.member} (${c.chamber} ${c.party}) ${c.type} ${c.date} ${c.amount}`))).join(' · ')+'</div>':'')}
+function sectors(){document.getElementById('sectors').innerHTML=D.rows.filter(r=>r.basket).map(r=>{const fs=['-30d','-7d'].map(h=>`${h}: <b>${pct(X(r)[h])}</b>`).join(' · ');
+ return `<div class="sector"><b>${r.date} · ${r.asset}</b> <span class="tag">${r.who}</span> ${fl(r)}<div class="sub">${r.quote} <a href="${r.source}" target="_blank">source</a></div>
+ <div style="margin:6px 0"><b>Foreshadowing vs ${BL[BM]}</b> (basket abnormal return before the comment): ${fs}</div><div class="sub">Basket rationale: ${r.basket_note}</div>
+ <table><tr><th>Component</th>${H.map(h=>`<th>${h}</th>`).join('')}<th>Excess -30d / -7d / to date</th></tr>
+ <tr style="font-weight:600"><td>Equal-weight basket</td>${H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')}<td>${pct(X(r)['-30d'])} / ${pct(X(r)['-7d'])} / ${pct(X(r)['to date'])}</td></tr>
+ ${(r.components||[]).map(c=>`<tr><td>${c.ticker} <span class="muted">${c.name}</span></td>${H.map(h=>`<td>${pct(c.returns[h])}</td>`).join('')}<td>${pct((c.ex[BM]||{})['-30d'])} / ${pct((c.ex[BM]||{})['-7d'])} / ${pct((c.ex[BM]||{})['to date'])}</td></tr>`).join('')}</table></div>`}).join('')}
 document.getElementById('tEx').innerHTML='<tr><th>Item</th><th>Why not counted / how handled</th></tr>'+D.exclusions.map(e=>`<tr><td>${e.item}</td><td>${e.reason}</td></tr>`).join('');
 let sk='date',sd=1;
-function tbl(sel){const rows=[...sel].sort((a,b)=>{const g=r=>sk.startsWith('r:')?(r.returns[sk.slice(2)]??-1e9):sk.startsWith('x:')?(r.ex_sp[sk.slice(2)]??-1e9):r[sk];const x=g(a),y=g(b);return(x>y?1:x<y?-1:0)*sd});
- document.getElementById('tbl').innerHTML='<tr>'+[['date','Date'],['group','Group'],['who','Who'],['asset','Asset'],['ticker','Ticker'],['category','Category']].map(([k,l])=>`<th data-k="${k}">${l}</th>`).join('')+'<th>Quote / summary</th>'+H.map(h=>`<th data-k="r:${h}">${h}</th>`).join('')+'<th data-k="x:to date">Excess S&amp;P</th><th>Excess Dow</th><th>Overlap</th><th>Src</th></tr>'+
- rows.map(r=>`<tr class="${r.status=='ok'&&big(r)?'hl':''}"><td>${r.date}</td><td><span class="tag" style="background:${GC[r.group]};color:#111">${r.group}</span></td><td>${r.who}</td><td>${r.asset}</td><td>${(r.ticker||'–').replace('BASKET:','basket:')}</td><td>${r.category}</td><td>${r.quote}${r.status!='ok'?`<br><span class="muted">${r.status}</span>`:(r.note?`<br><span class="muted">${r.note}</span>`:'')}</td>`+H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')+`<td>${pct(r.ex_sp['to date'])}</td><td>${pct(r.ex_dow['to date'])}</td><td>${r.disclosures.length?`<span class="flag" title="${r.disclosures.map(d=>d.party+': '+d.kind+' '+d.date).join(' | ')}">${r.disclosures.length}</span>`:''}</td><td><a href="${r.source}" target="_blank">link</a></td></tr>`).join('');
+function tbl(sel){const rows=[...sel].sort((a,b)=>{const g=r=>sk.startsWith('r:')?(r.returns[sk.slice(2)]??-1e9):sk.startsWith('x:')?(X(r)[sk.slice(2)]??-1e9):r[sk];const x=g(a),y=g(b);return(x>y?1:x<y?-1:0)*sd});
+ document.getElementById('tbl').innerHTML='<tr>'+[['date','Date'],['group','Group'],['who','Who'],['asset','Asset'],['ticker','Ticker'],['category','Category']].map(([k,l])=>`<th data-k="${k}">${l}</th>`).join('')+'<th>Quote / summary</th>'+H.map(h=>`<th data-k="r:${h}">${h}</th>`).join('')+`<th data-k="x:to date">Excess vs ${BL[BM]}</th><th>Flags</th><th>Src</th></tr>`+
+ rows.map(r=>`<tr class="${r.status=='ok'&&big(r)?'hl':''}"><td>${r.date}</td><td><span class="tag" style="background:${GC[r.group]};color:#111">${r.group}</span></td><td>${r.who}</td><td>${r.asset}</td><td>${(r.ticker||'–').replace('BASKET:','basket:')}</td><td>${r.category}</td><td>${r.quote}${r.status!='ok'?`<br><span class="muted">${r.status}</span>`:(r.note?`<br><span class="muted">${r.note}</span>`:'')}</td>`+H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')+`<td>${pct(X(r)['to date'])}</td><td>${fl(r)}</td><td><a href="${r.source}" target="_blank">link</a></td></tr>`).join('');
  document.querySelectorAll('#tbl th[data-k]').forEach(th=>th.onclick=()=>{sd=sk==th.dataset.k?-sd:1;sk=th.dataset.k;tbl(sel)})}
 render();
 </script></body></html>
