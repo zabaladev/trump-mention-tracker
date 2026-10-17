@@ -208,5 +208,20 @@
     "item": "Jensen Huang phone call (Trump, Sep 14 2026, live on stage)",
     "reason": "Trump phoned into a live event where Nvidia CEO Jensen Huang was on stage and said Huang \"has done an amazing job\"; praise of the executive personally, with no comment on Nvidia the company or its stock, isn't scored (Trump Archive Sep 14 item). His Google Finland complaint in the same call repeats his Truth Social post earlier that day, which is already tracked as Company criticism.",
     "kind": "notcall"
+  },
+  {
+    "item": "Las Vegas economy speech leftovers (Trump, Aug 5 2026)",
+    "reason": "In the same Las Vegas speech Trump said \"Forge Industries and others are investing $150 million in manufacturing facilities in North Las Vegas\" (we could not match that name to a listed company, so it isn't scored) and thanked Michael and Susan Dell and listed Dell, Micron and Apple among Trump Accounts contributors (a thank-you list, not scored, same as the Oct 7 Trump Accounts event). General Motors is named only as Lithium Americas' Thacker Pass partner, so the line is counted once under LAC (Trump Archive Aug 5 item).",
+    "kind": "notcall"
+  },
+  {
+    "item": "Mining roundtable leftovers (Trump, Aug 7 2026)",
+    "reason": "After the MP Materials line Trump repeated that the government's Intel stake \"was worth $12 billion\" and that \"the stock has gone up\"; Intel already has four tracked mentions including his Aug 22 2025 stake post and Apr 29 2026 praise, so this repeat isn't added as a new event. Department of War awards to Niron Magnetics (privately held) and an unnamed scandium project in Australia, and a Global Advanced Metals factory in Pennsylvania (we found no listed share for it), aren't scored (Trump Archive Aug 7 item).",
+    "kind": "notcall"
+  },
+  {
+    "item": "\"Honda just announced, Toyota just announced\" (Trump, Aug 19 2026)",
+    "reason": "At a White House meeting with technology leaders Trump said car makers including Honda and Toyota \"just announced they're moving their operations from Mexico, from Canada\". It's a general line about car plants with no specific project, so it isn't scored; Toyota's Jul 6 2026 San Antonio announcement is already tracked through his Jul 28 and Oct 7 mentions (Trump Archive Aug 19 item).",
+    "kind": "notcall"
   }
 ]
