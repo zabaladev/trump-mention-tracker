@@ -88,5 +88,20 @@
   "item": "Eli Lilly, Pfizer and Merck 'coming back' (Trump, Oct 16 2026 Dalton rally)",
   "reason": "A general claim that drugmakers are building in the US, with no specific new project named, so it is not scored as a company mention.",
   "kind": "notcall"
+ },
+ {
+  "item": "Janicki Industries Great Falls factory (Trump, Oct 14 2026 Kalispell, Montana rally)",
+  "reason": "Not a listed company: Trump said \"Janicki Industries is investing $800 million to build 2 million square feet of defense and aerospace factory in Great Falls\" (Trump Archive transcript). The project is real (announced Jun 2 2026 by Janicki and Montana Governor Greg Gianforte; ground broken Jul 10 2026), but Janicki describes itself as a privately owned company, so there is no share price to score.",
+  "kind": "private"
+ },
+ {
+  "item": "Fannie Mae and Freddie Mac $3 billion for Montana mortgages (Trump, Oct 14 2026 Kalispell rally)",
+  "reason": "A housing-policy announcement (\"Fannie Mae and Freddie Mac will be investing $3 billion in Montana mortgages to help 10,000 Montana homebuyers\"), not a comment about either company's shares, which have been under government conservatorship since 2008 and trade only over the counter. Not scored as a company mention.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Colstrip power plant and lumber tariff lines (Trump, Oct 14 2026 Kalispell rally)",
+  "reason": "Trump said he \"rescued your Colstrip power plant\" and that Montana sawmills \"are booming\" because of his lumber tariff. Both are claims of credit for policy, with no company or stock named as a pick and no sourced stock move tied to the remarks, so they are not scored.",
+  "kind": "notcall"
  }
 ]

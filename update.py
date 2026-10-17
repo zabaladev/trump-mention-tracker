@@ -383,7 +383,7 @@ def _site_updates(n=10):
         m = re.match(r'^- \*\*(.+?)\*\*\s*(\([^)]*\))?\s*:?\s*(.*)$', ln)
         if not (m and day): continue
         t, rest = m.group(1).strip(), m.group(3)
-        if re.search(r'watchlist|private', t + ' ' + rest, re.I): continue  # never surface private-file work
+        if re.search(r'watchlist|private/|private (folder|page|notes?|files?)|local-only', t + ' ' + rest, re.I): continue  # never surface private-file work (plain 'privately owned' company text is fine)
         out.append({'d': day, 't': t})
         if len(out) >= n: break
     return out
