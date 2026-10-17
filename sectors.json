@@ -1,5 +1,5 @@
 {
- "_note": "Sector per Yahoo Finance company profile (retrieved 2026-10-17), mapped to the matching Select Sector SPDR ETF. Where a tighter industry ETF exists, 'peer' maps to that fund (SMH semiconductors, URA uranium, REMX rare earths/strategic metals, ITA aerospace & defense, CARZ autos, IGV software, IHE pharmaceuticals, IHI medical devices, SLX steel, FDN internet, KCE capital markets) — idea from TipRanks' industry/sector ETF tags. X (U.S. Steel) is no longer listed after its 2025 acquisition by Nippon Steel; it is classed as Basic Materials (steel). Skipped for sector/peer: ALTS and TZUP (no Yahoo profile under the old symbols; the profiles under their new symbols, AIFC and DTCX, describe the businesses the companies became after renaming, not the ones that were mentioned), 3350.T (Tokyo-listed), BBD-B.TO (Toronto-listed, CAD), UCB.BR (Brussels-listed, EUR), PIRC.MI (Milan-listed, EUR). No peer ETF assigned for Consumer Electronics, Computer Hardware, Apparel Retail, Beverages, or Electrical Equipment (no clean liquid industry fund).",
+ "_note": "Sector per Yahoo Finance company profile (retrieved 2026-10-17), mapped to the matching Select Sector SPDR ETF. Where a tighter industry ETF exists, 'peer' maps to that fund (SMH semiconductors, URA uranium, REMX rare earths/strategic metals, ITA aerospace & defense, CARZ autos, IGV software, IHE pharmaceuticals, IHI medical devices, SLX steel, FDN internet, KCE capital markets) — idea from TipRanks' industry/sector ETF tags. X (U.S. Steel) is no longer listed after its 2025 acquisition by Nippon Steel; it is classed as Basic Materials (steel). Skipped for sector/peer: ALTS and TZUP (no Yahoo profile under the old symbols; the profiles under their new symbols, AIFC and DTCX, describe the businesses the companies became after renaming, not the ones that were mentioned), 3350.T (Tokyo-listed), BBD-B.TO (Toronto-listed, CAD), UCB.BR (Brussels-listed, EUR), PIRC.MI (Milan-listed, EUR), VK.PA (Paris-listed, EUR). KMB and CLF profiles retrieved 2026-10-17. No peer ETF assigned for Consumer Electronics, Computer Hardware, Apparel Retail, Beverages, or Electrical Equipment (no clean liquid industry fund).",
  "etf_names": {
   "XLK": "Technology Select Sector SPDR (XLK)",
   "XLC": "Communication Services Select Sector SPDR (XLC)",
@@ -202,6 +202,17 @@
    "peer": "REMX"
   },
   "X": {
+   "sector": "Basic Materials",
+   "industry": "Steel",
+   "etf": "XLB",
+   "peer": "SLX"
+  },
+  "KMB": {
+   "sector": "Consumer Defensive",
+   "industry": "Household & Personal Products",
+   "etf": "XLP"
+  },
+  "CLF": {
    "sector": "Basic Materials",
    "industry": "Steel",
    "etf": "XLB",
