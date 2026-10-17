@@ -354,6 +354,10 @@
     "DELL"
    ],
    [
+    "2026-02-27",
+    "DELL"
+   ],
+   [
     "2026-05-08",
     "DELL"
    ],
@@ -479,5 +483,35 @@
   "amount": "$500,001–$1,000,000",
   "detail": "August OGE 278-T (made public Oct 8 2026). A sale (opposite direction), 33 days before the Sep 23 Boeing praise; outside the 30-day window, shown for context. One of several same-day sales in that range (also Home Depot, T-Mobile, Datadog, Dell, Palo Alto Networks, Nvidia). The White House says the accounts are run independently.",
   "source": "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+ },
+ {
+  "applies": [
+   [
+    "2026-03-26",
+    "MU"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2026-03-25",
+  "amount": "$50,001–$100,000 on Mar 25 ($217,000–$530,000 across purchases Mar 2–25)",
+  "detail": "From Trump's 2026 OGE periodic transaction report made public in May 2026, as reported by Popular Information/Mother Jones and the Washington Examiner, which say the Mar 25 purchase was marked unsolicited. The day before his Mar 26 'one of the hottest companies' remark. The Trump Organization says his accounts are run by outside managers with sole authority over investment decisions.",
+  "source": "https://www.motherjones.com/politics/2026/05/donald-trump-trading-buying-stocks-pumping-promoting-companies-speeches-disclosure-corruption-ethical-conflict-interest/"
+ },
+ {
+  "applies": [
+   [
+    "2026-03-11",
+    "TMO"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2026-03-11",
+  "amount": "$15,001–$50,000 on Mar 11 (plus $50,001–$100,000 on Feb 12 and $15,001–$50,000 on Mar 2)",
+  "detail": "From Trump's 2026 OGE periodic transaction report made public in May 2026, as reported by the Washington Examiner and Mother Jones: a Thermo Fisher purchase on the same day as his Mar 11 site visit, after two earlier purchases on Feb 12 and Mar 2. Newswax reports the Mar 11 trade was marked unsolicited. The Trump Organization says his accounts are run by outside managers with sole authority over investment decisions.",
+  "source": "https://www.washingtonexaminer.com/news/white-house/4583562/trump-praised-companies-within-days-of-buying-their-stock/"
  }
 ]

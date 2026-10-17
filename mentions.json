@@ -666,6 +666,22 @@
   "group": "Trump"
  },
  {
+  "date": "2026-01-21",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-during-world-economic-forum-reception-with-business-leaders-davos-switzerland",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-january-21-2026",
+  "time_et": "2026-01-21 12:43",
+  "time_src": "American Presidency Project note: the President spoke at 6:43 p.m. at the Davos Congress Centre (CET); 6:43 PM CET is 12:43 PM ET, during US trading hours",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "Apple",
+  "ticker": "AAPL",
+  "quote": "\"But we have companies, great companies coming in. Apple is spending $650 billion.\" Later, spotting Tim Cook in the room: \"He's been good for 650—think of it: $650 billion. Okay? Can you imagine? That's what he's going to be investing. More than that. I think it's going to end up being more. He's great. You know, he's great. He's done some job.\" (WEF business-leaders reception, Davos)",
+  "note": "Said at a World Economic Forum reception for business leaders in Davos, Switzerland on Wed Jan 21 2026, with Apple CEO Tim Cook in the room (American Presidency Project transcript; Roll Call Factbase). The President spoke at 6:43 p.m. local (CET), which is 12:43 PM ET, so day 0 is Wed Jan 21 (Apple +0.4%, S&P 500 +1.2%). Apple's multi-year US investment pledge had already been public (the Aug 6 2025 tracked mention covered an earlier $100B figure; this reception cites $650 billion). Quiver lists 7 distinct congressional AAPL trades in the window (Pelosi, Mullin, Thanedar, Boozman, Taylor; Taylor's Jan 16 purchase appears twice on Quiver and is counted once), for context only. No wrongdoing alleged."
+ },
+ {
   "date": "2026-01-26",
   "group": "Admin",
   "who": "Commerce Dept. (CHIPS)",
@@ -675,6 +691,38 @@
   "category": "Government stake/deal",
   "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8–16% stake).",
   "source": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-letter-intent-us-government-access-16"
+ },
+ {
+  "date": "2026-01-27",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-clive-iowa",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-january-27-2026",
+  "time_et": "2026-01-27 17:24",
+  "time_src": "American Presidency Project note: the President spoke at 4:24 p.m. at the Horizon Events Center in Clive, Iowa (CST); pool report: \"At 4:24 pm, the rally is beginning\"; 4:24 PM CST is 5:24 PM ET, after the 4 PM ET close. The John Deere lines are about 5 minutes in (Roll Call Factbase).",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Deere & Company (John Deere)",
+  "ticker": "DE",
+  "quote": "\"No, it's a great company. Great company. And you just said you're opening up two massive plants because of tariffs.\" Later: \"I bought a lot of John Deere stuff. I bought a lot of John Deere. It's a great company. It's an honor to have you.\" Also asked the room, \"How is John Deere's stock doing? Great? Alltime high?\" (economy and energy speech, Horizon Events Center, Clive, Iowa), with Deere chairman and CEO John C. May in attendance.",
+  "note": "Said early in his economy and energy speech at the Horizon Events Center in Clive, Iowa on Tue Jan 27 2026, with Deere & Company chairman and CEO John C. May present (American Presidency Project transcript; Roll Call Factbase; Iowa State Daily). The speech began at 4:24 PM Central (5:24 PM ET), after the close, so day 0 is Wed Jan 28 (Deere +1.1%, S&P 500 about flat). He also cited a $70 million North Carolina factory. Later Mar 27 and Feb 12 John Deere asides stay in exclusions (passing group list / regulation example). Quiver lists 3 congressional DE trades in the window (Sen. Markwayne Mullin one purchase; Rep. Ro Khanna two purchases), for context only. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-02-02",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-the-united-states-strategic-critical-minerals-reserve-and-exchange-with-reporters",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-february-2-2026",
+  "time_et": "2026-02-02 16:23",
+  "time_src": "American Presidency Project note: the President spoke at 4:23 p.m. in the Oval Office; the in-town pool entered at 4:22 PM ET, after the 4 PM ET close",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "General Motors",
+  "ticker": "GM",
+  "quote": "\"General Motors CEO Mary Barra, who is setting records, huh? I hear you're doing unbelievably. Twenty-four hours, round the clock your factories.\" Later: \"Mary Barra, the chairman, CEO of General Motors—which is setting records every single day, and she's doing a fantastic job\" (Strategic Critical Minerals Reserve announcement, Oval Office)",
+  "note": "Said at the Oval Office announcement of the US Strategic Critical Minerals Reserve on Mon Feb 2 2026, with GM CEO Mary Barra in attendance (American Presidency Project transcript; Roll Call Factbase). The pool entered at 4:22 PM ET and the remarks began at 4:23 PM, after the close, so day 0 is Tue Feb 3 (GM +1.7%, S&P 500 −0.8%). GM had reported quarterly results on Jan 27, six days earlier, which shapes the -7d move. This is the earliest tracked GM mention, before Jul 13, Jul 27, Sep 26 and Oct 10. Quiver lists 5 congressional GM trades in the window (Rep. Ro Khanna, four, and Rep. Thomas Kean Jr., one; Khanna's filings list many stocks), for context only. No wrongdoing alleged."
  },
  {
   "date": "2026-02-04",
@@ -690,6 +738,22 @@
   "note": "Posted 5:18 PM ET Feb 4 (after the close; time read from the X post ID), so the first session that could react is Feb 5."
  },
  {
+  "date": "2026-02-11",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-signing-executive-order-domestic-coal-production",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-february-11-2026",
+  "time_et": "2026-02-11 16:30",
+  "time_src": "American Presidency Project note: the President spoke at 4:30 p.m. in the East Room; pool report 7 at 4:24 PM ET says the event was about to begin, after the 4 PM ET close",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Peabody Energy",
+  "ticker": "BTU",
+  "quote": "\"I want to thank you and invite the chairman of our National Coal Council, Peabody Energy CEO—which is a great company, by the way—Jim Grech to come up and say a few words.\" (Champion of Coal event, White House)",
+  "note": "Said at the White House East Room event on Wed Feb 11 2026 where the Washington Coal Club gave Trump an \"Undisputed Champion of Coal\" award and he signed an executive order on military purchases of coal power (American Presidency Project transcript; pool reports). A Peabody mine worker also spoke. The event began at 4:30 PM ET, after the close, so day 0 is Thu Feb 12 (Peabody −4.4%, S&P 500 −1.6%). It's a passing \"great company\" aside while introducing Peabody's CEO, scored the same way as other \"great company\" lines. Quiver lists no congressional Peabody (BTU) trades (checked 2026-10-17). No wrongdoing alleged."
+ },
+ {
   "date": "2026-02-19",
   "who": "Donald Trump",
   "asset": "Dell Technologies",
@@ -699,6 +763,59 @@
   "quote": "\"Go out and buy a Dell computer\" (Rome, Georgia speech)",
   "source": "https://www.ainvest.com/news/trump-buy-dell-computer-2602/",
   "group": "Trump"
+ },
+ {
+  "date": "2026-02-27",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-energy-corpus-christi-texas",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-february-27-2026",
+  "time_et": "2026-02-27 16:48",
+  "time_src": "American Presidency Project note: the President spoke at 3:48 p.m. local time (4:48 PM ET) at the Port of Corpus Christi; the Dell line comes about 21 minutes in (Roll Call Factbase timestamps), after the 4 PM ET close",
+  "after_close": true,
+  "category": "Explicit buy call",
+  "asset": "Dell Technologies",
+  "ticker": "DELL",
+  "quote": "\"We have a new thing, and it was Michael and Susan Dell—Dell computer. Go out and buy a Dell computer. They're great.\" (energy speech, Port of Corpus Christi, Texas)",
+  "note": "Said in his energy speech at the Port of Corpus Christi, Texas on Fri Feb 27 2026 while promoting the Trump Accounts that Michael and Susan Dell pledged $6.25 billion to fund (American Presidency Project transcript; Roll Call Factbase). The speech began at 3:48 PM Central (4:48 PM ET), after the market close, so day 0 is Mon Mar 2 (Dell +3.7%, S&P 500 +0.1%). Context: Dell had reported record quarterly results and raised guidance after the close on Feb 26, and its shares jumped 22% on Feb 27 before he spoke (Dell press release; CNBC), so the -7d and -30d moves mostly reflect earnings. It repeats the \"go out and buy a Dell computer\" line from his Feb 19 Rome, Georgia speech eight days earlier. See Disclosures: Trump's OGE report lists a Dell purchase on Feb 10, 17 days before. The three congressional Dell trades Quiver lists in this window (Sen. Markwayne Mullin Feb 4, Rep. Ro Khanna Feb 5 and Feb 17, all sales) are already shown under the Feb 19 row and are not counted twice; no others were filed in the week after. Context only. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-03-11",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-during-tour-thermo-fisher-scientific-and-exchange-with-reporters-cincinnati-ohio",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-march-11-2026",
+  "time_et": "2026-03-11 14:50",
+  "time_src": "White House travel pool reports 8 and 9 (emerged to greet employees and take questions at 2:50 pm ET; tour ended 3:05 pm)",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "Thermo Fisher Scientific",
+  "ticker": "TMO",
+  "quote": "\"Well, it's a great company. We were just talking about how the expansion's going. And a lot of expansion because of Trump, I have to say... But this is a great honor being here. It's a great company. I've known it for a long time.\" (site visit, Thermo Fisher plant, Reading, Ohio)",
+  "note": "Said while touring Thermo Fisher Scientific's contract drug-manufacturing plant in Reading, Ohio, near Cincinnati, on Wed Mar 11 2026, alongside CEO Marc Casper and CMS Administrator Mehmet Oz (American Presidency Project transcript; White House video; Roll Call Factbase). The travel pool says he came out to greet employees and take questions at 2:50 PM ET, during trading hours, so day 0 is Mar 11: Thermo Fisher closed down about 0.9%, roughly 0.8 points worse than the S&P 500. In a local TV interview at the plant (WKRC Local 12) he called it \"really a great company\" that is bringing medicine production back to the US, and at his Hebron, Kentucky speech later that day he called it \"the great American company that's investing $2 billion in domestic manufacturing\" (Washington Examiner); those are counted with this row, not separately. See Disclosures: Trump's OGE periodic transaction report lists a Thermo Fisher purchase the same day. Quiver lists 3 congressional TMO trades in the window (all Rep. Ro Khanna), for context only. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-03-26",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-calls-in-to-a-live-interview-on-fox-news-the-five-32626",
+  "archive_url": "https://trump-archive.com/item/fb2ff164-4979-47b9-8091-fbd5f375de26",
+  "time_et": "2026-03-26 17:00",
+  "time_src": "Fox News' The Five airs live from 5 PM ET and Greg Gutfeld opens the call with \"President Trump joins us on the phone live\" (Roll Call Factbase transcript); the Micron line is about 23 minutes in, so after the 4 PM close (5 PM is the earliest possible time)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Micron",
+  "ticker": "MU",
+  "quote": "\"We have 18 coming in and they're building plants all over the United States. It's a- -- I just left the head of Micron. It's one of the hottest companies.\" (live phone interview, Fox News' The Five)",
+  "note": "Said on Thu Mar 26 2026 when Trump called in live to Fox News' The Five (Roll Call Factbase and Senate Democrats transcripts), while talking about companies building plants in the US; he went on to mention NVIDIA's Jensen Huang in a general list of companies building plants, which is not scored. The call aired after the close, so day 0 is Fri Mar 27, when Micron rose 0.5% while the S&P 500 fell 1.7%. This is the earliest of Trump's four tracked Micron mentions (before May 22, Jul 1 and Oct 9 2026). Trump's own OGE periodic transaction report, made public in May 2026, lists a purchase of $50,001 to $100,000 of Micron stock on Mar 25, the day before, and purchases of $217,000 to $530,000 in all from Mar 2 to Mar 25, as reported by Popular Information (republished by Mother Jones) and the Washington Examiner; see the Disclosures tab. The Trump Organization says his accounts are run by outside managers with sole authority over investment decisions. Quiver lists 8 congressional MU trades from 30 days before to 7 days after (small purchases by Rep. Gilbert Cisneros on Feb 24 and Mar 25, sales by Rep. Ro Khanna, whose filings list many stocks, a sale by Rep. Dwight Evans on Mar 24, and purchases by Sen. Alan Armstrong on Mar 27 and Sen. John Fetterman on Mar 30; checked 2026-10-17). Members trade many stocks, and these trades are listed for context only. No wrongdoing alleged.",
+  "verify": [
+   "https://www.motherjones.com/politics/2026/05/donald-trump-trading-buying-stocks-pumping-promoting-companies-speeches-disclosure-corruption-ethical-conflict-interest/",
+   "https://www.washingtonexaminer.com/news/white-house/4583562/trump-praised-companies-within-days-of-buying-their-stock/",
+   "https://www.quiverquant.com/congresstrading/stock/MU"
+  ]
  },
  {
   "date": "2026-04-10",
@@ -711,6 +828,22 @@
   "source": "https://www.trumpstruth.org/statuses/37688",
   "group": "Trump",
   "orig_url": "https://truthsocial.com/@realDonaldTrump/116380894672815869"
+ },
+ {
+  "date": "2026-04-13",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-receiving-doordash-order-and-exchange-with-reporters",
+  "archive_url": "https://trump-archive.com/item/be70f2c5-c722-4f65-bfb3-d3ad1000c7c6",
+  "time_et": "2026-04-13 12:38",
+  "time_src": "American Presidency Project note: the President spoke at 12:38 p.m. on the West Wing Colonnade; the DoorDash line is about 15 seconds in, so during trading hours",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "DoorDash",
+  "ticker": "DASH",
+  "quote": "\"These are good. DoorDash is doing a good job.\" (receiving a McDonald's DoorDash order outside the Oval Office)",
+  "note": "Said on Mon Apr 13 2026 when Arkansas DoorDash driver Sharon Simmons delivered two bags of McDonald's to the West Wing Colonnade at 12:38 PM ET, an event the White House staged to promote the no-tax-on-tips law; Trump tipped her $100 (AP; CBS News; American Presidency Project transcript). The remark came during trading hours, so day 0 is Apr 13. This is praise of the delivery service during a policy event, not a buy call. Quiver lists 10 congressional DoorDash trades from 30 days before to 7 days after: 7 by Rep. Gilbert Cisneros (purchases on Mar 18, Mar 27, Apr 6, Apr 13, Apr 14 and Apr 15, and a sale on Mar 18), 2 by Rep. Ro Khanna (a sale on Mar 23 and a purchase on Apr 13; his filings list many stocks) and a full sale by Sen. Alan Armstrong on Mar 27, all in small ranges. They are listed for context only. No wrongdoing alleged."
  },
  {
   "date": "2026-04-16",
@@ -809,6 +942,21 @@
   "time_et": "2026-05-21 06:55",
   "time_src": "CNBC report of the Commerce/NIST announcement published 6:55 AM ET, before the open (the WSJ first reported the deals earlier that morning)",
   "category": "Government stake/deal",
+  "asset": "GlobalFoundries",
+  "ticker": "GFS",
+  "quote": "\"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; GlobalFoundries: $375 million in planned funding for a secure domestic quantum foundry)",
+  "note": "The Commerce Department's CHIPS Research and Development Office announced on Thu May 21 2026 nine letters of intent for $2.013 billion in CHIPS Act incentives to quantum companies, and said it 'will receive a minority, non-controlling equity stake in each company' (NIST release; Reuters; CNBC; WSJ). The awards are letters of intent, not final agreements. The news was out before the open (CNBC 6:55 AM ET; the WSJ reported it first), so day 0 is May 21. Commerce Secretary Lutnick referred back to it at the Jun 22 quantum executive order signing ('the government invested $2 billion just a couple of weeks ago in quantum'). The five listed recipients are tracked as one announcement; the other four (Atom Computing, PsiQuantum, Quantinuum, Diraq) are private. GlobalFoundries: $375 million in planned funding for a secure domestic quantum foundry (the government agreed to take about 1%, per Reuters). Separate from the Oct 14 GlobalFoundries agreement Trump announced (tracked separately). Quiver lists no congressional GFS trades in the window (checked 2026-10-17)."
+ },
+ {
+  "date": "2026-05-21",
+  "group": "Admin",
+  "who": "Commerce Dept. (CHIPS)",
+  "type": "stock",
+  "source": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
+  "archive_url": "https://www.cnbc.com/2026/05/21/quantum-stocks--us-taking-equity-stakes.html",
+  "time_et": "2026-05-21 06:55",
+  "time_src": "CNBC report of the Commerce/NIST announcement published 6:55 AM ET, before the open (the WSJ first reported the deals earlier that morning)",
+  "category": "Government stake/deal",
   "asset": "IBM",
   "ticker": "IBM",
   "quote": "\"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; IBM: $1 billion in planned funding to establish a new quantum foundry subsidiary)",
@@ -824,10 +972,10 @@
   "time_et": "2026-05-21 06:55",
   "time_src": "CNBC report of the Commerce/NIST announcement published 6:55 AM ET, before the open (the WSJ first reported the deals earlier that morning)",
   "category": "Government stake/deal",
-  "asset": "GlobalFoundries",
-  "ticker": "GFS",
-  "quote": "\"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; GlobalFoundries: $375 million in planned funding for a secure domestic quantum foundry)",
-  "note": "The Commerce Department's CHIPS Research and Development Office announced on Thu May 21 2026 nine letters of intent for $2.013 billion in CHIPS Act incentives to quantum companies, and said it 'will receive a minority, non-controlling equity stake in each company' (NIST release; Reuters; CNBC; WSJ). The awards are letters of intent, not final agreements. The news was out before the open (CNBC 6:55 AM ET; the WSJ reported it first), so day 0 is May 21. Commerce Secretary Lutnick referred back to it at the Jun 22 quantum executive order signing ('the government invested $2 billion just a couple of weeks ago in quantum'). The five listed recipients are tracked as one announcement; the other four (Atom Computing, PsiQuantum, Quantinuum, Diraq) are private. GlobalFoundries: $375 million in planned funding for a secure domestic quantum foundry (the government agreed to take about 1%, per Reuters). Separate from the Oct 14 GlobalFoundries agreement Trump announced (tracked separately). Quiver lists no congressional GFS trades in the window (checked 2026-10-17)."
+  "asset": "Infleqtion",
+  "ticker": "INFQ",
+  "quote": "\"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; Infleqtion: $100 million in planned funding for neutral-atom systems.)",
+  "note": "The Commerce Department's CHIPS Research and Development Office announced on Thu May 21 2026 nine letters of intent for $2.013 billion in CHIPS Act incentives to quantum companies, and said it 'will receive a minority, non-controlling equity stake in each company' (NIST release; Reuters; CNBC; WSJ). The awards are letters of intent, not final agreements. The news was out before the open (CNBC 6:55 AM ET; the WSJ reported it first), so day 0 is May 21. Commerce Secretary Lutnick referred back to it at the Jun 22 quantum executive order signing ('the government invested $2 billion just a couple of weeks ago in quantum'). The five listed recipients are tracked as one announcement; the other four (Atom Computing, PsiQuantum, Quantinuum, Diraq) are private. Infleqtion: $100 million in planned funding for neutral-atom systems. Quiver lists no congressional INFQ trades (checked 2026-10-17)."
  },
  {
   "date": "2026-05-21",
@@ -860,21 +1008,6 @@
   "note": "The Commerce Department's CHIPS Research and Development Office announced on Thu May 21 2026 nine letters of intent for $2.013 billion in CHIPS Act incentives to quantum companies, and said it 'will receive a minority, non-controlling equity stake in each company' (NIST release; Reuters; CNBC; WSJ). The awards are letters of intent, not final agreements. The news was out before the open (CNBC 6:55 AM ET; the WSJ reported it first), so day 0 is May 21. Commerce Secretary Lutnick referred back to it at the Jun 22 quantum executive order signing ('the government invested $2 billion just a couple of weeks ago in quantum'). The five listed recipients are tracked as one announcement; the other four (Atom Computing, PsiQuantum, Quantinuum, Diraq) are private. Rigetti Computing: Up to $100 million in planned funding for next-generation superconducting systems. Quiver lists no congressional RGTI trades (checked 2026-10-17)."
  },
  {
-  "date": "2026-05-21",
-  "group": "Admin",
-  "who": "Commerce Dept. (CHIPS)",
-  "type": "stock",
-  "source": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
-  "archive_url": "https://www.cnbc.com/2026/05/21/quantum-stocks--us-taking-equity-stakes.html",
-  "time_et": "2026-05-21 06:55",
-  "time_src": "CNBC report of the Commerce/NIST announcement published 6:55 AM ET, before the open (the WSJ first reported the deals earlier that morning)",
-  "category": "Government stake/deal",
-  "asset": "Infleqtion",
-  "ticker": "INFQ",
-  "quote": "\"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; Infleqtion: $100 million in planned funding for neutral-atom systems.)",
-  "note": "The Commerce Department's CHIPS Research and Development Office announced on Thu May 21 2026 nine letters of intent for $2.013 billion in CHIPS Act incentives to quantum companies, and said it 'will receive a minority, non-controlling equity stake in each company' (NIST release; Reuters; CNBC; WSJ). The awards are letters of intent, not final agreements. The news was out before the open (CNBC 6:55 AM ET; the WSJ reported it first), so day 0 is May 21. Commerce Secretary Lutnick referred back to it at the Jun 22 quantum executive order signing ('the government invested $2 billion just a couple of weeks ago in quantum'). The five listed recipients are tracked as one announcement; the other four (Atom Computing, PsiQuantum, Quantinuum, Diraq) are private. Infleqtion: $100 million in planned funding for neutral-atom systems. Quiver lists no congressional INFQ trades (checked 2026-10-17)."
- },
- {
   "date": "2026-05-22",
   "group": "Trump",
   "who": "Donald Trump",
@@ -888,7 +1021,7 @@
   "asset": "Micron",
   "ticker": "MU",
   "quote": "\"And Micron -- boy, Micron's great. They're investing hundreds of millions. In fact, it'll be probably -- could be, very close by the time they finish out, over $100 billion in Clay, New York.\" (speech on tax cuts and the economy, Rockland Community College, Suffern, New York)",
-  "note": "Said about 39 minutes into Trump's speech on tax cuts and the economy at Rockland Community College in Suffern, New York on Friday May 22 2026. The White House travel pool says he walked onstage at 3:39 PM ET and finished at 5:09 PM, so this line came after the 4 PM close; Monday May 25 was Memorial Day, so day 0 is Tue May 26. The Clay, New York project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab there (Micron press release; Reuters). Big confound on day 0: Micron rose about 19% on Tue May 26 and briefly passed $1 trillion in market value after UBS more than tripled its price target to $1,625 from $535, citing AI memory demand and long-term supply deals (Reuters; Bloomberg), so the day-0 move reflects that analyst call, not this remark. This is the earliest of Trump's three tracked Micron mentions (before his Jul 1 2026 post and Oct 9 2026 Syracuse rally). Quiver lists 14 House MU trades from 30 days before to 7 days after, mostly small sales by Rep. Ro Khanna, whose filings list many stocks, plus one purchase by Rep. Josh Gottheimer on May 21, the day before (checked 2026-10-17). Members trade many stocks, and these trades are listed for context only.",
+  "note": "Said about 39 minutes into Trump's speech on tax cuts and the economy at Rockland Community College in Suffern, New York on Friday May 22 2026. The White House travel pool says he walked onstage at 3:39 PM ET and finished at 5:09 PM, so this line came after the 4 PM close; Monday May 25 was Memorial Day, so day 0 is Tue May 26. The Clay, New York project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab there (Micron press release; Reuters). Big confound on day 0: Micron rose about 19% on Tue May 26 and briefly passed $1 trillion in market value after UBS more than tripled its price target to $1,625 from $535, citing AI memory demand and long-term supply deals (Reuters; Bloomberg), so the day-0 move reflects that analyst call, not this remark. This is the second of Trump's four tracked Micron mentions (after his Mar 26 2026 call-in to Fox News' The Five, and before his Jul 1 2026 post and Oct 9 2026 Syracuse rally). Quiver lists 14 House MU trades from 30 days before to 7 days after, mostly small sales by Rep. Ro Khanna, whose filings list many stocks, plus one purchase by Rep. Josh Gottheimer on May 21, the day before (checked 2026-10-17). Members trade many stocks, and these trades are listed for context only.",
   "verify": [
    "https://www.presidency.ucsb.edu/documents/pool-reports-may-22-2026",
    "https://www.reuters.com/world/china/micron-joins-1-trillion-club-ai-race-powers-memory-chip-boom-2026-05-26/",
@@ -1497,7 +1630,7 @@
   "asset": "Micron",
   "ticker": "MU",
   "quote": "\"But Micron is investing over $100 billion in creating 50,000 jobs in central New York, including the largest investment in the history of Syracuse, that we had to work with them long and hard. Get them going. This will soon be the home to the largest semiconductor manufacturing facility ever built in the Western Hemisphere.\" (rally, Syracuse, New York)",
-  "note": "Said at Trump's midterm campaign rally at the Oncenter in Syracuse, New York on Friday Oct 9 2026. The White House travel pool notes say he appeared onstage at 8:11 PM ET and began speaking at 8:13 PM, after the close, so day 0 is the next session (Mon Oct 12). The project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab in Clay, New York, creating nearly 50,000 New York jobs including about 9,000 at Micron (Micron press release; Reuters). This is Trump's second tracked Micron mention, after his Jul 1 2026 post. Quiver: no congressional trades in MU within 30 days before to 7 days after (the latest listed trade is Rep. Dan Newhouse's Jul 10 2026 purchase; checked 2026-10-17)."
+  "note": "Said at Trump's midterm campaign rally at the Oncenter in Syracuse, New York on Friday Oct 9 2026. The White House travel pool notes say he appeared onstage at 8:11 PM ET and began speaking at 8:13 PM, after the close, so day 0 is the next session (Mon Oct 12). The project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab in Clay, New York, creating nearly 50,000 New York jobs including about 9,000 at Micron (Micron press release; Reuters). This is Trump's fourth tracked Micron mention, after Mar 26, May 22 and Jul 1 2026. Quiver: no congressional trades in MU within 30 days before to 7 days after (the latest listed trade is Rep. Dan Newhouse's Jul 10 2026 purchase; checked 2026-10-17)."
  },
  {
   "date": "2026-10-10",
@@ -1642,6 +1775,22 @@
   "group": "Trump",
   "who": "Donald Trump",
   "type": "stock",
+  "source": "https://rollcall.com/factbase/trump/transcript/donald-trump-press-gaggle-before-marine-one-departure-october-16-2026/",
+  "archive_url": "https://trump-archive.com/item/d54a4149-c518-4ccf-a367-51eef20fa5f0",
+  "time_et": "2026-10-16 12:58",
+  "time_src": "White House in-town pool reports (Sabrina Eaton): Trump came out to the South Lawn at 12:56 PM ET and stopped taking questions at 1:17 PM (pool.pp.tools reports 9704 and 9706); the Roadster answer is about 2 minutes into the Roll Call Factbase transcript, so during trading hours",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "Tesla",
+  "ticker": "TSLA",
+  "quote": "\"I'm very happy for Elon... No, it's great. I don't know from a standpoint whether or not you're gonna see me in that car, but it's pretty impressive, very impressive.\" (asked about the new Tesla Roadster)",
+  "note": "Said on Fri Oct 16 2026 in the South Lawn gaggle before Trump left for the Dalton, Georgia rally, in answer to a reporter's question about the new Tesla Roadster that Tesla unveiled at SpaceX's McGregor, Texas site the evening before (Newsweek; 1news.az citing RBC). He also mentioned giving Elon Musk the National Medal of Science on Oct 8. The pool reports put the gaggle at 12:56 to 1:17 PM ET, so day 0 is Oct 16, the first session after the unveiling: Tesla closed down 2.1% (about 1 point more than the S&P 500's 1.1% drop), and with the unveiling the bigger news that day, the move can't be put down to this answer. Product praise in reply to a question, not a buy call. Tesla's third tracked mention (after Mar 11 and Mar 19 2025). Quiver lists no congressional TSLA trades from 30 days before so far (its latest is Rep. Ro Khanna's Aug 24 2026 sale); trades in the week after may not be filed yet. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-16",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
   "source": "https://trump-archive.com/item/9429da01-f6ab-4a12-9628-5b795ef8a841",
   "archive_url": "https://pool.pp.tools/reports/9712",
   "time_et": "2026-10-16 16:24",
@@ -1652,21 +1801,5 @@
   "ticker": "UCB.BR",
   "quote": "\"Here in Georgia, the company UCB is investing $2 billion to build its first ever pharmaceutical factory in the United States.\" (Dalton, Georgia rally)",
   "note": "Said about 48 minutes into a campaign rally speech that began at 4:24 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Mon Oct 19). Transcript also published by The Singju Post. The $2 billion Gwinnett County biologics plant was announced Mar 24 2026 (Georgia Governor's office) and its site was dedicated Oct 9 2026 (UCB). Brussels-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades in UCB's US OTC ticker (UCBJY) within 30 days before to 7 days after (last listed trade Sep 23 2025; checked 2026-10-17)."
- },
- {
-  "date": "2026-04-13",
-  "group": "Trump",
-  "who": "Donald Trump",
-  "type": "stock",
-  "source": "https://www.presidency.ucsb.edu/documents/remarks-receiving-doordash-order-and-exchange-with-reporters",
-  "archive_url": "https://trump-archive.com/item/be70f2c5-c722-4f65-bfb3-d3ad1000c7c6",
-  "time_et": "2026-04-13 12:38",
-  "time_src": "American Presidency Project note: the President spoke at 12:38 p.m. on the West Wing Colonnade; the DoorDash line is about 15 seconds in, so during trading hours",
-  "after_close": false,
-  "category": "Company praise",
-  "asset": "DoorDash",
-  "ticker": "DASH",
-  "quote": "\"These are good. DoorDash is doing a good job.\" (receiving a McDonald's DoorDash order outside the Oval Office)",
-  "note": "Said on Mon Apr 13 2026 when Arkansas DoorDash driver Sharon Simmons delivered two bags of McDonald's to the West Wing Colonnade at 12:38 PM ET, an event the White House staged to promote the no-tax-on-tips law; Trump tipped her $100 (AP; CBS News; American Presidency Project transcript). The remark came during trading hours, so day 0 is Apr 13. This is praise of the delivery service during a policy event, not a buy call. Quiver lists 10 congressional DoorDash trades from 30 days before to 7 days after: 7 by Rep. Gilbert Cisneros (purchases on Mar 18, Mar 27, Apr 6, Apr 13, Apr 14 and Apr 15, and a sale on Mar 18), 2 by Rep. Ro Khanna (a sale on Mar 23 and a purchase on Apr 13; his filings list many stocks) and a full sale by Sen. Alan Armstrong on Mar 27, all in small ranges. They are listed for context only. No wrongdoing alleged."
  }
 ]

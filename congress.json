@@ -2699,5 +2699,447 @@
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/DASH",
   "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-03-26",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Fetterman, John",
+  "chamber": "Senate",
+  "party": "D",
+  "state": "PA",
+  "date": "2026-03-30",
+  "days": 4,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-04-03"
+ },
+ {
+  "mention": [
+   "2026-03-26",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Armstrong, Alan",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "OK",
+  "date": "2026-03-27",
+  "days": 1,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-07-21"
+ },
+ {
+  "mention": [
+   "2026-03-26",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-25",
+  "days": -1,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-03-26",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Dwight Evans",
+  "chamber": "House",
+  "party": "D",
+  "state": "PA",
+  "date": "2026-03-24",
+  "days": -2,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-04-20"
+ },
+ {
+  "mention": [
+   "2026-03-26",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-18",
+  "days": -8,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-03-26",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-12",
+  "days": -14,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-03-26",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-10",
+  "days": -16,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-03-26",
+   "MU"
+  ],
+  "ticker": "MU",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-02-24",
+  "days": -30,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MU",
+  "filed": "2026-03-09"
+ },
+ {
+  "mention": [
+   "2026-03-11",
+   "TMO"
+  ],
+  "ticker": "TMO",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-02-24",
+  "days": -15,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TMO",
+  "filed": "2026-03-09"
+ },
+ {
+  "mention": [
+   "2026-03-11",
+   "TMO"
+  ],
+  "ticker": "TMO",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-06",
+  "days": -5,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TMO",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-03-11",
+   "TMO"
+  ],
+  "ticker": "TMO",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-03-10",
+  "days": -1,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TMO",
+  "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-02-05",
+  "days": 3,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-03-09"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-29",
+  "days": -4,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-22",
+  "days": -11,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-22",
+  "days": -11,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Thomas H. Kean Jr",
+  "chamber": "House",
+  "party": "R",
+  "state": "NJ",
+  "date": "2026-01-07",
+  "days": -26,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-02-19"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Nancy Pelosi",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-12-24",
+  "days": -28,
+  "type": "Sale",
+  "amount": "$5,000,001 - $25,000,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-01-23"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Mullin, Markwayne",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "OK",
+  "date": "2025-12-29",
+  "days": -23,
+  "type": "Purchase",
+  "amount": "$100,001 - $250,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-01-16"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Nancy Pelosi",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-12-30",
+  "days": -22,
+  "type": "Sale",
+  "amount": "$5,000,001 - $25,000,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-01-23"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Nancy Pelosi",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-12-30",
+  "days": -22,
+  "type": "Purchase",
+  "amount": "$250,001 - $500,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-01-23"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Shri Thanedar",
+  "chamber": "House",
+  "party": "D",
+  "state": "MI",
+  "date": "2026-01-09",
+  "days": -12,
+  "type": "Sale",
+  "amount": "$100,001 - $250,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-08-13"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Boozman, John",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "AR",
+  "date": "2026-01-15",
+  "days": -6,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-02-15"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "David J. Taylor",
+  "chamber": "House",
+  "party": "R",
+  "state": "OH",
+  "date": "2026-01-16",
+  "days": -5,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-02-02"
+ },
+ {
+  "mention": [
+   "2026-01-27",
+   "DE"
+  ],
+  "ticker": "DE",
+  "member": "Mullin, Markwayne",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "OK",
+  "date": "2025-12-29",
+  "days": -29,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DE",
+  "filed": "2026-01-16"
+ },
+ {
+  "mention": [
+   "2026-01-27",
+   "DE"
+  ],
+  "ticker": "DE",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-23",
+  "days": -4,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DE",
+  "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-01-27",
+   "DE"
+  ],
+  "ticker": "DE",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-29",
+  "days": 2,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DE",
+  "filed": "2026-02-06"
  }
 ]

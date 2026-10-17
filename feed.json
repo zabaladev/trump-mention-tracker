@@ -33,6 +33,19 @@
    ]
   },
   {
+   "id": "d128f9cbbd9cd106",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=TSLA",
+   "external_url": "https://rollcall.com/factbase/trump/transcript/donald-trump-press-gaggle-before-marine-one-departure-october-16-2026/",
+   "title": "Donald Trump on Tesla (TSLA): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Tesla (TSLA) on 2026-10-16 at 12:58 ET.\nQuote: \"I'm very happy for Elon... No, it's great. I don't know from a standpoint whether or not you're gonna see me in that car, but it's pretty impressive, very impressive.\" (asked about the new Tesla Roadster)\nVersus the S&P 500: -1.0% on the comment day, +0.0% to date.\nSource: https://rollcall.com/factbase/trump/transcript/donald-trump-press-gaggle-before-marine-one-departure-october-16-2026/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-10-16T12:58:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
    "id": "d82ee6d3d1e0792c",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=IE",
    "external_url": "https://ktar.com/arizona-politics-news/election/donald-trump-bullhead-city-2",
@@ -657,6 +670,19 @@
    ]
   },
   {
+   "id": "677b403c33a3934d",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=GFS",
+   "external_url": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
+   "title": "Commerce Dept. (CHIPS) on GlobalFoundries (GFS): Government stake/deal",
+   "content_text": "Commerce Dept. (CHIPS) (Admin) mentioned GlobalFoundries (GFS) on 2026-05-21 at 06:55 ET.\nQuote: \"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; GlobalFoundries: $375 million in planned funding for a secure domestic quantum foundry)\nVersus the S&P 500: +14.7% on the comment day, -45.3% to date.\nSource: https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-05-21T06:55:00-04:00",
+   "tags": [
+    "Admin",
+    "Government stake/deal",
+    "stock"
+   ]
+  },
+  {
    "id": "60ddf2bcd57e8f6e",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=IBM",
    "external_url": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
@@ -670,11 +696,11 @@
    ]
   },
   {
-   "id": "677b403c33a3934d",
-   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=GFS",
+   "id": "b01f412b8dfceecd",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=INFQ",
    "external_url": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
-   "title": "Commerce Dept. (CHIPS) on GlobalFoundries (GFS): Government stake/deal",
-   "content_text": "Commerce Dept. (CHIPS) (Admin) mentioned GlobalFoundries (GFS) on 2026-05-21 at 06:55 ET.\nQuote: \"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; GlobalFoundries: $375 million in planned funding for a secure domestic quantum foundry)\nVersus the S&P 500: +14.7% on the comment day, -45.3% to date.\nSource: https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "title": "Commerce Dept. (CHIPS) on Infleqtion (INFQ): Government stake/deal",
+   "content_text": "Commerce Dept. (CHIPS) (Admin) mentioned Infleqtion (INFQ) on 2026-05-21 at 06:55 ET.\nQuote: \"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; Infleqtion: $100 million in planned funding for neutral-atom systems.)\nVersus the S&P 500: +31.3% on the comment day, -44.7% to date.\nSource: https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2026-05-21T06:55:00-04:00",
    "tags": [
     "Admin",
@@ -701,19 +727,6 @@
    "external_url": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
    "title": "Commerce Dept. (CHIPS) on Rigetti Computing (RGTI): Government stake/deal",
    "content_text": "Commerce Dept. (CHIPS) (Admin) mentioned Rigetti Computing (RGTI) on 2026-05-21 at 06:55 ET.\nQuote: \"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; Rigetti Computing: Up to $100 million in planned funding for next-generation superconducting systems.)\nVersus the S&P 500: +30.4% on the comment day, -49.3% to date.\nSource: https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
-   "date_published": "2026-05-21T06:55:00-04:00",
-   "tags": [
-    "Admin",
-    "Government stake/deal",
-    "stock"
-   ]
-  },
-  {
-   "id": "b01f412b8dfceecd",
-   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=INFQ",
-   "external_url": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion",
-   "title": "Commerce Dept. (CHIPS) on Infleqtion (INFQ): Government stake/deal",
-   "content_text": "Commerce Dept. (CHIPS) (Admin) mentioned Infleqtion (INFQ) on 2026-05-21 at 06:55 ET.\nQuote: \"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; Infleqtion: $100 million in planned funding for neutral-atom systems.)\nVersus the S&P 500: +31.3% on the comment day, -44.7% to date.\nSource: https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2026-05-21T06:55:00-04:00",
    "tags": [
     "Admin",
@@ -826,6 +839,45 @@
    ]
   },
   {
+   "id": "0488a86df950bb92",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=MU",
+   "external_url": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-calls-in-to-a-live-interview-on-fox-news-the-five-32626",
+   "title": "Donald Trump on Micron (MU): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Micron (MU) on 2026-03-26 at 17:00 ET.\nQuote: \"We have 18 coming in and they're building plants all over the United States. It's a- -- I just left the head of Micron. It's one of the hottest companies.\" (live phone interview, Fox News' The Five)\nVersus the S&P 500: +2.2% on the comment day, +125.9% to date.\nSource: https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-calls-in-to-a-live-interview-on-fox-news-the-five-32626\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-03-26T17:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "5f97fe2e936cfd15",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=TMO",
+   "external_url": "https://www.presidency.ucsb.edu/documents/remarks-during-tour-thermo-fisher-scientific-and-exchange-with-reporters-cincinnati-ohio",
+   "title": "Donald Trump on Thermo Fisher Scientific (TMO): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Thermo Fisher Scientific (TMO) on 2026-03-11 at 14:50 ET.\nQuote: \"Well, it's a great company. We were just talking about how the expansion's going. And a lot of expansion because of Trump, I have to say... But this is a great honor being here. It's a great company. I've known it for a long time.\" (site visit, Thermo Fisher plant, Reading, Ohio)\nVersus the S&P 500: -0.8% on the comment day, +26.5% to date.\nSource: https://www.presidency.ucsb.edu/documents/remarks-during-tour-thermo-fisher-scientific-and-exchange-with-reporters-cincinnati-ohio\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-03-11T14:50:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "461fe057549d33f0",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=DELL",
+   "external_url": "https://www.presidency.ucsb.edu/documents/remarks-energy-corpus-christi-texas",
+   "title": "Donald Trump on Dell Technologies (DELL): Explicit buy call",
+   "content_text": "Donald Trump (Trump) mentioned Dell Technologies (DELL) on 2026-02-27 at 16:48 ET.\nQuote: \"We have a new thing, and it was Michael and Susan Dell—Dell computer. Go out and buy a Dell computer. They're great.\" (energy speech, Port of Corpus Christi, Texas)\nVersus the S&P 500: +3.7% on the comment day, +184.3% to date.\nSource: https://www.presidency.ucsb.edu/documents/remarks-energy-corpus-christi-texas\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-02-27T16:48:00-05:00",
+   "tags": [
+    "Trump",
+    "Explicit buy call",
+    "stock"
+   ]
+  },
+  {
    "id": "84737b234ee53f9c",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=DELL",
    "external_url": "https://www.ainvest.com/news/trump-buy-dell-computer-2602/",
@@ -835,6 +887,19 @@
    "tags": [
     "Trump",
     "Explicit buy call",
+    "stock"
+   ]
+  },
+  {
+   "id": "ab6bdf077640c573",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTU",
+   "external_url": "https://www.presidency.ucsb.edu/documents/remarks-signing-executive-order-domestic-coal-production",
+   "title": "Donald Trump on Peabody Energy (BTU): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Peabody Energy (BTU) on 2026-02-11 at 16:30 ET.\nQuote: \"I want to thank you and invite the chairman of our National Coal Council, Peabody Energy CEO—which is a great company, by the way—Jim Grech to come up and say a few words.\" (Champion of Coal event, White House)\nVersus the S&P 500: -2.9% on the comment day, -43.5% to date.\nSource: https://www.presidency.ucsb.edu/documents/remarks-signing-executive-order-domestic-coal-production\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-02-11T16:30:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
     "stock"
    ]
   },
@@ -852,6 +917,32 @@
    ]
   },
   {
+   "id": "0f77eb162e133c51",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=GM",
+   "external_url": "https://www.presidency.ucsb.edu/documents/remarks-the-united-states-strategic-critical-minerals-reserve-and-exchange-with-reporters",
+   "title": "Donald Trump on General Motors (GM): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned General Motors (GM) on 2026-02-02 at 16:23 ET.\nQuote: \"General Motors CEO Mary Barra, who is setting records, huh? I hear you're doing unbelievably. Twenty-four hours, round the clock your factories.\" Later: \"Mary Barra, the chairman, CEO of General Motors—which is setting records every single day, and she's doing a fantastic job\" (Strategic Critical Minerals Reserve announcement, Oval Office)\nVersus the S&P 500: +2.5% on the comment day, -12.1% to date.\nSource: https://www.presidency.ucsb.edu/documents/remarks-the-united-states-strategic-critical-minerals-reserve-and-exchange-with-reporters\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-02-02T16:23:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "99b4b427bc8f6d95",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=DE",
+   "external_url": "https://www.presidency.ucsb.edu/documents/remarks-clive-iowa",
+   "title": "Donald Trump on Deere & Company (John Deere) (DE): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Deere & Company (John Deere) (DE) on 2026-01-27 at 17:24 ET.\nQuote: \"No, it's a great company. Great company. And you just said you're opening up two massive plants because of tariffs.\" Later: \"I bought a lot of John Deere stuff. I bought a lot of John Deere. It's a great company. It's an honor to have you.\" Also asked the room, \"How is John Deere's stock doing? Great? Alltime high?\" (economy and energy speech, Horizon Events Center, Clive, Iowa), with Deere chairman and CEO John C. May in attendance.\nVersus the S&P 500: +1.1% on the comment day, +13.5% to date.\nSource: https://www.presidency.ucsb.edu/documents/remarks-clive-iowa\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-27T17:24:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
    "id": "7edc082ff9df6a39",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=USAR",
    "external_url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-letter-intent-us-government-access-16",
@@ -861,6 +952,19 @@
    "tags": [
     "Admin",
     "Government stake/deal",
+    "stock"
+   ]
+  },
+  {
+   "id": "9a49818d9f012f89",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=AAPL",
+   "external_url": "https://www.presidency.ucsb.edu/documents/remarks-during-world-economic-forum-reception-with-business-leaders-davos-switzerland",
+   "title": "Donald Trump on Apple (AAPL): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Apple (AAPL) on 2026-01-21 at 12:43 ET.\nQuote: \"But we have companies, great companies coming in. Apple is spending $650 billion.\" Later, spotting Tim Cook in the room: \"He's been good for 650—think of it: $650 billion. Okay? Can you imagine? That's what he's going to be investing. More than that. I think it's going to end up being more. He's great. You know, he's great. He's done some job.\" (WEF business-leaders reception, Davos)\nVersus the S&P 500: -0.8% on the comment day, +27.7% to date.\nSource: https://www.presidency.ucsb.edu/documents/remarks-during-world-economic-forum-reception-with-business-leaders-davos-switzerland\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-21T12:43:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
     "stock"
    ]
   },
@@ -973,7 +1077,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=CRO-USD",
    "external_url": "https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/",
    "title": "Donald Trump (Trump Media) on Cronos (CRO) (CRO-USD): Family venture",
-   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -90.0% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -89.8% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-08-26T12:00:00-04:00",
    "tags": [
     "Trump",
@@ -1051,7 +1155,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/",
    "title": "Eric Trump on Bitcoin (BTC-USD): Explicit buy call",
-   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-08-02.\nQuote: \"Buy the dips!!! $BTC $ETH\"\nVersus the S&P 500: -0.7% on the comment day, -50.6% to date.\nSource: https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-08-02.\nQuote: \"Buy the dips!!! $BTC $ETH\"\nVersus the S&P 500: -0.7% on the comment day, -50.4% to date.\nSource: https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-08-02T12:00:00-04:00",
    "tags": [
     "Family",
@@ -1064,7 +1168,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ETH-USD",
    "external_url": "https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/",
    "title": "Eric Trump on Ethereum (ETH-USD): Explicit buy call",
-   "content_text": "Eric Trump (Family) mentioned Ethereum (ETH-USD) on 2025-08-02.\nQuote: \"Buy the dips!!! $BTC $ETH\"\nVersus the S&P 500: -2.7% on the comment day, -51.8% to date.\nSource: https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump (Family) mentioned Ethereum (ETH-USD) on 2025-08-02.\nQuote: \"Buy the dips!!! $BTC $ETH\"\nVersus the S&P 500: -2.7% on the comment day, -51.6% to date.\nSource: https://www.cryptotimes.io/2025/08/02/eric-trump-says-buy-the-dip-as-bitcoin-ethereum-price-drops/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-08-02T12:00:00-04:00",
    "tags": [
     "Family",
@@ -1077,7 +1181,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://x.com/EricTrump/status/1950322859886379046",
    "title": "Eric Trump on Bitcoin (BTC-USD): Bullish call",
-   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-07-29 at 18:29 ET.\nQuote: \"You're welcome! Ps, I believe the best is yet to come! $BTC $ETH\"\nVersus the S&P 500: +0.3% on the comment day, -51.3% to date.\nSource: https://x.com/EricTrump/status/1950322859886379046\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-07-29 at 18:29 ET.\nQuote: \"You're welcome! Ps, I believe the best is yet to come! $BTC $ETH\"\nVersus the S&P 500: +0.3% on the comment day, -51.1% to date.\nSource: https://x.com/EricTrump/status/1950322859886379046\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-07-29T18:29:00-04:00",
    "tags": [
     "Family",
@@ -1090,7 +1194,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ETH-USD",
    "external_url": "https://x.com/EricTrump/status/1950322859886379046",
    "title": "Eric Trump on Ethereum (ETH-USD): Bullish call",
-   "content_text": "Eric Trump (Family) mentioned Ethereum (ETH-USD) on 2025-07-29 at 18:29 ET.\nQuote: \"You're welcome! Ps, I believe the best is yet to come! $BTC $ETH\"\nVersus the S&P 500: +0.5% on the comment day, -56.7% to date.\nSource: https://x.com/EricTrump/status/1950322859886379046\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump (Family) mentioned Ethereum (ETH-USD) on 2025-07-29 at 18:29 ET.\nQuote: \"You're welcome! Ps, I believe the best is yet to come! $BTC $ETH\"\nVersus the S&P 500: +0.5% on the comment day, -56.6% to date.\nSource: https://x.com/EricTrump/status/1950322859886379046\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-07-29T18:29:00-04:00",
    "tags": [
     "Family",
@@ -1285,7 +1389,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -42.4% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -42.2% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T12:00:00-05:00",
    "tags": [
     "Trump",
@@ -1298,7 +1402,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ETH-USD",
    "external_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
    "title": "Donald Trump on Ethereum (ETH-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Ethereum (ETH-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +13.7% on the comment day, -33.0% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Ethereum (ETH-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +13.7% on the comment day, -32.8% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T12:00:00-05:00",
    "tags": [
     "Trump",
@@ -1311,7 +1415,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ADA-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on Cardano (ADA-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Cardano (ADA-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +71.3% on the comment day, -109.2% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Cardano (ADA-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +71.3% on the comment day, -109.0% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -1324,7 +1428,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=SOL-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on Solana (SOL-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.7% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.4% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -1337,7 +1441,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=XRP-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on XRP (XRP-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned XRP (XRP-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +34.1% on the comment day, -84.6% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned XRP (XRP-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +34.1% on the comment day, -84.5% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -1363,7 +1467,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://x.com/EricTrump/status/1887315608381108271",
    "title": "Eric Trump on Bitcoin (BTC-USD): Explicit buy call",
-   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-02-06 at 20:41 ET.\nQuote: \"Feels like a great time to enter #BTC! @worldlibertyfi\"\nVersus the S&P 500: -0.4% on the comment day, -41.8% to date.\nSource: https://x.com/EricTrump/status/1887315608381108271\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-02-06 at 20:41 ET.\nQuote: \"Feels like a great time to enter #BTC! @worldlibertyfi\"\nVersus the S&P 500: -0.4% on the comment day, -41.5% to date.\nSource: https://x.com/EricTrump/status/1887315608381108271\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-02-05T20:41:00-05:00",
    "tags": [
     "Family",
@@ -1376,7 +1480,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ETH-USD",
    "external_url": "https://x.com/EricTrump/status/1886533206188679576",
    "title": "Eric Trump on Ethereum (ETH-USD): Explicit buy call",
-   "content_text": "Eric Trump (Family) mentioned Ethereum (ETH-USD) on 2025-02-03 at 16:52 ET.\nQuote: \"In my opinion, it's a great time to add $ETH. You can thank me later.\" (later edited)\nVersus the S&P 500: +1.3% on the comment day, -44.3% to date.\nSource: https://x.com/EricTrump/status/1886533206188679576\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump (Family) mentioned Ethereum (ETH-USD) on 2025-02-03 at 16:52 ET.\nQuote: \"In my opinion, it's a great time to add $ETH. You can thank me later.\" (later edited)\nVersus the S&P 500: +1.3% on the comment day, -44.1% to date.\nSource: https://x.com/EricTrump/status/1886533206188679576\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-02-03T16:52:00-05:00",
    "tags": [
     "Family",
@@ -1389,7 +1493,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ETH-USD",
    "external_url": "https://x.com/DonaldJTrumpJr/status/1881494777293611302",
    "title": "Donald Trump Jr. on Ethereum (ETH-USD): Family venture",
-   "content_text": "Donald Trump Jr. (Family) mentioned Ethereum (ETH-USD) on 2025-01-21 at 19:11 ET.\nQuote: \"$WLFI is proud to announce the following strategic purchases today: $47,000,000 ETH, $47,000,000 wBTC...\"\nVersus the S&P 500: +0.6% on the comment day, -54.2% to date.\nSource: https://x.com/DonaldJTrumpJr/status/1881494777293611302\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump Jr. (Family) mentioned Ethereum (ETH-USD) on 2025-01-21 at 19:11 ET.\nQuote: \"$WLFI is proud to announce the following strategic purchases today: $47,000,000 ETH, $47,000,000 wBTC...\"\nVersus the S&P 500: +0.6% on the comment day, -54.0% to date.\nSource: https://x.com/DonaldJTrumpJr/status/1881494777293611302\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-01-20T19:11:00-05:00",
    "tags": [
     "Family",
@@ -1415,7 +1519,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=MELANIA35347-USD",
    "external_url": "https://x.com/MELANIATRUMP/status/1881087523847593995",
    "title": "Melania Trump on Official Melania memecoin (MELANIA35347-USD): Family venture",
-   "content_text": "Melania Trump (Family) mentioned Official Melania memecoin (MELANIA35347-USD) on 2025-01-19 at 16:13 ET.\nQuote: \"The Official Melania Meme is live! You can buy $MELANIA now.\"\nVersus the S&P 500: -126.8% to date.\nSource: https://x.com/MELANIATRUMP/status/1881087523847593995\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Melania Trump (Family) mentioned Official Melania memecoin (MELANIA35347-USD) on 2025-01-19 at 16:13 ET.\nQuote: \"The Official Melania Meme is live! You can buy $MELANIA now.\"\nVersus the S&P 500: -126.7% to date.\nSource: https://x.com/MELANIATRUMP/status/1881087523847593995\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-01-19T16:13:00-05:00",
    "tags": [
     "Family",
@@ -1428,7 +1532,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=TRUMP35336-USD",
    "external_url": "https://x.com/realDonaldTrump/status/1880446012168249386",
    "title": "Donald Trump on Official Trump memecoin (TRUMP35336-USD): Family venture",
-   "content_text": "Donald Trump (Trump) mentioned Official Trump memecoin (TRUMP35336-USD) on 2025-01-17 at 21:44 ET.\nQuote: \"My NEW Official Trump Meme is HERE! It's time to celebrate everything we stand for: WINNING! ... GET YOUR $TRUMP NOW.\"\nVersus the S&P 500: -121.6% to date.\nSource: https://x.com/realDonaldTrump/status/1880446012168249386\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Official Trump memecoin (TRUMP35336-USD) on 2025-01-17 at 21:44 ET.\nQuote: \"My NEW Official Trump Meme is HERE! It's time to celebrate everything we stand for: WINNING! ... GET YOUR $TRUMP NOW.\"\nVersus the S&P 500: -121.5% to date.\nSource: https://x.com/realDonaldTrump/status/1880446012168249386\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-01-17T21:44:00-05:00",
    "tags": [
     "Trump",
@@ -1467,7 +1571,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://x.com/realDonaldTrump/status/1852033244729860397",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.5% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.2% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2024-10-31T13:01:00-04:00",
    "tags": [
     "Trump",

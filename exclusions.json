@@ -253,5 +253,90 @@
   "item": "JD Vance on banning congressional stock trading (Apr 14 and May 5 2026)",
   "reason": "At a Turning Point town hall in Athens, Georgia on Apr 14 2026, Vance said he backed the State of the Union call to ban members of Congress from trading stocks, and that buying or selling stocks after a classified briefing \"should be illegal\". He repeated the State of the Union line in a May 5 factory speech in Des Moines, Iowa. Neither speech named a stock or listed company, and his other April events (Apr 1 swearing-in, Apr 7 Budapest rally, bilateral meeting and press conference, Apr 8 and 10 gaggles, Apr 11 Islamabad briefing) named none either (Roll Call Factbase transcripts via the Trump Archive, items 0d79c4eb and 0bb6bdbf).",
   "kind": "noasset"
+ },
+ {
+  "item": "Raytheon and Lockheed 'building factories' and the $51 billion buyback line (Trump, Mar 19 2026 bilateral with Japan's Sanae Takaichi)",
+  "reason": "Trump said \"Raytheon is building four factories. Lockheed is building five or six factories\" after \"a very tough meeting with them\", and that a contractor had spent \"$51 billion buying back stock. Now they're not allowed to do that\" (Roll Call Factbase transcript). It's a claim of credit for defense-production policy, not praise or a pick for either stock, so it is not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Ike Perlmutter selling Disney stock (Trump, Mar 16 2026 Kennedy Center board lunch)",
+  "reason": "An anecdote that Perlmutter \"became the largest owner of Disney\" and sold the stock after \"they went woke\" (Roll Call Factbase transcript). It describes someone else's past trade rather than commenting on the company or its shares now, so it is not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "John Deere, Case and Caterpillar (Trump, Mar 27 2026 White House farmers event)",
+  "reason": "Trump recalled meeting \"the chairman of John Deere, great company\" in a story about the new diesel exhaust fluid (DEF) rules, then listed \"John Deere and Case and all of the great companies, Caterpillar\" as makers he wants to build cheaper tractors (Roll Call Factbase transcript). A passing aside and a group list, so not scored under the high-signal rule.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Google (Trump, Mar 4 2026 Energy Ratepayer Protection roundtable)",
+  "reason": "Thanking Google president Ruth Porat for signing the ratepayer pledge, Trump said \"That's a good company, that's big stuff, Google\" (Roll Call Factbase transcript). A passing aside about a pledge signatory, so not scored under the high-signal rule.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Apple and Ford (Trump, Mar 11 2026 Verst Logistics speech, Hebron, Kentucky)",
+  "reason": "Trump listed Ford's $2 billion Louisville assembly plant (\"a good 'ol staple\") and \"Apple, a great company\" with its $2.5 billion Kentucky glass investment while talking about factories being built (Roll Call Factbase transcript). Recaps of already-announced investments in a list, so not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Merck, Pfizer and Lilly (Trump, Mar 11 2026 Thermo Fisher tour)",
+  "reason": "Named as drugmakers \"building many factories\" in the US while praising Thermo Fisher (American Presidency Project transcript). A group list, so not scored; the Thermo Fisher praise itself is tracked.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Coosa Steel (Trump, Feb 19 2026 plant tour, Rome, Georgia)",
+  "reason": "Trump said the owner \"has a now great company\" thanks to tariffs while touring the Coosa Steel plant (Roll Call Factbase transcript). Coosa Steel is privately held, so there is no stock to score.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Intel (Trump, Feb 20 2026 press conference on the Supreme Court tariff ruling)",
+  "reason": "\"I saved Intel. I literally saved it at the beginning of this administration\" (Roll Call Factbase transcript). A claim about the government's Intel deal, already tracked through earlier Intel rows, not a new call on the stock.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Michael and Susan Dell (Trump, Feb 24 2026 State of the Union)",
+  "reason": "Thanked the Dells for donating $6.25 billion to the Trump Accounts and told a story about Michael Dell selling computers from his dorm (Roll Call Factbase transcript). Praise of the donors' gift, not of the company or its products, so not scored; the Feb 19 and Feb 27 \"go out and buy a Dell computer\" lines are tracked.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Ford's Michigan plant recap (Trump, Feb 4 NBC interview and Feb 12 2026 endangerment-finding repeal)",
+  "reason": "Trump retold his recent visit to a Ford factory in Michigan that the company had planned to close, as an example of his policies (Roll Call Factbase transcripts). A recap of a past visit, not new praise or a call, so not scored; Ford is tracked from Sep 26 2026.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Eli Lilly and AstraZeneca price cuts (Trump, Feb 5 2026 TrumpRx website launch)",
+  "reason": "Trump listed drug-price cuts by Eli Lilly and AstraZeneca and Lilly's plant building while launching the TrumpRx site (Roll Call Factbase transcript). Policy announcements about deals, not praise or a call on the companies, so not scored; Lilly is tracked from Jun 23 and Oct 2 2026.",
+  "kind": "notcall"
+ },
+ {
+  "item": "John Deere (Trump, Feb 12 2026 endangerment-finding repeal)",
+  "reason": "Used \"John Deere as an example\" of farm equipment made expensive by environmental rules (Roll Call Factbase transcript). Criticism of regulations, not of the company, so not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Eli Lilly MFN story (Trump, Jan 16 2026 rural health roundtable)",
+  "reason": "He called Lilly's CEO \"an unbelievable executive\" and Lilly \"one of the most successful companies\" while recounting Most Favored Nation drug-pricing talks (Roll Call Factbase / APP). Strong praise, but it is the same MFN negotiation story told many times; the Jun 23 and Oct 2 Lilly plant lines are the scored ones. Logged so the January sweep is documented.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Investment roll-call (Trump, Jan 20 2026 White House press briefing)",
+  "reason": "Listed Apple, Nvidia, SoftBank, Oracle, TSMC, J&J, Lilly, Micron, AstraZeneca, GM, Hyundai, Ford, Honda, GE Aerospace as \"$18 trillion in commitments\" and separately named Pfizer/AstraZeneca/Lilly/Novo/Gilead/EMD Serono for MFN deals (Roll Call Factbase). A group list / program partners, not a single-company pick.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Toyota $10B aside (Trump, Jan 21 2026 Davos business reception)",
+  "reason": "Told an Akio Toyoda anecdote and said Toyota \"just announced\" $10 billion of plants while praising the investment boom (APP). Investment roll-call beside the scored Apple line; no separate \"great company\" for Toyota here.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Eli Lilly six plants (Trump, Jan 29 2026 Cabinet meeting)",
+  "reason": "Called Lilly's CEO \"a fantastic guy, a star\" and said he is \"building six plants,\" then listed Merck and Pfizer as also building (Roll Call Factbase). Praise, but a Cabinet-meeting repeat of the MFN/reshoring story; Jun 23 / Oct 2 remain the scored Lilly mentions.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Ford plant recap (Trump, Jan 20 press briefing and Jan 29 Cabinet)",
+  "reason": "Repeated that a Ford plant in Michigan he visited was going \"24 hours around the clock\" and that he spoke with Bill Ford (Roll Call Factbase). Factual plant recap already covered by later Ford/GM asides in exclusions; not a fresh stock call.",
+  "kind": "notcall"
  }
 ]

@@ -1,588 +1,634 @@
 {
-  "_note": "Committee seats come from the public unitedstates/congress-legislators dataset (committee-membership-current.yaml, last updated 2026-09-02, commit 46b3d14; retrieved 2026-10-17). They are CURRENT full-committee seats in the 119th Congress, not necessarily the seats held on the trade date. The ticker-to-committee list is our own rough guide, based on each committee's published jurisdiction; it is not an official finding. Sitting on a related committee is common and is not evidence of anything improper.",
-  "source": "https://github.com/unitedstates/congress-legislators/blob/46b3d1480d/committee-membership-current.yaml",
-  "retrieved": "2026-10-17",
-  "members": {
-    "Armstrong, Alan": {
-      "bioguide": "A000383",
-      "name": "Alan Armstrong",
-      "committees": [
-        "Senate Committee on Health, Education, Labor, and Pensions",
-        "Senate Committee on Indian Affairs"
-      ]
-    },
-    "Britt, Katie": {
-      "bioguide": "B001319",
-      "name": "Katie Boyd Britt",
-      "committees": [
-        "Commission on Security and Cooperation in Europe",
-        "Senate Committee on Appropriations",
-        "Senate Committee on Banking, Housing, and Urban Affairs",
-        "Senate Committee on Rules and Administration",
-        "Senate Committee on the Judiciary"
-      ]
-    },
-    "Bruce Westerman": {
-      "bioguide": "W000821",
-      "name": "Bruce Westerman",
-      "committees": [
-        "House Committee on Natural Resources",
-        "House Committee on Transportation and Infrastructure"
-      ]
-    },
-    "Capito, Shelley Moore": {
-      "bioguide": "C001047",
-      "name": "Shelley Moore Capito",
-      "committees": [
-        "Senate Committee on Appropriations",
-        "Senate Committee on Commerce, Science, and Transportation",
-        "Senate Committee on Environment and Public Works",
-        "Senate Committee on Rules and Administration"
-      ]
-    },
-    "Cleo Fields": {
-      "bioguide": "F000110",
-      "name": "Cleo Fields",
-      "committees": [
-        "House Committee on Financial Services"
-      ]
-    },
-    "Cliff Bentz": {
-      "bioguide": "B000668",
-      "name": "Cliff Bentz",
-      "committees": [
-        "House Committee on Energy and Commerce",
-        "House Committee on Natural Resources"
-      ]
-    },
-    "Dan Newhouse": {
-      "bioguide": "N000189",
-      "name": "Dan Newhouse",
-      "committees": [
-        "House Committee on Agriculture",
-        "House Committee on Appropriations",
-        "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party"
-      ]
-    },
-    "Dwight Evans": {
-      "bioguide": "E000296",
-      "name": "Dwight Evans",
-      "committees": [
-        "House Committee on Ways and Means"
-      ]
-    },
-    "Gilbert Cisneros": {
-      "bioguide": "C001123",
-      "name": "Gilbert Ray Cisneros, Jr.",
-      "committees": [
-        "House Committee on Armed Services",
-        "House Committee on Small Business"
-      ]
-    },
-    "Greg Landsman": {
-      "bioguide": "L000601",
-      "name": "Greg Landsman",
-      "committees": [
-        "House Committee on Energy and Commerce"
-      ]
-    },
-    "Jared Moskowitz": {
-      "bioguide": "M001217",
-      "name": "Jared Moskowitz",
-      "committees": [
-        "House Committee on Foreign Affairs",
-        "House Committee on the Judiciary",
-        "House Select Subcommittee to Investigate the Remaining Questions Surrounding January 6, 2021"
-      ]
-    },
-    "Jefferson Shreve": {
-      "bioguide": "S001229",
-      "name": "Jefferson Shreve",
-      "committees": [
-        "House Committee on Appropriations"
-      ]
-    },
-    "Josh Gottheimer": {
-      "bioguide": "G000583",
-      "name": "Josh Gottheimer",
-      "committees": [
-        "House Committee on Financial Services",
-        "House Permanent Select Committee on Intelligence"
-      ]
-    },
-    "Julie Johnson": {
-      "bioguide": "J000310",
-      "name": "Julie Johnson",
-      "committees": [
-        "House Committee on Foreign Affairs",
-        "House Committee on Homeland Security",
-        "House Committee on House Administration",
-        "Joint Committee of Congress on the Library"
-      ]
-    },
-    "Kevin Hern": {
-      "bioguide": "H001082",
-      "name": "Kevin Hern",
-      "committees": [
-        "House Committee on Ways and Means"
-      ]
-    },
-    "Lisa Mcclain": {
-      "bioguide": "M001136",
-      "name": "Lisa C. McClain",
-      "committees": [
-        "House Committee on Education and Workforce",
-        "House Committee on Financial Services"
-      ]
-    },
-    "Lloyd Doggett": {
-      "bioguide": "D000399",
-      "name": "Lloyd Doggett",
-      "committees": [
-        "House Committee on Ways and Means",
-        "House Committee on the Budget",
-        "Joint Committee on Taxation"
-      ]
-    },
-    "Maria Elvira Salazar": {
-      "bioguide": "S000168",
-      "name": "Maria Elvira Salazar",
-      "committees": [
-        "House Committee on Financial Services",
-        "House Committee on Foreign Affairs"
-      ]
-    },
-    "Marjorie Taylor Greene": {
-      "bioguide": null,
-      "committees": null,
-      "note": "Not in the current-members dataset (no longer serving when the data was pulled), so committee seats were not checked."
-    },
-    "Michael Rulli": {
-      "bioguide": "R000619",
-      "name": "Michael A. Rulli",
-      "committees": [
-        "House Committee on Education and Workforce",
-        "House Committee on Energy and Commerce"
-      ]
-    },
-    "Moody, Ashley B.": {
-      "bioguide": "M001244",
-      "name": "Ashley Moody",
-      "committees": [
-        "Joint Economic Committee",
-        "Senate Committee on Armed Services",
-        "Senate Committee on Health, Education, Labor, and Pensions",
-        "Senate Committee on Homeland Security and Governmental Affairs",
-        "Senate Committee on the Judiciary",
-        "Senate Special Committee on Aging"
-      ]
-    },
-    "Mullin, Markwayne": {
-      "bioguide": null,
-      "committees": null,
-      "note": "Not in the current-members dataset (no longer serving when the data was pulled), so committee seats were not checked."
-    },
-    "Pete Sessions": {
-      "bioguide": "S000250",
-      "name": "Pete Sessions",
-      "committees": [
-        "House Committee on Financial Services",
-        "House Committee on Oversight and Government Reform"
-      ]
-    },
-    "Peters, Gary": {
-      "bioguide": "P000595",
-      "name": "Gary C. Peters",
-      "committees": [
-        "Senate Committee on Appropriations",
-        "Senate Committee on Armed Services",
-        "Senate Committee on Commerce, Science, and Transportation",
-        "Senate Committee on Homeland Security and Governmental Affairs"
-      ]
-    },
-    "Ritchie John Torres": {
-      "bioguide": "T000486",
-      "name": "Ritchie Torres",
-      "committees": [
-        "House Committee on Financial Services",
-        "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party"
-      ]
-    },
-    "Rob Bresnahan": {
-      "bioguide": "B001327",
-      "name": "Robert P. Bresnahan, Jr.",
-      "committees": [
-        "House Committee on Agriculture",
-        "House Committee on Small Business",
-        "House Committee on Transportation and Infrastructure"
-      ]
-    },
-    "Terri A. Sewell": {
-      "bioguide": "S001185",
-      "name": "Terri A. Sewell",
-      "committees": [
-        "House Committee on House Administration",
-        "House Committee on Ways and Means",
-        "Joint Committee on Printing"
-      ]
-    },
-    "Thomas H. Kean Jr.": {
-      "bioguide": "K000398",
-      "name": "Thomas H. Kean, Jr.",
-      "committees": [
-        "House Committee on Energy and Commerce",
-        "House Committee on Foreign Affairs"
-      ]
-    },
-    "Tim Moore": {
-      "bioguide": "M001236",
-      "name": "Tim Moore",
-      "committees": [
-        "House Committee on Financial Services",
-        "House Committee on the Budget"
-      ]
-    },
-    "Whitehouse, Sheldon": {
-      "bioguide": "W000802",
-      "name": "Sheldon Whitehouse",
-      "committees": [
-        "Commission on Security and Cooperation in Europe",
-        "Senate Committee on Environment and Public Works",
-        "Senate Committee on Finance",
-        "Senate Committee on the Budget",
-        "Senate Committee on the Judiciary",
-        "United States Senate Caucus on International Narcotics Control"
-      ]
-    },
-    "Adam Smith": {
-      "bioguide": "S000510",
-      "name": "Adam Smith",
-      "committees": [
-        "House Committee on Armed Services"
-      ]
-    },
-    "Ro Khanna": {
-      "bioguide": "K000389",
-      "name": "Ro Khanna",
-      "committees": [
-        "House Committee on Armed Services",
-        "House Committee on Oversight and Government Reform",
-        "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party"
-      ]
-    },
-    "Michael T. McCaul": {
-      "bioguide": "M001157",
-      "name": "Michael T. McCaul",
-      "committees": [
-        "House Committee on Homeland Security",
-        "House Committee on Foreign Affairs"
-      ]
-    },
-    "Charles J. \"Chuck\" Fleischmann": {
-      "bioguide": "F000459",
-      "name": "Chuck Fleischmann",
-      "committees": [
-        "House Committee on Science, Space, and Technology",
-        "House Committee on Appropriations"
-      ]
-    },
-    "Daniel Meuser": {
-      "bioguide": "M001204",
-      "name": "Daniel Meuser",
-      "committees": [
-        "House Committee on Financial Services",
-        "House Committee on Small Business"
-      ]
-    }
+ "_note": "Committee seats come from the public unitedstates/congress-legislators dataset (committee-membership-current.yaml, last updated 2026-09-02, commit 46b3d14; retrieved 2026-10-17). They are CURRENT full-committee seats in the 119th Congress, not necessarily the seats held on the trade date. The ticker-to-committee list is our own rough guide, based on each committee's published jurisdiction; it is not an official finding. Sitting on a related committee is common and is not evidence of anything improper.",
+ "source": "https://github.com/unitedstates/congress-legislators/blob/46b3d1480d/committee-membership-current.yaml",
+ "retrieved": "2026-10-17",
+ "members": {
+  "Armstrong, Alan": {
+   "bioguide": "A000383",
+   "name": "Alan Armstrong",
+   "committees": [
+    "Senate Committee on Health, Education, Labor, and Pensions",
+    "Senate Committee on Indian Affairs"
+   ]
   },
-  "related": {
-    "NVDA": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "consumer technology, telecoms and commerce"
-      },
-      {
-        "committee": "House Committee on Science, Space, and Technology",
-        "why": "federal research and technology programs"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "technology, commerce and communications"
-      },
-      {
-        "committee": "House Committee on Foreign Affairs",
-        "why": "export controls on chips"
-      },
-      {
-        "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
-        "why": "export controls on chips"
-      },
-      {
-        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
-        "why": "US–China technology competition, including chips"
-      }
-    ],
-    "INTC": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "consumer technology, telecoms and commerce"
-      },
-      {
-        "committee": "House Committee on Science, Space, and Technology",
-        "why": "federal research and technology programs"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "technology, commerce and communications"
-      },
-      {
-        "committee": "House Committee on Foreign Affairs",
-        "why": "export controls on chips"
-      },
-      {
-        "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
-        "why": "export controls on chips"
-      },
-      {
-        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
-        "why": "US–China technology competition, including chips"
-      }
-    ],
-    "MU": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "consumer technology, telecoms and commerce"
-      },
-      {
-        "committee": "House Committee on Science, Space, and Technology",
-        "why": "federal research and technology programs"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "technology, commerce and communications"
-      },
-      {
-        "committee": "House Committee on Foreign Affairs",
-        "why": "export controls on chips"
-      },
-      {
-        "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
-        "why": "export controls on chips"
-      },
-      {
-        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
-        "why": "US–China technology competition, including chips"
-      }
-    ],
-    "AAPL": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "consumer technology, telecoms and commerce"
-      },
-      {
-        "committee": "House Committee on Science, Space, and Technology",
-        "why": "federal research and technology programs"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "technology, commerce and communications"
-      }
-    ],
-    "DELL": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "consumer technology, telecoms and commerce"
-      },
-      {
-        "committee": "House Committee on Science, Space, and Technology",
-        "why": "federal research and technology programs"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "technology, commerce and communications"
-      }
-    ],
-    "GOOGL": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "consumer technology, telecoms and commerce"
-      },
-      {
-        "committee": "House Committee on Science, Space, and Technology",
-        "why": "federal research and technology programs"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "technology, commerce and communications"
-      },
-      {
-        "committee": "House Committee on the Judiciary",
-        "why": "antitrust"
-      },
-      {
-        "committee": "Senate Committee on the Judiciary",
-        "why": "antitrust"
-      }
-    ],
-    "PLTR": [
-      {
-        "committee": "House Committee on Armed Services",
-        "why": "defense contracts and the Pentagon budget"
-      },
-      {
-        "committee": "Senate Committee on Armed Services",
-        "why": "defense contracts and the Pentagon budget"
-      },
-      {
-        "committee": "House Committee on Homeland Security",
-        "why": "federal security software contracts"
-      },
-      {
-        "committee": "Senate Committee on Homeland Security and Governmental Affairs",
-        "why": "federal security software contracts"
-      }
-    ],
-    "LMT": [
-      {
-        "committee": "House Committee on Armed Services",
-        "why": "defense contracts and the Pentagon budget"
-      },
-      {
-        "committee": "Senate Committee on Armed Services",
-        "why": "defense contracts and the Pentagon budget"
-      }
-    ],
-    "BA": [
-      {
-        "committee": "House Committee on Armed Services",
-        "why": "defense contracts and the Pentagon budget"
-      },
-      {
-        "committee": "Senate Committee on Armed Services",
-        "why": "defense contracts and the Pentagon budget"
-      },
-      {
-        "committee": "House Committee on Transportation and Infrastructure",
-        "why": "aviation and the FAA"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "aviation and the FAA"
-      }
-    ],
-    "TSLA": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "vehicle safety and fuel-economy rules"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "vehicle safety and fuel-economy rules"
-      }
-    ],
-    "F": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "vehicle safety and fuel-economy rules"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "vehicle safety and fuel-economy rules"
-      }
-    ],
-    "KO": [
-      {
-        "committee": "House Committee on Agriculture",
-        "why": "the federal sugar program"
-      },
-      {
-        "committee": "Senate Committee on Agriculture, Nutrition, and Forestry",
-        "why": "the federal sugar program"
-      },
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "food and drink rules (FDA)"
-      },
-      {
-        "committee": "Senate Committee on Health, Education, Labor, and Pensions",
-        "why": "food and drink rules (FDA)"
-      }
-    ],
-    "CCJ": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "nuclear energy"
-      },
-      {
-        "committee": "House Committee on Natural Resources",
-        "why": "mining and critical minerals"
-      },
-      {
-        "committee": "Senate Committee on Energy and Natural Resources",
-        "why": "nuclear energy and mining"
-      },
-      {
-        "committee": "Senate Committee on Environment and Public Works",
-        "why": "Nuclear Regulatory Commission oversight"
-      }
-    ],
-    "TSM": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "consumer technology, telecoms and commerce"
-      },
-      {
-        "committee": "House Committee on Science, Space, and Technology",
-        "why": "federal research and technology programs"
-      },
-      {
-        "committee": "Senate Committee on Commerce, Science, and Transportation",
-        "why": "technology, commerce and communications"
-      },
-      {
-        "committee": "House Committee on Foreign Affairs",
-        "why": "export controls on chips"
-      },
-      {
-        "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
-        "why": "export controls on chips"
-      },
-      {
-        "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
-        "why": "US–China technology competition, including chips"
-      }
-    ],
-    "NEE": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "electric utilities and energy markets"
-      },
-      {
-        "committee": "Senate Committee on Energy and Natural Resources",
-        "why": "electric utilities and energy policy"
-      },
-      {
-        "committee": "House Committee on Natural Resources",
-        "why": "energy and related resources"
-      },
-      {
-        "committee": "Senate Committee on Environment and Public Works",
-        "why": "environmental regulation of power plants"
-      }
-    ],
-    "CVX": [
-      {
-        "committee": "House Committee on Energy and Commerce",
-        "why": "energy markets and oil and gas"
-      },
-      {
-        "committee": "House Committee on Natural Resources",
-        "why": "oil and gas leasing and production"
-      },
-      {
-        "committee": "Senate Committee on Energy and Natural Resources",
-        "why": "oil and gas policy"
-      }
-    ]
+  "Britt, Katie": {
+   "bioguide": "B001319",
+   "name": "Katie Boyd Britt",
+   "committees": [
+    "Commission on Security and Cooperation in Europe",
+    "Senate Committee on Appropriations",
+    "Senate Committee on Banking, Housing, and Urban Affairs",
+    "Senate Committee on Rules and Administration",
+    "Senate Committee on the Judiciary"
+   ]
+  },
+  "Bruce Westerman": {
+   "bioguide": "W000821",
+   "name": "Bruce Westerman",
+   "committees": [
+    "House Committee on Natural Resources",
+    "House Committee on Transportation and Infrastructure"
+   ]
+  },
+  "Capito, Shelley Moore": {
+   "bioguide": "C001047",
+   "name": "Shelley Moore Capito",
+   "committees": [
+    "Senate Committee on Appropriations",
+    "Senate Committee on Commerce, Science, and Transportation",
+    "Senate Committee on Environment and Public Works",
+    "Senate Committee on Rules and Administration"
+   ]
+  },
+  "Cleo Fields": {
+   "bioguide": "F000110",
+   "name": "Cleo Fields",
+   "committees": [
+    "House Committee on Financial Services"
+   ]
+  },
+  "Cliff Bentz": {
+   "bioguide": "B000668",
+   "name": "Cliff Bentz",
+   "committees": [
+    "House Committee on Energy and Commerce",
+    "House Committee on Natural Resources"
+   ]
+  },
+  "Dan Newhouse": {
+   "bioguide": "N000189",
+   "name": "Dan Newhouse",
+   "committees": [
+    "House Committee on Agriculture",
+    "House Committee on Appropriations",
+    "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party"
+   ]
+  },
+  "Dwight Evans": {
+   "bioguide": "E000296",
+   "name": "Dwight Evans",
+   "committees": [
+    "House Committee on Ways and Means"
+   ]
+  },
+  "Gilbert Cisneros": {
+   "bioguide": "C001123",
+   "name": "Gilbert Ray Cisneros, Jr.",
+   "committees": [
+    "House Committee on Armed Services",
+    "House Committee on Small Business"
+   ]
+  },
+  "Greg Landsman": {
+   "bioguide": "L000601",
+   "name": "Greg Landsman",
+   "committees": [
+    "House Committee on Energy and Commerce"
+   ]
+  },
+  "Jared Moskowitz": {
+   "bioguide": "M001217",
+   "name": "Jared Moskowitz",
+   "committees": [
+    "House Committee on Foreign Affairs",
+    "House Committee on the Judiciary",
+    "House Select Subcommittee to Investigate the Remaining Questions Surrounding January 6, 2021"
+   ]
+  },
+  "Jefferson Shreve": {
+   "bioguide": "S001229",
+   "name": "Jefferson Shreve",
+   "committees": [
+    "House Committee on Appropriations"
+   ]
+  },
+  "Josh Gottheimer": {
+   "bioguide": "G000583",
+   "name": "Josh Gottheimer",
+   "committees": [
+    "House Committee on Financial Services",
+    "House Permanent Select Committee on Intelligence"
+   ]
+  },
+  "Julie Johnson": {
+   "bioguide": "J000310",
+   "name": "Julie Johnson",
+   "committees": [
+    "House Committee on Foreign Affairs",
+    "House Committee on Homeland Security",
+    "House Committee on House Administration",
+    "Joint Committee of Congress on the Library"
+   ]
+  },
+  "Kevin Hern": {
+   "bioguide": "H001082",
+   "name": "Kevin Hern",
+   "committees": [
+    "House Committee on Ways and Means"
+   ]
+  },
+  "Lisa Mcclain": {
+   "bioguide": "M001136",
+   "name": "Lisa C. McClain",
+   "committees": [
+    "House Committee on Education and Workforce",
+    "House Committee on Financial Services"
+   ]
+  },
+  "Lloyd Doggett": {
+   "bioguide": "D000399",
+   "name": "Lloyd Doggett",
+   "committees": [
+    "House Committee on Ways and Means",
+    "House Committee on the Budget",
+    "Joint Committee on Taxation"
+   ]
+  },
+  "Maria Elvira Salazar": {
+   "bioguide": "S000168",
+   "name": "Maria Elvira Salazar",
+   "committees": [
+    "House Committee on Financial Services",
+    "House Committee on Foreign Affairs"
+   ]
+  },
+  "Marjorie Taylor Greene": {
+   "bioguide": null,
+   "committees": null,
+   "note": "Not in the current-members dataset (no longer serving when the data was pulled), so committee seats were not checked."
+  },
+  "Michael Rulli": {
+   "bioguide": "R000619",
+   "name": "Michael A. Rulli",
+   "committees": [
+    "House Committee on Education and Workforce",
+    "House Committee on Energy and Commerce"
+   ]
+  },
+  "Moody, Ashley B.": {
+   "bioguide": "M001244",
+   "name": "Ashley Moody",
+   "committees": [
+    "Joint Economic Committee",
+    "Senate Committee on Armed Services",
+    "Senate Committee on Health, Education, Labor, and Pensions",
+    "Senate Committee on Homeland Security and Governmental Affairs",
+    "Senate Committee on the Judiciary",
+    "Senate Special Committee on Aging"
+   ]
+  },
+  "Mullin, Markwayne": {
+   "bioguide": null,
+   "committees": null,
+   "note": "Not in the current-members dataset (no longer serving when the data was pulled), so committee seats were not checked."
+  },
+  "Pete Sessions": {
+   "bioguide": "S000250",
+   "name": "Pete Sessions",
+   "committees": [
+    "House Committee on Financial Services",
+    "House Committee on Oversight and Government Reform"
+   ]
+  },
+  "Peters, Gary": {
+   "bioguide": "P000595",
+   "name": "Gary C. Peters",
+   "committees": [
+    "Senate Committee on Appropriations",
+    "Senate Committee on Armed Services",
+    "Senate Committee on Commerce, Science, and Transportation",
+    "Senate Committee on Homeland Security and Governmental Affairs"
+   ]
+  },
+  "Ritchie John Torres": {
+   "bioguide": "T000486",
+   "name": "Ritchie Torres",
+   "committees": [
+    "House Committee on Financial Services",
+    "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party"
+   ]
+  },
+  "Rob Bresnahan": {
+   "bioguide": "B001327",
+   "name": "Robert P. Bresnahan, Jr.",
+   "committees": [
+    "House Committee on Agriculture",
+    "House Committee on Small Business",
+    "House Committee on Transportation and Infrastructure"
+   ]
+  },
+  "Terri A. Sewell": {
+   "bioguide": "S001185",
+   "name": "Terri A. Sewell",
+   "committees": [
+    "House Committee on House Administration",
+    "House Committee on Ways and Means",
+    "Joint Committee on Printing"
+   ]
+  },
+  "Thomas H. Kean Jr.": {
+   "bioguide": "K000398",
+   "name": "Thomas H. Kean, Jr.",
+   "committees": [
+    "House Committee on Energy and Commerce",
+    "House Committee on Foreign Affairs"
+   ]
+  },
+  "Tim Moore": {
+   "bioguide": "M001236",
+   "name": "Tim Moore",
+   "committees": [
+    "House Committee on Financial Services",
+    "House Committee on the Budget"
+   ]
+  },
+  "Whitehouse, Sheldon": {
+   "bioguide": "W000802",
+   "name": "Sheldon Whitehouse",
+   "committees": [
+    "Commission on Security and Cooperation in Europe",
+    "Senate Committee on Environment and Public Works",
+    "Senate Committee on Finance",
+    "Senate Committee on the Budget",
+    "Senate Committee on the Judiciary",
+    "United States Senate Caucus on International Narcotics Control"
+   ]
+  },
+  "Adam Smith": {
+   "bioguide": "S000510",
+   "name": "Adam Smith",
+   "committees": [
+    "House Committee on Armed Services"
+   ]
+  },
+  "Ro Khanna": {
+   "bioguide": "K000389",
+   "name": "Ro Khanna",
+   "committees": [
+    "House Committee on Armed Services",
+    "House Committee on Oversight and Government Reform",
+    "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party"
+   ]
+  },
+  "Michael T. McCaul": {
+   "bioguide": "M001157",
+   "name": "Michael T. McCaul",
+   "committees": [
+    "House Committee on Homeland Security",
+    "House Committee on Foreign Affairs"
+   ]
+  },
+  "Charles J. \"Chuck\" Fleischmann": {
+   "bioguide": "F000459",
+   "name": "Chuck Fleischmann",
+   "committees": [
+    "House Committee on Science, Space, and Technology",
+    "House Committee on Appropriations"
+   ]
+  },
+  "Daniel Meuser": {
+   "bioguide": "M001204",
+   "name": "Daniel Meuser",
+   "committees": [
+    "House Committee on Financial Services",
+    "House Committee on Small Business"
+   ]
   }
+ },
+ "related": {
+  "NVDA": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "consumer technology, telecoms and commerce"
+   },
+   {
+    "committee": "House Committee on Science, Space, and Technology",
+    "why": "federal research and technology programs"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "technology, commerce and communications"
+   },
+   {
+    "committee": "House Committee on Foreign Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+    "why": "US–China technology competition, including chips"
+   }
+  ],
+  "INTC": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "consumer technology, telecoms and commerce"
+   },
+   {
+    "committee": "House Committee on Science, Space, and Technology",
+    "why": "federal research and technology programs"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "technology, commerce and communications"
+   },
+   {
+    "committee": "House Committee on Foreign Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+    "why": "US–China technology competition, including chips"
+   }
+  ],
+  "MU": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "consumer technology, telecoms and commerce"
+   },
+   {
+    "committee": "House Committee on Science, Space, and Technology",
+    "why": "federal research and technology programs"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "technology, commerce and communications"
+   },
+   {
+    "committee": "House Committee on Foreign Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+    "why": "US–China technology competition, including chips"
+   }
+  ],
+  "AAPL": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "consumer technology, telecoms and commerce"
+   },
+   {
+    "committee": "House Committee on Science, Space, and Technology",
+    "why": "federal research and technology programs"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "technology, commerce and communications"
+   }
+  ],
+  "DELL": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "consumer technology, telecoms and commerce"
+   },
+   {
+    "committee": "House Committee on Science, Space, and Technology",
+    "why": "federal research and technology programs"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "technology, commerce and communications"
+   }
+  ],
+  "GOOGL": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "consumer technology, telecoms and commerce"
+   },
+   {
+    "committee": "House Committee on Science, Space, and Technology",
+    "why": "federal research and technology programs"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "technology, commerce and communications"
+   },
+   {
+    "committee": "House Committee on the Judiciary",
+    "why": "antitrust"
+   },
+   {
+    "committee": "Senate Committee on the Judiciary",
+    "why": "antitrust"
+   }
+  ],
+  "PLTR": [
+   {
+    "committee": "House Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "Senate Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "House Committee on Homeland Security",
+    "why": "federal security software contracts"
+   },
+   {
+    "committee": "Senate Committee on Homeland Security and Governmental Affairs",
+    "why": "federal security software contracts"
+   }
+  ],
+  "LMT": [
+   {
+    "committee": "House Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "Senate Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   }
+  ],
+  "BA": [
+   {
+    "committee": "House Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "Senate Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "House Committee on Transportation and Infrastructure",
+    "why": "aviation and the FAA"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "aviation and the FAA"
+   }
+  ],
+  "TSLA": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "vehicle safety and fuel-economy rules"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "vehicle safety and fuel-economy rules"
+   }
+  ],
+  "F": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "vehicle safety and fuel-economy rules"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "vehicle safety and fuel-economy rules"
+   }
+  ],
+  "KO": [
+   {
+    "committee": "House Committee on Agriculture",
+    "why": "the federal sugar program"
+   },
+   {
+    "committee": "Senate Committee on Agriculture, Nutrition, and Forestry",
+    "why": "the federal sugar program"
+   },
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "food and drink rules (FDA)"
+   },
+   {
+    "committee": "Senate Committee on Health, Education, Labor, and Pensions",
+    "why": "food and drink rules (FDA)"
+   }
+  ],
+  "CCJ": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "nuclear energy"
+   },
+   {
+    "committee": "House Committee on Natural Resources",
+    "why": "mining and critical minerals"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "nuclear energy and mining"
+   },
+   {
+    "committee": "Senate Committee on Environment and Public Works",
+    "why": "Nuclear Regulatory Commission oversight"
+   }
+  ],
+  "TSM": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "consumer technology, telecoms and commerce"
+   },
+   {
+    "committee": "House Committee on Science, Space, and Technology",
+    "why": "federal research and technology programs"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "technology, commerce and communications"
+   },
+   {
+    "committee": "House Committee on Foreign Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+    "why": "US–China technology competition, including chips"
+   }
+  ],
+  "NEE": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "electric utilities and energy markets"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "electric utilities and energy policy"
+   },
+   {
+    "committee": "House Committee on Natural Resources",
+    "why": "energy and related resources"
+   },
+   {
+    "committee": "Senate Committee on Environment and Public Works",
+    "why": "environmental regulation of power plants"
+   }
+  ],
+  "CVX": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "energy markets and oil and gas"
+   },
+   {
+    "committee": "House Committee on Natural Resources",
+    "why": "oil and gas leasing and production"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "oil and gas policy"
+   }
+  ],
+  "TMO": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "public health, drugs and medical products"
+   },
+   {
+    "committee": "Senate Committee on Health, Education, Labor, and Pensions",
+    "why": "public health and FDA-regulated products"
+   },
+   {
+    "committee": "Senate Committee on Finance",
+    "why": "Medicare and drug pricing"
+   }
+  ],
+  "BTU": [
+   {
+    "committee": "House Committee on Natural Resources",
+    "why": "coal mining and federal coal leasing"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "coal and mining"
+   },
+   {
+    "committee": "Senate Committee on Environment and Public Works",
+    "why": "power-plant and environmental rules"
+   }
+  ],
+  "DE": [
+   {
+    "committee": "House Committee on Agriculture",
+    "why": "farm equipment and rural economy"
+   },
+   {
+    "committee": "Senate Committee on Agriculture, Nutrition, and Forestry",
+    "why": "farm equipment and rural economy"
+   },
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "manufacturing and commerce"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "manufacturing and commerce"
+   }
+  ]
+ }
 }
