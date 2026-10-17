@@ -104,7 +104,7 @@ See the live dashboard for exact, filterable numbers.
 - **Chance overlaps.** Members of Congress disclose tens of thousands of trades, and popular large-caps (NVDA, AAPL, TSLA) are traded constantly. Some overlap with any date is expected; without a random-date baseline, overlap counts mean little.
 - **Selection bias.** Mentions are curated from what is findable and promotional, so statements may be missed and memorable calls over-represented. Search coverage of video and speeches is incomplete.
 - **Small, overlapping samples.** Many mentions cluster in the same weeks (e.g. April 2025), so they aren't independent.
-- **Data gaps.** No intraday prices (the minute-level timing of posts isn't captured). Index benchmarks are price-only, while assets are total-return. Crypto, futures and private companies lack congressional/OGE coverage. Third-party compilations (Quiver) can miss filings. Family-member and spouse disclosures are only partly public.
+- **Data gaps.** No intraday prices (the minute-level timing of posts isn't captured). The nine index benchmarks are price-only, while assets are total-return; four dividend-reinvested ETF benchmarks (SPY, DIA, QQQ, VTI) give a like-for-like comparison. Crypto, futures and private companies lack congressional/OGE coverage. Third-party compilations (Quiver) can miss filings. Family-member and spouse disclosures are only partly public.
 - **Causation.** Price moves can reflect news, momentum, earnings or chance. Nothing here identifies *why* anyone traded.
 
 ## 8. Repository
