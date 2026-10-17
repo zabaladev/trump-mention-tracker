@@ -35,7 +35,7 @@ BENCH = {'btc': 'BTC-USD'}
 tick = {m['ticker'] for m in M if m.get('ticker') and not m['ticker'].startswith('BASKET:')}
 for m in M:
     for t, _ in m.get('basket', []): tick.add(t)
-tick |= {v['etf'] for v in SEC['tickers'].values()}
+tick |= {v['etf'] for v in SEC['tickers'].values()} | {v['peer'] for v in SEC['tickers'].values() if v.get('peer')}
 tick |= set(BENCH.values()) | {b[1] for b in BENCHES} | {'SPY', 'DIA'} | {c['ticker'] for c in FAM['companies']}
 px = {}
 for t in sorted(tick):
@@ -120,6 +120,17 @@ for m in M:
             if sv is None: continue
             r['sector']['ret'][k] = sv
             if r['returns'].get(k) is not None: r['sector']['ex'][k] = r['returns'][k] - sv
+        # tighter industry peer ETF when available (e.g. SMH for chips vs XLK for all tech)
+        pe = sc.get('peer')
+        if pe and pe in px:
+            r['sector']['peer'] = pe
+            r['sector']['peer_ret'] = {}
+            r['sector']['peer_ex'] = {}
+            for k, (a, b) in W.items():
+                pv = ret(px[pe], a, b)
+                if pv is None: continue
+                r['sector']['peer_ret'][k] = pv
+                if r['returns'].get(k) is not None: r['sector']['peer_ex'][k] = r['returns'][k] - pv
     if m.get('basket'):
         comp = []
         for ct, name in m['basket']:
@@ -287,7 +298,7 @@ fam_px = {'dates': [str(d.date()) for d in _fam_wk],
 
 gridd = dict(dates=[str(d.date()) for d in grid], **{k: [round(float(x), 3) for x in ff[BENCH[k]].reindex(grid)] for k in BKEYS})
 data = dict(grid=gridd, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
-            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx, sector_note=SEC['_note'], sector_etfs=SEC['etf_names'], family=fam_px)
+            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx, sector_note=SEC['_note'], sector_etfs=SEC['etf_names'], peer_etfs=SEC.get('peer_etf_names', {}), family=fam_px)
 json.dump(data, open(f'{HERE}/data.json', 'w'), indent=1, default=float)
 html = open(f'{HERE}/template.html').read()
 html = html.replace('/*__DATA__*/null', json.dumps(data, default=float)).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())
