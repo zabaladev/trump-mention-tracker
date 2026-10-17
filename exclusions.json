@@ -283,5 +283,20 @@
   "item": "Merck, Pfizer and Lilly (Trump, Mar 11 2026 Thermo Fisher tour)",
   "reason": "Named as drugmakers \"building many factories\" in the US while praising Thermo Fisher (American Presidency Project transcript). A group list, so not scored; the Thermo Fisher praise itself is tracked.",
   "kind": "notcall"
+ },
+ {
+  "item": "Coosa Steel (Trump, Feb 19 2026 plant tour, Rome, Georgia)",
+  "reason": "Trump said the owner \"has a now great company\" thanks to tariffs while touring the Coosa Steel plant (Roll Call Factbase transcript). Coosa Steel is privately held, so there is no stock to score.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Intel (Trump, Feb 20 2026 press conference on the Supreme Court tariff ruling)",
+  "reason": "\"I saved Intel. I literally saved it at the beginning of this administration\" (Roll Call Factbase transcript). A claim about the government's Intel deal, already tracked through earlier Intel rows, not a new call on the stock.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Michael and Susan Dell (Trump, Feb 24 2026 State of the Union)",
+  "reason": "Thanked the Dells for donating $6.25 billion to the Trump Accounts and told a story about Michael Dell selling computers from his dorm (Roll Call Factbase transcript). Praise of the donors' gift, not of the company or its products, so not scored; the Feb 19 and Feb 27 \"go out and buy a Dell computer\" lines are tracked.",
+  "kind": "notcall"
  }
 ]
