@@ -286,13 +286,14 @@ function famPanel(){const F=D.family;if(!F||!F.rows){document.getElementById('fa
    {label:'Milestone',data:mkPts,showLine:false,pointRadius:6,pointBackgroundColor:'#f59e0b',pointBorderColor:'#111'}]},
    options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},scales:{x:{ticks:{maxTicksLimit:10}}},
    plugins:{tooltip:{callbacks:{afterBody:c=>{const i=c[0].dataIndex;return mt[i]||[]}},filter:x=>x.raw!=null}}}});
-  cn.textContent='DJT weekly closes (purple) vs the '+b+' scaled to the same starting level (dashed). Orange dots mark SEC / public milestones (SPAC listing, Trump buy-call post, TAE merger agreement, S-4 filing).'}
+  cn.textContent='DJT weekly closes (purple) vs the '+b+' scaled to the same starting level (dashed). Orange dots mark SEC / public milestones (SPAC listing, Trump buy-call post, TAE merger agreement, June 2026 decision to drop the Truth Social spin-off, S-4 filing).'}
  else{ch.famC&&ch.famC.destroy();delete ch.famC;cn.textContent=''}
  // plain-English lead
- if(djt&&djt.last){const m=(djt.milestones||[]).find(x=>x.date=='2025-12-18'),s4=(djt.milestones||[]).find(x=>x.date=='2026-09-30');
+ if(djt&&djt.last){const m=(djt.milestones||[]).find(x=>x.date=='2025-12-18'),s4=(djt.milestones||[]).find(x=>x.date=='2026-09-30'),sp=(djt.milestones||[]).find(x=>x.date=='2026-06-10');
   const px='$'+Number(djt.last[1]).toFixed(2);
   el.innerHTML=`Trump Media (<b>DJT</b>) last closed at <b>${px}</b> on ${djt.last[0]}`+(djt.ytd!=null?` (YTD ${pct(djt.ytd)} vs S&P ${pct(djt.ytd_sp)})`:'')+'. '
    +(m&&m.ret!=null?`Since the <b>Dec 18 2025 TAE merger agreement</b>, DJT is ${pct(m.ret)} while the S&P 500 is ${pct(m.bench)} over the same window (gap ${pct(m.ex)}). `:'')
+   +(sp&&sp.ret!=null?`On <b>Jun 10 2026</b> the companies said they would no longer pursue a planned Truth Social spin-off and would focus on the TAE merger (SEC 8-K); since then DJT is ${pct(sp.ret)} vs S&P ${pct(sp.bench)}. `:'')
    +(s4&&s4.ret!=null?`Since the <b>Sep 30 2026 S-4 filing</b>, DJT is ${pct(s4.ret)} vs S&P ${pct(s4.bench)}. `:'')
    +`The S-4 is not yet effective; closing still needs shareholder and other approvals. Numbers are public market facts only.`;}
  else el.textContent='';
