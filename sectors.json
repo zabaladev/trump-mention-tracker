@@ -79,6 +79,11 @@
       "industry": "Auto Manufacturers",
       "etf": "XLY"
     },
+    "GOOGL": {
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "etf": "XLC"
+    },
     "INTC": {
       "sector": "Technology",
       "industry": "Semiconductors",

@@ -1279,5 +1279,59 @@
     "amount": "$1,001 - $15,000",
     "source": "https://www.quiverquant.com/congresstrading/stock/F",
     "filed": "2026-09-25"
+  },
+  {
+    "mention": [
+      "2026-09-14",
+      "GOOGL"
+    ],
+    "ticker": "GOOGL",
+    "member": "Michael Rulli",
+    "chamber": "House",
+    "party": "R",
+    "state": "OH",
+    "date": "2026-08-24",
+    "days": -21,
+    "type": "Sale",
+    "amount": "$50,001 - $100,000",
+    "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
+    "filed": "2026-08-25",
+    "note": "Filed Aug 25, 2026 (before the comment)."
+  },
+  {
+    "mention": [
+      "2026-09-14",
+      "GOOGL"
+    ],
+    "ticker": "GOOGL",
+    "member": "Thomas H. Kean Jr.",
+    "chamber": "House",
+    "party": "R",
+    "state": "NJ",
+    "date": "2026-08-27",
+    "days": -18,
+    "type": "Sale",
+    "amount": "$1,001 - $15,000",
+    "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
+    "filed": "2026-09-12",
+    "note": "Filed Sep 12, 2026 (before the comment)."
+  },
+  {
+    "mention": [
+      "2026-09-14",
+      "GOOGL"
+    ],
+    "ticker": "GOOGL",
+    "member": "Pete Sessions",
+    "chamber": "House",
+    "party": "R",
+    "state": "TX",
+    "date": "2026-09-14",
+    "days": 0,
+    "type": "Sale",
+    "amount": "$15,001 - $50,000",
+    "source": "https://www.quiverquant.com/congresstrading/stock/GOOGL",
+    "filed": "2026-09-18",
+    "note": "Filed Sep 18, 2026 (after the comment). Same calendar day as the Truth Social post (timing overlap only; no wrongdoing alleged)."
   }
 ]
