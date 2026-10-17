@@ -1,66 +1,82 @@
 [
  {
   "item": "\"Do magnets\" (Trump, Jul 15 2026) - previously missed",
-  "reason": "No ticker or company was named (sector-level call), so the original ticker-based search didn't catch it. Now tracked via MP, USAR and REMX as proxies."
+  "reason": "No ticker or company was named (sector-level call), so the original ticker-based search didn't catch it. Now tracked via MP, USAR and REMX as proxies.",
+  "kind": "tracked"
  },
  {
   "item": "Goya Foods (Ivanka, Trump, Jul 2020)",
-  "reason": "Privately held - listed in table, no price data."
+  "reason": "Privately held - listed in table, no price data.",
+  "kind": "private"
  },
  {
   "item": "U.S. Steel (Trump Jan 2025 post; 'golden share' deal Jun 2025)",
-  "reason": "Acquired by Nippon Steel and delisted; no free price history."
+  "reason": "Acquired by Nippon Steel and delisted; no free price history.",
+  "kind": "noprice"
  },
  {
   "item": "Vulcan Elements ($620M Pentagon loan; 1789 Capital/Don Jr. stake)",
-  "reason": "Private company; no tradable shares."
+  "reason": "Private company; no tradable shares.",
+  "kind": "private"
  },
  {
   "item": "Westinghouse ($80B reactor deal, Oct 2025)",
-  "reason": "Private; tracked via Cameco (CCJ) proxy only. Brookfield not added to avoid double counting."
+  "reason": "Private; tracked via Cameco (CCJ) proxy only. Brookfield not added to avoid double counting.",
+  "kind": "proxy"
  },
  {
   "item": "Thumzup (TZUP, Don Jr.) and ALT5 Sigma (ALTS, Eric/WLFI)",
-  "reason": "Listed in table; Yahoo returns no price data for these tickers."
+  "reason": "Listed in table; Yahoo returns no price data for these tickers.",
+  "kind": "noprice"
  },
  {
   "item": "Kalshi / Polymarket (Don Jr. investor/adviser)",
-  "reason": "Private companies."
+  "reason": "Private companies.",
+  "kind": "private"
  },
  {
   "item": "USD1 stablecoin (WLFI, Mar 2025)",
-  "reason": "Pegged to $1; no meaningful return."
+  "reason": "Pegged to $1; no meaningful return.",
+  "kind": "notinv"
  },
  {
   "item": "World Liberty whitelist (Trump, Sep 2024)",
-  "reason": "WLFI wasn't tradable until Sep 1 2025 (launch is tracked)."
+  "reason": "WLFI wasn't tradable until Sep 1 2025 (launch is tracked).",
+  "kind": "notyet"
  },
  {
   "item": "Eric Trump 'Buy the dips!' (Aug 17 & Sep 26 2025)",
-  "reason": "No asset named in the post."
+  "reason": "No asset named in the post.",
+  "kind": "noasset"
  },
  {
   "item": "Critical Metals (CRML) stake talk",
-  "reason": "Only reported as 'under consideration'; no announced deal found."
+  "reason": "Only reported as 'under consideration'; no announced deal found.",
+  "kind": "unverified"
  },
  {
   "item": "Bessent: 'stocks are a safe and great investment' over the long term (Mar 2025)",
-  "reason": "Generic long-term comment, not a buy call; Bessent explicitly declined to call the market."
+  "reason": "Generic long-term comment, not a buy call; Bessent explicitly declined to call the market.",
+  "kind": "notcall"
  },
  {
   "item": "Hassett / Navarro 'no big deal' (Apr 2025)",
-  "reason": "Reassurance, not a buy/hold call (Navarro's 'stay in'/'be long' calls ARE tracked)."
+  "reason": "Reassurance, not a buy/hold call (Navarro's 'stay in'/'be long' calls ARE tracked).",
+  "kind": "notcall"
  },
  {
   "item": "Energy Sec. Chris Wright 'oil is a bargain' (Oct 2025)",
-  "reason": "Only found in a secondary blog; couldn't verify the quote with a primary or mainstream source."
+  "reason": "Only found in a secondary blog; couldn't verify the quote with a primary or mainstream source.",
+  "kind": "unverified"
  },
  {
   "item": "Broad 'great company' praise lists (e.g. ~70 names in Hudson Labs' list)",
-  "reason": "Only direct, high-signal praise/endorsements are included; generic group mentions at events are excluded to avoid noise."
+  "reason": "Only direct, high-signal praise/endorsements are included; generic group mentions at events are excluded to avoid noise.",
+  "kind": "notcall"
  },
  {
   "item": "Book promotions (Eric, Melania)",
-  "reason": "Not investable assets."
+  "reason": "Not investable assets.",
+  "kind": "notinv"
  }
 ]
