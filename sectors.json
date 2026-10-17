@@ -245,6 +245,11 @@
       "sector": "Utilities",
       "industry": "Utilities - Regulated Electric",
       "etf": "XLU"
+    },
+    "CVX": {
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "etf": "XLE"
     }
   },
   "peer_etf_names": {

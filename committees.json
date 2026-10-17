@@ -569,6 +569,20 @@
         "committee": "Senate Committee on Environment and Public Works",
         "why": "environmental regulation of power plants"
       }
+    ],
+    "CVX": [
+      {
+        "committee": "House Committee on Energy and Commerce",
+        "why": "energy markets and oil and gas"
+      },
+      {
+        "committee": "House Committee on Natural Resources",
+        "why": "oil and gas leasing and production"
+      },
+      {
+        "committee": "Senate Committee on Energy and Natural Resources",
+        "why": "oil and gas policy"
+      }
     ]
   }
 }
