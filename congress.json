@@ -1262,5 +1262,22 @@
     "source": "https://www.quiverquant.com/congresstrading/stock/BA",
     "note": "Filed Oct 7, 2026 (after the comment). Same trade also falls in the Oct 1 BA window.",
     "filed": "2026-10-07"
+  },
+  {
+    "mention": [
+      "2026-09-26",
+      "F"
+    ],
+    "ticker": "F",
+    "member": "Kevin Hern",
+    "chamber": "House",
+    "party": "R",
+    "state": "OK",
+    "date": "2026-08-31",
+    "days": -26,
+    "type": "Sale",
+    "amount": "$1,001 - $15,000",
+    "source": "https://www.quiverquant.com/congresstrading/stock/F",
+    "filed": "2026-09-25"
   }
 ]
