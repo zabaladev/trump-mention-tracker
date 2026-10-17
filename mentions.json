@@ -1224,5 +1224,51 @@
   "ticker": "MU",
   "quote": "\"But Micron is investing over $100 billion in creating 50,000 jobs in central New York, including the largest investment in the history of Syracuse, that we had to work with them long and hard. Get them going. This will soon be the home to the largest semiconductor manufacturing facility ever built in the Western Hemisphere.\" (rally, Syracuse, New York)",
   "note": "Said at Trump's midterm campaign rally at the Oncenter in Syracuse, New York on Friday Oct 9 2026. The White House travel pool notes say he appeared onstage at 8:11 PM ET and began speaking at 8:13 PM, after the close, so day 0 is the next session (Mon Oct 12). The project is real and long public: Micron announced on Oct 4 2022 that it intends to invest up to $100 billion over 20-plus years in a memory megafab in Clay, New York, creating nearly 50,000 New York jobs including about 9,000 at Micron (Micron press release; Reuters). This is Trump's second tracked Micron mention, after his Jul 1 2026 post. Quiver: no congressional trades in MU within 30 days before to 7 days after (the latest listed trade is Rep. Dan Newhouse's Jul 10 2026 purchase; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-05",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/2d2c7290-4bca-4cad-b7e4-5feb0faff116",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-5-2026",
+  "time_et": "2026-10-05 19:25",
+  "time_src": "White House secondary travel print pool note 4 (took the stage at 6:25 PM CDT, 7:25 PM ET; line about 26 minutes in)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "NioCorp Developments",
+  "ticker": "NB",
+  "quote": "\"But right here in Nebraska, NioCorp is investing $2 billion to build one of the most advanced critical mineral mines anywhere in the world, creating thousands of jobs.\" (rally, Grand Island, Nebraska)",
+  "note": "Said at Trump's midterm campaign rally at the Pinnacle Bank Expo Center in Grand Island, Nebraska on Monday Oct 5 2026. The White House pool note says he took the stage at 6:25 PM Central (7:25 PM ET), after the close, so day 0 is the next session (Tue Oct 6). The project is real: NioCorp's Elk Creek critical minerals project in southeast Nebraska. Its Aug 10 2026 feasibility study puts upfront capital spending at about $1.85 billion (a bit under the $2 billion Trump cited), and on Oct 15 2026 NioCorp said the Export-Import Bank of the United States reiterated a target of financing about 65% of that, subject to due diligence (NioCorp press releases). Financing is not yet secured. Quiver lists no congressional trades in NB (checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-10",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/4864d448-f859-4870-81fb-30671f5d9814",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-10-2026",
+  "time_et": "2026-10-10 16:18",
+  "time_src": "White House travel pool note 4 (took the stage at 3:16 PM CDT, began speaking at 3:18 PM CDT, 4:18 PM ET)",
+  "category": "Company praise",
+  "asset": "General Motors",
+  "ticker": "GM",
+  "quote": "\"And General Motors just announced a $275 million investment in Spring Hill Manufacturing facility to build the next generation of turbocharged Cadillac engines. Great company. General Motors has been great, by the way.\" (rally, Clarksville, Tennessee)",
+  "note": "Said at Trump's midterm campaign rally at F&M Bank Arena in Clarksville, Tennessee on Saturday Oct 10 2026 (he began speaking at 3:18 PM Central, per the White House pool note); markets were closed for the weekend, so day 0 is the next session (Mon Oct 12). The investment is real but dates from June: GM announced on Jun 24 2026 a $275 million investment across its Spring Hill, Tennessee complex, $150 million for a future Cadillac gas-powered model and $125 million to extend its 2.7-liter turbo truck engine (GM newsroom; Supply Chain Dive). This is Trump's second tracked GM mention, after his Sep 26 2026 post. Quiver: no congressional trades in GM within 30 days before to 7 days after (the latest listed trade is Rep. Ro Khanna's Apr 13 2026 purchase; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-10",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/4864d448-f859-4870-81fb-30671f5d9814",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-10-2026",
+  "time_et": "2026-10-10 16:18",
+  "time_src": "White House travel pool note 4 (took the stage at 3:16 PM CDT, began speaking at 3:18 PM CDT, 4:18 PM ET)",
+  "category": "Company praise",
+  "asset": "Korea Zinc",
+  "ticker": "010130.KS",
+  "quote": "\"Thanks to my tariffs, Korea Zinc is investing over $6 billion in creating 740 jobs right here in Montgomery County and Smith County, Tennessee.\" (rally, Clarksville, Tennessee)",
+  "note": "Said at Trump's midterm campaign rally in Clarksville, Tennessee on Saturday Oct 10 2026 (4:18 PM ET, early Sunday in Seoul), so day 0 is the next Seoul session (Mon Oct 12). The investment is real: on Dec 15 2025 Korea Zinc and Tennessee announced more than $6.6 billion for facilities in Clarksville and Gordonsville with 740 jobs (Tennessee Department of Economic and Community Development), a smelter project the U.S. Department of War and Department of Commerce agreed to back, with a total planned investment of $7.4 billion including financing costs (Korea Zinc release; Reuters). Seoul-listed shares, priced in won, so index comparisons include currency moves. No congressional check: no U.S.-listed ticker."
  }
 ]

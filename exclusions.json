@@ -148,5 +148,20 @@
   "item": "Toyota repeat and \"two great companies\" moving to the Texas Stock Exchange (Trump, Oct 9 2026 Syracuse, New York rally)",
   "reason": "Trump said \"Toyota just announced they're going to build a massive new plant in the United States\"; this repeats the Toyota San Antonio line from his Oct 7 rally, which is already scored, so it is not counted twice. He also said \"two great companies are leaving the New York Stock Exchange for the Texas Stock Exchange\" without naming them, and spoke generally about auto and pharmaceutical plants. None of these is scored; the Micron line from the same rally is (Trump Archive transcript).",
   "kind": "notcall"
+ },
+ {
+  "item": "The unnamed Oklahoma aluminum smelter, Harold Hamm, the Peterbilt repeat and the Texas gas power plant (Trump, Oct 1 2026 Durant, Oklahoma rally)",
+  "reason": "Trump told the crowd \"You're gonna build the largest aluminum factory perhaps in the world\" and \"I know the people that are financing it\" without naming any company. The project in Oklahoma that fits is the planned Inola smelter (Oklahoma Primary Aluminum), 60% owned by Emirates Global Aluminium, which is owned by UAE state funds and has no listed shares, and 40% by Century Aluminum (EGA and Century announcement, Jan 26 2026; Oklahoma Attorney General releases Jun 2 and Aug 11 2026); because Trump named neither company, it is not scored. He praised oilman Harold Hamm, whose Continental Resources has been privately owned by the Hamm family since Nov 22 2022 (SEC filings), so there is no share price. His Peterbilt story repeats his visit to the Denton, Texas plant earlier that day, which is already scored as the Oct 1 PACCAR mention, and \"a colossal new natural gas power plant in Texas\" names no company. None of these is scored (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Repeat Becton Dickinson line (Trump, Oct 5 2026 Grand Island, Nebraska rally)",
+  "reason": "Trump called Becton Dickinson a \"great company\" and said its new U.S. manufacturing investment has its biggest expansion in Nebraska. The same investment is already scored from his Truth Social post later that night (Oct 5, 11:18 PM ET), and both come after the close and before the same first session (Oct 6), so it is not counted twice. The NioCorp line from the same rally is scored (Trump Archive transcript).",
+  "kind": "notcall"
+ },
+ {
+  "item": "FedEx and Fred Smith story, and the unnamed Tennessee smelter repeat (Trump, Oct 10 2026 Clarksville, Tennessee rally)",
+  "reason": "Trump told a story about his late friend Fred Smith, FedEx's founder, including what Smith told him about board members walking from the FedEx building to a nearby hotel; it is a personal story, not a comment on FedEx's business or an investment, so it is not scored. His \"first new mineral smelter in the United States\" line refers to the Korea Zinc project he named a moment earlier, which is scored once. The General Motors and Korea Zinc lines from the same rally are scored (Trump Archive transcript).",
+  "kind": "notcall"
  }
 ]
