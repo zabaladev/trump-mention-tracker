@@ -238,9 +238,11 @@ for r in rows:
 for r in rows:
     r['disclosures'] = [d for d in DISC if [r['date'], r.get('ticker')] in d['applies']]
     r['congress'] = [c for c in CONG if c['mention'] == [r['date'], r.get('ticker')]]
-# same-post groups: one post naming several assets (same author, date and source URL) gets a shared id
+# same-post groups: one post naming several assets (same author, date and post URL) gets a shared id.
+# The post URL is the original post link (orig_url) when known, else the source, so a post cited via two
+# different news/archive sources (e.g. DJT and SPY, Apr 9 2025) is still counted once.
 _pg = {}
-for r in rows: _pg.setdefault((r['who'], r['date'], r.get('source')), []).append(r)
+for r in rows: _pg.setdefault((r['who'], r['date'], r.get('orig_url') or r.get('source')), []).append(r)
 _n = 0
 for k, g in sorted(_pg.items(), key=lambda kv: kv[0][1]):
     if len(g) > 1:
