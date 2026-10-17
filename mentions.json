@@ -713,6 +713,22 @@
   "orig_url": "https://truthsocial.com/@realDonaldTrump/116380894672815869"
  },
  {
+  "date": "2026-04-16",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-attends-a-roundtable-on-taxes-and-tips-in-las-vegas-41626",
+  "archive_url": "https://trump-archive.com/item/145c38cb-9a09-45ac-a530-ee9829557b95",
+  "time_et": "2026-04-16 19:07",
+  "time_src": "DVIDS webcast 37785 lists the event from 6:50 PM EDT (AP/PBS and the Nevada Independent describe a Thursday-afternoon Pacific-time roundtable); the Dell remark is about 17 minutes into the Roll Call Factbase transcript, so roughly 7:07 PM ET, after the close",
+  "after_close": true,
+  "category": "Explicit buy call",
+  "asset": "Dell Technologies",
+  "ticker": "DELL",
+  "quote": "\"We created the brand new Trump accounts with Michael and Susan Dell... So I just wanna thank the Dell family. It's, uh, great. You know, buy their computer.\" (Tax Day roundtable, Las Vegas)",
+  "note": "Said at the no-tax-on-tips roundtable at the AC Hotel Las Vegas Symphony Park on Thu Apr 16 2026 while thanking the Dells for their $6.25 billion Trump Accounts pledge (Roll Call Factbase and Senate Democrats transcripts; AP; Nevada Independent). It's two weeks before the tracked May 1 plug and three weeks before \"Go out and buy a Dell!\" on May 8. The event ran after the close, so day 0 is Fri Apr 17. Congress trades in the window are already listed from the May 8 mention (Rep. Ro Khanna's Dell purchases on Apr 13 and Apr 15; his filings list many stocks), for context only. No wrongdoing alleged."
+ },
+ {
   "date": "2026-04-29",
   "group": "Trump",
   "who": "Donald Trump",
