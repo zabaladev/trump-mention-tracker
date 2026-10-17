@@ -302,6 +302,18 @@ for t in sorted({r['ticker'] for r in ok}):
         if _e and _e in px and len(px[_e]):
             tkpx['t'][t]['sec' if _k == 'etf' else 'peer'] = _e
             if _e not in tkpx['etf']: tkpx['etf'][_e] = [_sig(x) for x in _wser(px[_e])]
+# #10 daily close-up around each mention (ticker lookup): one stock-market calendar (SPY sessions), each priced row
+# keeps daily closes from 30 sessions before to 60 sessions after its entry day; benchmarks share the same calendar.
+_zc = px['SPY'].index[px['SPY'].index >= pd.Timestamp(min(r['entry_date'] for r in ok)) - pd.Timedelta(days=60)]
+zoom = {'dates': [str(d.date()) for d in _zc], 'bench': {k: [_sig(x) for x in px[BENCH[k]].reindex(px[BENCH[k]].index.union(_zc)).ffill().reindex(_zc)] for k in BKEYS}}
+for r in ok:
+    _s = px.get(r['ticker'])
+    if _s is None or not len(_s): continue
+    _e = int(np.searchsorted(_zc.values, np.datetime64(pd.Timestamp(r['entry_date']))))
+    if _e >= len(_zc): continue
+    _i0 = max(0, _e - 30); _i1 = min(len(_zc), _e + 61)
+    _w = _s.reindex(_s.index.union(_zc)).ffill().reindex(_zc[_i0:_i1])
+    r['zm'] = {'i0': _i0, 'e': _e - _i0, 'v': [_sig(x) for x in _w]}
 # family-linked listed companies vs indexes (context panel; not accusation)
 def _ret_since(s, d0):
     a = asof(s, pd.Timestamp(d0)); b = float(s.iloc[-1]) if len(s) else None
@@ -336,7 +348,7 @@ fam_px = {'dates': [str(d.date()) for d in _fam_wk],
 gridd = dict(dates=[str(d.date()) for d in grid], **{k: [round(float(x), 3) for x in ff[BENCH[k]].reindex(grid)] for k in BKEYS})
 _pxa = {'stocks': str(_spx.index[-1].date()), 'crypto': str(px['BTC-USD'].index[-1].date()) if 'BTC-USD' in px and len(px['BTC-USD']) else None}
 data = dict(grid=gridd, prices_asof=_pxa, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
-            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx, sector_note=SEC['_note'], sector_etfs=SEC['etf_names'], peer_etfs=SEC.get('peer_etf_names', {}), family=fam_px)
+            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx, sector_note=SEC['_note'], sector_etfs=SEC['etf_names'], peer_etfs=SEC.get('peer_etf_names', {}), family=fam_px, zoom=zoom)
 # #17 Smaller page: keep 7 significant digits on every float (the page shows at most 1 decimal of a percent,
 # so the rendered text is unchanged) and embed the data without spaces. Big numbers (>= 1e6) are left as-is.
 def _compact(o):
