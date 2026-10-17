@@ -166,9 +166,18 @@ for r in ok:
     a = ff[r['ticker']].reindex(grid) / r['entry_price']
     e0 = pd.Timestamp(r['entry_date']); r['b0'] = {k: float(asof(px[BENCH[k]], e0)) for k in BKEYS}
     r['curve'] = [None if (d < pd.Timestamp(r['entry_date']) or pd.isna(v)) else round(float(v), 4) for d, v in zip(grid, a)]
+# weekly price history per priced ticker (for the ticker-lookup chart with mention markers) on one common weekly index
+_wk = pd.date_range(pd.Timestamp(min(r['entry_date'] for r in ok)) - pd.Timedelta(days=120), TODAY, freq='W-FRI')
+def _wser(s): return s.reindex(s.index.union(_wk)).ffill().reindex(_wk)
+def _sig(x): return None if pd.isna(x) else float(f'{float(x):.5g}')
+tkpx = {'dates': [str(d.date()) for d in _wk], 'bench': {k: [_sig(x) for x in _wser(px[BENCH[k]])] for k in BKEYS}, 't': {}}
+for t in sorted({r['ticker'] for r in ok}):
+    first = min(pd.Timestamp(r['date']) for r in ok if r['ticker'] == t) - pd.Timedelta(days=120)
+    w = _wser(px[t]); i0 = max(int((_wk < first).sum()), int(w.isna().values.argmin()) if w.notna().any() else 0)
+    tkpx['t'][t] = {'i0': i0, 'v': [_sig(x) for x in w.iloc[i0:]], 'last': [str(px[t].index[-1].date()), _sig(px[t].iloc[-1])]}
 gridd = dict(dates=[str(d.date()) for d in grid], **{k: [round(float(x), 3) for x in ff[BENCH[k]].reindex(grid)] for k in BKEYS})
 data = dict(grid=gridd, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
-            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport)
+            rows=rows, exclusions=EX, disclosure_notes=DNOTES, benches=[[k, BLABEL[k], BENCH[k]] for k in BKEYS], portfolio=port, group_portfolio=gport, tkpx=tkpx)
 json.dump(data, open(f'{HERE}/data.json', 'w'), indent=1, default=float)
 html = open(f'{HERE}/template.html').read()
 html = html.replace('/*__DATA__*/null', json.dumps(data, default=float)).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())
