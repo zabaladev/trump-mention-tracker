@@ -336,3 +336,48 @@ html = open(f'{HERE}/template.html').read()
 html = html.replace('/*__DATA__*/null', json.dumps(data, default=float)).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())
 open(f'{HERE}/index.html', 'w').write(html)
 print('mentions', len(rows), 'priced', len(ok))
+# #13 Subscribe feeds: RSS 2.0 (feed.xml) + JSON Feed 1.1 (feed.json) of every sourced mention, newest first.
+# Pure static files on the public site; nothing is sent to anyone.
+import hashlib as _hl, email.utils as _eu
+from xml.sax.saxutils import escape as _x
+SITE = 'https://zabaladev.github.io/trump-mention-tracker/'
+def _fpct(v): return None if v is None or (isinstance(v, float) and np.isnan(v)) else f'{v*100:+.1f}%'
+def _feed_item(r):
+    t = r.get('time_et'); when = dt.datetime.strptime(t, '%Y-%m-%d %H:%M') if t else dt.datetime.strptime(r['date'], '%Y-%m-%d').replace(hour=12)
+    from zoneinfo import ZoneInfo
+    when = when.replace(tzinfo=ZoneInfo('America/New_York'))
+    tk = r.get('ticker'); name = r['asset'] + (f' ({tk})' if tk else '')
+    title = f"{r['who']} on {name}: {r['category']}"
+    link = SITE + (f'#ticker={tk}' if tk else '')
+    bits = [f"{r['who']} ({r['group']}) mentioned {name} on {r['date']}" + (f" at {t[11:]} ET" if t else '') + '.',
+            f"Quote: {r.get('quote') or 'no direct quote'}"]
+    ex = (r.get('ex') or {}).get('sp') or {}
+    if r.get('status') == 'ok' and ex:
+        d0, td = _fpct(ex.get('day0')), _fpct(ex.get('to date'))
+        if d0 or td: bits.append('Versus the S&P 500: ' + ', '.join(x for x in [d0 and f'{d0} on the comment day', td and f'{td} to date'] if x) + '.')
+    bits.append(f"Source: {r.get('source')}")
+    bits.append('Public statements and market data only; no wrongdoing is alleged. Not financial advice.')
+    gid = _hl.sha1(f"{r['who']}|{r['date']}|{tk or r['asset']}|{r.get('source')}".encode()).hexdigest()[:16]
+    return dict(id=gid, when=when, title=title, link=link, text='\n'.join(bits), src=r.get('source'), tags=[r['group'], r['category'], r['type']])
+_items = sorted((_feed_item(r) for r in rows), key=lambda i: i['when'], reverse=True)
+_now = dt.datetime.now(dt.timezone.utc)
+_rss = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>',
+        '<title>Trump, Family &amp; Administration — Investment Mention Tracker</title>', f'<link>{SITE}</link>',
+        f'<atom:link href="{SITE}feed.xml" rel="self" type="application/rss+xml"/>',
+        '<description>Every sourced stock, fund and crypto mention by Donald Trump, his family and administration officials, with how the asset did against the S&amp;P 500. Public data only; no wrongdoing alleged.</description>',
+        '<language>en-us</language>', f'<lastBuildDate>{_eu.format_datetime(_now)}</lastBuildDate>']
+for i in _items:
+    _rss.append('<item>' + f'<title>{_x(i["title"])}</title><link>{_x(i["link"])}</link>'
+                + f'<guid isPermaLink="false">{i["id"]}</guid><pubDate>{_eu.format_datetime(i["when"])}</pubDate>'
+                + ''.join(f'<category>{_x(c)}</category>' for c in i['tags'])
+                + f'<description>{_x(i["text"]).replace(chr(10), "&lt;br&gt;")}</description></item>')
+_rss.append('</channel></rss>')
+open(f'{HERE}/feed.xml', 'w').write('\n'.join(_rss))
+json.dump({'version': 'https://jsonfeed.org/version/1.1', 'title': 'Trump, Family & Administration — Investment Mention Tracker',
+           'home_page_url': SITE, 'feed_url': SITE + 'feed.json', 'language': 'en-US',
+           'description': 'Every sourced investment mention, newest first. Public data only; no wrongdoing alleged.',
+           'items': [{'id': i['id'], 'url': i['link'], 'external_url': i['src'], 'title': i['title'], 'content_text': i['text'],
+                      'date_published': i['when'].isoformat(), 'tags': i['tags']} for i in _items]},
+          open(f'{HERE}/feed.json', 'w'), indent=1, ensure_ascii=False)
+print('feed items', len(_items))
+
