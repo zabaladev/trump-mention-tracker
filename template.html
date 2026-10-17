@@ -34,16 +34,21 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 .toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.toc a{font-size:12px;padding:3px 10px;border:1px solid var(--bd);border-radius:14px;text-decoration:none;background:#141b2b}.toc a:hover{border-color:#f59e0b}
 #toTop{position:fixed;right:16px;bottom:16px;z-index:6;display:none;border:1px solid var(--bd);background:var(--pn);color:var(--tx);border-radius:20px;padding:8px 14px;font-size:13px;cursor:pointer}
 @media(max-width:1000px){.grid,.hcards{grid-template-columns:1fr}}
+#fBody{display:flex;flex-direction:column;gap:6px}.filters.closed #fBody{display:none}.ftop .chip{padding:4px 12px;font-size:12px}#fSum{flex:1;min-width:0}
+@media(max-width:760px){header,main{padding-left:12px;padding-right:12px}.frow b{width:auto;flex-basis:100%}.chip{padding:5px 10px;font-size:12px}.ftop select{margin-left:0!important;flex-basis:100%}}
 </style></head><body>
 <header><h1>Trump, Family &amp; Administration — Investment Mention Tracker</h1><div class="sub" id="gen"></div><nav class="toc" id="toc" aria-label="Sections"><span class="sub" style="align-self:center">Jump to:</span></nav></header><button id="toTop" type="button" aria-label="Back to top">↑ Top</button>
 <main>
 <div class="ins" id="take" style="border-color:#f59e0b"><h2>What should I take from this?</h2><p id="takeP" style="font-size:16px;line-height:1.6;margin:0"></p><div class="cav">Not financial advice. Past results don't predict future ones, and timing patterns are correlation, not proof.</div></div>
 <div class="filters">
+ <div class="frow ftop"><button id="fTog" type="button" class="chip" aria-expanded="true" aria-controls="fBody">Hide filters ▲</button><span class="sub" id="fSum" aria-live="polite"></span><select id="jump" aria-label="Jump to a section" style="margin-left:auto"><option value="">Jump to a section…</option></select></div>
+ <div id="fBody">
  <div class="frow"><b>Who</b><span id="fGroup"></span></div>
  <div class="frow"><b>Category</b><span id="fCat"></span></div>
  <div class="frow"><b>Asset type</b><span id="fType"></span></div>
  <div class="frow"><b>Same post</b><label><input type="checkbox" id="dedup"> Count each post once</label><span class="sub" id="dedupN"></span></div>
- <div class="frow"><b>Benchmark</b><select id="bm"></select><span class="sub">Updates every card, chart and table below. The matrix compares all indexes.</span><select id="jump" aria-label="Jump to a section" style="margin-left:auto"><option value="">Jump to a section…</option></select></div>
+ <div class="frow"><b>Benchmark</b><select id="bm"></select><span class="sub">Updates every card, chart and table below. The matrix compares all indexes.</span></div>
+ </div>
 </div>
 <div class="ins" id="secIns"><h2>Plain-English insights <span class="sub">(updates with your filters &amp; benchmark)</span></h2><ul id="insL"></ul>
 <details><summary>What do these terms mean?</summary><ul>
@@ -329,4 +334,15 @@ const toc=document.getElementById('toc'),j=document.getElementById('jump');
 S.forEach(([i,n])=>{const a=document.createElement('a');a.href='#';a.textContent=n;a.onclick=e=>{e.preventDefault();goSec(i)};toc.appendChild(a);const o=document.createElement('option');o.value=i;o.textContent=n;j.appendChild(o)});
 j.onchange=()=>{if(j.value)goSec(j.value);j.value=''};
 const tt=document.getElementById('toTop');tt.onclick=()=>window.scrollTo({top:0,behavior:'smooth'});window.addEventListener('scroll',()=>{tt.style.display=window.scrollY>600?'block':'none'},{passive:true})})();
+// Collapsible filter bar: a one-line summary of the active filters, collapsed by default on phones
+(()=>{const FB=document.querySelector('.filters'),b=document.getElementById('fTog'),sm=document.getElementById('fSum');
+const on=id=>[...document.querySelectorAll('#'+id+' [data-v]')].filter(c=>c.classList.contains('on')).map(c=>c.dataset.v);
+const all=id=>document.querySelectorAll('#'+id+' [data-v]').length;
+const part=(id,lab)=>{const o=on(id),n=all(id);return !n?'':(o.length==0||o.length==n)?'all '+lab:o.join(', ')};
+const upd=()=>{const bm=document.getElementById('bm'),d=document.getElementById('dedup');
+ sm.textContent='Showing: '+[part('fGroup','speakers'),part('fCat','categories'),part('fType','asset types')].filter(Boolean).join(' · ')+(bm&&bm.selectedIndex>=0?' · vs '+bm.options[bm.selectedIndex].text:'')+(d&&d.checked?' · each post once':'')};
+const set=c=>{FB.classList.toggle('closed',c);b.textContent=c?'Show filters ▼':'Hide filters ▲';b.setAttribute('aria-expanded',String(!c))};
+b.onclick=()=>set(!FB.classList.contains('closed'));
+FB.addEventListener('click',()=>setTimeout(upd,0));FB.addEventListener('change',()=>setTimeout(upd,0));
+set(window.matchMedia('(max-width:760px)').matches);upd()})();
 </script></body></html>
