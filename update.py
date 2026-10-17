@@ -124,6 +124,14 @@ for m in M:
 for r in rows:
     r['disclosures'] = [d for d in DISC if [r['date'], r.get('ticker')] in d['applies']]
     r['congress'] = [c for c in CONG if c['mention'] == [r['date'], r.get('ticker')]]
+# same-post groups: one post naming several assets (same author, date and source URL) gets a shared id
+_pg = {}
+for r in rows: _pg.setdefault((r['who'], r['date'], r.get('source')), []).append(r)
+_n = 0
+for k, g in sorted(_pg.items(), key=lambda kv: kv[0][1]):
+    if len(g) > 1:
+        _n += 1
+        for r in g: r['post'] = f'p{_n}'; r['post_n'] = len(g)
 ok = [r for r in rows if r['status'] == 'ok']
 
 # portfolios ($1,000 at entry close per priced mention) vs same cash flows into SPY and DIA
