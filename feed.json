@@ -384,6 +384,19 @@
    ]
   },
   {
+   "id": "93be311ff1675176",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BASKET:CANNABIS",
+   "external_url": "https://www.reuters.com/business/healthcare-pharmaceuticals/cannabis-stocks-surge-after-trump-endorses-cannabidiol-senior-healthcare-2025-09-29/",
+   "title": "Donald Trump on Cannabis/CBD basket (BASKET:CANNABIS): Sector/theme call",
+   "content_text": "Donald Trump (Trump) mentioned Cannabis/CBD basket (BASKET:CANNABIS) on 2025-09-28 at 16:48 ET.\nQuote: Posted a video (made by The Commonwealth Project) saying \"the system can be restored faster using hemp-derived CBD\" and calling for \"Medicare coverage for CBD\". Reuters: Tilray +42%, Canopy +18%, Aurora +25%, MSOS +22% the next day.\nVersus the S&P 500: +27.3% on the comment day, -53.5% to date.\nSource: https://www.reuters.com/business/healthcare-pharmaceuticals/cannabis-stocks-surge-after-trump-endorses-cannabidiol-senior-healthcare-2025-09-29/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-09-28T16:48:00-04:00",
+   "tags": [
+    "Trump",
+    "Sector/theme call",
+    "sector basket"
+   ]
+  },
+  {
    "id": "a8e9fc2e91d675b9",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ABTC",
    "external_url": "https://www.reuters.com/business/trumps-oldest-sons-american-bitcoin-stake-worth-15-billion-stock-debut-2025-09-03/",
@@ -401,7 +414,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=WLFI33251-USD",
    "external_url": "https://www.reuters.com/business/trumps-world-liberty-token-falls-first-day-trading-2025-09-01/",
    "title": "Eric Trump & Donald Trump Jr. on World Liberty Financial (WLFI) (WLFI33251-USD): Family venture",
-   "content_text": "Eric Trump & Donald Trump Jr. (Family) mentioned World Liberty Financial (WLFI) (WLFI33251-USD) on 2025-09-01.\nQuote: WLFI token begins public trading; promoted by Eric and Don Jr.\nVersus the S&P 500: -94.2% to date.\nSource: https://www.reuters.com/business/trumps-world-liberty-token-falls-first-day-trading-2025-09-01/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump & Donald Trump Jr. (Family) mentioned World Liberty Financial (WLFI) (WLFI33251-USD) on 2025-09-01.\nQuote: WLFI token begins public trading; promoted by Eric and Don Jr.\nVersus the S&P 500: -94.1% to date.\nSource: https://www.reuters.com/business/trumps-world-liberty-token-falls-first-day-trading-2025-09-01/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-09-01T12:00:00-04:00",
    "tags": [
     "Family",
@@ -765,7 +778,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=SOL-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on Solana (SOL-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.0% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.1% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -804,7 +817,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://x.com/EricTrump/status/1887315608381108271",
    "title": "Eric Trump on Bitcoin (BTC-USD): Explicit buy call",
-   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-02-06 at 20:41 ET.\nQuote: \"Feels like a great time to enter #BTC! @worldlibertyfi\"\nVersus the S&P 500: -0.4% on the comment day, -41.5% to date.\nSource: https://x.com/EricTrump/status/1887315608381108271\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Eric Trump (Family) mentioned Bitcoin (BTC-USD) on 2025-02-06 at 20:41 ET.\nQuote: \"Feels like a great time to enter #BTC! @worldlibertyfi\"\nVersus the S&P 500: -0.4% on the comment day, -41.6% to date.\nSource: https://x.com/EricTrump/status/1887315608381108271\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-02-05T20:41:00-05:00",
    "tags": [
     "Family",

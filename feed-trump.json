@@ -141,7 +141,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BBD-B.TO",
    "external_url": "https://truthsocial.com/@realDonaldTrump/117230978314061095",
    "title": "Donald Trump on Bombardier (BBD-B.TO): Company criticism",
-   "content_text": "Donald Trump (Trump) mentioned Bombardier (BBD-B.TO) on 2026-09-07 at 13:39 ET.\nQuote: \"NO MORE SELLING BOMBARDIER IN THE UNITED STATES! Their products aren't good enough! ... If they want our Market, they must build here, and stop treating America like a “piggybank.”\"\nVersus the S&P 500: -2.0% on the comment day, +0.2% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117230978314061095\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bombardier (BBD-B.TO) on 2026-09-07 at 13:39 ET.\nQuote: \"NO MORE SELLING BOMBARDIER IN THE UNITED STATES! Their products aren't good enough! ... If they want our Market, they must build here, and stop treating America like a “piggybank.”\"\nVersus the S&P 500: -2.0% on the comment day, +0.5% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117230978314061095\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2026-09-07T13:39:00-04:00",
    "tags": [
     "Trump",
@@ -280,11 +280,24 @@
    ]
   },
   {
+   "id": "93be311ff1675176",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BASKET:CANNABIS",
+   "external_url": "https://www.reuters.com/business/healthcare-pharmaceuticals/cannabis-stocks-surge-after-trump-endorses-cannabidiol-senior-healthcare-2025-09-29/",
+   "title": "Donald Trump on Cannabis/CBD basket (BASKET:CANNABIS): Sector/theme call",
+   "content_text": "Donald Trump (Trump) mentioned Cannabis/CBD basket (BASKET:CANNABIS) on 2025-09-28 at 16:48 ET.\nQuote: Posted a video (made by The Commonwealth Project) saying \"the system can be restored faster using hemp-derived CBD\" and calling for \"Medicare coverage for CBD\". Reuters: Tilray +42%, Canopy +18%, Aurora +25%, MSOS +22% the next day.\nVersus the S&P 500: +27.3% on the comment day, -53.5% to date.\nSource: https://www.reuters.com/business/healthcare-pharmaceuticals/cannabis-stocks-surge-after-trump-endorses-cannabidiol-senior-healthcare-2025-09-29/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-09-28T16:48:00-04:00",
+   "tags": [
+    "Trump",
+    "Sector/theme call",
+    "sector basket"
+   ]
+  },
+  {
    "id": "30ec59df6d7ed2d7",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=CRO-USD",
    "external_url": "https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/",
    "title": "Donald Trump (Trump Media) on Cronos (CRO) (CRO-USD): Family venture",
-   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -89.7% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -89.6% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-08-26T12:00:00-04:00",
    "tags": [
     "Trump",
@@ -427,7 +440,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -42.0% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -42.2% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T12:00:00-05:00",
    "tags": [
     "Trump",
@@ -453,7 +466,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ADA-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on Cardano (ADA-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Cardano (ADA-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +71.3% on the comment day, -108.8% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Cardano (ADA-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +71.3% on the comment day, -108.9% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -466,7 +479,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=SOL-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on Solana (SOL-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -69.8% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.1% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -479,7 +492,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=XRP-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on XRP (XRP-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned XRP (XRP-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +34.1% on the comment day, -84.1% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned XRP (XRP-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +34.1% on the comment day, -84.2% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -505,7 +518,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=TRUMP35336-USD",
    "external_url": "https://x.com/realDonaldTrump/status/1880446012168249386",
    "title": "Donald Trump on Official Trump memecoin (TRUMP35336-USD): Family venture",
-   "content_text": "Donald Trump (Trump) mentioned Official Trump memecoin (TRUMP35336-USD) on 2025-01-17 at 21:44 ET.\nQuote: \"My NEW Official Trump Meme is HERE! It's time to celebrate everything we stand for: WINNING! ... GET YOUR $TRUMP NOW.\"\nVersus the S&P 500: -121.4% to date.\nSource: https://x.com/realDonaldTrump/status/1880446012168249386\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Official Trump memecoin (TRUMP35336-USD) on 2025-01-17 at 21:44 ET.\nQuote: \"My NEW Official Trump Meme is HERE! It's time to celebrate everything we stand for: WINNING! ... GET YOUR $TRUMP NOW.\"\nVersus the S&P 500: -121.5% to date.\nSource: https://x.com/realDonaldTrump/status/1880446012168249386\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-01-17T21:44:00-05:00",
    "tags": [
     "Trump",
@@ -531,7 +544,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://x.com/realDonaldTrump/status/1852033244729860397",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.0% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.2% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2024-10-31T13:01:00-04:00",
    "tags": [
     "Trump",
