@@ -1,0 +1,36 @@
+name: Decode screenshots
+# The publishing connector can only send text files, so dashboard screenshots are pushed as
+# base64 text (screens/*.png.b64). This job turns them back into PNG files in screens/ and
+# removes the .b64 copies, so they show as normal images on GitHub.
+on:
+  push:
+    branches: [main]
+    paths: ['screens/*.b64']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: decode-screens
+  cancel-in-progress: false
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode base64 screenshots to PNG
+        run: |
+          shopt -s nullglob
+          files=(screens/*.png.b64)
+          [ ${#files[@]} -eq 0 ] && { echo "nothing to decode"; exit 0; }
+          for f in "${files[@]}"; do
+            out="${f%.b64}"
+            base64 -d "$f" > "$out"
+            # only keep real PNG files
+            if [ "$(head -c 8 "$out" | od -An -tx1 | tr -d ' \n')" != "89504e470d0a1a0a" ]; then echo "not a PNG: $f"; rm -f "$out"; exit 1; fi
+            git rm -q "$f"
+            git add "$out"
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Decode dashboard screenshots to PNG"
+          git push
