@@ -2971,5 +2971,175 @@
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/GM",
   "filed": "2026-02-19"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Nancy Pelosi",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-12-24",
+  "days": -28,
+  "type": "Sale",
+  "amount": "$5,000,001 - $25,000,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-01-23"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Mullin, Markwayne",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "OK",
+  "date": "2025-12-29",
+  "days": -23,
+  "type": "Purchase",
+  "amount": "$100,001 - $250,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-01-16"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Nancy Pelosi",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-12-30",
+  "days": -22,
+  "type": "Sale",
+  "amount": "$5,000,001 - $25,000,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-01-23"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Nancy Pelosi",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-12-30",
+  "days": -22,
+  "type": "Purchase",
+  "amount": "$250,001 - $500,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-01-23"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Shri Thanedar",
+  "chamber": "House",
+  "party": "D",
+  "state": "MI",
+  "date": "2026-01-09",
+  "days": -12,
+  "type": "Sale",
+  "amount": "$100,001 - $250,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-08-13"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Boozman, John",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "AR",
+  "date": "2026-01-15",
+  "days": -6,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-02-15"
+ },
+ {
+  "mention": [
+   "2026-01-21",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "David J. Taylor",
+  "chamber": "House",
+  "party": "R",
+  "state": "OH",
+  "date": "2026-01-16",
+  "days": -5,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-02-02"
+ },
+ {
+  "mention": [
+   "2026-01-27",
+   "DE"
+  ],
+  "ticker": "DE",
+  "member": "Mullin, Markwayne",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "OK",
+  "date": "2025-12-29",
+  "days": -29,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DE",
+  "filed": "2026-01-16"
+ },
+ {
+  "mention": [
+   "2026-01-27",
+   "DE"
+  ],
+  "ticker": "DE",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-23",
+  "days": -4,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DE",
+  "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-01-27",
+   "DE"
+  ],
+  "ticker": "DE",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-29",
+  "days": 2,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/DE",
+  "filed": "2026-02-06"
  }
 ]
