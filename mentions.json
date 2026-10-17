@@ -1546,5 +1546,27 @@
    "https://www.govinfo.gov/content/pkg/DCPD-202600423/html/DCPD-202600423.htm",
    "https://www.ttnews.com/articles/trump-mack-trucks-rally"
   ]
+ },
+ {
+  "date": "2026-06-19",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-during-greeting-with-united-states-servicemembers-joint-base-andrews-maryland",
+  "archive_url": "https://trump-archive.com/item/415aba3f-7d15-4e6e-b6c1-c8233b625c5f",
+  "time_et": "2026-06-19 16:02",
+  "time_src": "UCSB in-town pool report #7 (Trump left the plane at 3:39 PM ET; remarks began moments later); line about 22 minutes in; official text govinfo DCPD-202600413",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Boeing",
+  "ticker": "BA",
+  "quote": "\"And Boeing has done a fantastic job. Boeing does a great job. They charge us too much, but other than that. I said, 'You've got to get the prices down.'\" (remarks to servicemembers after touring the new Air Force One, Joint Base Andrews, Maryland)",
+  "note": "Said about 22 minutes into Trump's remarks in a Joint Base Andrews hangar on Fri Jun 19 2026, while retiring the old VC-25A Air Force One (a Boeing 747) and unveiling the Qatari-gifted Boeing 747-8 now used as the interim Air Force One (CBS News; White House pool reports). The praise comes with a complaint about Boeing's prices, so it is mixed. US markets were closed for the Juneteenth holiday, so day 0 is the next session (Mon Jun 22). Boeing is a large government contractor, so its share price reflects much more than this remark. Quiver: no congressional BA trades in the 30 days before or the week after (checked 2026-10-17).",
+  "verify": [
+   "https://www.govinfo.gov/content/pkg/DCPD-202600413/html/DCPD-202600413.htm",
+   "https://www.cbsnews.com/news/air-force-one-new-plane-trump-qatar/",
+   "https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-servicemembers-after-new-air-force-one-tour-61926",
+   "https://www.presidency.ucsb.edu/documents/pool-reports-june-19-2026"
+  ]
  }
 ]
