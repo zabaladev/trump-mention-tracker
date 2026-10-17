@@ -757,5 +757,41 @@
   "quote": "\"I have remained an investor - and am now increasing my stake, along with my fellow board members... $PSQH\"",
   "source": "https://x.com/DonaldJTrumpJr/status/2088347669445959837",
   "group": "Family"
+ },
+ {
+  "date": "2026-10-01",
+  "who": "Donald Trump",
+  "asset": "Boeing",
+  "ticker": "BA",
+  "type": "stock",
+  "category": "Company praise",
+  "quote": "\"Congratulations to the GREAT Boeing Company for producing a plane, the 737 Max, that was able to withstand G Forces and Strain far beyond what it was designed and expected to do... The Boeing Company, which builds, by far, the finest commercial airliners in the sky\"",
+  "source": "https://truthsocial.com/@realDonaldTrump/117363810994521058",
+  "group": "Trump",
+  "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23) he had criticised the 737 MAX (AOL/People)."
+ },
+ {
+  "date": "2026-10-05",
+  "who": "Donald Trump",
+  "asset": "Becton, Dickinson and Co. (BD)",
+  "ticker": "BDX",
+  "type": "stock",
+  "category": "Company praise",
+  "quote": "\"HUGE INVESTMENT WIN for NEBRASKA AND THE U.S.! Beckton Dickenson (BD), one of the largest Medical Device Manufacturers, has agreed to an Investment of 3 BILLION DOLLARS to Onshore Manufacturing of Essential Medical Products\"",
+  "source": "https://truthsocial.com/@realDonaldTrump/117391801119298224",
+  "group": "Trump",
+  "note": "Posted 11:18 PM ET Oct 5 (after the close), so the first tradable session is Oct 6. BD confirmed a $19B multi-year U.S. commitment incl. $3B manufacturing on Oct 6 (BD press release; Reuters), with relief from future Section 232 medical-device tariffs tied to milestones."
+ },
+ {
+  "date": "2026-10-14",
+  "who": "Donald Trump",
+  "asset": "GlobalFoundries",
+  "ticker": "GFS",
+  "type": "stock",
+  "category": "Government stake/deal",
+  "quote": "\"ANOTHER MASSIVE 21 BILLION DOLLAR INVESTMENT FOR AMERICA!... I am announcing an additional agreement with GlobalFoundries where the U.S. Taxpayer will receive shares in GlobalFoundries.\"",
+  "source": "https://truthsocial.com/@realDonaldTrump/117440248541514637",
+  "group": "Trump",
+  "note": "Same day GF announced it will operate two new Malta, NY fabs funded by up to $21B from Japan under the U.S.-Japan initiative, and a $955M reallocation of its existing CHIPS award (GF press release; AP; ENR)."
  }
 ]
