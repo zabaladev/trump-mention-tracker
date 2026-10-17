@@ -1,0 +1,556 @@
+{
+ "version": "https://jsonfeed.org/version/1.1",
+ "title": "Trump, Family & Administration — Investment Mention Tracker (Trump only)",
+ "home_page_url": "https://zabaladev.github.io/trump-mention-tracker/",
+ "feed_url": "https://zabaladev.github.io/trump-mention-tracker/feed-trump.json",
+ "language": "en-US",
+ "description": "Every sourced investment mention by Donald Trump, newest first. Public data only; no wrongdoing alleged.",
+ "items": [
+  {
+   "id": "3e875acb1ed6a2f3",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=GFS",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117440248541514637",
+   "title": "Donald Trump on GlobalFoundries (GFS): Government stake/deal",
+   "content_text": "Donald Trump (Trump) mentioned GlobalFoundries (GFS) on 2026-10-14 at 12:39 ET.\nQuote: \"ANOTHER MASSIVE 21 BILLION DOLLAR INVESTMENT FOR AMERICA!... I am announcing an additional agreement with GlobalFoundries where the U.S. Taxpayer will receive shares in GlobalFoundries.\"\nVersus the S&P 500: +5.9% on the comment day, -3.8% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117440248541514637\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-10-14T12:39:00-04:00",
+   "tags": [
+    "Trump",
+    "Government stake/deal",
+    "stock"
+   ]
+  },
+  {
+   "id": "d1cf617c7fe7c957",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BDX",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117391801119298224",
+   "title": "Donald Trump on Becton, Dickinson and Co. (BD) (BDX): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Becton, Dickinson and Co. (BD) (BDX) on 2026-10-05 at 23:18 ET.\nQuote: \"HUGE INVESTMENT WIN for NEBRASKA AND THE U.S.! Beckton Dickenson (BD), one of the largest Medical Device Manufacturers, has agreed to an Investment of 3 BILLION DOLLARS to Onshore Manufacturing of Essential Medical Products\"\nVersus the S&P 500: -0.8% on the comment day, +8.4% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117391801119298224\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-10-05T23:18:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "7c3a1fdec6355762",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BAYRY",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117379305275420977",
+   "title": "Donald Trump on Bayer AG (ADR) (BAYRY): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Bayer AG (ADR) (BAYRY) on 2026-10-03 at 18:20 ET.\nQuote: \"HUGE NEWS FOR OHIO, where I am heading right now! Bayer just announced a brand new, 2.2 Billion Dollar Pharmaceutical Manufacturing Campus near Columbus... This massive Onshoring WIN is thanks to my strong Pharmaceutical Tariffs\"\nVersus the S&P 500: -2.6% on the comment day, +2.1% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117379305275420977\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-10-03T18:20:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "cb43de0d3e8924b9",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BA",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117363810994521058",
+   "title": "Donald Trump on Boeing (BA): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Boeing (BA) on 2026-10-01 at 00:40 ET.\nQuote: \"Congratulations to the GREAT Boeing Company for producing a plane, the 737 Max, that was able to withstand G Forces and Strain far beyond what it was designed and expected to do... The Boeing Company, which builds, by far, the finest commercial airliners in the sky\"\nVersus the S&P 500: +3.2% on the comment day, -1.0% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117363810994521058\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-10-01T00:40:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "7494d3c442cd56cc",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=F",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117338936999613227",
+   "title": "Donald Trump on Ford Motor Co. (F): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Ford Motor Co. (F) on 2026-09-26 at 15:14 ET.\nQuote: \"Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to build here, and now they can! Under my Administration, over 100 $Billion is being invested in American Autos\"\nVersus the S&P 500: -1.8% on the comment day, +0.7% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117338936999613227\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-09-26T15:14:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "2d80d964ef09fc56",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=GM",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117338936999613227",
+   "title": "Donald Trump on General Motors (GM): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned General Motors (GM) on 2026-09-26 at 15:14 ET.\nQuote: \"Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to build here, and now they can! Under my Administration, over 100 $Billion is being invested in American Autos\"\nVersus the S&P 500: -1.6% on the comment day, +4.4% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117338936999613227\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-09-26T15:14:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "e70e03e11352a11e",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=STLA",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117338936999613227",
+   "title": "Donald Trump on Stellantis N.V. (STLA): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Stellantis N.V. (STLA) on 2026-09-26 at 15:14 ET.\nQuote: \"Every Manufacturer, from General Motors to Ford to Stellantis, has called me wanting to build here, and now they can! Under my Administration, over 100 $Billion is being invested in American Autos\"\nVersus the S&P 500: +1.2% on the comment day, -5.1% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117338936999613227\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-09-26T15:14:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "55aafb5e2231d355",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BA",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117323148147220269",
+   "title": "Donald Trump on Boeing (BA): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Boeing (BA) on 2026-09-23 at 20:19 ET.\nQuote: \"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"\nVersus the S&P 500: -1.5% on the comment day, -2.8% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117323148147220269\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-09-23T20:19:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "053da3dab530739c",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=LMT",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117310364553695688",
+   "title": "Donald Trump on Lockheed Martin (LMT): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Lockheed Martin (LMT) on 2026-09-21 at 14:08 ET.\nQuote: \"We are just leaving the White House Lawn on the maiden voyage from the newly built, and very beautiful, Heliport! I want to thank Jim Taiclet, CEO of Lockheed Martin, who made this valuable contribution to our Country.\"\nVersus the S&P 500: -1.1% on the comment day, +4.5% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117310364553695688\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-09-21T14:08:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "884c390f8aa3053e",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=GOOGL",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117270591511950591",
+   "title": "Donald Trump on Alphabet (Google) (GOOGL): Company criticism",
+   "content_text": "Donald Trump (Trump) mentioned Alphabet (Google) (GOOGL) on 2026-09-14 at 13:33 ET.\nQuote: \"Google has recently stated that they want to build a massive Plant in Finland, all because they are finding permitting too difficult in the United States. I am not happy about this, and want them to change their thinking.\"\nVersus the S&P 500: +3.7% on the comment day, -3.0% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117270591511950591\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-09-14T13:33:00-04:00",
+   "tags": [
+    "Trump",
+    "Company criticism",
+    "stock"
+   ]
+  },
+  {
+   "id": "fb547aefda5b9224",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BBD-B.TO",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117230978314061095",
+   "title": "Donald Trump on Bombardier (BBD-B.TO): Company criticism",
+   "content_text": "Donald Trump (Trump) mentioned Bombardier (BBD-B.TO) on 2026-09-07 at 13:39 ET.\nQuote: \"NO MORE SELLING BOMBARDIER IN THE UNITED STATES! Their products aren't good enough! ... If they want our Market, they must build here, and stop treating America like a “piggybank.”\"\nVersus the S&P 500: -2.0% on the comment day, +0.2% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117230978314061095\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-09-07T13:39:00-04:00",
+   "tags": [
+    "Trump",
+    "Company criticism",
+    "stock"
+   ]
+  },
+  {
+   "id": "6d1c184089d00874",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=PRYMY",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/117190839730903416",
+   "title": "Donald Trump on Prysmian S.p.A. (ADR) (PRYMY): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Prysmian S.p.A. (ADR) (PRYMY) on 2026-08-31 at 11:31 ET.\nQuote: \"Prysmian invests more than $1 billion to expand fiber optic cable manufacturing facility in North Carolina\"\nVersus the S&P 500: -0.7% on the comment day, -13.1% to date.\nSource: https://truthsocial.com/@realDonaldTrump/117190839730903416\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-08-31T11:31:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "3c2f172450495d18",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=TM",
+   "external_url": "https://altindex.com/news/trump-post-stock-moves",
+   "title": "Donald Trump on Toyota (TM): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Toyota (TM) on 2026-07-28.\nQuote: Shared op-ed 'Toyota to Texas', crediting tariffs.\nVersus the S&P 500: +2.1% on the comment day, +1.4% to date.\nSource: https://altindex.com/news/trump-post-stock-moves\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-07-28T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "93f669e6ced1c76f",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BASKET:MAGNETS",
+   "external_url": "https://www.yahoo.com/news/politics/articles/trump-hypes-magnets-son-firm-024024392.html",
+   "title": "Donald Trump on Rare-earth magnets basket (BASKET:MAGNETS): Sector/theme call",
+   "content_text": "Donald Trump (Trump) mentioned Rare-earth magnets basket (BASKET:MAGNETS) on 2026-07-15.\nQuote: \"I hope you're gonna do magnets... Magnets. Do magnets, ok? I'll tell you how to make money. Do magnets.\" (Pennsylvania Defense & Innovation Summit)\nVersus the S&P 500: -3.9% on the comment day, -30.2% to date.\nSource: https://www.yahoo.com/news/politics/articles/trump-hypes-magnets-son-firm-024024392.html\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-07-15T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Sector/theme call",
+    "sector basket"
+   ]
+  },
+  {
+   "id": "901c2d5ff05ef6dd",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=DELL",
+   "external_url": "https://finance.yahoo.com/markets/stocks/articles/trump-buy-dell-remark-ignites-152050115.html",
+   "title": "Donald Trump on Dell Technologies (DELL): Explicit buy call",
+   "content_text": "Donald Trump (Trump) mentioned Dell Technologies (DELL) on 2026-07-06.\nQuote: \"Go out and buy a Dell. We'll get them that money back one way or another.\" (NYSE opening bell)\nVersus the S&P 500: +3.7% on the comment day, +8.3% to date.\nSource: https://finance.yahoo.com/markets/stocks/articles/trump-buy-dell-remark-ignites-152050115.html\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-07-06T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Explicit buy call",
+    "stock"
+   ]
+  },
+  {
+   "id": "d52432025af8cd5e",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=MU",
+   "external_url": "https://trumpstruth.org/statuses/39656",
+   "title": "Donald Trump on Micron (MU): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Micron (MU) on 2026-07-01 at 12:19 ET.\nQuote: \"BIG NEWS! Micron, a truly GREAT American Company, and one of the 'HOTTEST' anywhere in the World...\"\nVersus the S&P 500: -10.4% on the comment day, -17.2% to date.\nSource: https://trumpstruth.org/statuses/39656\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-07-01T12:19:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "9e43974b477c9759",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=DELL",
+   "external_url": "https://www.hudson-labs.com/research/trump-praised-companies",
+   "title": "Donald Trump on Dell Technologies (DELL): Explicit buy call",
+   "content_text": "Donald Trump (Trump) mentioned Dell Technologies (DELL) on 2026-05-08.\nQuote: \"Go out and buy a Dell!\" (White House Trump Accounts event)\nVersus the S&P 500: +12.3% on the comment day, +70.2% to date.\nSource: https://www.hudson-labs.com/research/trump-praised-companies\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-05-08T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Explicit buy call",
+    "stock"
+   ]
+  },
+  {
+   "id": "bf2a31971a205516",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=INTC",
+   "external_url": "https://www.hudson-labs.com/research/trump-praised-companies",
+   "title": "Donald Trump on Intel (INTC): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Intel (INTC) on 2026-04-29 at 18:20 ET.\nQuote: Said he was 'very proud' of Intel, citing share rise and >$30B value of the US stake.\nVersus the S&P 500: -1.3% on the comment day, -11.1% to date.\nSource: https://www.hudson-labs.com/research/trump-praised-companies\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-04-29T18:20:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "e1095dc2540235f2",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=PLTR",
+   "external_url": "https://www.trumpstruth.org/statuses/37688",
+   "title": "Donald Trump on Palantir (PLTR): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Palantir (PLTR) on 2026-04-10 at 10:32 ET.\nQuote: \"Palantir Technologies (PLTR) has proven to have great war fighting capabilities...\"\nVersus the S&P 500: -1.7% on the comment day, +32.9% to date.\nSource: https://www.trumpstruth.org/statuses/37688\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-04-10T10:32:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "84737b234ee53f9c",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=DELL",
+   "external_url": "https://www.ainvest.com/news/trump-buy-dell-computer-2602/",
+   "title": "Donald Trump on Dell Technologies (DELL): Explicit buy call",
+   "content_text": "Donald Trump (Trump) mentioned Dell Technologies (DELL) on 2026-02-19.\nQuote: \"Go out and buy a Dell computer\" (Rome, Georgia speech)\nVersus the S&P 500: +2.2% on the comment day, +269.6% to date.\nSource: https://www.ainvest.com/news/trump-buy-dell-computer-2602/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-02-19T12:00:00-05:00",
+   "tags": [
+    "Trump",
+    "Explicit buy call",
+    "stock"
+   ]
+  },
+  {
+   "id": "7cf04739cfced013",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=INTC",
+   "external_url": "https://altindex.com/news/trump-post-stock-moves",
+   "title": "Donald Trump on Intel (INTC): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Intel (INTC) on 2026-01-08.\nQuote: Touted meeting with CEO Lip-Bu Tan and Intel's US-built sub-2nm chip.\nVersus the S&P 500: -3.6% on the comment day, +107.9% to date.\nSource: https://altindex.com/news/trump-post-stock-moves\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-08T12:00:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "30ec59df6d7ed2d7",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=CRO-USD",
+   "external_url": "https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/",
+   "title": "Donald Trump (Trump Media) on Cronos (CRO) (CRO-USD): Family venture",
+   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -89.7% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-08-26T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Family venture",
+    "crypto"
+   ]
+  },
+  {
+   "id": "9d60246cd06221f2",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=INTC",
+   "external_url": "https://trumpstruth.org/statuses/32698",
+   "title": "Donald Trump on Intel (INTC): Government stake/deal",
+   "content_text": "Donald Trump (Trump) mentioned Intel (INTC) on 2025-08-22 at 17:04 ET.\nQuote: US 'now fully owns and controls 10% of INTEL, a Great American Company that has an even more incredible future.'\nVersus the S&P 500: -0.6% on the comment day, +247.0% to date.\nSource: https://trumpstruth.org/statuses/32698\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-08-22T17:04:00-04:00",
+   "tags": [
+    "Trump",
+    "Government stake/deal",
+    "stock"
+   ]
+  },
+  {
+   "id": "7eff2b3e3c141fd4",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=AAPL",
+   "external_url": "https://altindex.com/news/trump-post-stock-moves",
+   "title": "Donald Trump on Apple (AAPL): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Apple (AAPL) on 2025-08-06.\nQuote: Shared report of Apple $100B US manufacturing pledge; White House event praising Apple / Tim Cook.\nVersus the S&P 500: +4.4% on the comment day, +41.1% to date.\nSource: https://altindex.com/news/trump-post-stock-moves\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-08-06T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "c6a261c94854ff84",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=AEO",
+   "external_url": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis",
+   "title": "Donald Trump on American Eagle Outfitters (AEO): Product endorsement",
+   "content_text": "Donald Trump (Trump) mentioned American Eagle Outfitters (AEO) on 2025-08-04 at 09:56 ET.\nQuote: \"Sydney Sweeney... has the 'HOTTEST' ad out there. It's for American Eagle, and the jeans are 'flying off the shelves.'\"\nVersus the S&P 500: +22.2% on the comment day, +19.1% to date.\nSource: https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-08-04T09:56:00-04:00",
+   "tags": [
+    "Trump",
+    "Product endorsement",
+    "stock"
+   ]
+  },
+  {
+   "id": "c032398007fdb831",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=KO",
+   "external_url": "https://www.hudson-labs.com/research/trump-praised-companies",
+   "title": "Donald Trump on Coca-Cola (KO): Product endorsement",
+   "content_text": "Donald Trump (Trump) mentioned Coca-Cola (KO) on 2025-07-16 at 16:19 ET.\nQuote: Said Coca-Cola agreed to use real cane sugar at his suggestion: 'a very good move'.\nVersus the S&P 500: +1.4% on the comment day, +16.0% to date.\nSource: https://www.hudson-labs.com/research/trump-praised-companies\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-07-16T16:19:00-04:00",
+   "tags": [
+    "Trump",
+    "Product endorsement",
+    "stock"
+   ]
+  },
+  {
+   "id": "355f7e93b9d26a52",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BASKET:NUCLEAR",
+   "external_url": "https://www.reuters.com/business/energy/nuclear-stocks-surge-report-trump-executive-orders-boost-industry-2025-05-23/",
+   "title": "Donald Trump on Nuclear/uranium basket (BASKET:NUCLEAR): Sector/theme call",
+   "content_text": "Donald Trump (Trump) mentioned Nuclear/uranium basket (BASKET:NUCLEAR) on 2025-05-23.\nQuote: Signed executive orders to fast-track nuclear licensing and expand uranium supply; Oklo +23%, NuScale +20%.\nVersus the S&P 500: +15.5% on the comment day, -45.6% to date.\nSource: https://www.reuters.com/business/energy/nuclear-stocks-surge-report-trump-executive-orders-boost-industry-2025-05-23/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-05-23T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Sector/theme call",
+    "sector basket"
+   ]
+  },
+  {
+   "id": "c8ed1e624f3d40fc",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=NVDA",
+   "external_url": "https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis",
+   "title": "Donald Trump on Nvidia (NVDA): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Nvidia (NVDA) on 2025-04-15 at 07:36 ET.\nQuote: Shared 'very big and exciting news' of Nvidia US AI supercomputers; 'All necessary permits will be expedited'.\nVersus the S&P 500: +1.5% on the comment day, +49.4% to date.\nSource: https://www.cnn.com/2026/07/16/us/trump-stock-sales-truth-social-invs-vis\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-04-15T07:36:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "9f414ef0900aa707",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=DJT",
+   "external_url": "https://www.trumpstruth.org/statuses/30586",
+   "title": "Donald Trump on Trump Media & Technology (DJT): Explicit buy call",
+   "content_text": "Donald Trump (Trump) mentioned Trump Media & Technology (DJT) on 2025-04-09 at 09:37 ET.\nQuote: \"THIS IS A GREAT TIME TO BUY!!! DJT\" (9:37am ET, hours before 90-day tariff pause)\nVersus the S&P 500: +12.2% on the comment day, -105.9% to date.\nSource: https://www.trumpstruth.org/statuses/30586\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-04-09T09:37:00-04:00",
+   "tags": [
+    "Trump",
+    "Explicit buy call",
+    "stock"
+   ]
+  },
+  {
+   "id": "95cf50ddb259a537",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=SPY",
+   "external_url": "https://www.cnbc.com/2025/04/09/trumps-morning-buy-call-nets-huge-returns-for-those-who-listened.html",
+   "title": "Donald Trump on US stock market (S&P 500) (SPY): Explicit buy call",
+   "content_text": "Donald Trump (Trump) mentioned US stock market (S&P 500) (SPY) on 2025-04-09 at 09:37 ET.\nQuote: \"THIS IS A GREAT TIME TO BUY!!!\" - S&P 500 rose 9.5% that day after tariff pause.\nVersus the S&P 500: +1.0% on the comment day, +1.1% to date.\nSource: https://www.cnbc.com/2025/04/09/trumps-morning-buy-call-nets-huge-returns-for-those-who-listened.html\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-04-09T09:37:00-04:00",
+   "tags": [
+    "Trump",
+    "Explicit buy call",
+    "stock"
+   ]
+  },
+  {
+   "id": "f12d46cb5970399a",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BASKET:COAL",
+   "external_url": "https://apnews.com/article/trump-coal-ai-data-centers-energy-dominance-693e2604785c07ff790d9afd2e06d543",
+   "title": "Donald Trump on Coal basket (BASKET:COAL): Sector/theme call",
+   "content_text": "Donald Trump (Trump) mentioned Coal basket (BASKET:COAL) on 2025-04-08.\nQuote: Signed orders 'Reinvigorating America's Beautiful Clean Coal Industry'; coal stocks rallied after hours.\nVersus the S&P 500: +7.6% on the comment day, +22.6% to date.\nSource: https://apnews.com/article/trump-coal-ai-data-centers-energy-dominance-693e2604785c07ff790d9afd2e06d543\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-04-08T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Sector/theme call",
+    "sector basket"
+   ]
+  },
+  {
+   "id": "8967ee3789c0cf29",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=TSLA",
+   "external_url": "https://edition.cnn.com/2025/03/11/media/elon-musk-companies-x-tesla-spacex/index.html",
+   "title": "Donald Trump on Tesla (TSLA): Product endorsement",
+   "content_text": "Donald Trump (Trump) mentioned Tesla (TSLA) on 2025-03-11.\nQuote: \"I'm going to buy a brand new Tesla tomorrow morning as a show of confidence and support for Elon Musk\"; bought one at White House: \"it's a great product\".\nVersus the S&P 500: +4.6% on the comment day, +16.4% to date.\nSource: https://edition.cnn.com/2025/03/11/media/elon-musk-companies-x-tesla-spacex/index.html\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-03-11T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Product endorsement",
+    "stock"
+   ]
+  },
+  {
+   "id": "7af27fa0c9ae6696",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
+   "external_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
+   "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -42.0% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-03-02T12:00:00-05:00",
+   "tags": [
+    "Trump",
+    "Policy promotion",
+    "crypto"
+   ]
+  },
+  {
+   "id": "999b54ff13c5db5b",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ETH-USD",
+   "external_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
+   "title": "Donald Trump on Ethereum (ETH-USD): Policy promotion",
+   "content_text": "Donald Trump (Trump) mentioned Ethereum (ETH-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +13.7% on the comment day, -32.1% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-03-02T12:00:00-05:00",
+   "tags": [
+    "Trump",
+    "Policy promotion",
+    "crypto"
+   ]
+  },
+  {
+   "id": "7b170ee4ce876408",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ADA-USD",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
+   "title": "Donald Trump on Cardano (ADA-USD): Policy promotion",
+   "content_text": "Donald Trump (Trump) mentioned Cardano (ADA-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +71.3% on the comment day, -108.8% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-03-02T10:24:00-05:00",
+   "tags": [
+    "Trump",
+    "Policy promotion",
+    "crypto"
+   ]
+  },
+  {
+   "id": "280c227fd6df7ec4",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=SOL-USD",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
+   "title": "Donald Trump on Solana (SOL-USD): Policy promotion",
+   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -69.8% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-03-02T10:24:00-05:00",
+   "tags": [
+    "Trump",
+    "Policy promotion",
+    "crypto"
+   ]
+  },
+  {
+   "id": "d77be2fbc7afd820",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=XRP-USD",
+   "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
+   "title": "Donald Trump on XRP (XRP-USD): Policy promotion",
+   "content_text": "Donald Trump (Trump) mentioned XRP (XRP-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +34.1% on the comment day, -84.1% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-03-02T10:24:00-05:00",
+   "tags": [
+    "Trump",
+    "Policy promotion",
+    "crypto"
+   ]
+  },
+  {
+   "id": "1c3a82f4e7d1741c",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BASKET:OIL",
+   "external_url": "https://www.presidency.ucsb.edu/documents/inaugural-address-54",
+   "title": "Donald Trump on Oil & gas basket (BASKET:OIL): Sector/theme call",
+   "content_text": "Donald Trump (Trump) mentioned Oil & gas basket (BASKET:OIL) on 2025-01-20.\nQuote: Inaugural address: \"We will drill, baby, drill\"; called US oil and gas \"liquid gold\".\nVersus the S&P 500: -2.4% on the comment day, +31.3% to date.\nSource: https://www.presidency.ucsb.edu/documents/inaugural-address-54\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-01-20T12:00:00-05:00",
+   "tags": [
+    "Trump",
+    "Sector/theme call",
+    "sector basket"
+   ]
+  },
+  {
+   "id": "a7af64211c144446",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=TRUMP35336-USD",
+   "external_url": "https://x.com/realDonaldTrump/status/1880446012168249386",
+   "title": "Donald Trump on Official Trump memecoin (TRUMP35336-USD): Family venture",
+   "content_text": "Donald Trump (Trump) mentioned Official Trump memecoin (TRUMP35336-USD) on 2025-01-17 at 21:44 ET.\nQuote: \"My NEW Official Trump Meme is HERE! It's time to celebrate everything we stand for: WINNING! ... GET YOUR $TRUMP NOW.\"\nVersus the S&P 500: -121.4% to date.\nSource: https://x.com/realDonaldTrump/status/1880446012168249386\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-01-17T21:44:00-05:00",
+   "tags": [
+    "Trump",
+    "Family venture",
+    "crypto"
+   ]
+  },
+  {
+   "id": "a9a42460d76a7962",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=X",
+   "external_url": "https://www.trumpstruth.org/statuses/28925",
+   "title": "Donald Trump on U.S. Steel (X): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned U.S. Steel (X) on 2025-01-06 at 08:29 ET.\nQuote: \"Why would they want to sell U.S. Steel now when Tariffs will make it a much more profitable and valuable company?\"\nSource: https://www.trumpstruth.org/statuses/28925\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2025-01-06T08:29:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "8961a5bdd8bd5ab2",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
+   "external_url": "https://x.com/realDonaldTrump/status/1852033244729860397",
+   "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.0% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2024-10-31T13:01:00-04:00",
+   "tags": [
+    "Trump",
+    "Policy promotion",
+    "crypto"
+   ]
+  },
+  {
+   "id": "72632ebf06c2ca78",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/",
+   "external_url": "https://abcnews.com/Politics/ivanka-trumps-social-media-posts-goya-beans-provoke/story?id=71795732",
+   "title": "Donald Trump on Goya Foods: Product endorsement",
+   "content_text": "Donald Trump (Trump) mentioned Goya Foods on 2020-07-15.\nQuote: Posted Oval Office photo with Goya products, thumbs up; tweeted Goya 'doing GREAT', 'people are buying like crazy!'\nSource: https://abcnews.com/Politics/ivanka-trumps-social-media-posts-goya-beans-provoke/story?id=71795732\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2020-07-15T12:00:00-04:00",
+   "tags": [
+    "Trump",
+    "Product endorsement",
+    "stock"
+   ]
+  }
+ ]
+}
