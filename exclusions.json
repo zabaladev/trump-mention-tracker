@@ -298,5 +298,20 @@
   "item": "Michael and Susan Dell (Trump, Feb 24 2026 State of the Union)",
   "reason": "Thanked the Dells for donating $6.25 billion to the Trump Accounts and told a story about Michael Dell selling computers from his dorm (Roll Call Factbase transcript). Praise of the donors' gift, not of the company or its products, so not scored; the Feb 19 and Feb 27 \"go out and buy a Dell computer\" lines are tracked.",
   "kind": "notcall"
+ },
+ {
+  "item": "Ford's Michigan plant recap (Trump, Feb 4 NBC interview and Feb 12 2026 endangerment-finding repeal)",
+  "reason": "Trump retold his recent visit to a Ford factory in Michigan that the company had planned to close, as an example of his policies (Roll Call Factbase transcripts). A recap of a past visit, not new praise or a call, so not scored; Ford is tracked from Sep 26 2026.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Eli Lilly and AstraZeneca price cuts (Trump, Feb 5 2026 TrumpRx website launch)",
+  "reason": "Trump listed drug-price cuts by Eli Lilly and AstraZeneca and Lilly's plant building while launching the TrumpRx site (Roll Call Factbase transcript). Policy announcements about deals, not praise or a call on the companies, so not scored; Lilly is tracked from Jun 23 and Oct 2 2026.",
+  "kind": "notcall"
+ },
+ {
+  "item": "John Deere (Trump, Feb 12 2026 endangerment-finding repeal)",
+  "reason": "Used \"John Deere as an example\" of farm equipment made expensive by environmental rules (Roll Call Factbase transcript). Criticism of regulations, not of the company, so not scored.",
+  "kind": "notcall"
  }
 ]

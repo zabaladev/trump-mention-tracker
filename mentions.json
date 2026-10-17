@@ -1737,5 +1737,37 @@
   "ticker": "DELL",
   "quote": "\"We have a new thing, and it was Michael and Susan Dell—Dell computer. Go out and buy a Dell computer. They're great.\" (energy speech, Port of Corpus Christi, Texas)",
   "note": "Said in his energy speech at the Port of Corpus Christi, Texas on Fri Feb 27 2026 while promoting the Trump Accounts that Michael and Susan Dell pledged $6.25 billion to fund (American Presidency Project transcript; Roll Call Factbase). The speech began at 3:48 PM Central (4:48 PM ET), after the market close, so day 0 is Mon Mar 2 (Dell +3.7%, S&P 500 +0.1%). Context: Dell had reported record quarterly results and raised guidance after the close on Feb 26, and its shares jumped 22% on Feb 27 before he spoke (Dell press release; CNBC), so the -7d and -30d moves mostly reflect earnings. It repeats the \"go out and buy a Dell computer\" line from his Feb 19 Rome, Georgia speech eight days earlier. See Disclosures: Trump's OGE report lists a Dell purchase on Feb 10, 17 days before. The three congressional Dell trades Quiver lists in this window (Sen. Markwayne Mullin Feb 4, Rep. Ro Khanna Feb 5 and Feb 17, all sales) are already shown under the Feb 19 row and are not counted twice; no others were filed in the week after. Context only. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-02-02",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-the-united-states-strategic-critical-minerals-reserve-and-exchange-with-reporters",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-february-2-2026",
+  "time_et": "2026-02-02 16:23",
+  "time_src": "American Presidency Project note: the President spoke at 4:23 p.m. in the Oval Office; the in-town pool entered at 4:22 PM ET, after the 4 PM ET close",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "General Motors",
+  "ticker": "GM",
+  "quote": "\"General Motors CEO Mary Barra, who is setting records, huh? I hear you're doing unbelievably. Twenty-four hours, round the clock your factories.\" Later: \"Mary Barra, the chairman, CEO of General Motors—which is setting records every single day, and she's doing a fantastic job\" (Strategic Critical Minerals Reserve announcement, Oval Office)",
+  "note": "Said at the Oval Office announcement of the US Strategic Critical Minerals Reserve on Mon Feb 2 2026, with GM CEO Mary Barra in attendance (American Presidency Project transcript; Roll Call Factbase). The pool entered at 4:22 PM ET and the remarks began at 4:23 PM, after the close, so day 0 is Tue Feb 3 (GM +1.7%, S&P 500 −0.8%). GM had reported quarterly results on Jan 27, six days earlier, which shapes the -7d move. This is the earliest tracked GM mention, before Jul 13, Jul 27, Sep 26 and Oct 10. Quiver lists 5 congressional GM trades in the window (Rep. Ro Khanna, four, and Rep. Thomas Kean Jr., one; Khanna's filings list many stocks), for context only. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-02-11",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.presidency.ucsb.edu/documents/remarks-signing-executive-order-domestic-coal-production",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-february-11-2026",
+  "time_et": "2026-02-11 16:30",
+  "time_src": "American Presidency Project note: the President spoke at 4:30 p.m. in the East Room; pool report 7 at 4:24 PM ET says the event was about to begin, after the 4 PM ET close",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Peabody Energy",
+  "ticker": "BTU",
+  "quote": "\"I want to thank you and invite the chairman of our National Coal Council, Peabody Energy CEO—which is a great company, by the way—Jim Grech to come up and say a few words.\" (Champion of Coal event, White House)",
+  "note": "Said at the White House East Room event on Wed Feb 11 2026 where the Washington Coal Club gave Trump an \"Undisputed Champion of Coal\" award and he signed an executive order on military purchases of coal power (American Presidency Project transcript; pool reports). A Peabody mine worker also spoke. The event began at 4:30 PM ET, after the close, so day 0 is Thu Feb 12 (Peabody −4.4%, S&P 500 −1.6%). It's a passing \"great company\" aside while introducing Peabody's CEO, scored the same way as other \"great company\" lines. Quiver lists no congressional Peabody (BTU) trades (checked 2026-10-17). No wrongdoing alleged."
  }
 ]

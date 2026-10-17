@@ -279,6 +279,11 @@
    "sector": "Healthcare",
    "industry": "Diagnostics & Research",
    "etf": "XLV"
+  },
+  "BTU": {
+   "sector": "Energy",
+   "industry": "Thermal Coal",
+   "etf": "XLE"
   }
  },
  "peer_etf_names": {

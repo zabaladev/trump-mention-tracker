@@ -2886,5 +2886,90 @@
   "amount": "$15,001 - $50,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/TMO",
   "filed": "2026-04-07"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-02-05",
+  "days": 3,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-03-09"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-29",
+  "days": -4,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-22",
+  "days": -11,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Ro Khanna",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-22",
+  "days": -11,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-02-02",
+   "GM"
+  ],
+  "ticker": "GM",
+  "member": "Thomas H. Kean Jr",
+  "chamber": "House",
+  "party": "R",
+  "state": "NJ",
+  "date": "2026-01-07",
+  "days": -26,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/GM",
+  "filed": "2026-02-19"
  }
 ]
