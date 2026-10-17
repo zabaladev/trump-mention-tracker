@@ -923,5 +923,42 @@
     "source": "https://truthsocial.com/@realDonaldTrump/117230978314061095",
     "group": "Trump",
     "note": "Posted 1:39 PM ET Mon Sep 7 2026 (trumpstruth.org/statuses/41619 archive), which was Labor Day in the US and Labour Day in Canada, so the first tradable session is Tue Sep 8. Toronto-listed Class B shares (BBD.B), priced in Canadian dollars, so index comparisons include currency moves. Coverage: Reuters and BBC (Sep 7); no ban, tariff or other formal action had taken effect per Reuters' Sep 9 update. The same post said Canada 'blocked Gulfstream Aerospace' (General Dynamics), a passing reference that is not scored. Quiver: no congressional trades listed for Bombardier's US OTC ticker (BDRBF). Second tracked Company criticism (Negative #7)."
+  },
+  {
+    "date": "2025-09-28",
+    "group": "Trump",
+    "who": "Donald Trump",
+    "asset": "Cannabis/CBD basket",
+    "ticker": "BASKET:CANNABIS",
+    "type": "sector basket",
+    "category": "Sector/theme call",
+    "quote": "Posted a video (made by The Commonwealth Project) saying \"the system can be restored faster using hemp-derived CBD\" and calling for \"Medicare coverage for CBD\". Reuters: Tilray +42%, Canopy +18%, Aurora +25%, MSOS +22% the next day.",
+    "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/cannabis-stocks-surge-after-trump-endorses-cannabidiol-senior-healthcare-2025-09-29/",
+    "archive_url": "https://www.trumpstruth.org/statuses/33128",
+    "orig_url": "https://truthsocial.com/@realDonaldTrump/115283887618990920",
+    "basket": [
+      [
+        "MSOS",
+        "AdvisorShares Pure US Cannabis ETF"
+      ],
+      [
+        "TLRY",
+        "Tilray Brands"
+      ],
+      [
+        "CGC",
+        "Canopy Growth"
+      ],
+      [
+        "CRON",
+        "Cronos Group"
+      ],
+      [
+        "ACB",
+        "Aurora Cannabis"
+      ]
+    ],
+    "basket_note": "The cannabis ETF and the four US-listed cannabis companies Reuters named in its Sep 29 2025 report on the rally.",
+    "note": "Sector call (no company named) - equal-weight basket: MSOS, TLRY, CGC, CRON, ACB. Posted Sunday Sep 28 2025 at 4:48 PM ET, so the first trading session is Mon Sep 29. Previously missed because no ticker was named. No congressional trades in these tickers within 30 days before to 7 days after (Quiver, checked 2026-10-17)."
   }
 ]
