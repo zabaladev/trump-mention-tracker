@@ -1028,5 +1028,53 @@
   "ticker": "PIRC.MI",
   "quote": "\"The tire manufacturer Pirelli just announced it's investing 1.2 billion, that's a lot of money, to expand its factory in Rome, Georgia with about 1,900 new jobs.\" (Dalton, Georgia rally)",
   "note": "Said about 48 minutes into a campaign rally speech that began at 4:24 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Mon Oct 19). Transcript also published by The Singju Post. Pirelli's board approved the roughly EUR 1 billion ($1.2 billion) Rome, Georgia expansion on Sep 22 2026; Pirelli and the Georgia Governor's office put the new jobs at about 1,000, not 1,900. Milan-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades listed for Pirelli's US OTC tickers (PPAMY, PLLIF; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-12",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/e62f93c2-1073-4018-b225-8d5c4fd4c618",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-12-2026",
+  "time_et": "2026-10-12 19:23",
+  "time_src": "White House travel pool report 4 (speech start)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Kimberly-Clark",
+  "ticker": "KMB",
+  "quote": "\"Kimberly-Clark is investing $800 million to build its first new U.S. plant in 37 years, right here in Warren, Ohio.\" (Youngstown, Ohio rally)",
+  "note": "Said about 39 minutes into a campaign rally speech in Youngstown, Ohio that began at 7:23 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Tue Oct 13). The $800 million Warren, Ohio plant is real and was announced May 1 2025 by Kimberly-Clark (part of a $2 billion-plus US program the company called its largest domestic expansion in more than 30 years) and by Ohio Governor Mike DeWine and JobsOhio; we found no company source for the \"first new U.S. plant in 37 years\" wording. Quiver: no congressional trades in KMB within 30 days before to 7 days after (the latest listed trade is Rep. Kevin Hern's Aug 18 2026 sale; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-12",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/e62f93c2-1073-4018-b225-8d5c4fd4c618",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-12-2026",
+  "time_et": "2026-10-12 19:23",
+  "time_src": "White House travel pool report 4 (speech start)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Vallourec",
+  "ticker": "VK.PA",
+  "quote": "\"The big steel company, Vallourec, is investing $48 million to expand operations right here in a place called Youngstown.\" (Youngstown, Ohio rally)",
+  "note": "Said about 39 minutes into a campaign rally speech in Youngstown, Ohio that began at 7:23 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Tue Oct 13). Vallourec announced the up-to-$48 million Youngstown premium threading line on Nov 10 2025 (company press release; JobsOhio said at least $39 million was committed); construction began Jul 2025 and is due to finish in early 2027. Paris-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades listed for Vallourec's US OTC tickers (VLOWY, VLOUF; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-12",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/e62f93c2-1073-4018-b225-8d5c4fd4c618",
+  "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-october-12-2026",
+  "time_et": "2026-10-12 19:23",
+  "time_src": "White House travel pool report 4 (speech start)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Cleveland-Cliffs",
+  "ticker": "CLF",
+  "quote": "\"And two months ago, my administration announced a $500 million investment to modernize the Cleveland-Cliffs in Middletown and Middletown Works.\" (Youngstown, Ohio rally)",
+  "note": "Said about 39 minutes into a campaign rally speech in Youngstown, Ohio that began at 7:23 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Tue Oct 13). On Aug 21 2026 the Energy Department announced a $500 million award toward a $1 billion Middletown Works upgrade, with Cleveland-Cliffs paying the other half (DOE and Cleveland-Cliffs press releases). The award reworks a grant first made in 2024 for a different, lower-emission plan. Quiver: no congressional trades in CLF within 30 days before to 7 days after (checked 2026-10-17)."
  }
 ]

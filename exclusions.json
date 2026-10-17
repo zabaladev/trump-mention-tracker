@@ -103,5 +103,10 @@
   "item": "Colstrip power plant and lumber tariff lines (Trump, Oct 14 2026 Kalispell rally)",
   "reason": "Trump said he \"rescued your Colstrip power plant\" and that Montana sawmills \"are booming\" because of his lumber tariff. Both are claims of credit for policy, with no company or stock named as a pick and no sourced stock move tied to the remarks, so they are not scored.",
   "kind": "notcall"
+ },
+ {
+  "item": "Eli Lilly, Merck and Pfizer plants and the Cleveland submarine repair center (Trump, Oct 12 2026 Youngstown, Ohio rally)",
+  "reason": "The drugmaker line is a general claim that pharmaceutical companies are building in the US, with no specific new project named. The U.S. Submarine Component Repair Center that Trump said the Department of War picked for Cleveland is a government facility, and no company was named for it. Neither is scored as a company mention.",
+  "kind": "notcall"
  }
 ]
