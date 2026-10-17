@@ -31,9 +31,11 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 .ins{background:linear-gradient(135deg,#1f2a44,#1a2133);border:1px solid #3b4a72;border-radius:12px;padding:14px 18px;margin-top:12px}
 .ins h2{font-size:18px;margin:0 0 8px}.ins ul{margin:0;padding-left:20px}.ins li{font-size:15px;line-height:1.55;margin:4px 0}
 .ins details{margin-top:8px;font-size:13px;color:#c7cee0}.ins summary{cursor:pointer;color:#7cb4ff}.ins .cav{font-size:12px;color:#fbbf24;margin-top:8px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.toc a{font-size:12px;padding:3px 10px;border:1px solid var(--bd);border-radius:14px;text-decoration:none;background:#141b2b}.toc a:hover{border-color:#f59e0b}
+#toTop{position:fixed;right:16px;bottom:16px;z-index:6;display:none;border:1px solid var(--bd);background:var(--pn);color:var(--tx);border-radius:20px;padding:8px 14px;font-size:13px;cursor:pointer}
 @media(max-width:1000px){.grid,.hcards{grid-template-columns:1fr}}
 </style></head><body>
-<header><h1>Trump, Family &amp; Administration — Investment Mention Tracker</h1><div class="sub" id="gen"></div></header>
+<header><h1>Trump, Family &amp; Administration — Investment Mention Tracker</h1><div class="sub" id="gen"></div><nav class="toc" id="toc" aria-label="Sections"><span class="sub" style="align-self:center">Jump to:</span></nav></header><button id="toTop" type="button" aria-label="Back to top">↑ Top</button>
 <main>
 <div class="ins" id="take" style="border-color:#f59e0b"><h2>What should I take from this?</h2><p id="takeP" style="font-size:16px;line-height:1.6;margin:0"></p><div class="cav">Not financial advice. Past results don't predict future ones, and timing patterns are correlation, not proof.</div></div>
 <div class="filters">
@@ -41,9 +43,9 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
  <div class="frow"><b>Category</b><span id="fCat"></span></div>
  <div class="frow"><b>Asset type</b><span id="fType"></span></div>
  <div class="frow"><b>Same post</b><label><input type="checkbox" id="dedup"> Count each post once</label><span class="sub" id="dedupN"></span></div>
- <div class="frow"><b>Benchmark</b><select id="bm"></select><span class="sub">Updates every card, chart and table below. The matrix compares all indexes.</span></div>
+ <div class="frow"><b>Benchmark</b><select id="bm"></select><span class="sub">Updates every card, chart and table below. The matrix compares all indexes.</span><select id="jump" aria-label="Jump to a section" style="margin-left:auto"><option value="">Jump to a section…</option></select></div>
 </div>
-<div class="ins"><h2>Plain-English insights <span class="sub">(updates with your filters &amp; benchmark)</span></h2><ul id="insL"></ul>
+<div class="ins" id="secIns"><h2>Plain-English insights <span class="sub">(updates with your filters &amp; benchmark)</span></h2><ul id="insL"></ul>
 <details><summary>What do these terms mean?</summary><ul>
 <li><b>Same post:</b> when one post names several assets (for example a single post naming XRP, SOL and ADA), each asset is listed separately. Ticking "Count each post once" averages them into one result so a single post doesn't count three times.</li>
 <li><b>Benchmark / index:</b> the "do-nothing" comparison, for example simply owning the whole S&amp;P 500 instead.</li>
@@ -61,12 +63,12 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 <div class="cav">Caveats: past results don't predict future ones. Samples are small and overlap in time. Timing patterns are correlation, not proof of anything. Prices exclude fees and taxes. This is not financial advice.</div></div>
 <div class="cards" id="cards"></div>
 <div class="hcards" id="hcards"></div>
-<div class="panel"><h2>Is this more than luck? <span class="sub">(average excess vs <span class="bml"></span>, with a 95% range)</span></h2>
+<div class="panel" id="secLuck"><h2>Is this more than luck? <span class="sub">(average excess vs <span class="bml"></span>, with a 95% range)</span></h2>
 <div class="sub">For each time window, we resample the mentions 2,000 times (a "bootstrap") to see how much the average could swing by chance. If the 95% range crosses zero, the result <b>can't be told apart from luck</b>. The coin-flip check asks whether the share of mentions beating the index is unusually far from 50%. Small, overlapping samples make these ranges wide.</div>
 <div style="overflow-x:auto"><table id="tSig"></table></div><h3 style="margin:14px 0 4px;font-size:14px">Who's behind the result? Same check split by speaker group</h3>
 <div class="sub">Each cell shows the average gap vs the index and the verdict for that group alone. Groups are smaller than the whole set, so their ranges are wider.</div>
 <div style="overflow-x:auto"><table id="tSigG"></table></div><div class="sub" id="sigMT" style="margin-top:6px"></div></div>
-<div class="panel"><h2>Did the stock beat its own industry? <span class="sub">(single-stock mentions vs their sector ETF)</span></h2>
+<div class="panel" id="secInd"><h2>Did the stock beat its own industry? <span class="sub">(single-stock mentions vs their sector ETF)</span></h2>
 <p class="sub" style="margin:0 0 8px">A stock can beat the S&amp;P 500 just because its whole industry was rising. This compares each mentioned stock with the matching Select Sector SPDR fund (for example chip stocks vs the tech fund XLK) over the same days, so it shows the move that belongs to the company itself.</p>
 <p id="secP" style="font-size:15px;line-height:1.55;margin:0 0 8px"></p>
 <div style="overflow-x:auto"><table id="tSec"></table></div><h3 style="margin:14px 0 4px;font-size:14px">By sector</h3><div style="overflow-x:auto"><table id="tSecB"></table></div><div class="sub" id="secN" style="margin-top:6px"></div></div>
@@ -81,23 +83,23 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 <p style="font-size:15px;line-height:1.55;margin:0 0 8px">Since <b>August 1, 2026</b>, Trump Media (the company behind Truth Social, whose largest shareholder is a trust of President Trump's) has sold a data feed called the <b>Truth API</b>. It costs <b>$100,000 a month</b> (or $60,000 a month on a three-year commitment) and pushes posts from top accounts, including President Trump's, the White House's, Dan Scavino's, RFK Jr.'s, Sean Duffy's and Kash Patel's, to subscribers in near real time. Several lawsuits challenge it: two nonprofits sued in federal court in Washington, D.C. on Sept 17, San Francisco sued under California's unfair-competition law on Sept 23, and a New York federal judge heard a request to pause it on Oct 7 and has not yet ruled. The lawsuits <i>allege</i> subscribers get government news before everyone else; at the hearing the judge asked whether the feed is only about 50 milliseconds faster, and the defence argued a story arriving a bit later is not real harm. None of this has been decided by a court.</p>
 <p id="apiP" style="font-size:15px;line-height:1.55;margin:0 0 6px"></p>
 <div class="sub">Sources: <a href="https://campaignforaccountability.org/wp-content/uploads/2026/09/Truth-Social-API-Complaint-Campaign-for-Accountability-and-American-Oversight.pdf" target="_blank">American Oversight &amp; Campaign for Accountability complaint (D.D.C.)</a> · <a href="https://news.bloomberglaw.com/litigation/truth-socials-paid-subscription-service-challenged-in-lawsuit" target="_blank">Bloomberg Law, Sept 17 2026</a> · <a href="https://abc7news.com/post/san-francisco-sues-president-donald-trumps-truth-social-early-access-feature-calling-corruption-plain-simple/19858696/" target="_blank">ABC7 San Francisco, Sept 23 2026</a> · <a href="https://apnews.com/article/trump-media-lawsuit-truth-social-access-wall-street-traders-7f057fd1dba31dd4e357c8bf635ee009" target="_blank">AP</a> · <a href="https://innercitypress.com/sdny115oetkentruthsocialicp100726.html" target="_blank">Inner City Press, Oct 7 2026 hearing (The Intercept Media v. Trump, 1:26-cv-6867)</a>. Context only: this tracker does not know who subscribes or how anyone used the feed, and no wrongdoing is alleged.</div></div>
-<div class="grid">
+<div class="grid" id="secPort">
  <div class="panel"><h2>Average excess return by horizon vs <span class="bml"></span></h2><canvas id="cEx"></canvas></div>
  <div class="panel"><h2>Virtual portfolio ($1,000 per mention) vs same cash in indexes <span id="fHold"></span></h2><div class="cbx" id="pIdx"></div><canvas id="cEq"></canvas></div>
 </div>
-<div class="panel"><h2>Index matrix: win rate &amp; average excess vs every index <select id="mxH"></select></h2><div class="sub">Cells show <b>% of mentions beating the index</b> / <b>average excess return</b>. Rows are groups within the current category/type filters.</div><div style="overflow-x:auto"><table class="mx" id="mx"></table></div></div>
-<div class="panel"><h2>Each mention: excess return to date vs <span class="bml"></span> (sorted; colour = who)</h2><div style="height:320px"><canvas id="cEach"></canvas></div></div>
-<div class="panel"><h2>Timeline: every mention by date <select id="tlH"></select> <span class="sub">(vs <span class="bml"></span>; dot = one mention, colour = who; click a dot to open its ticker)</span></h2><div style="position:relative;height:300px"><canvas id="cTL"></canvas></div><div class="sub" id="tlN" style="margin-top:6px"></div><h3 style="margin:12px 0 4px;font-size:14px">Mentions per month <span class="sub">(stacked by who; counts every mention in the current filters, priced or not)</span></h3><div style="position:relative;height:170px"><canvas id="cTLm"></canvas></div><div class="sub" id="tlMN" style="margin-top:6px"></div></div>
-<div class="panel"><h2>Trump vs Family vs Admin (current category/type filters, vs <span class="bml"></span>)</h2><table id="tGrp"></table></div>
+<div class="panel" id="secMx"><h2>Index matrix: win rate &amp; average excess vs every index <select id="mxH"></select></h2><div class="sub">Cells show <b>% of mentions beating the index</b> / <b>average excess return</b>. Rows are groups within the current category/type filters.</div><div style="overflow-x:auto"><table class="mx" id="mx"></table></div></div>
+<div class="panel" id="secEach"><h2>Each mention: excess return to date vs <span class="bml"></span> (sorted; colour = who)</h2><div style="height:320px"><canvas id="cEach"></canvas></div></div>
+<div class="panel" id="secTL"><h2>Timeline: every mention by date <select id="tlH"></select> <span class="sub">(vs <span class="bml"></span>; dot = one mention, colour = who; click a dot to open its ticker)</span></h2><div style="position:relative;height:300px"><canvas id="cTL"></canvas></div><div class="sub" id="tlN" style="margin-top:6px"></div><h3 style="margin:12px 0 4px;font-size:14px">Mentions per month <span class="sub">(stacked by who; counts every mention in the current filters, priced or not)</span></h3><div style="position:relative;height:170px"><canvas id="cTLm"></canvas></div><div class="sub" id="tlMN" style="margin-top:6px"></div></div>
+<div class="panel" id="secGrp"><h2>Trump vs Family vs Admin (current category/type filters, vs <span class="bml"></span>)</h2><table id="tGrp"></table></div>
 <div class="panel" id="tkPanel"><h2>Ticker lookup <select id="tk"></select> <span class="sub">shareable link: <a id="tkLink" href="#ticker=DELL">#ticker=DELL</a></span></h2><div style="position:relative;height:260px"><canvas id="tkC"></canvas></div><div class="sub" id="tkCN" style="margin:4px 0 8px"></div><div id="tkv"></div></div>
-<div class="panel"><h2>Sector / theme comments: basket moves &amp; foreshadowing</h2>
+<div class="panel" id="secSect"><h2>Sector / theme comments: basket moves &amp; foreshadowing</h2>
 <p class="warn">Foreshadowing = the basket's abnormal (excess vs index) return in the 30 and 7 days <i>before</i> the comment, ending at the prior close, so it excludes the mention-day reaction. This is correlation, not proof: pre-moves can reflect news, sector momentum, or leaks, and this data can't tell them apart.</p><div id="sectors"></div></div>
-<div class="panel"><h2>Pre-comment moves (every mention): highlight abnormal moves ≥ <input id="thr" type="number" value="10" min="1" max="200" step="1" style="width:60px">% vs <span class="bml"></span> over -7d or -30d</h2>
+<div class="panel" id="secPre"><h2>Pre-comment moves (every mention): highlight abnormal moves ≥ <input id="thr" type="number" value="10" min="1" max="200" step="1" style="width:60px">% vs <span class="bml"></span> over -7d or -30d</h2>
 <p class="warn">Pre windows end at the close before the mention. A large pre-move is only a correlation flag; it can reflect news, momentum or chance.</p><div id="pre"></div></div>
-<div class="panel"><h2>Disclosure overlap: speakers, family entities, officials &amp; spouses</h2><div id="discN" class="sub"></div><div id="disc"></div></div>
-<div class="panel"><h2>Congressional STOCK Act trades in the related asset (30 days before → 7 days after)</h2><div id="cong"></div></div>
-<div class="panel"><h2>All mentions (click headers to sort)</h2><div style="overflow-x:auto"><table id="tbl"></table></div></div>
-<div class="panel"><h2>Why some calls weren't counted (coverage notes)</h2><table id="tEx"></table></div>
+<div class="panel" id="secDisc"><h2>Disclosure overlap: speakers, family entities, officials &amp; spouses</h2><div id="discN" class="sub"></div><div id="disc"></div></div>
+<div class="panel" id="secCong"><h2>Congressional STOCK Act trades in the related asset (30 days before → 7 days after)</h2><div id="cong"></div></div>
+<div class="panel" id="secAll"><h2>All mentions (click headers to sort)</h2><div style="overflow-x:auto"><table id="tbl"></table></div></div>
+<div class="panel" id="secEx"><h2>Why some calls weren't counted (coverage notes)</h2><table id="tEx"></table></div>
 <p class="disc">Data: Yahoo Finance via yfinance. Asset prices are daily closes, adjusted for splits and dividends. The nine index benchmarks are the index levels themselves (^GSPC, ^DJI, ^IXIC, ^NDX, ^RUT, ^RUI, ^RUA, ^W5000, ^MID), which are price-only, so long-horizon excess is slightly flattered. For a like-for-like comparison, pick a "total return" benchmark (SPY, DIA, QQQ, VTI): fund prices adjusted for dividends, as if dividends were reinvested (minus the funds' small fees). Entry = close on the mention day (or next trading day). Pre windows (-30d, -7d) end at the prior close. "Day 0" = prior close → mention-day close; for after-hours remarks the reaction shows up in +1d. Post windows start at the entry close and use calendar days. Sector/theme comments are scored as an equal-weight basket of documented proxies. Disclosure and congressional overlaps are factual timing matches from public filings (amounts are ranges, filings lag trades by up to 30–45+ days). They are not evidence of wrongdoing, and none is alleged. Small, overlapping samples; not investment advice.</p>
 </main>
 <script>
@@ -245,7 +247,7 @@ const tkEl=document.getElementById('tk');const TK=[...new Set(D.rows.map(r=>r.ti
 tkEl.value=hTk()||'DELL';const tkSync=()=>{const h='#ticker='+encodeURIComponent(tkEl.value),a=document.getElementById('tkLink');a.href=h;a.textContent=h};
 tkEl.onchange=()=>{history.replaceState(null,'','#ticker='+encodeURIComponent(tkEl.value));tkSync();tkv()};
 {const dc=document.getElementById('dedup'),ps=new Set(D.rows.filter(r=>r.post).map(r=>r.post)),pn=D.rows.filter(r=>r.post).length;document.getElementById('dedupN').textContent=`${pn} mentions come from ${ps.size} multi-asset posts. When ticked, win rates, averages and the luck check treat each post as one result (the portfolio still buys every asset).`;dc.onchange=()=>{DEDUP=dc.checked;render()}}
-window.addEventListener('hashchange',()=>{const t=hTk();if(t){tkEl.value=t;tkSync();tkv();document.getElementById('tkPanel').scrollIntoView()}});
+window.addEventListener('hashchange',()=>{const t=hTk();if(t){tkEl.value=t;tkSync();tkv();goSec('tkPanel')}});
 function tkChart(t,rs){const P=D.tkpx,e=P&&P.t[t],cn=document.getElementById('tkCN');if(!e){ch.tkC&&ch.tkC.destroy();delete ch.tkC;cn.textContent='No price history for this asset (private, delisted or not tradable), so there is no chart.';return}
  const lab=P.dates.slice(e.i0),v=e.v,bs=P.bench[BM].slice(e.i0),j0=v.findIndex(x=>x!=null),bk=bs[j0]?v[j0]/bs[j0]:null,bl=bs.map(x=>x!=null&&bk?x*bk:null);
  const mk_=Array(lab.length).fill(null),mc=Array(lab.length).fill('#fff'),mt={};rs.forEach(r=>{let i=lab.findIndex(d=>d>=r.date);if(i<0)i=lab.length-1;if(v[i]==null)return;mk_[i]=v[i];mc[i]=GC[r.group]||'#fff';(mt[i]=mt[i]||[]).push(`${r.date} ${r.who}: ${r.category}`)});
@@ -319,4 +321,12 @@ function tbl(sel){const rows=[...sel].sort((a,b)=>{const g=r=>sk.startsWith('r:'
  rows.map(r=>`<tr class="${r.status=='ok'&&big(r)?'hl':''}"><td>${r.date}</td><td><span class="tag" style="background:${GC[r.group]};color:#111">${r.group}</span></td><td>${r.who}</td><td>${r.asset}</td><td>${r.ticker&&TK.includes(r.ticker)?`<a href="#ticker=${encodeURIComponent(r.ticker)}">${r.ticker}</a>`:(r.ticker||'–').replace('BASKET:','basket:')}</td><td>${r.category}</td><td>${r.quote}${r.status!='ok'?`<br><span class="muted">${r.status}</span>`:(r.note?`<br><span class="muted">${r.note}</span>`:'')}</td>`+H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')+`<td>${pct(X(r)['to date'])}</td><td>${fl(r)}</td><td><a href="${r.source}" target="_blank">link</a></td></tr>`).join('');
  document.querySelectorAll('#tbl th[data-k]').forEach(th=>th.onclick=()=>{sd=sk==th.dataset.k?-sd:1;sk=th.dataset.k;tbl(sel)})}
 render();tkSync();if(hTk())setTimeout(()=>document.getElementById('tkPanel').scrollIntoView(),300);
+
+// Section navigation (plain-English names; offsets for the sticky filter bar)
+function goSec(id){const el=document.getElementById(id);if(!el)return;const f=document.querySelector('.filters');const off=(f?f.getBoundingClientRect().height:0)+8;window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-off,behavior:'smooth'})}
+(()=>{const S=[['take','Quick takeaway'],['secIns','Plain-English insights'],['cards','Headline numbers'],['secLuck','More than luck?'],['secInd','Beat its industry?'],['famPanel','Family-linked companies'],['apiPanel','Truth API'],['secPort','Returns & portfolio'],['secMx','All indexes'],['secEach','Each mention'],['secTL','Timeline'],['secGrp','Trump vs Family vs Admin'],['tkPanel','Ticker lookup'],['secSect','Sector calls'],['secPre','Moves before comments'],['secDisc','Disclosures'],['secCong','Congress trades'],['secAll','All mentions table'],['secEx','Coverage notes']].filter(([i])=>document.getElementById(i));
+const toc=document.getElementById('toc'),j=document.getElementById('jump');
+S.forEach(([i,n])=>{const a=document.createElement('a');a.href='#';a.textContent=n;a.onclick=e=>{e.preventDefault();goSec(i)};toc.appendChild(a);const o=document.createElement('option');o.value=i;o.textContent=n;j.appendChild(o)});
+j.onchange=()=>{if(j.value)goSec(j.value);j.value=''};
+const tt=document.getElementById('toTop');tt.onclick=()=>window.scrollTo({top:0,behavior:'smooth'});window.addEventListener('scroll',()=>{tt.style.display=window.scrollY>600?'block':'none'},{passive:true})})();
 </script></body></html>
