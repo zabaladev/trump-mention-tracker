@@ -1,0 +1,69 @@
+{
+  "_note": "Publicly traded companies with documented family equity links from SEC filings or the speakers' own posts. Shown for market context next to the mention tracker. A family holding or a share-price move is not evidence of wrongdoing. Prices are Yahoo Finance adjusted closes.",
+  "companies": [
+    {
+      "ticker": "DJT",
+      "name": "Trump Media & Technology Group",
+      "link": "Donald J. Trump Revocable Trust is the largest holder (Don Jr. sole trustee; Trump sole beneficiary). Per SEC Schedule 13D and company 10-K.",
+      "holding_source": "https://www.sec.gov/Archives/edgar/data/947033/000114036124050512/xslSCHEDULE_13D_X01/primary_doc.xml",
+      "milestones": [
+        {
+          "date": "2024-03-26",
+          "label": "Went public via DWAC SPAC merger (ticker DJT)",
+          "source": "https://www.sec.gov/Archives/edgar/data/1849635/000119312524078855/d787050d8k.htm"
+        },
+        {
+          "date": "2025-04-09",
+          "label": "Trump Truth Social post urging people to buy DJT",
+          "source": "https://www.trumpstruth.org/statuses/30586"
+        },
+        {
+          "date": "2025-12-18",
+          "label": "All-stock merger agreement with TAE Technologies announced",
+          "source": "https://tae.com/trump-media-technology-group-and-tae-technologies-file-form-s-4-registration-statement-for-proposed-merger/"
+        },
+        {
+          "date": "2026-09-30",
+          "label": "Form S-4 filed for TAE merger (not yet effective as of filing)",
+          "source": "https://www.sec.gov/Archives/edgar/data/1849635/000143774926031534/djt20260922_s4.htm"
+        }
+      ]
+    },
+    {
+      "ticker": "PSQH",
+      "name": "PSQ Holdings",
+      "link": "Donald Trump Jr. has publicly said he invested before the IPO, never sold, sits on the board, and (Aug 14 2026) is increasing his stake.",
+      "holding_source": "https://x.com/DonaldJTrumpJr/status/186432011",
+      "milestones": [
+        {
+          "date": "2024-12-03",
+          "label": "News of Don Jr. involvement; stock moved sharply",
+          "source": "https://www.cnbc.com/2024/12/03/psq-holdings-doubles-in-latest-stock-to-rip-higher-on-news-of-donald"
+        },
+        {
+          "date": "2026-08-14",
+          "label": "Don Jr. said he was increasing his stake",
+          "source": "https://x.com/DonaldJTrumpJr/status/2088347669445959837"
+        }
+      ]
+    },
+    {
+      "ticker": "ABTC",
+      "name": "American Bitcoin Corp.",
+      "link": "Eric Trump (co-founder & chief strategy officer) and Donald Trump Jr. held a stake reported worth about $1.5B at debut (Reuters / SEC 13G).",
+      "holding_source": "https://www.reuters.com/business/trumps-oldest-sons-american-bitcoin-stake-worth-15-billion-stock-debut-2025-09-03/",
+      "milestones": [
+        {
+          "date": "2025-09-03",
+          "label": "Public debut; family stake reported",
+          "source": "https://www.reuters.com/business/trumps-oldest-sons-american-bitcoin-stake-worth-15-billion-stock-debut-2025-09-03/"
+        },
+        {
+          "date": "2026-08-03",
+          "label": "Eric Trump post on ABTC earnings call",
+          "source": "https://x.com/EricTrump/status/2084280678183469193"
+        }
+      ]
+    }
+  ]
+}

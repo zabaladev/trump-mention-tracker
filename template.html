@@ -53,7 +53,8 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 <li><b>Pre-move (-30d / -7d):</b> how the asset moved in the month or week <i>before</i> the comment, compared with the index.</li>
 <li><b>Basket:</b> for whole-sector comments (e.g. "rare earths"), an equal mix of the related stocks/ETFs listed in that sector's card.</li>
 <li><b>95% range / "luck":</b> how far the average could plausibly swing just from which mentions happened to be in the sample. If the range includes zero, the result could easily be chance.</li>
-<li><b>Virtual portfolio:</b> pretend $1,000 went into each mentioned asset at the close on the day it was mentioned.</li></ul></details>
+<li><b>Virtual portfolio:</b> pretend $1,000 went into each mentioned asset at the close on the day it was mentioned.</li>
+<li><b>Family-linked listed company:</b> a public stock where Trump, a family member, or a family entity has a documented holding (SEC filing or their own post). Tracked separately from "mentions" so you can see how those companies have moved vs the market around merger filings and other milestones.</li></ul></details>
 <div class="cav">Caveats: past results don't predict future ones. Samples are small and overlap in time. Timing patterns are correlation, not proof of anything. Prices exclude fees and taxes. This is not financial advice.</div></div>
 <div class="cards" id="cards"></div>
 <div class="hcards" id="hcards"></div>
@@ -66,6 +67,13 @@ th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical
 <p class="sub" style="margin:0 0 8px">A stock can beat the S&amp;P 500 just because its whole industry was rising. This compares each mentioned stock with the matching Select Sector SPDR fund (for example chip stocks vs the tech fund XLK) over the same days, so it shows the move that belongs to the company itself.</p>
 <p id="secP" style="font-size:15px;line-height:1.55;margin:0 0 8px"></p>
 <div style="overflow-x:auto"><table id="tSec"></table></div><h3 style="margin:14px 0 4px;font-size:14px">By sector</h3><div style="overflow-x:auto"><table id="tSecB"></table></div><div class="sub" id="secN" style="margin-top:6px"></div></div>
+<div class="panel" id="famPanel"><h2>Family-linked listed companies <span class="sub">(context: share price vs indexes + SEC milestones)</span></h2>
+<p class="sub" style="margin:0 0 8px">These are companies where Trump family members or family-linked entities have a <b>documented public equity stake</b> (SEC 13D/13G, company filings, or their own posts). This is market context, not a trading tip and not an allegation. A holding or a price move does not mean anyone broke a law.</p>
+<p id="famP" style="font-size:15px;line-height:1.55;margin:0 0 8px"></p>
+<div style="position:relative;height:240px;margin-bottom:8px"><canvas id="famC"></canvas></div>
+<div class="sub" id="famCN" style="margin:0 0 8px"></div>
+<div style="overflow-x:auto"><table id="tFam"></table></div>
+<div class="sub" id="famN" style="margin-top:6px"></div></div>
 <div class="grid">
  <div class="panel"><h2>Average excess return by horizon vs <span class="bml"></span></h2><canvas id="cEx"></canvas></div>
  <div class="panel"><h2>Virtual portfolio ($1,000 per mention) vs same cash in indexes <span id="fHold"></span></h2><div class="cbx" id="pIdx"></div><canvas id="cEq"></canvas></div>
@@ -139,6 +147,7 @@ function insights(sel,ok,P){const L=P.val.length-1,I=P.inv[L],b=BL[BM],out=[];co
  const t=(+thrEl.value||10)/100,pm=ok.filter(big);out.push(`<b>${pm.length}</b> of ${ok.length} assets had already moved unusually (${(t*100).toFixed(0)}%+ vs the index) in the week or month <i>before</i> the comment. That can mean news, momentum or leaks, and the data can't tell which.`);
  const nd=sel.filter(r=>r.disclosures.length).length,nc=sel.filter(r=>r.congress.length).length;if(nd||nc)out.push(`${nd} mention(s) involve an asset the speaker, their family or a linked company has publicly disclosed owning or trading, and ${nc} had congressional trades in that asset around the time of the comment. These are timing overlaps from public filings, not evidence of wrongdoing.`);
  {const sr=ok.filter(r=>r.sector),a=pv(sr,r=>r.sector.ex.day0);if(a.length>=5){const v=avg(a),k=a.filter(x=>x>0).length;out.push(`Compared with <b>their own industry</b> (a sector fund like XLK for tech), the ${a.length} mentioned single stocks moved <b>${(v>=0?'+':'')+(v*100).toFixed(1)}%</b> more on the day of the comment on average, and ${k} of ${a.length} beat their sector that day. See "Did the stock beat its own industry?"`)}}
+ {const F=D.family,djt=(F&&F.rows||[]).find(r=>r.ticker=='DJT');if(djt&&djt.last){const m=(djt.milestones||[]).find(x=>x.date=='2025-12-18')||(djt.milestones||[]).slice(-1)[0];const px='$'+Number(djt.last[1]).toFixed(2);const y=djt.ytd,ys=djt.ytd_sp;out.push(`<b>Family-linked stocks:</b> Trump Media (<a href="#ticker=DJT">DJT</a>) last closed at <b>${px}</b> on ${djt.last[0]}`+(y!=null&&ys!=null?` (year-to-date ${y>=0?'+':''}${(y*100).toFixed(0)}% vs S&P 500 ${ys>=0?'+':''}${(ys*100).toFixed(0)}%)`:'')+(m&&m.ret!=null?`. Since the Dec 18 2025 TAE merger announcement it is ${m.ret>=0?'up':'down'} about <b>${Math.abs(m.ret*100).toFixed(0)}%</b>, while the S&P 500 is ${m.bench>=0?'up':'down'} ${Math.abs(m.bench*100).toFixed(0)}% over the same span`:'' )+`. See "Family-linked listed companies".`)}}
  document.getElementById('insL').innerHTML=out.map(x=>`<li>${x}</li>`).join('')}
 
 
@@ -185,7 +194,7 @@ function render(){
  document.getElementById('tGrp').innerHTML='<tr><th>Who</th><th>n</th>'+KH.map(h=>`<th>${h} win</th><th>${h} beat</th><th>${h} avg excess</th>`).join('')+`<th>Portfolio vs ${BL[BM]}</th></tr>`+
  ['Trump','Family','Admin'].map(g=>{const rs=base.filter(r=>r.group==g);if(!rs.length)return'';const p=port(rs,'hold'),l=p.val.length-1,i=p.inv[l];
  return `<tr><td><span class="tag" style="background:${GC[g]};color:#111">${g}</span></td><td>${rs.length}</td>`+KH.map(h=>{const s=stats(rs,h);return `<td>${pct(s.win,0)}</td><td>${pct(s.beat,0)}</td><td>${pct(s.aex)}</td>`}).join('')+`<td>${pct(p.val[l]/i-1)} vs ${pct(p[BM][l]/i-1)}</td></tr>`}).join('');
- sigTable(ok);sigGroups(ok);secPanel(ok); takeaway(ok,P);insights(sel,ok,P);tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
+ sigTable(ok);sigGroups(ok);secPanel(ok);famPanel(); takeaway(ok,P);insights(sel,ok,P);tbl(sel);pre(ok);disc(sel);cong(sel);tkv();sectors()}
 function pre(ok){const t=(+thrEl.value||10)/100,m=r=>Math.max(Math.abs(X(r)['-30d']||0),Math.abs(X(r)['-7d']||0));const rs=[...ok].sort((a,b)=>m(b)-m(a));const n=rs.filter(big).length;
  document.getElementById('pre').innerHTML=`<div class="sub" style="margin-bottom:6px"><b>${n}</b> of ${rs.length} mentions in filter had an abnormal pre-move ≥ ${(t*100).toFixed(0)}% vs ${BL[BM]} (up ${rs.filter(r=>['-7d','-30d'].some(h=>(X(r)[h]??0)>=t)).length}, down ${rs.filter(r=>['-7d','-30d'].some(h=>(X(r)[h]??0)<=-t)).length}).</div><table><tr><th>Date</th><th>Who</th><th>Asset</th><th>-30d raw</th><th>-30d excess</th><th>-7d raw</th><th>-7d excess</th><th>Day 0</th><th>+1d</th><th>+30d excess</th><th>Flags</th></tr>`+rs.map(r=>{const c=h=>`<td class="${X(r)[h]!=null&&Math.abs(X(r)[h])>=t?'hl':''}">${pct(X(r)[h])}</td>`;return `<tr><td>${r.date}</td><td>${r.who}</td><td>${r.asset}</td><td>${pct(r.returns['-30d'])}</td>${c('-30d')}<td>${pct(r.returns['-7d'])}</td>${c('-7d')}<td>${pct(r.returns['day0'])}</td><td>${pct(r.returns['+1d'])}</td><td>${pct(X(r)['+30d'])}</td><td>${fl(r)}</td></tr>`}).join('')+'</table>'}
 const fl=r=>(r.post?`<span class="pflag" title="One post named ${r.post_n} assets. Tick 'Count each post once' to average them into one result.">same post ×${r.post_n}</span> `:'')+(r.disclosures.length?`<span class="flag" title="${r.disclosures.map(d=>d.party+': '+d.kind+' '+d.date).join(' | ')}">${r.disclosures.length} disclosure</span> `:'')+(r.congress.length?`<span class="cflag" title="${r.congress.map(c=>c.member+' '+c.type+' '+c.date).join(' | ')}">${r.congress.length} Congress</span>`:'');
@@ -215,6 +224,36 @@ function tkChart(t,rs){const P=D.tkpx,e=P&&P.t[t],cn=document.getElementById('tk
  const a=v[i]&&v[L]?v[L]/v[i]-1:null,b=bs[i]&&bs[L]?bs[L]/bs[i]-1:null;
  cn.innerHTML=`The line shows ${isB?'an equal-weight basket of the stocks behind this sector call':t+"'s weekly closing price (adjusted for dividends and splits)"}, starting about four months before its first mention. Coloured dots mark each mention (orange = Trump, purple = family, teal = administration). The dashed line is the ${BL[BM]}, scaled to start at the same level, so you can see whether it simply moved with the market.`+
   (i==L?` The first mention (${f}) is too recent for a weekly comparison yet.`:a!=null&&b!=null?` From the week of the first mention (${f}) to ${lab[L]}, it ${a>=0?'rose':'fell'} about <b>${Math.abs(a*100).toFixed(0)}%</b>, while the ${BL[BM]} ${b>=0?'rose':'fell'} about ${Math.abs(b*100).toFixed(0)}%.`:'')+' Weekly data, so day-by-day moves are smoothed out.'}
+function famPanel(){const F=D.family;if(!F||!F.rows){document.getElementById('famP').textContent='';return}
+ const rows=F.rows,djt=rows.find(r=>r.ticker=='DJT'),b=BL[BM];
+ // chart: DJT weekly vs selected index scaled
+ const cn=document.getElementById('famCN'),el=document.getElementById('famP');
+ if(djt&&djt.wk){const lab=F.dates.slice(djt.wk.i0),v=djt.wk.v,bs=F.bench[BM].slice(djt.wk.i0),j0=v.findIndex(x=>x!=null),bk=bs[j0]?v[j0]/bs[j0]:null,bl=bs.map(x=>x!=null&&bk?x*bk:null);
+  // milestone markers on DJT
+  const mkPts=Array(lab.length).fill(null),mt={};(djt.milestones||[]).forEach(m=>{let i=lab.findIndex(d=>d>=m.date);if(i<0)i=lab.length-1;if(v[i]==null)return;mkPts[i]=v[i];(mt[i]=mt[i]||[]).push(m.date+': '+m.label)});
+  mk('famC',{type:'line',data:{labels:lab,datasets:[
+   {label:'DJT weekly close ($)',data:v,borderColor:'#a78bfa',borderWidth:2,pointRadius:0,spanGaps:true},
+   {label:b+' (scaled)',data:bl,borderColor:'#60a5fa',borderDash:[5,4],borderWidth:1,pointRadius:0,spanGaps:true},
+   {label:'Milestone',data:mkPts,showLine:false,pointRadius:6,pointBackgroundColor:'#f59e0b',pointBorderColor:'#111'}]},
+   options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},scales:{x:{ticks:{maxTicksLimit:10}}},
+   plugins:{tooltip:{callbacks:{afterBody:c=>{const i=c[0].dataIndex;return mt[i]||[]}},filter:x=>x.raw!=null}}}});
+  cn.textContent='DJT weekly closes (purple) vs the '+b+' scaled to the same starting level (dashed). Orange dots mark SEC / public milestones (SPAC listing, Trump buy-call post, TAE merger agreement, S-4 filing).'}
+ else{ch.famC&&ch.famC.destroy();delete ch.famC;cn.textContent=''}
+ // plain-English lead
+ if(djt&&djt.last){const m=(djt.milestones||[]).find(x=>x.date=='2025-12-18'),s4=(djt.milestones||[]).find(x=>x.date=='2026-09-30');
+  const px='$'+Number(djt.last[1]).toFixed(2);
+  el.innerHTML=`Trump Media (<b>DJT</b>) last closed at <b>${px}</b> on ${djt.last[0]}`+(djt.ytd!=null?` (YTD ${pct(djt.ytd)} vs S&P ${pct(djt.ytd_sp)})`:'')+'. '
+   +(m&&m.ret!=null?`Since the <b>Dec 18 2025 TAE merger agreement</b>, DJT is ${pct(m.ret)} while the S&P 500 is ${pct(m.bench)} over the same window (gap ${pct(m.ex)}). `:'')
+   +(s4&&s4.ret!=null?`Since the <b>Sep 30 2026 S-4 filing</b>, DJT is ${pct(s4.ret)} vs S&P ${pct(s4.bench)}. `:'')
+   +`The S-4 is not yet effective; closing still needs shareholder and other approvals. Numbers are public market facts only.`;}
+ else el.textContent='';
+ // table
+ document.getElementById('tFam').innerHTML='<tr><th>Ticker</th><th>Company</th><th>Last close</th><th>YTD</th><th>YTD vs S&P</th><th>Key milestone</th><th>Since milestone</th><th>vs S&P (same days)</th><th>Family link</th></tr>'+
+  rows.map(r=>{const ms=[...(r.milestones||[])].filter(m=>m.ret!=null).sort((a,b)=>a.date<b.date?1:-1)[0]||(r.milestones||[])[0];
+   return `<tr><td><a href="#ticker=${r.ticker}">${r.ticker}</a></td><td>${r.name}</td><td>${r.last?('$'+Number(r.last[1]).toFixed(2)+` <span class="sub">${r.last[0]}</span>`):'<span class="muted">–</span>'}</td><td>${pct(r.ytd)}</td><td>${r.ytd!=null&&r.ytd_sp!=null?pct(r.ytd-r.ytd_sp):'–'}</td><td>${ms?ms.date+' — '+ms.label+(ms.source?` <a href="${ms.source}" target="_blank">src</a>`:''):'–'}</td><td>${ms?pct(ms.ret):'–'}</td><td>${ms?pct(ms.ex):'–'}</td><td>${r.link} <a href="${r.holding_source}" target="_blank">src</a></td></tr>`}).join('');
+ // milestone detail for DJT
+ const det=rows.flatMap(r=>(r.milestones||[]).map(m=>`<li><b>${r.ticker}</b> ${m.date}: ${m.label} — stock ${pct(m.ret)}, S&P ${pct(m.bench)}, gap ${pct(m.ex)} <a href="${m.source}" target="_blank">source</a></li>`));
+ document.getElementById('famN').innerHTML=(F.note||'')+' <ul style="margin:6px 0 0;padding-left:18px">'+det.join('')+'</ul>'}
 function secPanel(ok){const rs=ok.filter(r=>r.sector),SH=['day0','+7d','+30d','+90d','to date'].filter(h=>H.includes(h));
  const row=h=>{const a=pv(rs,r=>r.sector.ex[h]),b=pv(rs.filter(r=>r.sector.ex[h]!=null),r=>X(r)[h]),ci=boot(a);return{h,n:a.length,a:avg(a),m:med(a),k:a.filter(x=>x>0).length,b:avg(b),ci}};
  const R=SH.map(row),vd=s=>!s.ci?'<span class="muted">too few</span>':s.ci[0]>0?'<span class="pos">reliably beat the sector</span>':s.ci[1]<0?'<span class="neg">reliably lagged the sector</span>':'could be luck';
