@@ -1,115 +1,156 @@
 #!/usr/bin/env python3
-"""Re-fetch prices (Yahoo Finance via yfinance) and regenerate index.html.
+"""Re-fetch prices (Yahoo Finance via yfinance) and regenerate index.html + data.json.
 Usage: pip install yfinance pandas && python update.py"""
-import json, datetime as dt, statistics as st
+import json, os, datetime as dt, statistics as st
 import pandas as pd, yfinance as yf
 
-HERE = __file__.rsplit('/', 1)[0] if '/' in __file__ else '.'
+HERE = os.path.dirname(os.path.abspath(__file__))
 M = json.load(open(f'{HERE}/mentions.json'))
+EX = json.load(open(f'{HERE}/exclusions.json'))
+DISC = json.load(open(f'{HERE}/disclosures.json'))
+DNOTES = [
+ 'Sources are public only: OGE Form 278e/278-T (via OGE, whitehouse.gov, and reporting by CNN, WSJ, CNBC), SEC 13D/13G/8-K/S-3 filings, company disclosures, and the family members\' own posts.',
+ 'Amounts are disclosed as ranges, not exact figures. Reports can be filed up to 45 days after a trade (some were later), so overlaps were often not public at the time of the comment.',
+ "Trump's accounts are discretionary and managed by third parties. The White House says he plays no role in trades, and they made 21,000+ trades in 2025, so overlap with any single post is expected by chance.",
+ 'Not checked systematically: congressional STOCK Act trades. Only MP Materials was checked (Benzinga congressional-trades page shows one trade, May 2022, outside any window). Capitol Trades / Quiver / House & Senate sites were not scraped for every ticker.',
+ 'Not checked: OGE reports for Bessent, Lutnick (said he may not own stocks), Navarro, and other officials for every mentioned asset. No public holdings found for Ivanka/Kushner (Affinity Partners) or Lara Trump in tracked assets.',
+ 'These are factual timing overlaps and holdings. They are not evidence of wrongdoing, coordination or insider trading, and none is alleged.']
 TODAY = pd.Timestamp(dt.date.today())
-HOR = {'-7d': -7, '-1d': -1, '+1d': 1, '+7d': 7, '+30d': 30, '+90d': 90}
+# pre windows END at the last close BEFORE the entry day (pure pre-mention);
+# 'day0' = prior close -> entry-day close (mention-day reaction); post windows start at entry close.
+HOR = ['-30d', '-7d', 'day0', '+1d', '+7d', '+30d', '+90d', 'to date']
+BENCH = {'sp': 'SPY', 'dow': 'DIA', 'btc': 'BTC-USD'}
 
-tickers = sorted({m['ticker'] for m in M if m['ticker']} | {'SPY', 'BTC-USD'})
+tick = {m['ticker'] for m in M if m.get('ticker') and not m['ticker'].startswith('BASKET:')}
+for m in M:
+    for t, _ in m.get('basket', []): tick.add(t)
+tick |= set(BENCH.values())
 px = {}
-for t in tickers:
+for t in sorted(tick):
     try:
-        d = yf.download(t, start='2020-06-01', progress=False, auto_adjust=True)
+        d = yf.download(t, start='2020-05-01', progress=False, auto_adjust=True)
         s = d['Close'].squeeze().dropna() if len(d) else pd.Series(dtype=float)
-        if len(s): s.index = pd.to_datetime(s.index).tz_localize(None).normalize(); px[t] = s
+        if len(s):
+            s.index = pd.to_datetime(s.index).tz_localize(None).normalize(); px[t] = s[~s.index.duplicated()]
     except Exception as e:
         print('fail', t, e)
 
-def at_or_after(s, d):
-    s2 = s[s.index >= d]; return (s2.index[0], s2.iloc[0]) if len(s2) else (None, None)
-def at_or_before(s, d):
-    s2 = s[s.index <= d]; return (s2.index[-1], s2.iloc[-1]) if len(s2) else (None, None)
+def asof(s, d):
+    s2 = s[s.index <= d]; return s2.iloc[-1] if len(s2) else None
 
-def window(s, base_d, h):
-    """return (start_value, end_value) for horizon h relative to base date (trading-row based for +-1d)."""
-    i = s.index.get_loc(base_d)
-    if h == -1: return (s.iloc[i-1], s.iloc[i]) if i > 0 else None
-    if h == 1: return (s.iloc[i], s.iloc[i+1]) if i+1 < len(s) else None
-    if h < 0:
-        d, v = at_or_before(s, base_d + pd.Timedelta(days=h))
-        return (v, s.iloc[i]) if d is not None and d < base_d else None
-    target = base_d + pd.Timedelta(days=h)
-    if target > s.index[-1]: return None
-    d, v = at_or_after(s, target); return (s.iloc[i], v)
+def basket_series(m):
+    comps = [px[t] for t, _ in m['basket'] if t in px]
+    if not comps: return None
+    d0 = pd.Timestamp(m['date'])
+    idx = sorted(set().union(*[c.index for c in comps]))
+    idx = pd.DatetimeIndex(idx)
+    norm = []
+    for c in comps:
+        c2 = c.reindex(idx).ffill()
+        b = c2[c2.index >= d0].dropna()
+        if not len(b): continue
+        norm.append(c2 / b.iloc[0])
+    return pd.concat(norm, axis=1).mean(axis=1, skipna=True).dropna() if norm else None
 
-def bench_ret(b, d0, d1):
-    _, v0 = at_or_before(b, d0); _, v1 = at_or_before(b, d1)
-    return None if v0 is None or v1 is None else v1 / v0 - 1
+def windows(s, d):
+    """dict horizon -> (start_date, end_date) using trading dates of s. d = mention date."""
+    after = s.index[s.index >= d]
+    if not len(after): return None, {}
+    e = after[0]; i = s.index.get_loc(e); W = {}
+    prev = s.index[i-1] if i > 0 else None
+    if prev is not None:
+        W['day0'] = (prev, e)
+        for k, n in (('-30d', 30), ('-7d', 7)):
+            st_ = s.index[s.index <= e - pd.Timedelta(days=n)]
+            if len(st_) and st_[-1] < prev: W[k] = (st_[-1], prev)
+    if i + 1 < len(s): W['+1d'] = (e, s.index[i+1])
+    for k, n in (('+7d', 7), ('+30d', 30), ('+90d', 90)):
+        tg = e + pd.Timedelta(days=n)
+        if tg <= s.index[-1]: W[k] = (e, s.index[s.index >= tg][0])
+    W['to date'] = (e, s.index[-1])
+    return e, W
+
+def ret(s, a, b):
+    va, vb = asof(s, a), asof(s, b)
+    return None if va is None or vb is None else float(vb / va - 1)
 
 rows = []
 for m in M:
-    r = dict(m); r['returns'] = {}; r['excess'] = {}
-    t = m['ticker']; s = px.get(t)
+    r = dict(m); r.update(returns={}, ex_sp={}, ex_dow={}, ex_btc={})
+    t = m.get('ticker')
+    if t and t.startswith('BASKET:'):
+        s = basket_series(m)
+        if s is not None: px[t] = s
+    s = px.get(t) if t else None
     if s is None:
         r['status'] = m.get('note') or 'no price data'; rows.append(r); continue
-    bd, bv = at_or_after(s, pd.Timestamp(m['date']))
-    if bd is None: r['status'] = 'no price after date'; rows.append(r); continue
-    bench = 'BTC-USD' if m['type'] == 'crypto' else 'SPY'; b = px[bench]
-    r.update(benchmark=bench, entry_date=str(bd.date()), entry_price=float(bv), status='ok')
-    i = s.index.get_loc(bd)
-    for k, h in list(HOR.items()) + [('to date', None)]:
-        if h is None: w = (bv, s.iloc[-1]); d0, d1 = bd, s.index[-1]
-        else:
-            w = window(s, bd, h)
-            if w is None: continue
-            if h == -1: d0, d1 = s.index[i-1], bd
-            elif h == 1: d0, d1 = bd, s.index[i+1]
-            elif h < 0: d0, d1 = bd + pd.Timedelta(days=h), bd
-            else: d0, d1 = bd, at_or_after(s, bd + pd.Timedelta(days=h))[0]
-        ret = float(w[1] / w[0] - 1); r['returns'][k] = ret
-        br = bench_ret(b, d0, d1)
-        if br is not None: r['excess'][k] = ret - br
+    e, W = windows(s, pd.Timestamp(m['date']))
+    if e is None: r['status'] = 'no price after date'; rows.append(r); continue
+    r.update(status='ok', entry_date=str(e.date()), entry_price=float(s.loc[e]))
+    for k, (a, b) in W.items():
+        v = ret(s, a, b); r['returns'][k] = v
+        for key, bt in BENCH.items():
+            if key == 'btc' and m['type'] != 'crypto': continue
+            bv = ret(px[bt], a, b)
+            if bv is not None: r['ex_' + key][k] = v - bv
+    if m.get('basket'):
+        comp = []
+        for ct, name in m['basket']:
+            cs = px.get(ct)
+            if cs is None: comp.append(dict(ticker=ct, name=name, returns={}, ex_sp={}, ex_dow={})); continue
+            cr = dict(ticker=ct, name=name, returns={}, ex_sp={}, ex_dow={})
+            for k, (a, b) in W.items():
+                v = ret(cs, a, b)
+                if v is None: continue
+                cr['returns'][k] = v
+                for key in ('sp', 'dow'):
+                    bv = ret(px[BENCH[key]], a, b)
+                    if bv is not None: cr['ex_' + key][k] = v - bv
+            comp.append(cr)
+        r['components'] = comp
     rows.append(r)
-
+for r in rows:
+    r['disclosures'] = [d for d in DISC if [r['date'], r.get('ticker')] in d['applies']]
 ok = [r for r in rows if r['status'] == 'ok']
-def summarize(group):
-    out = {}
-    for k in list(HOR) + ['to date']:
-        v = [r['returns'][k] for r in group if k in r['returns']]
-        e = [r['excess'][k] for r in group if k in r['excess']]
-        if not v: continue
-        out[k] = dict(n=len(v), win=sum(x > 0 for x in v) / len(v), beat=(sum(x > 0 for x in e) / len(e)) if e else None,
-                      mean=st.mean(v), median=st.median(v), mean_excess=st.mean(e) if e else None)
-    return out
-stats = {'all': summarize(ok)}
-for key in ['who', 'type', 'category']:
-    for g in sorted({r[key] for r in ok}):
-        stats[f'{key}: {g}'] = summarize([r for r in ok if r[key] == g])
 
-# pre-mention run-up signal
-runup = [r for r in ok if '-7d' in r['excess']]
-pre_pos = [r for r in runup if r['excess']['-7d'] > 0]
-signal = dict(n=len(runup), share_outperform_pre7=len(pre_pos)/len(runup) if runup else None,
-              mean_excess_pre7=st.mean([r['excess']['-7d'] for r in runup]) if runup else None,
-              mean_excess_pre1=st.mean([r['excess']['-1d'] for r in ok if '-1d' in r['excess']]))
-
-# portfolios
+# portfolios ($1,000 at entry close per priced mention) vs same cash flows into SPY and DIA
 start = min(pd.Timestamp(r['entry_date']) for r in ok)
 days = pd.date_range(start, TODAY, freq='D')
 ff = {t: s.reindex(days.union(s.index)).ffill().reindex(days) for t, s in px.items()}
-def portfolio(hold=None):
-    val = pd.Series(0.0, index=days); spy = pd.Series(0.0, index=days); inv = pd.Series(0.0, index=days)
-    for r in ok:
-        d0 = pd.Timestamp(r['entry_date']); s = ff[r['ticker']]; b = ff['SPY']
-        b0 = b.loc[d0] if not pd.isna(b.loc[d0]) else b[b.index <= d0].dropna().iloc[-1]
-        units = 1000 / r['entry_price']; bunits = 1000 / b0
-        mask = days >= d0
-        a = s * units; bb = b * bunits
-        if hold:
-            exit_d = d0 + pd.Timedelta(days=hold)
-            a = a.where(days <= exit_d, a[days <= exit_d].iloc[-1]); bb = bb.where(days <= exit_d, bb[days <= exit_d].iloc[-1])
-        val[mask] += a[mask]; spy[mask] += bb[mask]; inv[mask] += 1000
-    return dict(dates=[str(d.date()) for d in days[::3]], value=[round(x, 2) for x in val[::3]],
-                spy=[round(x, 2) for x in spy[::3]], invested=[round(x, 2) for x in inv[::3]],
-                final_value=float(val.iloc[-1]), final_spy=float(spy.iloc[-1]), invested_total=float(inv.iloc[-1]))
-port = {'hold': portfolio(), 'hold30': portfolio(30)}
+def curve(sel, hold=None):
+    out = {k: pd.Series(0.0, index=days) for k in ('val', 'sp', 'dow', 'inv')}
+    for r in sel:
+        d0 = pd.Timestamp(r['entry_date']); mask = days >= d0
+        for key, ser in (('val', ff[r['ticker']]), ('sp', ff['SPY']), ('dow', ff['DIA'])):
+            p0 = asof(px[r['ticker']] if key == 'val' else px[BENCH[key]], d0)
+            a = ser * (1000 / p0)
+            if hold:
+                ex = d0 + pd.Timedelta(days=hold); a = a.where(days <= ex, a[days <= ex].iloc[-1])
+            out[key][mask] += a[mask].fillna(0)
+        out['inv'][mask] += 1000
+    return out
+def pack(c):
+    step = 3
+    return {k: [round(x, 1) for x in v[::step]] for k, v in c.items()} | {'dates': [str(d.date()) for d in days[::step]],
+            'final': {k: float(v.iloc[-1]) for k, v in c.items()}}
+port = {'hold': pack(curve(ok)), 'hold30': pack(curve(ok, 30))}
+# per-group portfolio finals for report
+gport = {}
+for g in ('Trump', 'Family', 'Admin'):
+    sel = [r for r in ok if r['group'] == g]
+    if sel: gport[g] = {k: float(v.iloc[-1]) for k, v in curve(sel).items()}
 
-data = dict(generated=str(dt.datetime.now(dt.timezone.utc))[:16] + ' UTC', rows=rows, stats=stats, signal=signal, portfolio=port)
+grid = days[::3]
+for r in ok:
+    a = ff[r['ticker']].reindex(grid) / r['entry_price']
+    e0 = pd.Timestamp(r['entry_date']); r['sp0'] = float(asof(px['SPY'], e0)); r['dia0'] = float(asof(px['DIA'], e0))
+    r['curve'] = [None if (d < pd.Timestamp(r['entry_date']) or pd.isna(v)) else round(float(v), 4) for d, v in zip(grid, a)]
+gridd = dict(dates=[str(d.date()) for d in grid], SPY=[round(float(x), 3) for x in ff['SPY'].reindex(grid)],
+             DIA=[round(float(x), 3) for x in ff['DIA'].reindex(grid)])
+data = dict(grid=gridd, generated=dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'), horizons=HOR,
+            rows=rows, exclusions=EX, disclosure_notes=DNOTES, portfolio=port, group_portfolio=gport)
 json.dump(data, open(f'{HERE}/data.json', 'w'), indent=1, default=float)
-html = open(f'{HERE}/template.html').read().replace('/*__DATA__*/null', json.dumps(data, default=float)).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())
+html = open(f'{HERE}/template.html').read()
+html = html.replace('/*__DATA__*/null', json.dumps(data, default=float)).replace('/*__CHARTJS__*/', open(f'{HERE}/chart.umd.min.js').read())
 open(f'{HERE}/index.html', 'w').write(html)
 print('mentions', len(rows), 'priced', len(ok))

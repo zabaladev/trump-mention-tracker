@@ -1,59 +1,117 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Trump Family Investment Mention Tracker</title>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trump Family &amp; Admin Investment Mention Tracker</title>
 <script>/*__CHARTJS__*/</script>
 <style>
-body{font-family:system-ui,Arial;margin:0;background:#0f1420;color:#e6e9ef}
-header{padding:18px 24px;background:#1a2133;border-bottom:1px solid #2c3550}h1{margin:0;font-size:22px}
-.sub{color:#9aa4bd;font-size:13px}main{padding:16px 24px}
-.cards{display:flex;gap:12px;flex-wrap:wrap}.card{background:#1a2133;border:1px solid #2c3550;border-radius:8px;padding:12px 16px;min-width:170px}
-.card b{display:block;font-size:22px}.card span{color:#9aa4bd;font-size:12px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.panel{background:#1a2133;border:1px solid #2c3550;border-radius:8px;padding:12px}
-h2{font-size:16px;margin:4px 0 10px}table{border-collapse:collapse;width:100%;font-size:12px}
-th,td{border-bottom:1px solid #2c3550;padding:4px 6px;text-align:left;vertical-align:top}th{color:#9aa4bd;cursor:pointer}
-.pos{color:#4ade80}.neg{color:#f87171}.muted{color:#6b7591}a{color:#7cb4ff}select{background:#0f1420;color:#e6e9ef;border:1px solid #2c3550}
-.disc{font-size:11px;color:#9aa4bd;margin-top:16px}
+:root{--bg:#0f1420;--pn:#1a2133;--bd:#2c3550;--mu:#9aa4bd;--tx:#e6e9ef;--g:#4ade80;--r:#f87171;--sp:#60a5fa;--dw:#f472b6}
+body{font-family:system-ui,Arial;margin:0;background:var(--bg);color:var(--tx)}
+header{padding:16px 24px;background:var(--pn);border-bottom:1px solid var(--bd)}h1{margin:0;font-size:22px}
+.sub{color:var(--mu);font-size:13px}main{padding:14px 24px;max-width:1500px;margin:auto}
+.filters{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--bd);display:flex;flex-direction:column;gap:6px}
+.frow{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.frow b{width:90px;font-size:12px;color:var(--mu);text-transform:uppercase}
+.chip{border:1px solid var(--bd);background:var(--pn);color:var(--tx);border-radius:18px;padding:6px 14px;cursor:pointer;font-size:13px}
+.chip.on{background:#f59e0b;color:#111;border-color:#f59e0b;font-weight:600}.chip.big{font-size:15px;padding:8px 18px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:12px}
+.card{background:var(--pn);border:1px solid var(--bd);border-radius:10px;padding:12px 14px}.card b{display:block;font-size:26px}.card span{color:var(--mu);font-size:12px}
+.hcards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px}
+.hc{background:var(--pn);border:1px solid var(--bd);border-radius:10px;padding:10px 14px}.hc h3{margin:0 0 6px;font-size:15px}
+.hc .kv{display:flex;justify-content:space-between;font-size:13px;padding:2px 0}.hc .kv b{font-size:16px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.panel{background:var(--pn);border:1px solid var(--bd);border-radius:10px;padding:12px}
+h2{font-size:16px;margin:2px 0 10px}table{border-collapse:collapse;width:100%;font-size:12px}
+th,td{border-bottom:1px solid var(--bd);padding:4px 6px;text-align:left;vertical-align:top}th{color:var(--mu);cursor:pointer}
+.pos{color:var(--g)}.neg{color:var(--r)}.muted{color:#6b7591}a{color:#7cb4ff}
+.sector{background:#141b2b;border:1px solid var(--bd);border-radius:8px;padding:10px;margin-bottom:10px}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:9px;background:#2c3550;margin-right:4px}
+.hl{background:#4a3a0a!important;outline:1px solid #f59e0b}.flag{background:#7c2d12;color:#fde68a;border-radius:9px;padding:1px 7px;font-size:11px;white-space:nowrap}
+.disc{font-size:11px;color:var(--mu);margin-top:16px;line-height:1.5}.warn{color:#fbbf24;font-size:12px}
+@media(max-width:1000px){.grid,.hcards{grid-template-columns:1fr}}
 </style></head><body>
-<header><h1>Trump Family Investment Mention Tracker</h1><div class="sub" id="gen"></div></header>
+<header><h1>Trump, Family &amp; Administration — Investment Mention Tracker</h1><div class="sub" id="gen"></div></header>
 <main>
-<div class="cards" id="cards"></div>
-<div class="grid">
-<div class="panel"><h2>Virtual portfolio: $1,000 per mention, held to date vs same cash in SPY</h2><canvas id="eq"></canvas></div>
-<div class="panel"><h2>Variant: 30-day hold, then cash</h2><canvas id="eq30"></canvas></div>
-<div class="panel"><h2>Win rate by horizon (all priced mentions)</h2><canvas id="wr"></canvas></div>
-<div class="panel"><h2>Median return &amp; mean excess vs benchmark</h2><canvas id="avg"></canvas></div>
+<div class="filters">
+ <div class="frow"><b>Who</b><span id="fGroup"></span></div>
+ <div class="frow"><b>Category</b><span id="fCat"></span></div>
+ <div class="frow"><b>Asset type</b><span id="fType"></span></div>
 </div>
-<div class="panel" style="margin-top:16px"><h2>Patterns: stats by group <select id="hz"></select></h2><table id="grp"></table>
-<p class="sub" id="sig"></p></div>
-<div class="panel" style="margin-top:16px"><h2>Mentions (click headers to sort)</h2><table id="tbl"></table></div>
-<p class="disc">Data: Yahoo Finance via yfinance (daily closes, split/dividend-adjusted). Entry = close on the mention day (or next trading day/first available close). Horizons are calendar days (±1d = adjacent trading close). Because entry is the mention-day close, the -7d and -1d windows <b>include the mention-day reaction itself</b> (e.g. SPY +10.5% on Apr 9 2025), so they measure "run-up into the close", not purely pre-announcement moves. Benchmark: SPY for stocks, BTC for crypto. "Beat" = return above benchmark over the same window. Includes direct "buy" calls plus company/product praise and family-linked ventures; classification shown in the Category column. Not investment advice; small sample, heavy overlap of crypto names on single dates.</p>
+<div class="cards" id="cards"></div>
+<div class="hcards" id="hcards"></div>
+<div class="grid">
+ <div class="panel"><h2>Average excess return by horizon (vs S&amp;P 500 and Dow)</h2><canvas id="cEx"></canvas></div>
+ <div class="panel"><h2>Virtual portfolio ($1,000 per mention) vs same cash in S&amp;P 500 and Dow <span id="fHold"></span></h2><canvas id="cEq"></canvas></div>
+</div>
+<div class="panel" style="margin-top:14px"><h2>Each mention: excess return to date vs S&amp;P 500 (sorted; colour = who)</h2><div style="height:320px"><canvas id="cEach"></canvas></div></div>
+<div class="panel" style="margin-top:14px"><h2>Trump vs Family vs Admin (current category/type filters)</h2><table id="tGrp"></table></div>
+<div class="panel" style="margin-top:14px"><h2>Sector / theme comments — basket moves &amp; foreshadowing</h2>
+<p class="warn">Foreshadowing = abnormal (excess vs index) return of the basket in the 30 and 7 days <i>before</i> the comment, ending at the prior close (excludes the mention-day reaction). Correlation, not proof: pre-moves can reflect news, sector momentum, or leaks — this cannot distinguish them.</p><div id="sectors"></div></div>
+<div class="panel" style="margin-top:14px"><h2>Pre-comment moves (every mention) — highlight abnormal moves ≥ <input id="thr" type="number" value="10" min="1" max="200" step="1" style="width:60px;background:#0f1420;color:#e6e9ef;border:1px solid #2c3550;border-radius:4px;padding:2px 4px">% vs S&amp;P over -7d or -30d</h2>
+<p class="warn">Pre windows end at the close before the mention. A large pre-move is a correlation flag only: it can reflect news, momentum or chance.</p><div id="pre"></div></div>
+<div class="panel" style="margin-top:14px"><h2>Disclosure overlap (holdings/trades by speakers, family entities, officials &amp; spouses)</h2><div id="discN" class="sub"></div><div id="disc"></div></div>
+<div class="panel" style="margin-top:14px"><h2>All mentions (click headers to sort)</h2><table id="tbl"></table></div>
+<div class="panel" style="margin-top:14px"><h2>Why some calls weren't counted (coverage notes)</h2><table id="tEx"></table></div>
+<p class="disc">Data: Yahoo Finance via yfinance (daily closes, adjusted). Entry = close on the mention day (or next trading day). Pre windows (-30d, -7d) end at the prior close; "day 0" = prior close → mention-day close (the reaction; for after-hours remarks the reaction shows up in +1d). Post windows start at the entry close; calendar days. Excess = asset return minus SPY (S&amp;P 500) or DIA (Dow) over the same window. Sector/theme comments are scored as an equal-weight basket of documented proxies (see each basket). Categories: Explicit buy call, Bullish call, Company praise, Product endorsement, Policy promotion, Sector/theme call, Government stake/deal, Family venture. Small, overlapping samples; not investment advice.</p>
 </main>
 <script>
 const D=/*__DATA__*/null;
-const pct=(x,d=1)=>x==null?'<span class="muted">–</span>':`<span class="${x>=0?'pos':'neg'}">${(x*100).toFixed(d)}%</span>`;
-const H=['-7d','-1d','+1d','+7d','+30d','+90d','to date'];
-document.getElementById('gen').textContent=`Generated ${D.generated} · ${D.rows.length} sourced mentions · ${D.rows.filter(r=>r.status=='ok').length} with price data`;
-const A=D.stats.all,P=D.portfolio.hold,P3=D.portfolio.hold30;
-const c=[['Mentions tracked',D.rows.length],['Win rate +30d',pct(A['+30d'].win,0)],['Beat benchmark +30d',pct(A['+30d'].beat,0)],
-['Median to date',pct(A['to date'].median)],['Portfolio (hold) return',pct(P.final_value/P.invested_total-1)],['Same cash in SPY',pct(P.final_spy/P.invested_total-1)],
-['30d-hold portfolio',pct(P3.final_value/P3.invested_total-1)],['30d-hold SPY',pct(P3.final_spy/P3.invested_total-1)]];
-document.getElementById('cards').innerHTML=c.map(([a,b])=>`<div class="card"><b>${b}</b><span>${a}</span></div>`).join('');
-Chart.defaults.color='#9aa4bd';Chart.defaults.borderColor='#2c3550';
-function eq(id,p){new Chart(document.getElementById(id),{type:'line',data:{labels:p.dates,datasets:[
-{label:'Mentions portfolio',data:p.value,borderColor:'#f59e0b',pointRadius:0,borderWidth:2},
-{label:'SPY (same cash flows)',data:p.spy,borderColor:'#60a5fa',pointRadius:0,borderWidth:2},
-{label:'Cash invested',data:p.invested,borderColor:'#6b7591',borderDash:[4,4],pointRadius:0,borderWidth:1}]},options:{animation:false,scales:{x:{ticks:{maxTicksLimit:10}}}}})}
-eq('eq',P);eq('eq30',P3);
-const hs=H.filter(h=>A[h]);
-new Chart(document.getElementById('wr'),{type:'bar',data:{labels:hs,datasets:[{label:'% positive',data:hs.map(h=>A[h].win*100),backgroundColor:'#4ade80'},{label:'% beat benchmark',data:hs.map(h=>A[h].beat*100),backgroundColor:'#60a5fa'}]},options:{animation:false,scales:{y:{max:100}}}});
-new Chart(document.getElementById('avg'),{type:'bar',data:{labels:hs,datasets:[{label:'Median return %',data:hs.map(h=>A[h].median*100),backgroundColor:'#f59e0b'},{label:'Mean excess vs bench %',data:hs.map(h=>A[h].mean_excess*100),backgroundColor:'#a78bfa'}]},options:{animation:false}});
-const hz=document.getElementById('hz');hz.innerHTML=hs.map(h=>`<option ${h=='+30d'?'selected':''}>${h}</option>`).join('');
-function grp(){const h=hz.value;document.getElementById('grp').innerHTML='<tr><th>Group</th><th>n</th><th>Win %</th><th>Beat bench %</th><th>Mean</th><th>Median</th><th>Mean excess</th></tr>'+
-Object.entries(D.stats).filter(([k,v])=>v[h]).map(([k,v])=>{const s=v[h];return `<tr><td>${k}</td><td>${s.n}</td><td>${pct(s.win,0)}</td><td>${pct(s.beat,0)}</td><td>${pct(s.mean)}</td><td>${pct(s.median)}</td><td>${pct(s.mean_excess)}</td></tr>`}).join('')}
-hz.onchange=grp;grp();
-const S=D.signal;document.getElementById('sig').innerHTML=`Pre-mention run-up check: ${pct(S.share_outperform_pre7,0)} of ${S.n} mentions outperformed their benchmark in the 7 days <i>before</i> the mention (mean excess ${pct(S.mean_excess_pre7)}; prior-day mean excess ${pct(S.mean_excess_pre1)}). These windows include the mention-day move. Run-up alone is not evidence of front-running; many mentions coincide with news.`;
-let rows=D.rows.slice(),sk='date',sd=1;
-function tbl(){rows.sort((a,b)=>{let x=sk.startsWith('r:')?(a.returns[sk.slice(2)]??-1e9):a[sk],y=sk.startsWith('r:')?(b.returns[sk.slice(2)]??-1e9):b[sk];return (x>y?1:x<y?-1:0)*sd});
-document.getElementById('tbl').innerHTML='<tr>'+[['date','Date'],['who','Who'],['asset','Asset'],['ticker','Ticker'],['category','Category']].map(([k,l])=>`<th data-k="${k}">${l}</th>`).join('')+'<th>Quote / summary</th>'+H.map(h=>`<th data-k="r:${h}">${h}</th>`).join('')+'<th>Excess to date</th><th>Source</th></tr>'+
-rows.map(r=>`<tr><td>${r.date}</td><td>${r.who}</td><td>${r.asset}</td><td>${r.ticker||'–'}</td><td>${r.category}</td><td>${r.quote}${r.status!='ok'?`<br><span class="muted">${r.status}</span>`:(r.note?`<br><span class="muted">${r.note}</span>`:'')}</td>`+H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')+`<td>${pct(r.excess['to date'])}</td><td><a href="${r.source}" target="_blank">link</a></td></tr>`).join('');
-document.querySelectorAll('#tbl th[data-k]').forEach(th=>th.onclick=()=>{sd=sk==th.dataset.k?-sd:1;sk=th.dataset.k;tbl()})}
-tbl();
+const H=D.horizons, KH=['+7d','+30d','+90d','to date'];
+const pct=(x,d=1)=>x==null||isNaN(x)?'<span class="muted">–</span>':`<span class="${x>=0?'pos':'neg'}">${x>=0?'+':''}${(x*100).toFixed(d)}%</span>`;
+const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null, med=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
+const GC={Trump:'#f59e0b',Family:'#a78bfa',Admin:'#22d3ee'};
+const uniq=k=>[...new Set(D.rows.map(r=>r[k]))].sort();
+const F={group:new Set(uniq('group')),category:new Set(uniq('category')),type:new Set(uniq('type'))};let hold='hold';
+function chips(id,key){const el=document.getElementById(id);const vals=uniq(key);
+ el.innerHTML=`<button class="chip" data-all="1">All</button>`+vals.map(v=>`<button class="chip ${key=='group'?'big':''} on" data-v="${v}">${v} (${D.rows.filter(r=>r[key]==v).length})</button>`).join('');
+ el.onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.all){vals.forEach(v=>F[key].add(v))}else{const v=b.dataset.v;F[key].has(v)?F[key].delete(v):F[key].add(v)}
+  el.querySelectorAll('[data-v]').forEach(x=>x.classList.toggle('on',F[key].has(x.dataset.v)));render()}}
+chips('fGroup','group');chips('fCat','category');chips('fType','type');
+document.getElementById('fHold').innerHTML=`<button class="chip on" data-h="hold">Hold to date</button><button class="chip" data-h="hold30">30-day hold</button>`;
+document.getElementById('fHold').onclick=e=>{const b=e.target.closest('button');if(!b)return;hold=b.dataset.h;document.querySelectorAll('#fHold .chip').forEach(x=>x.classList.toggle('on',x.dataset.h==hold));render()};
+document.getElementById('gen').textContent=`Generated ${D.generated} · ${D.rows.length} sourced mentions (${D.rows.filter(r=>r.status=='ok').length} priced) · benchmarks: S&P 500 (SPY) and Dow (DIA)`;
+function stats(rs,h){const v=rs.map(r=>r.returns[h]).filter(x=>x!=null),s=rs.map(r=>r.ex_sp[h]).filter(x=>x!=null),d=rs.map(r=>r.ex_dow[h]).filter(x=>x!=null);
+ return{n:v.length,win:v.length?v.filter(x=>x>0).length/v.length:null,bsp:s.length?s.filter(x=>x>0).length/s.length:null,bdw:d.length?d.filter(x=>x>0).length/d.length:null,
+ avg:avg(v),med:med(v),asp:avg(s),msp:med(s),adw:avg(d),mdw:med(d)}}
+function port(rs,mode){const G=D.grid,n=G.dates.length,val=Array(n).fill(0),sp=Array(n).fill(0),dw=Array(n).fill(0),inv=Array(n).fill(0);
+ rs.forEach(r=>{const e0=G.dates.findIndex((d,i)=>r.curve[i]!=null);if(e0<0)return;let last=null,lsp,ldw;const exitD=new Date(r.entry_date);exitD.setDate(exitD.getDate()+30);
+  for(let i=e0;i<n;i++){let c=r.curve[i],a=G.SPY[i]/r.sp0,b=G.DIA[i]/r.dia0;if(mode=='hold30'&&new Date(G.dates[i])>exitD){if(last==null){last=c??1;lsp=a;ldw=b}c=last;a=lsp;b=ldw}else if(c==null)c=1;
+   val[i]+=1000*c;sp[i]+=1000*a;dw[i]+=1000*b;inv[i]+=1000}});return{val,sp,dw,inv}}
+let ch={};function mk(id,cfg){ch[id]&&ch[id].destroy();ch[id]=new Chart(document.getElementById(id),cfg)}
+Chart.defaults.color='#9aa4bd';Chart.defaults.borderColor='#2c3550';Chart.defaults.animation=false;
+function render(){
+ const sel=D.rows.filter(r=>F.group.has(r.group)&&F.category.has(r.category)&&F.type.has(r.type)),ok=sel.filter(r=>r.status=='ok');
+ const P=port(ok,hold),L=P.val.length-1,I=P.inv[L]||1;
+ const s30=stats(ok,'+30d'),sTD=stats(ok,'to date');
+ document.getElementById('cards').innerHTML=[[sel.length+` <small style="font-size:13px">(${ok.length} priced)</small>`,'Mentions in filter'],[pct(s30.win,0),'Win rate +30d'],[pct(s30.bsp,0),'Beat S&P +30d'],[pct(s30.bdw,0),'Beat Dow +30d'],
+  [pct(P.val[L]/I-1),`Portfolio (${hold=='hold'?'held':'30d'})`],[pct(P.sp[L]/I-1),'Same cash in S&P 500'],[pct(P.dw[L]/I-1),'Same cash in Dow']].map(([a,b])=>`<div class="card"><b>${a}</b><span>${b}</span></div>`).join('');
+ document.getElementById('hcards').innerHTML=KH.map(h=>{const s=stats(ok,h);return `<div class="hc"><h3>${h} <span class="sub">(n=${s.n})</span></h3>
+ <div class="kv"><span>Win rate</span><b>${pct(s.win,0)}</b></div><div class="kv"><span>Beat S&amp;P / Dow</span><b>${pct(s.bsp,0)} / ${pct(s.bdw,0)}</b></div>
+ <div class="kv"><span>Avg / median excess vs S&amp;P</span><b>${pct(s.asp)} / ${pct(s.msp)}</b></div><div class="kv"><span>Avg / median excess vs Dow</span><b>${pct(s.adw)} / ${pct(s.mdw)}</b></div>
+ <div class="kv"><span>Median raw return</span><b>${pct(s.med)}</b></div></div>`}).join('');
+ const SH=H.map(h=>stats(ok,h));
+ mk('cEx',{type:'bar',data:{labels:H,datasets:[{label:'Avg excess vs S&P 500 %',data:SH.map(s=>s.asp*100),backgroundColor:'#60a5fa'},{label:'Avg excess vs Dow %',data:SH.map(s=>s.adw*100),backgroundColor:'#f472b6'},{label:'Median excess vs S&P %',data:SH.map(s=>s.msp*100),backgroundColor:'#334a7a'}]}});
+ mk('cEq',{type:'line',data:{labels:D.grid.dates,datasets:[{label:'Mentions portfolio',data:P.val,borderColor:'#f59e0b',pointRadius:0,borderWidth:2},{label:'S&P 500 (SPY)',data:P.sp,borderColor:'#60a5fa',pointRadius:0,borderWidth:2},{label:'Dow (DIA)',data:P.dw,borderColor:'#f472b6',pointRadius:0,borderWidth:2},{label:'Cash invested',data:P.inv,borderColor:'#6b7591',borderDash:[4,4],pointRadius:0,borderWidth:1}]},options:{scales:{x:{ticks:{maxTicksLimit:10}}}}});
+ const E=ok.filter(r=>r.ex_sp['to date']!=null).sort((a,b)=>a.ex_sp['to date']-b.ex_sp['to date']);
+ mk('cEach',{type:'bar',data:{labels:E.map(r=>`${r.date} ${r.ticker.replace('BASKET:','')}`),datasets:[{label:'Excess vs S&P to date %',data:E.map(r=>Math.max(-100,r.ex_sp['to date']*100)),backgroundColor:E.map(r=>GC[r.group])}]},options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{afterLabel:c=>E[c.dataIndex].asset+' · '+E[c.dataIndex].who}}},scales:{x:{ticks:{autoSkip:false,font:{size:9},maxRotation:90,minRotation:90}}}}});
+ const base=D.rows.filter(r=>F.category.has(r.category)&&F.type.has(r.type)&&r.status=='ok');
+ document.getElementById('tGrp').innerHTML='<tr><th>Who</th><th>n</th>'+KH.map(h=>`<th>${h} win</th><th>${h} beat S&amp;P / Dow</th><th>${h} avg excess S&amp;P / Dow</th>`).join('')+'<th>Portfolio vs S&amp;P / Dow</th></tr>'+
+ ['Trump','Family','Admin'].map(g=>{const rs=base.filter(r=>r.group==g);if(!rs.length)return'';const p=port(rs,'hold'),l=p.val.length-1,i=p.inv[l];
+ return `<tr><td><span class="tag" style="background:${GC[g]};color:#111">${g}</span></td><td>${rs.length}</td>`+KH.map(h=>{const s=stats(rs,h);return `<td>${pct(s.win,0)}</td><td>${pct(s.bsp,0)} / ${pct(s.bdw,0)}</td><td>${pct(s.asp)} / ${pct(s.adw)}</td>`}).join('')+`<td>${pct(p.val[l]/i-1)} vs ${pct(p.sp[l]/i-1)} / ${pct(p.dw[l]/i-1)}</td></tr>`}).join('');
+ tbl(sel);pre(ok);disc(sel)}
+const thrEl=document.getElementById('thr');thrEl.oninput=()=>render();
+const big=r=>{const t=(+thrEl.value||10)/100;return ['-7d','-30d'].some(h=>r.ex_sp[h]!=null&&Math.abs(r.ex_sp[h])>=t)};
+function pre(ok){const t=(+thrEl.value||10)/100;const rs=[...ok].sort((a,b)=>Math.max(Math.abs(b.ex_sp['-30d']||0),Math.abs(b.ex_sp['-7d']||0))-Math.max(Math.abs(a.ex_sp['-30d']||0),Math.abs(a.ex_sp['-7d']||0)));const n=rs.filter(big).length;
+ document.getElementById('pre').innerHTML=`<div class="sub" style="margin-bottom:6px"><b>${n}</b> of ${rs.length} mentions in filter had an abnormal pre-move ≥ ${(t*100).toFixed(0)}% vs S&amp;P (up ${rs.filter(r=>['-7d','-30d'].some(h=>(r.ex_sp[h]??0)>=t)).length}, down ${rs.filter(r=>['-7d','-30d'].some(h=>(r.ex_sp[h]??0)<=-t)).length}).</div><table><tr><th>Date</th><th>Who</th><th>Asset</th><th>-30d raw</th><th>-30d vs S&amp;P</th><th>-30d vs Dow</th><th>-7d raw</th><th>-7d vs S&amp;P</th><th>-7d vs Dow</th><th>Day 0</th><th>+30d vs S&amp;P</th><th>Disclosure overlap</th></tr>`+rs.map(r=>{const c=h=>`<td class="${r.ex_sp[h]!=null&&Math.abs(r.ex_sp[h])>=t?'hl':''}">${pct(r.ex_sp[h])}</td>`;return `<tr><td>${r.date}</td><td>${r.who}</td><td>${r.asset}</td><td>${pct(r.returns['-30d'])}</td>${c('-30d')}<td>${pct(r.ex_dow['-30d'])}</td><td>${pct(r.returns['-7d'])}</td>${c('-7d')}<td>${pct(r.ex_dow['-7d'])}</td><td>${pct(r.returns['day0'])}</td><td>${pct(r.ex_sp['+30d'])}</td><td>${r.disclosures.length?`<span class="flag">${r.disclosures.length} overlap</span>`:''}</td></tr>`}).join('')+'</table>'}
+function disc(sel){document.getElementById('discN').innerHTML='<ul>'+D.disclosure_notes.map(x=>`<li>${x}</li>`).join('')+'</ul>';const rs=sel.filter(r=>r.disclosures.length);
+ document.getElementById('disc').innerHTML=`<div class="sub"><b>${rs.length}</b> of ${sel.length} mentions in filter have at least one documented overlap.</div><table><tr><th>Mention</th><th>Party</th><th>Relation</th><th>Type</th><th>Date</th><th>Amount (range)</th><th>Details</th><th>Source</th></tr>`+rs.flatMap(r=>r.disclosures.map(d=>`<tr><td>${r.date} · ${r.asset}<br><span class="muted">${r.who}</span></td><td>${d.party}</td><td>${d.relation}</td><td>${d.kind}</td><td>${d.date}</td><td>${d.amount}</td><td>${d.detail}</td><td><a href="${d.source}" target="_blank">link</a></td></tr>`)).join('')+'</table>'}
+// sector view (static)
+document.getElementById('sectors').innerHTML=D.rows.filter(r=>r.basket).map(r=>{const fs=['-30d','-7d'].map(h=>`${h}: ${pct(r.ex_sp[h])} vs S&amp;P, ${pct(r.ex_dow[h])} vs Dow`).join(' · ');
+ return `<div class="sector"><b>${r.date} · ${r.asset}</b> <span class="tag">${r.who}</span><div class="sub">${r.quote} <a href="${r.source}" target="_blank">source</a></div>
+ <div style="margin:6px 0"><b>Foreshadowing (basket abnormal return before comment):</b> ${fs}</div><div class="sub">Basket rationale: ${r.basket_note}</div>
+ <table><tr><th>Component</th>${H.map(h=>`<th>${h}</th>`).join('')}<th>Excess to date S&amp;P / Dow</th></tr>
+ <tr style="font-weight:600"><td>Equal-weight basket</td>${H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')}<td>${pct(r.ex_sp['to date'])} / ${pct(r.ex_dow['to date'])}</td></tr>
+ ${(r.components||[]).map(c=>`<tr><td>${c.ticker} <span class="muted">${c.name}</span></td>${H.map(h=>`<td>${pct(c.returns[h])}</td>`).join('')}<td>${pct(c.ex_sp['to date'])} / ${pct(c.ex_dow['to date'])}</td></tr>`).join('')}</table></div>`}).join('');
+document.getElementById('tEx').innerHTML='<tr><th>Item</th><th>Why not counted / how handled</th></tr>'+D.exclusions.map(e=>`<tr><td>${e.item}</td><td>${e.reason}</td></tr>`).join('');
+let sk='date',sd=1;
+function tbl(sel){const rows=[...sel].sort((a,b)=>{const g=r=>sk.startsWith('r:')?(r.returns[sk.slice(2)]??-1e9):sk.startsWith('x:')?(r.ex_sp[sk.slice(2)]??-1e9):r[sk];const x=g(a),y=g(b);return(x>y?1:x<y?-1:0)*sd});
+ document.getElementById('tbl').innerHTML='<tr>'+[['date','Date'],['group','Group'],['who','Who'],['asset','Asset'],['ticker','Ticker'],['category','Category']].map(([k,l])=>`<th data-k="${k}">${l}</th>`).join('')+'<th>Quote / summary</th>'+H.map(h=>`<th data-k="r:${h}">${h}</th>`).join('')+'<th data-k="x:to date">Excess S&amp;P</th><th>Excess Dow</th><th>Overlap</th><th>Src</th></tr>'+
+ rows.map(r=>`<tr class="${r.status=='ok'&&big(r)?'hl':''}"><td>${r.date}</td><td><span class="tag" style="background:${GC[r.group]};color:#111">${r.group}</span></td><td>${r.who}</td><td>${r.asset}</td><td>${(r.ticker||'–').replace('BASKET:','basket:')}</td><td>${r.category}</td><td>${r.quote}${r.status!='ok'?`<br><span class="muted">${r.status}</span>`:(r.note?`<br><span class="muted">${r.note}</span>`:'')}</td>`+H.map(h=>`<td>${pct(r.returns[h])}</td>`).join('')+`<td>${pct(r.ex_sp['to date'])}</td><td>${pct(r.ex_dow['to date'])}</td><td>${r.disclosures.length?`<span class="flag" title="${r.disclosures.map(d=>d.party+': '+d.kind+' '+d.date).join(' | ')}">${r.disclosures.length}</span>`:''}</td><td><a href="${r.source}" target="_blank">link</a></td></tr>`).join('');
+ document.querySelectorAll('#tbl th[data-k]').forEach(th=>th.onclick=()=>{sd=sk==th.dataset.k?-sd:1;sk=th.dataset.k;tbl(sel)})}
+render();
 </script></body></html>
