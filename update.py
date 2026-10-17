@@ -138,7 +138,8 @@ for m in M:
     if s is None:
         r['status'] = m.get('note') or 'no price data'; rows.append(r); continue
     e, W = windows(s, pd.Timestamp(m['date']), bool(m.get('after_close')) and m['type'] != 'crypto')
-    if e is None: r['status'] = 'no price after date'; rows.append(r); continue
+    if e is None:  # comment came after the latest close we have (e.g. a Friday-evening rally): explain in plain words and keep the note
+        r['status'] = 'Not scored yet: the first trading session after this comment has not closed, so results appear on the next update.' + (' ' + m['note'] if m.get('note') else ''); rows.append(r); continue
     r.update(status='ok', entry_date=str(e.date()), entry_price=float(s.loc[e]))
     for k, (a, b) in W.items():
         v = ret(s, a, b); r['returns'][k] = v
