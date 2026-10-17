@@ -7,6 +7,19 @@
  "description": "Every sourced investment mention by Trump administration officials, newest first. Public data only; no wrongdoing alleged.",
  "items": [
   {
+   "id": "b532fa3269521a4f",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=CLF",
+   "external_url": "https://trump-archive.com/item/0d2af9a0-ff52-4303-9e0c-4fcaffffc547",
+   "title": "JD Vance (Vice President) / Department of Energy on Cleveland-Cliffs (CLF): Government stake/deal",
+   "content_text": "JD Vance (Vice President) / Department of Energy (Admin) mentioned Cleveland-Cliffs (CLF) on 2026-08-21 at 10:00 ET.\nQuote: \"We're here to announce that Cleveland Cliffs is making today, right here in Middletown, Ohio, a $1 billion investment in transformational manufacturing.\" (Vice President JD Vance, Middletown Works)\nVersus the S&P 500: +4.5% on the comment day, +7.7% to date.\nSource: https://trump-archive.com/item/0d2af9a0-ff52-4303-9e0c-4fcaffffc547\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-08-21T10:00:00-04:00",
+   "tags": [
+    "Admin",
+    "Government stake/deal",
+    "stock"
+   ]
+  },
+  {
    "id": "7edc082ff9df6a39",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=USAR",
    "external_url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-letter-intent-us-government-access-16",
