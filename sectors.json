@@ -95,6 +95,12 @@
    "etf": "XLC",
    "peer": "FDN"
   },
+  "IE": {
+   "sector": "Basic Materials",
+   "industry": "Copper",
+   "etf": "XLB",
+   "peer": "COPX"
+  },
   "INTC": {
    "sector": "Technology",
    "industry": "Semiconductors",
@@ -183,6 +189,12 @@
    "etf": "XLY",
    "peer": "CARZ"
   },
+  "TSM": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
   "USAR": {
    "sector": "Basic Materials",
    "industry": "Other Industrial Metals & Mining",
@@ -207,6 +219,7 @@
   "IHI": "iShares U.S. Medical Devices ETF (IHI)",
   "SLX": "VanEck Steel ETF (SLX)",
   "FDN": "First Trust Dow Jones Internet Index Fund (FDN)",
-  "KCE": "SPDR S&P Capital Markets ETF (KCE)"
+  "KCE": "SPDR S&P Capital Markets ETF (KCE)",
+  "COPX": "Global X Copper Miners ETF (COPX)"
  }
 }

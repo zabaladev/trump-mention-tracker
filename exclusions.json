@@ -73,5 +73,10 @@
   "item": "Book promotions (Eric, Melania)",
   "reason": "Not investable assets.",
   "kind": "notinv"
+ },
+ {
+  "item": "Resolution Copper mine (Trump, Oct 14 2026 Bullhead City rally)",
+  "reason": "Not a listed company: a joint venture owned by Rio Tinto (55%) and BHP (45%), two large diversified miners for which this one project is a small part of the business, so it is not scored.",
+  "kind": "private"
  }
 ]
