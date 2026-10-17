@@ -25,11 +25,6 @@
   "kind": "proxy"
  },
  {
-  "item": "Thumzup (TZUP, Don Jr.) and ALT5 Sigma (ALTS, Eric/WLFI)",
-  "reason": "Listed in table; Yahoo returns no price data for these tickers.",
-  "kind": "noprice"
- },
- {
   "item": "Kalshi / Polymarket (Don Jr. investor/adviser)",
   "reason": "Private companies.",
   "kind": "private"

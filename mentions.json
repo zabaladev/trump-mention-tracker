@@ -386,8 +386,10 @@
     "category": "Family venture",
     "quote": "Don Jr. disclosed purchase of 350,000 Thumzup shares.",
     "source": "https://www.bloomberg.com/news/articles/2025-07-09/trump-jr-invests-in-social-media-firm-building-crypto-hoard",
-    "note": "No price data from Yahoo (ticker unavailable)",
-    "group": "Family"
+    "group": "Family",
+    "price_ticker": "DTCX",
+    "ticker_note": "Renamed Datacentrex, Inc. and moved from TZUP to DTCX on Dec 16, 2025 after its Dogehash merger; prices are the same Nasdaq listing under its current symbol.",
+    "ticker_src": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ECA2025-687"
   },
   {
     "date": "2025-07-10",
@@ -516,8 +518,10 @@
     "category": "Family venture",
     "quote": "ALT5 adopts $1.5B WLFI treasury strategy; Eric Trump named to board (later observer).",
     "source": "https://www.businesswire.com/news/home/20250813491821/en/ALT5-Sigma-Corporation-Appoints-Zach-Witkoff-as-Chairman-and-Welcomes-Eric-Trump-to-Board-of-Directors",
-    "note": "No price data from Yahoo (ticker unavailable)",
-    "group": "Family"
+    "group": "Family",
+    "price_ticker": "AIFC",
+    "ticker_note": "Renamed AI Financial Corporation and moved from ALTS to AIFC on Apr 29, 2026 (same listing, CUSIP unchanged); prices are under its current symbol.",
+    "ticker_src": "https://www.sec.gov/Archives/edgar/data/862861/000149315226020950/ex99-1.htm"
   },
   {
     "date": "2025-08-22",
