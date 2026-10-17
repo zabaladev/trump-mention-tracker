@@ -78,5 +78,15 @@
   "item": "Resolution Copper mine (Trump, Oct 14 2026 Bullhead City rally)",
   "reason": "Not a listed company: a joint venture owned by Rio Tinto (55%) and BHP (45%), two large diversified miners for which this one project is a small part of the business, so it is not scored.",
   "kind": "private"
+ },
+ {
+  "item": "Hyundai Transys West Point plant (Trump, Oct 16 2026 Dalton rally)",
+  "reason": "Not a listed company: Hyundai Transys is a privately held unit of the Hyundai Motor Group, so its nearly $560 million West Point, Georgia expansion (announced Oct 8 2026 by the Georgia Governor's office) is not scored.",
+  "kind": "private"
+ },
+ {
+  "item": "Eli Lilly, Pfizer and Merck 'coming back' (Trump, Oct 16 2026 Dalton rally)",
+  "reason": "A general claim that drugmakers are building in the US, with no specific new project named, so it is not scored as a company mention.",
+  "kind": "notcall"
  }
 ]

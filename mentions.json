@@ -996,5 +996,37 @@
   "category": "Company praise",
   "quote": "\"I'm the one that got the great Taiwanese company, TSMC. It's $265 billion.\" (Bullhead City, Arizona rally, on TSMC's north Phoenix expansion)",
   "note": "Said at a campaign rally speech that began at 1:21 PM Arizona time (4:21 PM ET, after the close, per the White House travel pool report), so day 0 is the next session (Oct 15). One congressional trade in the window (Quiver)."
+ },
+ {
+  "date": "2026-10-16",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/9429da01-f6ab-4a12-9628-5b795ef8a841",
+  "archive_url": "https://pool.pp.tools/reports/9712",
+  "time_et": "2026-10-16 16:24",
+  "time_src": "White House travel pool report 4 (speech start)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "UCB",
+  "ticker": "UCB.BR",
+  "quote": "\"Here in Georgia, the company UCB is investing $2 billion to build its first ever pharmaceutical factory in the United States.\" (Dalton, Georgia rally)",
+  "note": "Said about 48 minutes into a campaign rally speech that began at 4:24 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Mon Oct 19). Transcript also published by The Singju Post. The $2 billion Gwinnett County biologics plant was announced Mar 24 2026 (Georgia Governor's office) and its site was dedicated Oct 9 2026 (UCB). Brussels-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades in UCB's US OTC ticker (UCBJY) within 30 days before to 7 days after (last listed trade Sep 23 2025; checked 2026-10-17)."
+ },
+ {
+  "date": "2026-10-16",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/9429da01-f6ab-4a12-9628-5b795ef8a841",
+  "archive_url": "https://pool.pp.tools/reports/9712",
+  "time_et": "2026-10-16 16:24",
+  "time_src": "White House travel pool report 4 (speech start)",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Pirelli",
+  "ticker": "PIRC.MI",
+  "quote": "\"The tire manufacturer Pirelli just announced it's investing 1.2 billion, that's a lot of money, to expand its factory in Rome, Georgia with about 1,900 new jobs.\" (Dalton, Georgia rally)",
+  "note": "Said about 48 minutes into a campaign rally speech that began at 4:24 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Mon Oct 19). Transcript also published by The Singju Post. Pirelli's board approved the roughly EUR 1 billion ($1.2 billion) Rome, Georgia expansion on Sep 22 2026; Pirelli and the Georgia Governor's office put the new jobs at about 1,000, not 1,900. Milan-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades listed for Pirelli's US OTC tickers (PPAMY, PLLIF; checked 2026-10-17)."
  }
 ]
