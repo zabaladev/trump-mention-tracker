@@ -22,7 +22,8 @@ def _post_time(src):
         ms, k = (int(m.group(1)) >> 22) + 1288834974657, 'X post ID'
     return _dt.datetime.fromtimestamp(ms / 1000, _dt.timezone.utc).astimezone(ZoneInfo('America/New_York')), k
 for _m in M:
-    _pt = _post_time(_m.get('source'))
+    # orig_url: the original Truth Social link listed on an archive page (trumpstruth.org), when the source is the archive.
+    _pt = _post_time(_m.get('source')) or _post_time(_m.get('orig_url'))
     if not _pt: continue
     _t, _k = _pt
     _m.setdefault('time_et', _t.strftime('%Y-%m-%d %H:%M')); _m.setdefault('time_src', _k)
