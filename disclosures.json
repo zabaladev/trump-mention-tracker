@@ -513,5 +513,50 @@
   "amount": "$15,001–$50,000 on Mar 11 (plus $50,001–$100,000 on Feb 12 and $15,001–$50,000 on Mar 2)",
   "detail": "From Trump's 2026 OGE periodic transaction report made public in May 2026, as reported by the Washington Examiner and Mother Jones: a Thermo Fisher purchase on the same day as his Mar 11 site visit, after two earlier purchases on Feb 12 and Mar 2. Newswax reports the Mar 11 trade was marked unsolicited. The Trump Organization says his accounts are run by outside managers with sole authority over investment decisions.",
   "source": "https://www.washingtonexaminer.com/news/white-house/4583562/trump-praised-companies-within-days-of-buying-their-stock/"
+ },
+ {
+  "applies": [
+   [
+    "2026-01-09",
+    "CVX"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2026-01-12",
+  "amount": "$100,001–$250,000 and $1,001–$15,000 on Jan 12; $15,001–$50,000 on Jan 22; $100,001–$250,000 on Jan 23",
+  "detail": "From Trump's OGE 278-T periodic transaction report dated May 8 2026 (transactions 342, 2295, 1390 and 247): four Chevron purchases 3 to 14 days after his Jan 9 praise of Chevron at the White House oil executives meeting, reported about four months later (the form's deadline is 45 days). The report covers January to March 2026 and lists no Chevron, ConocoPhillips or Stellantis trades from Jan 2 to Jan 8. The Trump Organization says his accounts are run by outside managers with sole authority over investment decisions.",
+  "source": "https://extapps2.oge.gov/201/Presiden.nsf/PAS%2BIndex/405E4EC4E27BE8D185258DF7002DD1C0/%24FILE/Trump%2C%20Donald%20J.-05.08.2026-278T%282%29.pdf"
+ },
+ {
+  "applies": [
+   [
+    "2026-01-09",
+    "COP"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Purchase",
+  "date": "2026-01-23",
+  "amount": "$15,001–$50,000",
+  "detail": "From Trump's OGE 278-T periodic transaction report dated May 8 2026 (transaction 1563): a ConocoPhillips purchase 14 days after his Jan 9 'great companies' remark, reported about four months later (the form's deadline is 45 days). The report covers January to March 2026 and lists no Chevron, ConocoPhillips or Stellantis trades from Jan 2 to Jan 8. The Trump Organization says his accounts are run by outside managers with sole authority over investment decisions.",
+  "source": "https://extapps2.oge.gov/201/Presiden.nsf/PAS%2BIndex/405E4EC4E27BE8D185258DF7002DD1C0/%24FILE/Trump%2C%20Donald%20J.-05.08.2026-278T%282%29.pdf"
+ },
+ {
+  "applies": [
+   [
+    "2026-01-13",
+    "STLA"
+   ]
+  ],
+  "party": "Donald J. Trump (personal accounts)",
+  "relation": "Speaker",
+  "kind": "Sale",
+  "date": "2026-01-23",
+  "amount": "$1,001–$15,000",
+  "detail": "From Trump's OGE 278-T periodic transaction report dated May 8 2026 (transaction 2807): a small Stellantis sale (opposite direction) 10 days after his Jan 13 'Stellantis doing a good job' remark, shown for context. The report covers January to March 2026 and lists no Chevron, ConocoPhillips or Stellantis trades from Jan 2 to Jan 8. The Trump Organization says his accounts are run by outside managers with sole authority over investment decisions.",
+  "source": "https://extapps2.oge.gov/201/Presiden.nsf/PAS%2BIndex/405E4EC4E27BE8D185258DF7002DD1C0/%24FILE/Trump%2C%20Donald%20J.-05.08.2026-278T%282%29.pdf"
  }
 ]

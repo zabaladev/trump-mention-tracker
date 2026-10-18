@@ -3141,5 +3141,226 @@
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/DE",
   "filed": "2026-02-06"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "COP"
+  ],
+  "ticker": "COP",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-09",
+  "days": 0,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/COP",
+  "filed": "2026-02-13"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "COP"
+  ],
+  "ticker": "COP",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-07",
+  "days": -2,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/COP",
+  "filed": "2026-02-13"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "COP"
+  ],
+  "ticker": "COP",
+  "member": "Mullin, Markwayne",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "OK",
+  "date": "2025-12-29",
+  "days": -11,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/COP",
+  "filed": "2026-01-16"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "COP"
+  ],
+  "ticker": "COP",
+  "member": "Julie Johnson",
+  "chamber": "House",
+  "party": "D",
+  "state": "TX",
+  "date": "2025-12-18",
+  "days": -22,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/COP",
+  "filed": "2026-01-15"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "CVX"
+  ],
+  "ticker": "CVX",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-09",
+  "days": 0,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/CVX",
+  "filed": "2026-02-13"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "CVX"
+  ],
+  "ticker": "CVX",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-09",
+  "days": 0,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/CVX",
+  "filed": "2026-02-13"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "CVX"
+  ],
+  "ticker": "CVX",
+  "member": "Mullin, Markwayne",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "OK",
+  "date": "2025-12-29",
+  "days": -11,
+  "type": "Purchase",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/CVX",
+  "filed": "2026-01-16"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "CVX"
+  ],
+  "ticker": "CVX",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2025-12-24",
+  "days": -16,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/CVX",
+  "filed": "2026-01-12"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "CVX"
+  ],
+  "ticker": "CVX",
+  "member": "Roger Williams",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2025-12-22",
+  "days": -18,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/CVX",
+  "filed": "2026-01-15"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "CVX"
+  ],
+  "ticker": "CVX",
+  "member": "Julie Johnson",
+  "chamber": "House",
+  "party": "D",
+  "state": "TX",
+  "date": "2025-12-18",
+  "days": -22,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/CVX",
+  "filed": "2026-01-15"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "CVX"
+  ],
+  "ticker": "CVX",
+  "member": "Michael Patrick Guest",
+  "chamber": "House",
+  "party": "R",
+  "state": "MS",
+  "date": "2025-12-16",
+  "days": -24,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/CVX",
+  "filed": "2026-08-14"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "XOM"
+  ],
+  "ticker": "XOM",
+  "member": "Gilbert Cisneros",
+  "chamber": "House",
+  "party": "D",
+  "state": "CA",
+  "date": "2026-01-09",
+  "days": 0,
+  "type": "Sale",
+  "amount": "$50,001 - $100,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/XOM",
+  "filed": "2026-02-13"
+ },
+ {
+  "mention": [
+   "2026-01-09",
+   "XOM"
+  ],
+  "ticker": "XOM",
+  "member": "Boozman, John",
+  "chamber": "Senate",
+  "party": "R",
+  "state": "AR",
+  "date": "2026-01-08",
+  "days": -1,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/XOM",
+  "filed": "2026-02-15"
  }
 ]

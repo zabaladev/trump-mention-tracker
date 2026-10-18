@@ -338,5 +338,30 @@
   "item": "Ford plant recap (Trump, Jan 20 press briefing and Jan 29 Cabinet)",
   "reason": "Repeated that a Ford plant in Michigan he visited was going \"24 hours around the clock\" and that he spoke with Bill Ford (Roll Call Factbase). Factual plant recap already covered by later Ford/GM asides in exclusions; not a fresh stock call.",
   "kind": "notcall"
+ },
+ {
+  "item": "Antheia $100 million Department of War investment (Trump, Oct 17 2026 Highland Heights, Kentucky rally)",
+  "reason": "Trump said \"If the Republicans win, the Department of War will be investing $100 million in the pharmaceutical company Antheia to revitalize a gigantic drug manufacturing facility in Winchester, Kentucky\" (RSBN livestream; White House travel pool report 8; USA Today/Courier Journal). The same day the Department of War's Office of Strategic Capital announced an $80 million conditional loan commitment to Antheia, Inc. (war.gov release). Antheia is a privately held company with no share price, and the promise was conditional on the election, so it is not scored.",
+  "kind": "private"
+ },
+ {
+  "item": "Ford Louisville plant, Google Maps aside, stock-market boast and drugmaker line (Trump, Oct 17 2026 Highland Heights, Kentucky rally)",
+  "reason": "Trump repeated that Ford is spending \"$2 billion in its largest plant\" at the Louisville Assembly Plant (announced Aug 2025; the same line was logged, not scored, from his Mar 11 2026 Hebron, Kentucky speech; Ford is tracked from Jan 13 and Sep 26 2026). He said he \"called Google\" about renaming the Gulf of Mexico on Google Maps (\"Now, they kiss my ass\"), a story about the renaming, not a comment on Google's business. \"The stock market has hit ... 88 all-time highs\" and \"Pharmaceutical companies are building $600 billion\" are general claims with no company or project named (RSBN livestream; pool report 8). The GE Appliances line from the same rally is scored (Haier Smart Home). The MAGA Inc. dinner at Mar-a-Lago that evening (Sergey Brin seated beside him, pool report 18) had no company comment.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Venezuela oil lines (Trump, Jan 3 press conference and Jan 4 2026 Air Force One gaggle) and Harold Hamm (Jan 9)",
+  "reason": "On Jan 3 Trump said \"the greatest oil companies in the world\" would invest billions in Venezuela without naming one; on Jan 4 he said \"Chevron's in, as you know. They've done a good job, but even they ... haven't been in a position to invest money\" (Roll Call Factbase transcripts). The Jan 4 Chevron line is a passing remark ahead of the Jan 9 executives meeting, where Chevron is scored. His Jan 9 joke that Harold Hamm \"puts a straw into the land and oil comes gushing out\" refers to Continental Resources, private since Nov 2022. Not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Boeing, Intel and drugmaker asides, defense buybacks, Fannie/Freddie IPO (Trump, Jan 6–13 2026; Bill Pulte, Jan 9 2026)",
+  "reason": "Jan 6 House GOP retreat: \"I have sold more Boeings than any human being on Earth\" (salesman anecdote), \"like I did with Intel\" (the 2025 stake, already tracked) and \"Eli Lilly, Merck, Pfizer, all geniuses\" in a drug-pricing story. Jan 8 Hugh Hewitt: \"I told all defense companies, there's going to be no more buybacks\" (policy claim, same treatment as the Mar 19 2026 buyback line). Jan 13 Air Force One arrival: Intel stake retrospective (\"Apple went in, NVIDIA went in\"). Jan 9 FHFA Director Bill Pulte said a Fannie Mae/Freddie Mac IPO \"can still very much happen\" (housing policy, as in the June 2026 IPO note). Roll Call Factbase transcripts. None is a new company pick, so not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "General Motors aside, Ford $5 billion recap and the \"like Coke\" jab (Trump, Jan 13 2026 Ford plant tour and Detroit Economic Club)",
+  "reason": "At the Ford plant Trump added \"General Motors is doing really well\" in the same answer as the scored Ford and Stellantis praise; at the Detroit Economic Club he recapped that \"Ford has announced it will invest $5 billion across its Michigan and Kentucky plants\" (Ford is scored from the plant tour an hour earlier) and said \"an Anti-tariff person is a pro-Chinese person, like Coke. This guy has fought me in every election\" (Roll Call Factbase spelling; the context, a person who \"inherited a lot of money\", points to the Koch family, whose Koch Industries is private, not to Coca-Cola's business). General aside, repeat and private company, so not scored. Stellantis's $13 billion line from the speech is scored.",
+  "kind": "notcall"
  }
 ]
