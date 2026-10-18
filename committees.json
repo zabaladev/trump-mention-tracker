@@ -293,6 +293,35 @@
     "House Committee on Financial Services",
     "House Committee on Small Business"
    ]
+  },
+  "Roger Williams": {
+   "bioguide": "W000816",
+   "name": "Roger Williams",
+   "committees": [
+    "House Committee on Financial Services",
+    "House Committee on Small Business"
+   ]
+  },
+  "Michael Patrick Guest": {
+   "bioguide": "G000591",
+   "name": "Michael Guest",
+   "committees": [
+    "House Committee on Appropriations",
+    "House Committee on Ethics",
+    "House Committee on Homeland Security"
+   ]
+  },
+  "Boozman, John": {
+   "bioguide": "B001236",
+   "name": "John Boozman",
+   "committees": [
+    "Commission on Security and Cooperation in Europe",
+    "Senate Committee on Agriculture, Nutrition, and Forestry",
+    "Senate Committee on Appropriations",
+    "Senate Committee on Environment and Public Works",
+    "Senate Committee on Rules and Administration",
+    "Senate Committee on Veterans' Affairs"
+   ]
   }
  },
  "related": {
@@ -628,6 +657,34 @@
    {
     "committee": "Senate Committee on Commerce, Science, and Transportation",
     "why": "manufacturing and commerce"
+   }
+  ],
+  "XOM": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "energy markets and oil and gas"
+   },
+   {
+    "committee": "House Committee on Natural Resources",
+    "why": "oil and gas leasing and production"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "oil and gas policy"
+   }
+  ],
+  "COP": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "energy markets and oil and gas"
+   },
+   {
+    "committee": "House Committee on Natural Resources",
+    "why": "oil and gas leasing and production"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "oil and gas policy"
    }
   ]
  }
