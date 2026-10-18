@@ -7,6 +7,19 @@
  "description": "Every sourced investment mention by Donald Trump, newest first. Public data only; no wrongdoing alleged.",
  "items": [
   {
+   "id": "6e8ef75c38db96cb",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=6690.HK",
+   "external_url": "https://www.youtube.com/watch?v=CQU5WIRXRNQ&t=21907s",
+   "title": "Donald Trump on GE Appliances (Haier Smart Home) (6690.HK): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned GE Appliances (Haier Smart Home) (6690.HK) on 2026-10-17 at 15:02 ET.\nQuote: \"And just last month, GE Appliances announced a brand new $1 billion investment to expand its manufacturing in Kentucky\" (Highland Heights, Kentucky rally)\nSource: https://www.youtube.com/watch?v=CQU5WIRXRNQ&t=21907s\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-10-17T15:02:00-04:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
    "id": "89216ff3c01748ee",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=PIRC.MI",
    "external_url": "https://trump-archive.com/item/9429da01-f6ab-4a12-9628-5b795ef8a841",
@@ -839,6 +852,84 @@
    ]
   },
   {
+   "id": "92459bc9b1220c8b",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=STLA",
+   "external_url": "https://trump-archive.com/item/ecf858b9-b74a-4587-b823-9a63f4f7b257",
+   "title": "Donald Trump on Stellantis (STLA): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Stellantis (STLA) on 2026-01-13 at 14:26 ET.\nQuote: \"And Stellantis is investing $13 billion to expand its US based manufacturing plant by more than 50 percent. Stellantis doing a good job.\" (Detroit Economic Club speech)\nVersus the S&P 500: -3.2% on the comment day, -66.7% to date.\nSource: https://trump-archive.com/item/ecf858b9-b74a-4587-b823-9a63f4f7b257\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-13T14:26:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "139bacfb2e17dbf7",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=F",
+   "external_url": "https://trump-archive.com/item/df86cc47-3fd9-43ad-a60f-1b5a891e095a",
+   "title": "Donald Trump on Ford (F): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Ford (F) on 2026-01-13 at 12:55 ET.\nQuote: \"But I'm very proud of them. And Ford has really been a leader. They've done a great job\" ... \"They make a great product, a quality product better than anybody else can make\" (Ford River Rouge F-150 plant tour, Dearborn, Michigan)\nVersus the S&P 500: -0.2% on the comment day, -18.0% to date.\nSource: https://trump-archive.com/item/df86cc47-3fd9-43ad-a60f-1b5a891e095a\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-13T12:55:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "45b2a85d2234df36",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=XOM",
+   "external_url": "https://trump-archive.com/item/0143b2c6-3903-4c23-9aeb-7cc1f9efc3a8",
+   "title": "Donald Trump on ExxonMobil (XOM): Company criticism",
+   "content_text": "Donald Trump (Trump) mentioned ExxonMobil (XOM) on 2026-01-11 at 19:22 ET.\nQuote: \"No, I don't want to say, no, I didn't like Exxon's response. I, you know, we have so many that want and I'd probably be inclined to keep Exxon out. I didn't like their response. They're, they're playing too cute.\" (Air Force One gaggle, asked which oil companies made commitments after the Jan 9 meeting)\nVersus the S&P 500: -0.6% on the comment day, +37.4% to date.\nSource: https://trump-archive.com/item/0143b2c6-3903-4c23-9aeb-7cc1f9efc3a8\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-11T19:22:00-05:00",
+   "tags": [
+    "Trump",
+    "Company criticism",
+    "stock"
+   ]
+  },
+  {
+   "id": "717bb7fdaaaa1fde",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=COP",
+   "external_url": "https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd",
+   "title": "Donald Trump on ConocoPhillips (COP): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned ConocoPhillips (COP) on 2026-01-09 at 15:29 ET.\nQuote: \"If I could ask Chevron, you did a great job. I want to thank you. And ExxonMobil, if you would say a few words and then followed by ConocoPhillips. Great companies, massive companies, great companies.\" (White House meeting with oil and gas executives)\nVersus the S&P 500: -1.9% on the comment day, +43.6% to date.\nSource: https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-09T15:29:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "1f71935fece6ae43",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=XOM",
+   "external_url": "https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd",
+   "title": "Donald Trump on ExxonMobil (XOM): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned ExxonMobil (XOM) on 2026-01-09 at 15:17 ET.\nQuote: \"Exxon CEO, Darren Woods. Darren, thank you very much. How's Exxon doing? ... They'll do a lot better now, won't they, huh? Exxon's been amazing. It's been an amazing company\" (White House meeting with oil and gas executives)\nVersus the S&P 500: +0.7% on the comment day, +36.6% to date.\nSource: https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-09T15:17:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
+   "id": "3b900f5766a42331",
+   "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=CVX",
+   "external_url": "https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd",
+   "title": "Donald Trump on Chevron (CVX): Company praise",
+   "content_text": "Donald Trump (Trump) mentioned Chevron (CVX) on 2026-01-09 at 15:16 ET.\nQuote: \"He stuck it out. I don't know if you made money or not, but you stuck it out. You got to give you a lot of credit for that.\" ... \"If I could ask Chevron, you did a great job. I want to thank you. And ExxonMobil ... ConocoPhillips. Great companies, massive companies, great companies.\" (White House meeting with oil and gas executives)\nVersus the S&P 500: +1.1% on the comment day, +32.7% to date.\nSource: https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "date_published": "2026-01-09T15:16:00-05:00",
+   "tags": [
+    "Trump",
+    "Company praise",
+    "stock"
+   ]
+  },
+  {
    "id": "7cf04739cfced013",
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=INTC",
    "external_url": "https://altindex.com/news/trump-post-stock-moves",
@@ -869,7 +960,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=CRO-USD",
    "external_url": "https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/",
    "title": "Donald Trump (Trump Media) on Cronos (CRO) (CRO-USD): Family venture",
-   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -89.8% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump Media) (Trump) mentioned Cronos (CRO) (CRO-USD) on 2025-08-26.\nQuote: Trump Media & Crypto.com announce Trump Media Group CRO Strategy treasury (terminated Aug 2026).\nVersus the S&P 500: +29.0% on the comment day, -90.1% to date.\nSource: https://www.reuters.com/legal/government/trump-media-cryptocom-launch-new-crypto-treasury-firm-via-spac-deal-2025-08-26/\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-08-26T12:00:00-04:00",
    "tags": [
     "Trump",
@@ -1012,7 +1103,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -42.2% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2025-03-02.\nQuote: \"And, obviously, BTC and ETH... will be the heart of the Reserve. I also love Bitcoin and Ethereum!\"\nVersus the S&P 500: +9.6% on the comment day, -41.8% to date.\nSource: https://www.presidency.ucsb.edu/documents/truth-social-posts-march-2-2025\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T12:00:00-05:00",
    "tags": [
     "Trump",
@@ -1038,7 +1129,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=ADA-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on Cardano (ADA-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Cardano (ADA-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +71.3% on the comment day, -109.0% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Cardano (ADA-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +71.3% on the comment day, -109.2% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -1051,7 +1142,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=SOL-USD",
    "external_url": "https://truthsocial.com/@realDonaldTrump/posts/114093526901586124",
    "title": "Donald Trump on Solana (SOL-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.4% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Solana (SOL-USD) on 2025-03-02 at 10:24 ET.\nQuote: \"...a Crypto Strategic Reserve that includes XRP, SOL, and ADA.\"\nVersus the S&P 500: +24.2% on the comment day, -70.5% to date.\nSource: https://truthsocial.com/@realDonaldTrump/posts/114093526901586124\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-03-02T10:24:00-05:00",
    "tags": [
     "Trump",
@@ -1077,7 +1168,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BASKET:OIL",
    "external_url": "https://www.presidency.ucsb.edu/documents/inaugural-address-54",
    "title": "Donald Trump on Oil & gas basket (BASKET:OIL): Sector/theme call",
-   "content_text": "Donald Trump (Trump) mentioned Oil & gas basket (BASKET:OIL) on 2025-01-20.\nQuote: Inaugural address: \"We will drill, baby, drill\"; called US oil and gas \"liquid gold\".\nVersus the S&P 500: -2.4% on the comment day, +31.3% to date.\nSource: https://www.presidency.ucsb.edu/documents/inaugural-address-54\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Oil & gas basket (BASKET:OIL) on 2025-01-20.\nQuote: Inaugural address: \"We will drill, baby, drill\"; called US oil and gas \"liquid gold\".\nVersus the S&P 500: -2.4% on the comment day, +30.5% to date.\nSource: https://www.presidency.ucsb.edu/documents/inaugural-address-54\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-01-20T12:00:00-05:00",
    "tags": [
     "Trump",
@@ -1090,7 +1181,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=TRUMP35336-USD",
    "external_url": "https://x.com/realDonaldTrump/status/1880446012168249386",
    "title": "Donald Trump on Official Trump memecoin (TRUMP35336-USD): Family venture",
-   "content_text": "Donald Trump (Trump) mentioned Official Trump memecoin (TRUMP35336-USD) on 2025-01-17 at 21:44 ET.\nQuote: \"My NEW Official Trump Meme is HERE! It's time to celebrate everything we stand for: WINNING! ... GET YOUR $TRUMP NOW.\"\nVersus the S&P 500: -121.5% to date.\nSource: https://x.com/realDonaldTrump/status/1880446012168249386\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Official Trump memecoin (TRUMP35336-USD) on 2025-01-17 at 21:44 ET.\nQuote: \"My NEW Official Trump Meme is HERE! It's time to celebrate everything we stand for: WINNING! ... GET YOUR $TRUMP NOW.\"\nVersus the S&P 500: -121.7% to date.\nSource: https://x.com/realDonaldTrump/status/1880446012168249386\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2025-01-17T21:44:00-05:00",
    "tags": [
     "Trump",
@@ -1116,7 +1207,7 @@
    "url": "https://zabaladev.github.io/trump-mention-tracker/#ticker=BTC-USD",
    "external_url": "https://x.com/realDonaldTrump/status/1852033244729860397",
    "title": "Donald Trump on Bitcoin (BTC-USD): Policy promotion",
-   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -18.2% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
+   "content_text": "Donald Trump (Trump) mentioned Bitcoin (BTC-USD) on 2024-10-31 at 13:01 ET.\nQuote: \"Happy 16th Anniversary of Satoshi's White Paper. We will end Kamala's war on crypto, & Bitcoin will be MADE IN THE USA\"\nVersus the S&P 500: -1.1% on the comment day, -17.7% to date.\nSource: https://x.com/realDonaldTrump/status/1852033244729860397\nPublic statements and market data only; no wrongdoing is alleged. Not financial advice.",
    "date_published": "2024-10-31T13:01:00-04:00",
    "tags": [
     "Trump",
