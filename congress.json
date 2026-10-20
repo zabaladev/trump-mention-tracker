@@ -3362,5 +3362,23 @@
   "amount": "$1,001 - $15,000",
   "source": "https://www.quiverquant.com/congresstrading/stock/XOM",
   "filed": "2026-02-15"
+ },
+ {
+  "mention": [
+   "2026-10-19",
+   "MRK"
+  ],
+  "ticker": "MRK",
+  "member": "Maria Elvira Salazar",
+  "chamber": "House",
+  "party": "R",
+  "state": "FL",
+  "date": "2026-09-24",
+  "days": -25,
+  "type": "Sale",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/MRK",
+  "note": "Filed Oct 7, 2026 (before the comment).",
+  "filed": "2026-10-07"
  }
 ]

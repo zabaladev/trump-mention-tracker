@@ -363,5 +363,20 @@
   "item": "General Motors aside, Ford $5 billion recap and the \"like Coke\" jab (Trump, Jan 13 2026 Ford plant tour and Detroit Economic Club)",
   "reason": "At the Ford plant Trump added \"General Motors is doing really well\" in the same answer as the scored Ford and Stellantis praise; at the Detroit Economic Club he recapped that \"Ford has announced it will invest $5 billion across its Michigan and Kentucky plants\" (Ford is scored from the plant tour an hour earlier) and said \"an Anti-tariff person is a pro-Chinese person, like Coke. This guy has fought me in every election\" (Roll Call Factbase spelling; the context, a person who \"inherited a lot of money\", points to the Koch family, whose Koch Industries is private, not to Coca-Cola's business). General aside, repeat and private company, so not scored. Stellantis's $13 billion line from the speech is scored.",
   "kind": "notcall"
+ },
+ {
+  "item": "Elon Musk's SpaceX share gift to children's Trump Accounts (Trump Truth Social post, Oct 19 2026; Treasury Secretary Bessent on X the same evening)",
+  "reason": "Trump posted at 4:41 PM ET Mon Oct 19 (Truth Social post 117469511233475082, also on the White House X account): \"A BIG THANK YOU to our legendary friend, Elon Musk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS!\" Scott Bessent also thanked Musk on X. This is praise for a personal donation pledge (Musk said he will give one SpaceX share to every child next year; CNBC, AP, Bloomberg Law), not a comment on SpaceX's business, the same rule as the Dell family's Trump Accounts gift. Not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Drugmaker and Toyota lines, credit-card and insurance companies, biofuel targets and the Ruffin greeting (Trump, Oct 19 2026 Park City, Kansas rally and Oct 20 campaign posts)",
+  "reason": "In the same rally Trump repeated \"Pfizer, Eli Lilly, Merck. They're all building magnificent plants\" (general drugmaker line, as at other October rallies; the specific Merck De Soto line is scored), \"Toyota just announced they're going to build one of the largest plants in the world\" (repeat of the already-tracked Toyota San Antonio line), praised Sen. Marshall for fighting \"predatory credit card companies\" and promised to stop payments to \"big insurance companies\" (no company named), cited record biofuel targets and an E15 waiver (policy, no company), joked that Minnesota is the top place for Mercedes-Benz sales (not about the company), and greeted casino owner Phil Ruffin (privately held businesses). His Oct 20 campaign posts on Truth Social repeat the biofuel and \"Kansas Oil and Gas Industry\" lines and link a Trace Gallagher book on Amazon (a book plug, not about Amazon). Roll Call Factbase transcript; pool reports 6-8. Not scored; the Merck, Boeing and Bombardier lines are.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Oct 19 2026 gaggle and executive order, Burgum's Yellowstone gift thanks, Duffy's Alaska rail grant",
+  "reason": "In the South Lawn gaggle before leaving for Kansas, asked about the Starlink interruption in Ukraine, Trump said \"I don't know who it was, but I'd like to find out\" (not a comment on SpaceX's business); the women's health executive order signing named no companies (Roll Call Factbase transcripts). Interior Secretary Burgum thanked Blackstone, Tallgrass Energy and Yellowstone Forever for a $105 million gift to Yellowstone National Park (a donation thank-you, same rule as the Trump Accounts gifts). Transportation Secretary Duffy's $250 million Alaska rail supply line post named no listed company (the Alaska Railroad is state-owned). Not scored.",
+  "kind": "notcall"
  }
 ]
