@@ -3380,5 +3380,23 @@
   "source": "https://www.quiverquant.com/congresstrading/stock/MRK",
   "note": "Filed Oct 7, 2026 (before the comment).",
   "filed": "2026-10-07"
+ },
+ {
+  "mention": [
+   "2026-10-20",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Pete Sessions",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2026-09-22",
+  "days": -28,
+  "type": "Sale",
+  "amount": "$100,001 - $250,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "note": "Quiver lists the filing date as Sep 22, 2026 too (before the comment).",
+  "filed": "2026-09-22"
  }
 ]

@@ -310,6 +310,12 @@
    "sector": "Energy",
    "industry": "Oil & Gas Midstream",
    "etf": "XLE"
+  },
+  "WOLF": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
   }
  },
  "peer_etf_names": {
