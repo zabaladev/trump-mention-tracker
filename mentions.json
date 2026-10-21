@@ -399,7 +399,7 @@
   "ticker": "MP",
   "type": "stock",
   "category": "Government stake/deal",
-  "quote": "Pentagon buys $400M preferred stock (\u224815% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
+  "quote": "Pentagon buys $400M preferred stock (≈15% stake), 10-yr NdPr price floor & magnet offtake; shares +50%.",
   "source": "https://www.cnbc.com/2025/07/10/pentagon-to-become-largest-shareholder-in-rare-earth-magnet-maker-mp-materials.html",
   "note": "Announced pre-market; entry = Jul 10 close (after the jump)"
  },
@@ -673,13 +673,13 @@
   "source": "https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd",
   "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-january-9-2026",
   "time_et": "2026-01-09 15:17",
-  "time_src": "White House in-town pool notes 10\u201311 (Trump began speaking at 3:04 PM ET); the Exxon line is about 13 minutes into the Roll Call Factbase transcript, so during trading hours",
+  "time_src": "White House in-town pool notes 10–11 (Trump began speaking at 3:04 PM ET); the Exxon line is about 13 minutes into the Roll Call Factbase transcript, so during trading hours",
   "after_close": false,
   "category": "Company praise",
   "asset": "ExxonMobil",
   "ticker": "XOM",
   "quote": "\"Exxon CEO, Darren Woods. Darren, thank you very much. How's Exxon doing? ... They'll do a lot better now, won't they, huh? Exxon's been amazing. It's been an amazing company\" (White House meeting with oil and gas executives)",
-  "note": "Said on Fri Jan 9 2026 in the East Room meeting with about two dozen oil and gas executives on investing in Venezuela after the Jan 3 capture of Nicol\u00e1s Maduro (Roll Call Factbase transcript via the Trump Archive; pool notes put Trump's opening at 3:04 PM ET, so day 0 is Jan 9). About 12 minutes later he also called Chevron, ExxonMobil and ConocoPhillips \"great companies, massive companies, great companies\" (Chevron and ConocoPhillips are tracked separately from the same meeting). Two days later, on Jan 11, he said he was inclined to keep Exxon out of Venezuela deals (tracked as Company criticism). Oil prices and Venezuela policy news moved the whole sector that week, so the move can't be put down to this remark. No wrongdoing alleged."
+  "note": "Said on Fri Jan 9 2026 in the East Room meeting with about two dozen oil and gas executives on investing in Venezuela after the Jan 3 capture of Nicolás Maduro (Roll Call Factbase transcript via the Trump Archive; pool notes put Trump's opening at 3:04 PM ET, so day 0 is Jan 9). About 12 minutes later he also called Chevron, ExxonMobil and ConocoPhillips \"great companies, massive companies, great companies\" (Chevron and ConocoPhillips are tracked separately from the same meeting). Two days later, on Jan 11, he said he was inclined to keep Exxon out of Venezuela deals (tracked as Company criticism). Oil prices and Venezuela policy news moved the whole sector that week, so the move can't be put down to this remark. No wrongdoing alleged."
  },
  {
   "date": "2026-01-09",
@@ -689,7 +689,7 @@
   "source": "https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd",
   "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-january-9-2026",
   "time_et": "2026-01-09 15:16",
-  "time_src": "White House in-town pool notes 10\u201313 (Trump began speaking at 3:04 PM ET; note 13 reports his remark on Chevron's seat); about 12 minutes into the Roll Call Factbase transcript, so during trading hours",
+  "time_src": "White House in-town pool notes 10–13 (Trump began speaking at 3:04 PM ET; note 13 reports his remark on Chevron's seat); about 12 minutes into the Roll Call Factbase transcript, so during trading hours",
   "after_close": false,
   "category": "Company praise",
   "asset": "Chevron",
@@ -705,7 +705,7 @@
   "source": "https://trump-archive.com/item/e924acd9-7315-4d32-8aab-c6e5262171bd",
   "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-january-9-2026",
   "time_et": "2026-01-09 15:29",
-  "time_src": "White House in-town pool notes 10\u201311 (Trump began speaking at 3:04 PM ET); the line is about 25 minutes into the Roll Call Factbase transcript, so during trading hours",
+  "time_src": "White House in-town pool notes 10–11 (Trump began speaking at 3:04 PM ET); the line is about 25 minutes into the Roll Call Factbase transcript, so during trading hours",
   "after_close": false,
   "category": "Company praise",
   "asset": "ConocoPhillips",
@@ -736,7 +736,7 @@
   "source": "https://trump-archive.com/item/df86cc47-3fd9-43ad-a60f-1b5a891e095a",
   "archive_url": "https://www.presidency.ucsb.edu/documents/pool-reports-january-13-2026",
   "time_et": "2026-01-13 12:55",
-  "time_src": "White House travel pool reports 5\u20138 (motorcade arrived at the Ford plant at 12:25 PM ET; the factory-floor gaggle of just under 10 minutes was reported at 1:07 PM), so during trading hours",
+  "time_src": "White House travel pool reports 5–8 (motorcade arrived at the Ford plant at 12:25 PM ET; the factory-floor gaggle of just under 10 minutes was reported at 1:07 PM), so during trading hours",
   "after_close": false,
   "category": "Company praise",
   "asset": "Ford",
@@ -773,7 +773,7 @@
   "category": "Company praise",
   "asset": "Apple",
   "ticker": "AAPL",
-  "quote": "\"But we have companies, great companies coming in. Apple is spending $650 billion.\" Later, spotting Tim Cook in the room: \"He's been good for 650\u2014think of it: $650 billion. Okay? Can you imagine? That's what he's going to be investing. More than that. I think it's going to end up being more. He's great. You know, he's great. He's done some job.\" (WEF business-leaders reception, Davos)",
+  "quote": "\"But we have companies, great companies coming in. Apple is spending $650 billion.\" Later, spotting Tim Cook in the room: \"He's been good for 650—think of it: $650 billion. Okay? Can you imagine? That's what he's going to be investing. More than that. I think it's going to end up being more. He's great. You know, he's great. He's done some job.\" (WEF business-leaders reception, Davos)",
   "note": "Said at a World Economic Forum reception for business leaders in Davos, Switzerland on Wed Jan 21 2026, with Apple CEO Tim Cook in the room (American Presidency Project transcript; Roll Call Factbase). The President spoke at 6:43 p.m. local (CET), which is 12:43 PM ET, so day 0 is Wed Jan 21 (Apple +0.4%, S&P 500 +1.2%). Apple's multi-year US investment pledge had already been public (the Aug 6 2025 tracked mention covered an earlier $100B figure; this reception cites $650 billion). Quiver lists 7 distinct congressional AAPL trades in the window (Pelosi, Mullin, Thanedar, Boozman, Taylor; Taylor's Jan 16 purchase appears twice on Quiver and is counted once), for context only. No wrongdoing alleged."
  },
  {
@@ -784,7 +784,7 @@
   "ticker": "USAR",
   "type": "stock",
   "category": "Government stake/deal",
-  "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8\u201316% stake).",
+  "quote": "$1.6B CHIPS funding LOI; government to receive 16.1M shares + warrants (8–16% stake).",
   "source": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-announces-letter-intent-us-government-access-16"
  },
  {
@@ -816,8 +816,8 @@
   "category": "Company praise",
   "asset": "General Motors",
   "ticker": "GM",
-  "quote": "\"General Motors CEO Mary Barra, who is setting records, huh? I hear you're doing unbelievably. Twenty-four hours, round the clock your factories.\" Later: \"Mary Barra, the chairman, CEO of General Motors\u2014which is setting records every single day, and she's doing a fantastic job\" (Strategic Critical Minerals Reserve announcement, Oval Office)",
-  "note": "Said at the Oval Office announcement of the US Strategic Critical Minerals Reserve on Mon Feb 2 2026, with GM CEO Mary Barra in attendance (American Presidency Project transcript; Roll Call Factbase). The pool entered at 4:22 PM ET and the remarks began at 4:23 PM, after the close, so day 0 is Tue Feb 3 (GM +1.7%, S&P 500 \u22120.8%). GM had reported quarterly results on Jan 27, six days earlier, which shapes the -7d move. This is the earliest tracked GM mention, before Jul 13, Jul 27, Sep 26 and Oct 10. Quiver lists 5 congressional GM trades in the window (Rep. Ro Khanna, four, and Rep. Thomas Kean Jr., one; Khanna's filings list many stocks), for context only. No wrongdoing alleged."
+  "quote": "\"General Motors CEO Mary Barra, who is setting records, huh? I hear you're doing unbelievably. Twenty-four hours, round the clock your factories.\" Later: \"Mary Barra, the chairman, CEO of General Motors—which is setting records every single day, and she's doing a fantastic job\" (Strategic Critical Minerals Reserve announcement, Oval Office)",
+  "note": "Said at the Oval Office announcement of the US Strategic Critical Minerals Reserve on Mon Feb 2 2026, with GM CEO Mary Barra in attendance (American Presidency Project transcript; Roll Call Factbase). The pool entered at 4:22 PM ET and the remarks began at 4:23 PM, after the close, so day 0 is Tue Feb 3 (GM +1.7%, S&P 500 −0.8%). GM had reported quarterly results on Jan 27, six days earlier, which shapes the -7d move. This is the earliest tracked GM mention, before Jul 13, Jul 27, Sep 26 and Oct 10. Quiver lists 5 congressional GM trades in the window (Rep. Ro Khanna, four, and Rep. Thomas Kean Jr., one; Khanna's filings list many stocks), for context only. No wrongdoing alleged."
  },
  {
   "date": "2026-02-04",
@@ -845,8 +845,8 @@
   "category": "Company praise",
   "asset": "Peabody Energy",
   "ticker": "BTU",
-  "quote": "\"I want to thank you and invite the chairman of our National Coal Council, Peabody Energy CEO\u2014which is a great company, by the way\u2014Jim Grech to come up and say a few words.\" (Champion of Coal event, White House)",
-  "note": "Said at the White House East Room event on Wed Feb 11 2026 where the Washington Coal Club gave Trump an \"Undisputed Champion of Coal\" award and he signed an executive order on military purchases of coal power (American Presidency Project transcript; pool reports). A Peabody mine worker also spoke. The event began at 4:30 PM ET, after the close, so day 0 is Thu Feb 12 (Peabody \u22124.4%, S&P 500 \u22121.6%). It's a passing \"great company\" aside while introducing Peabody's CEO, scored the same way as other \"great company\" lines. Quiver lists no congressional Peabody (BTU) trades (checked 2026-10-17). No wrongdoing alleged."
+  "quote": "\"I want to thank you and invite the chairman of our National Coal Council, Peabody Energy CEO—which is a great company, by the way—Jim Grech to come up and say a few words.\" (Champion of Coal event, White House)",
+  "note": "Said at the White House East Room event on Wed Feb 11 2026 where the Washington Coal Club gave Trump an \"Undisputed Champion of Coal\" award and he signed an executive order on military purchases of coal power (American Presidency Project transcript; pool reports). A Peabody mine worker also spoke. The event began at 4:30 PM ET, after the close, so day 0 is Thu Feb 12 (Peabody −4.4%, S&P 500 −1.6%). It's a passing \"great company\" aside while introducing Peabody's CEO, scored the same way as other \"great company\" lines. Quiver lists no congressional Peabody (BTU) trades (checked 2026-10-17). No wrongdoing alleged."
  },
  {
   "date": "2026-02-19",
@@ -872,7 +872,7 @@
   "category": "Explicit buy call",
   "asset": "Dell Technologies",
   "ticker": "DELL",
-  "quote": "\"We have a new thing, and it was Michael and Susan Dell\u2014Dell computer. Go out and buy a Dell computer. They're great.\" (energy speech, Port of Corpus Christi, Texas)",
+  "quote": "\"We have a new thing, and it was Michael and Susan Dell—Dell computer. Go out and buy a Dell computer. They're great.\" (energy speech, Port of Corpus Christi, Texas)",
   "note": "Said in his energy speech at the Port of Corpus Christi, Texas on Fri Feb 27 2026 while promoting the Trump Accounts that Michael and Susan Dell pledged $6.25 billion to fund (American Presidency Project transcript; Roll Call Factbase). The speech began at 3:48 PM Central (4:48 PM ET), after the market close, so day 0 is Mon Mar 2 (Dell +3.7%, S&P 500 +0.1%). Context: Dell had reported record quarterly results and raised guidance after the close on Feb 26, and its shares jumped 22% on Feb 27 before he spoke (Dell press release; CNBC), so the -7d and -30d moves mostly reflect earnings. It repeats the \"go out and buy a Dell computer\" line from his Feb 19 Rome, Georgia speech eight days earlier. See Disclosures: Trump's OGE report lists a Dell purchase on Feb 10, 17 days before. The three congressional Dell trades Quiver lists in this window (Sen. Markwayne Mullin Feb 4, Rep. Ro Khanna Feb 5 and Feb 17, all sales) are already shown under the Feb 19 row and are not counted twice; no others were filed in the week after. Context only. No wrongdoing alleged."
  },
  {
@@ -1055,7 +1055,7 @@
   "asset": "IBM",
   "ticker": "IBM",
   "quote": "\"The Department will receive a minority, non-controlling equity stake in each company as a condition for receiving the funds.\" (Commerce/NIST, May 21 2026; IBM: $1 billion in planned funding to establish a new quantum foundry subsidiary)",
-  "note": "The Commerce Department's CHIPS Research and Development Office announced on Thu May 21 2026 nine letters of intent for $2.013 billion in CHIPS Act incentives to quantum companies, and said it 'will receive a minority, non-controlling equity stake in each company' (NIST release; Reuters; CNBC; WSJ). The awards are letters of intent, not final agreements. The news was out before the open (CNBC 6:55 AM ET; the WSJ reported it first), so day 0 is May 21. Commerce Secretary Lutnick referred back to it at the Jun 22 quantum executive order signing ('the government invested $2 billion just a couple of weeks ago in quantum'). The five listed recipients are tracked as one announcement; the other four (Atom Computing, PsiQuantum, Quantinuum, Diraq) are private. IBM: $1 billion in planned funding to establish a new quantum foundry subsidiary (Anderon); IBM said it will add $1 billion of its own. Quiver lists House IBM trades in the window: Ro Khanna (D-CA) sales May 1 and May 15 and purchases Apr 24 and May 27; Gilbert Cisneros (D-CA) sale May 15; Josh Gottheimer (D-NJ) sale Apr 24; and two Maria Elvira Salazar (R-FL) purchases of $15,001\u2013$50,000 on May 21, the announcement day (filed Jun 8). Checked 2026-10-17."
+  "note": "The Commerce Department's CHIPS Research and Development Office announced on Thu May 21 2026 nine letters of intent for $2.013 billion in CHIPS Act incentives to quantum companies, and said it 'will receive a minority, non-controlling equity stake in each company' (NIST release; Reuters; CNBC; WSJ). The awards are letters of intent, not final agreements. The news was out before the open (CNBC 6:55 AM ET; the WSJ reported it first), so day 0 is May 21. Commerce Secretary Lutnick referred back to it at the Jun 22 quantum executive order signing ('the government invested $2 billion just a couple of weeks ago in quantum'). The five listed recipients are tracked as one announcement; the other four (Atom Computing, PsiQuantum, Quantinuum, Diraq) are private. IBM: $1 billion in planned funding to establish a new quantum foundry subsidiary (Anderon); IBM said it will add $1 billion of its own. Quiver lists House IBM trades in the window: Ro Khanna (D-CA) sales May 1 and May 15 and purchases Apr 24 and May 27; Gilbert Cisneros (D-CA) sale May 15; Josh Gottheimer (D-NJ) sale Apr 24; and two Maria Elvira Salazar (R-FL) purchases of $15,001–$50,000 on May 21, the announcement day (filed Jun 8). Checked 2026-10-17."
  },
  {
   "date": "2026-05-21",
@@ -1375,7 +1375,7 @@
   "quote": "\"Prysmian invests more than $1 billion to expand fiber optic cable manufacturing facility in North Carolina\"",
   "source": "https://truthsocial.com/@realDonaldTrump/117190839730903416",
   "group": "Trump",
-  "note": "Posted 11:31 AM ET Mon Aug 31 (trumpstruth.org/statuses/41420 archive; UCSB daily archive). Linked a Plant Services report on the Claremont, NC expansion (Catawba County; ~385 jobs; WSOC-TV / Hickory Record coverage). Prysmian S.p.A. trades in Milan (PRY.MI); PRYMY is its US over-the-counter ADR. Quiver \u221230d/+7d: no congressional trades in window (only a Jul 2023 Goldman sale and a Mar 2026 Armstrong buy outside the window)."
+  "note": "Posted 11:31 AM ET Mon Aug 31 (trumpstruth.org/statuses/41420 archive; UCSB daily archive). Linked a Plant Services report on the Claremont, NC expansion (Catawba County; ~385 jobs; WSOC-TV / Hickory Record coverage). Prysmian S.p.A. trades in Milan (PRY.MI); PRYMY is its US over-the-counter ADR. Quiver −30d/+7d: no congressional trades in window (only a Jul 2023 Goldman sale and a Mar 2026 Armstrong buy outside the window)."
  },
  {
   "date": "2026-09-02",
@@ -1391,7 +1391,7 @@
   "asset": "Chevron",
   "ticker": "CVX",
   "quote": "\"Venezuela is doing better than it's done in many years and ExxonMobil and Chevron. And I think Chevron announced today they're going to spend $18 billion on rebuilding the entire infrastructure for their oil sections.\" (Rose Garden dinner for GOP lawmakers)",
-  "note": "Said about 23 minutes into Trump's Rose Garden dinner speech for Republican lawmakers on Wed Sep 2 2026 (pool report #10: he entered the Rose Garden at 7:08 PM ET), after the close, so day 0 is Thu Sep 3. The announcement is real but the figure differs: that morning Chevron said its Venezuela joint ventures plan to invest more than $7 billion over five years to roughly double output to about 600,000 barrels a day (Chevron newsroom, Reuters, CNBC, Bloomberg, Sep 2 2026); $18 billion is closer to Chevron's whole-company 2026 capital budget ($18\u201319 billion). Because Chevron announced before the open on Sep 2, the stock's reaction to the news itself came the session before this comment. ExxonMobil was named in passing with no project, so it isn't scored. Quiver: one House purchase of CVX in the window, by Rep. Maria Elvira Salazar (R-FL) on Sep 2 2026, the comment day ($1,001\u2013$15,000, filed Oct 7; checked 2026-10-17)."
+  "note": "Said about 23 minutes into Trump's Rose Garden dinner speech for Republican lawmakers on Wed Sep 2 2026 (pool report #10: he entered the Rose Garden at 7:08 PM ET), after the close, so day 0 is Thu Sep 3. The announcement is real but the figure differs: that morning Chevron said its Venezuela joint ventures plan to invest more than $7 billion over five years to roughly double output to about 600,000 barrels a day (Chevron newsroom, Reuters, CNBC, Bloomberg, Sep 2 2026); $18 billion is closer to Chevron's whole-company 2026 capital budget ($18–19 billion). Because Chevron announced before the open on Sep 2, the stock's reaction to the news itself came the session before this comment. ExxonMobil was named in passing with no project, so it isn't scored. Quiver: one House purchase of CVX in the window, by Rep. Maria Elvira Salazar (R-FL) on Sep 2 2026, the comment day ($1,001–$15,000, filed Oct 7; checked 2026-10-17)."
  },
  {
   "date": "2026-09-07",
@@ -1400,7 +1400,7 @@
   "ticker": "BBD-B.TO",
   "type": "stock",
   "category": "Company criticism",
-  "quote": "\"NO MORE SELLING BOMBARDIER IN THE UNITED STATES! Their products aren't good enough! ... If they want our Market, they must build here, and stop treating America like a \u201cpiggybank.\u201d\"",
+  "quote": "\"NO MORE SELLING BOMBARDIER IN THE UNITED STATES! Their products aren't good enough! ... If they want our Market, they must build here, and stop treating America like a “piggybank.”\"",
   "source": "https://truthsocial.com/@realDonaldTrump/117230978314061095",
   "group": "Trump",
   "note": "Posted 1:39 PM ET Mon Sep 7 2026 (trumpstruth.org/statuses/41619 archive), which was Labor Day in the US and Labour Day in Canada, so the first tradable session is Tue Sep 8. Toronto-listed Class B shares (BBD.B), priced in Canadian dollars, so index comparisons include currency moves. Coverage: Reuters and BBC (Sep 7); no ban, tariff or other formal action had taken effect per Reuters' Sep 9 update. The same post said Canada 'blocked Gulfstream Aerospace' (General Dynamics), a passing reference that is not scored. Quiver: no congressional trades listed for Bombardier's US OTC ticker (BDRBF). Second tracked Company criticism (Negative #7)."
@@ -1431,7 +1431,7 @@
   "quote": "\"Google has recently stated that they want to build a massive Plant in Finland, all because they are finding permitting too difficult in the United States. I am not happy about this, and want them to change their thinking.\"",
   "source": "https://truthsocial.com/@realDonaldTrump/117270591511950591",
   "group": "Trump",
-  "note": "Posted 1:33 PM ET Mon Sep 14 (trumpstruth.org/statuses/41720 archive). Part of a longer AI-regulation post that also named Anthropic (private; not scored). Google had announced a \u20ac13B Finland data-centre plan the prior week (Yle News Sep 15; Reuters Sep 10). First tracked Company criticism (Negative #7). Quiver \u221230d/+7d: 3 House sales in window (Sessions day 0; Kean \u221218d; Rulli \u221221d)."
+  "note": "Posted 1:33 PM ET Mon Sep 14 (trumpstruth.org/statuses/41720 archive). Part of a longer AI-regulation post that also named Anthropic (private; not scored). Google had announced a €13B Finland data-centre plan the prior week (Yle News Sep 15; Reuters Sep 10). First tracked Company criticism (Negative #7). Quiver −30d/+7d: 3 House sales in window (Sessions day 0; Kean −18d; Rulli −21d)."
  },
  {
   "date": "2026-09-21",
@@ -1452,7 +1452,7 @@
   "ticker": "BA",
   "type": "stock",
   "category": "Company praise",
-  "quote": "\"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, T\u00fcrkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes\u2014with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"",
+  "quote": "\"BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more... The Market is recognizing what Boeing and I have known all along... Congratulations to Boeing, and its incredible workforce!\"",
   "source": "https://truthsocial.com/@realDonaldTrump/117323148147220269",
   "group": "Trump",
   "note": "Posted 8:19 PM ET Sep 23 (after the close; trumpstruth.org/statuses/41855 archive), so the first session that could react is Sep 24. Credits Commerce Secretary Howard Lutnick and the Commerce Department for the orders.",
@@ -1508,7 +1508,7 @@
   "asset": "Nvidia",
   "ticker": "NVDA",
   "quote": "\"As an example, Nvidia. ... In the stock market, it's very easy to value. The most valuable company anywhere in the world. ... And this man has done a great job.\" (post-AI-luncheon gaggle, referring to Jensen Huang)",
-  "note": "Said about 6\u00bd minutes into Trump's post-lunch gaggle with tech executives at the White House on Tue Sep 29 2026. Pool report #20 says he re-entered the White House at 4:13 PM ET after a 33-minute gaggle, so the Nvidia line is about 3:46 PM ET (before the close); day 0 is Sep 29. Standing with Nvidia CEO Jensen Huang, Trump called Nvidia \"the most valuable company anywhere in the world\" and said Huang \"has done a great job\" (Trump Archive item for the Sep 29 press gaggle / Factba.se transcript). This is a second tracked Nvidia praise (earlier: Apr 15 2025). Quiver: one Daniel Meuser House sale of NVDA on Aug 31 2026 (filed Oct 14), 29 days before the comment (checked 2026-10-17)."
+  "note": "Said about 6½ minutes into Trump's post-lunch gaggle with tech executives at the White House on Tue Sep 29 2026. Pool report #20 says he re-entered the White House at 4:13 PM ET after a 33-minute gaggle, so the Nvidia line is about 3:46 PM ET (before the close); day 0 is Sep 29. Standing with Nvidia CEO Jensen Huang, Trump called Nvidia \"the most valuable company anywhere in the world\" and said Huang \"has done a great job\" (Trump Archive item for the Sep 29 press gaggle / Factba.se transcript). This is a second tracked Nvidia praise (earlier: Apr 15 2025). Quiver: one Daniel Meuser House sale of NVDA on Aug 31 2026 (filed Oct 14), 29 days before the comment (checked 2026-10-17)."
  },
  {
   "date": "2026-09-30",
@@ -1536,7 +1536,7 @@
   "quote": "\"Congratulations to the GREAT Boeing Company for producing a plane, the 737 Max, that was able to withstand G Forces and Strain far beyond what it was designed and expected to do... The Boeing Company, which builds, by far, the finest commercial airliners in the sky\"",
   "source": "https://truthsocial.com/@realDonaldTrump/117363810994521058",
   "group": "Trump",
-  "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23 2026, 8:19 PM ET) he had praised Boeing for the T\u00fcrkiye/Bangladesh orders (tracked separately). The widely shared \"Sep 23 Boeing criticism\" dates from 2023, not 2026; an earlier version of this note had that wrong."
+  "note": "Posted 12:40 AM ET Oct 1 (before the open), after the FlyDubai 737 MAX in-flight incident (Fox Business). Eight days earlier (Sep 23 2026, 8:19 PM ET) he had praised Boeing for the Türkiye/Bangladesh orders (tracked separately). The widely shared \"Sep 23 Boeing criticism\" dates from 2023, not 2026; an earlier version of this note had that wrong."
  },
  {
   "date": "2026-10-01",
@@ -1589,7 +1589,7 @@
   "asset": "Mercedes-Benz Group",
   "ticker": "MBG.DE",
   "quote": "\"But in Alabama, Mercedes Benz is investing $4 billion to expand its plant in a place called Tuscaloosa.\" (Mobile, Alabama rally)",
-  "note": "Said about 26 minutes into Trump's midterm campaign rally in Mobile, Alabama on Fri Oct 2 2026 (Trump Archive transcript). The White House travel pool report says he walked out at 6:28 PM Central (7:28 PM ET, after the close), so day 0 is the next session (Mon Oct 5). The investment is real and was already public: on Mar 31 2026 Mercedes-Benz said it will invest $4 billion in its Tuscaloosa County, Alabama plant through 2030, including moving GLC production there by 2029, as part of more than $7 billion planned for its US operations (Mercedes-Benz USA press release; Reuters; Made in Alabama). Frankfurt-listed shares, priced in euros, so index comparisons include currency moves; Frankfurt was closed at the time of the speech, so day 0 is also Mon Oct 5 there. Quiver: no congressional trades in Mercedes' US OTC tickers in the window (MBGYY's only listed trade is from Jul 2023; MBGAF none; old DDAIF trades are from 2018\u20132019; checked 2026-10-17).",
+  "note": "Said about 26 minutes into Trump's midterm campaign rally in Mobile, Alabama on Fri Oct 2 2026 (Trump Archive transcript). The White House travel pool report says he walked out at 6:28 PM Central (7:28 PM ET, after the close), so day 0 is the next session (Mon Oct 5). The investment is real and was already public: on Mar 31 2026 Mercedes-Benz said it will invest $4 billion in its Tuscaloosa County, Alabama plant through 2030, including moving GLC production there by 2029, as part of more than $7 billion planned for its US operations (Mercedes-Benz USA press release; Reuters; Made in Alabama). Frankfurt-listed shares, priced in euros, so index comparisons include currency moves; Frankfurt was closed at the time of the speech, so day 0 is also Mon Oct 5 there. Quiver: no congressional trades in Mercedes' US OTC tickers in the window (MBGYY's only listed trade is from Jul 2023; MBGAF none; old DDAIF trades are from 2018–2019; checked 2026-10-17).",
   "verify": [
    "https://media.mbusa.com/releases/world-premieres-of-new-gle-and-gls-marked-by-five-millionth-model-assembled-at-mbusi-in-tuscaloosa",
    "https://www.reuters.com/business/autos-transportation/german-automaker-mercedes-benz-invest-4-billion-alabama-suv-plant-2026-03-31/",
@@ -1710,6 +1710,22 @@
    "https://global.toyota/en/newsroom/corporate/44599187.html",
    "https://gov.texas.gov/news/post/governor-abbott-announces-toyota-expansion-in-san-antonio"
   ]
+ },
+ {
+  "date": "2026-10-07",
+  "group": "Admin",
+  "who": "Department of War (Office of Strategic Capital)",
+  "type": "stock",
+  "source": "https://www.war.gov/News/Releases/Release/Article/4621223/department-of-wars-office-of-strategic-capital-announces-15-billion-conditional/",
+  "archive_url": "https://investor.wolfspeed.com/news/news-details/2026/Wolfspeed-Announces-Conditional-30-Year-1-5-Billion-Loan-Commitment-from-U-S--Department-of-War-to-Advance-Domestic-Wide-Bandgap-Supply-Chain/default.aspx",
+  "time_et": "2026-10-07 16:15",
+  "time_src": "Disclosed just after the Oct 7 close: Investing.com's 4:15 PM ET story says Wolfspeed announced it 'just after today's market close' and Reuters says the shares jumped 27% in extended trading; Wolfspeed's 8-K was accepted by the SEC at 4:18:06 PM ET. So day 0 is Thu Oct 8",
+  "after_close": true,
+  "category": "Government stake/deal",
+  "asset": "Wolfspeed",
+  "ticker": "WOLF",
+  "quote": "\"The Department of War's Office of Strategic Capital (OSC) announced today a $1.5 billion conditional loan commitment to Wolfspeed, Inc. ... The contemplated financing builds on President Trump's mandate to accelerate the onshoring of semiconductor production\" (war.gov release, Oct 7 2026)",
+  "note": "A conditional commitment for an up-to-$1.5 billion, 30-year senior secured loan from the Department of War's Office of Strategic Capital to Durham, North Carolina chipmaker Wolfspeed (silicon carbide and gallium nitride), announced by the department and the company on Wed Oct 7 2026 (war.gov release; Wolfspeed release and 8-K). As a condition, Wolfspeed would issue the department warrants for up to 7.5% of its fully diluted equity as tranches are funded, so it is tracked as a government stake/deal. It is not final: it needs due diligence, definitive agreements, congressional authorization and appropriations, among other conditions (8-K). Not tracked until Trump referred to it at his Oct 20 Greenville, North Carolina rally ('The Department of War will be investing $1.5 billion to produce cutting edge semiconductor chips right here in North Carolina', Roll Call Factbase/Trump Archive transcript; he did not name Wolfspeed, which WXII, NTD and The Hill tied to this commitment). The shares jumped about 27% in after-hours trading on Oct 7 (Reuters; Investing.com) and opened Oct 8 at $35.02, but closed that day at $31.02, 1.1% below the Oct 7 close (Yahoo Finance prices), so the day-0 figure shows the jump faded. The company emerged from Chapter 11 in 2025, and its shares are very volatile. Quiver lists no congressional WOLF trades from 30 days before to 7 days after (checked 2026-10-21). No wrongdoing alleged."
  },
  {
   "date": "2026-10-09",
@@ -1979,5 +1995,21 @@
   "ticker": "WMB",
   "quote": "\"The U.S. Department of Energy (DOE) announced today that it will use up to $42 million in Defense Production Act (DPA) Title III funding to advance the development of a proposed 125-mile natural gas pipeline from Pennsylvania to New York. Constitution Pipeline Company, LLC's project...\"",
   "note": "Energy Secretary Chris Wright and Interior Secretary Doug Burgum announced the award in Dover Plains, New York on Mon Oct 19 2026 (DOE release; Fox Business; The Hill). The money goes to Constitution Pipeline Company, LLC, the Williams-led venture that first proposed the line over a decade ago (Williams project page and FERC filings), for permitting and pre-construction work; it is a grant, not an equity stake, and is small next to Williams' size, so the share price reflects much more than this news. The announcement came during trading, so day 0 is Oct 19. Quiver lists no congressional WMB trades from 30 days before to the date checked (the latest are two Aug 19-20 2026 purchases by Sen. Alan Armstrong, about two months earlier and outside the window; checked 2026-10-20). No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-20",
+  "group": "Family",
+  "who": "Donald Trump Jr.",
+  "type": "stock",
+  "source": "https://x.com/DonaldJTrumpJr/status/2112682294695608593",
+  "archive_url": "https://www.reuters.com/business/retail-consumer/apple-commits-up-100-million-us-titanium-domestic-manufacturing-push-2026-10-20/",
+  "time_et": "2026-10-20 19:08",
+  "time_src": "X post timestamp 23:08:05 UTC = 7:08 PM ET Tuesday, after the close, so day 0 is Wed Oct 21",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Apple",
+  "ticker": "AAPL",
+  "quote": "\"They told us we couldn't bring back American manufacturing. But we keep proving them wrong. Over and over again. Good for Apple!\" (quote-posting the White House Rapid Response account's 'MADE IN AMERICA: Apple commits up to $100 million for US titanium')",
+  "note": "Donald Trump Jr. praised Apple on X on Tue Oct 20 2026, quoting the White House Rapid Response 47 post (10:06 AM ET) of the Reuters story that Apple committed to buy up to $100 million of titanium over three years from Pennsylvania-based Perryman Company (Apple newsroom, Oct 20). Apple's own announcement came the same morning, before his post, so any move on day 0 (Wed Oct 21) also reflects that news; the row shows as not scored until that session closes. First tracked company praise by a Trump family member (earlier family rows are crypto calls, family ventures and Ivanka Trump's 2020 Goya endorsement). Apple's previous tracked mentions are Trump's (Aug 6 2025, Jan 21 2026). Quiver lists one congressional AAPL trade from 30 days before: Rep. Pete Sessions' Sep 22 2026 sale ($100,001-$250,000, filed the same day per Quiver), 28 days before; trades in the week after may not be filed yet (checked 2026-10-21). No wrongdoing alleged."
  }
 ]
