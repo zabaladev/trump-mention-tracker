@@ -393,5 +393,15 @@
   "item": "Cabinet and family X posts, Oct 20 2026 (Hegseth on L3Harris, Wright at CenterPoint, Kushner on Trump Accounts gifts)",
   "reason": "War Secretary Pete Hegseth quote-posted L3Harris's video of its new Camden, Arkansas solid rocket motor plant with 'Arsenal of Freedom' and 'The Arsenal of Freedom facility, literally' (the facility's name; L3Harris release Oct 20), with no comment on the company or its stock, and his 'golden age for American manufacturing' clip names no company. Energy Secretary Wright's 'great to visit @CenterPoint' post describes a site visit on grid costs, not praise of the company's business. Jared Kushner thanked Brad Gerstner and Elon Musk for Trump Accounts gifts (donation thanks, same rule as the Dell and Musk gifts). Transportation Secretary Duffy's $873 million North Carolina road-repair funds name no company. Not scored; Don Jr.'s 'Good for Apple!' post the same evening is scored.",
   "kind": "notcall"
+ },
+ {
+  "item": "Pendleton, South Carolina rally and cybercrime roundtable lines (Trump, Oct 21 2026)",
+  "reason": "At the Pendleton rally Trump repeated the Google Maps Gulf of America story (\"I called Google Maps... Sundar... a brilliant guy\"), a story about the renaming, not a comment on Google's business (same rule as the Oct 17 Kentucky rally aside), and again thanked Michael and Susan Dell for their $6.25 billion Trump Accounts gift (donation thanks). General lines on plants, pharmaceutical companies building $600 billion of plants and the stock market's record highs name no company. At the White House cybercrime roundtable, officials said Meta, X, Google, Microsoft and IBM had helped law enforcement shut down scam networks: cooperation with law enforcement, not praise of the companies' business. Not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Truth Social and administration X posts, Oct 21 2026 (UK North Sea oil, Rapid Response GlobalFoundries repost, Melania women's health EO)",
+  "reason": "Trump's UK North Sea drilling post names no company. Rapid Response 47's 'Japan is set to invest $21 billion to build two new chipmaking facilities in Upstate New York' repeats the Oct 14 GlobalFoundries deal, which is already tracked. Melania Trump's posts share coverage of the women's health executive order with no company named. Not scored; Duffy's Boeing and BETA posts and Trump's Apple post the same day are scored.",
+  "kind": "tracked"
  }
 ]

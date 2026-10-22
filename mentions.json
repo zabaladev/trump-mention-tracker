@@ -2011,5 +2011,53 @@
   "ticker": "AAPL",
   "quote": "\"They told us we couldn't bring back American manufacturing. But we keep proving them wrong. Over and over again. Good for Apple!\" (quote-posting the White House Rapid Response account's 'MADE IN AMERICA: Apple commits up to $100 million for US titanium')",
   "note": "Donald Trump Jr. praised Apple on X on Tue Oct 20 2026, quoting the White House Rapid Response 47 post (10:06 AM ET) of the Reuters story that Apple committed to buy up to $100 million of titanium over three years from Pennsylvania-based Perryman Company (Apple newsroom, Oct 20). Apple's own announcement came the same morning, before his post, so any move on day 0 (Wed Oct 21) also reflects that news; the row shows as not scored until that session closes. First tracked company praise by a Trump family member (earlier family rows are crypto calls, family ventures and Ivanka Trump's 2020 Goya endorsement). Apple's previous tracked mentions are Trump's (Aug 6 2025, Jan 21 2026). Quiver lists one congressional AAPL trade from 30 days before: Rep. Pete Sessions' Sep 22 2026 sale ($100,001-$250,000, filed the same day per Quiver), 28 days before; trades in the week after may not be filed yet (checked 2026-10-21). No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-21",
+  "group": "Admin",
+  "who": "Sean Duffy (Transportation Sec.)",
+  "type": "stock",
+  "source": "https://x.com/SecDuffy/status/2112960156199981359",
+  "archive_url": "https://x.com/i/trending/2112633699808260421",
+  "time_et": "2026-10-21 13:32",
+  "time_src": "X post timestamp 17:32:12 UTC = 1:32 PM ET Wednesday, during trading hours, so day 0 is Oct 21",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "Boeing (737 MAX 10)",
+  "ticker": "BA",
+  "quote": "\"NEW: @Boeing's BRAND-NEW 737 MAX-10 is hitting the market and this next-gen aircraft is impressive ... Future of flight is MADE IN AMERICA\"",
+  "note": "Transportation Secretary Sean Duffy, whose department includes the FAA, praised Boeing's 737 MAX 10 on X on Wed Oct 21 2026, the day after the FAA certified the jet (Oct 20; widely reported). The certification news came out the day before, so day 0 (Oct 21) mostly reflects news already public. Boeing's earlier tracked mentions are Trump's, most recently his Oct 19 Park City, Kansas rally praise (day 0 Oct 20). Quiver's only congressional Boeing trade from 30 days before is Rep. Maria Elvira Salazar's Sep 24 2026 sale (filed Oct 7), already linked to the Sep 23 and Oct 1 rows, so it is not added again; trades in the week after may not be filed yet (checked 2026-10-22). No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-21",
+  "group": "Admin",
+  "who": "Sean Duffy (Transportation Sec.)",
+  "type": "stock",
+  "source": "https://x.com/SecDuffy/status/2113039693331751337",
+  "archive_url": "https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-announces-first-ever-special-airworthiness",
+  "time_et": "2026-10-21 18:48",
+  "time_src": "X post timestamp 22:48:15 UTC = 6:48 PM ET Wednesday, after the close, so day 0 is Thu Oct 22; BETA's own release went out at 7:00 AM ET Oct 21, before the open",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "BETA Technologies",
+  "ticker": "BETA",
+  "quote": "\"HUGE NEWS THE FUTURE OF FLIGHT. Today, @BETA_aircraft's ALIA 250 secured the first ever market survey certification for eVTOLs ... The possibilities are endless for advanced air mobility aircraft\"",
+  "note": "Transportation Secretary Sean Duffy promoted BETA Technologies (NYSE: BETA) on X after his department announced that the FAA had issued BETA's ALIA A250 electric VTOL the first Special Airworthiness Certificate for market surveys (DOT/FAA release, Oct 21 2026; BETA press release, 7:00 AM ET Oct 21). It lets BETA fly prospective customers and partners; it is not a type certificate. BETA rose about 3.2% on Oct 21, when the news first came out, before this post. The post came after the close, so day 0 is Thu Oct 22 and the row shows as not scored until that session closes. The FAA is the regulator here, so this is the agency's head praising a company his department just approved; this is recorded as public information only. First tracked BETA mention. Quiver lists no congressional BETA trades (checked 2026-10-22); trades in the week after may not be filed yet. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-21",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://truthsocial.com/@realDonaldTrump/117482204261904691",
+  "archive_url": "https://trump-archive.com/item/d3d72236-d16b-419f-9156-cf0897d1f558",
+  "time_et": "2026-10-21 22:29",
+  "time_src": "Truth Social created_at 2026-10-22T02:29:33Z = 10:29 PM ET Wednesday Oct 21, after the close, so day 0 is Thu Oct 22",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Apple",
+  "ticker": "AAPL",
+  "quote": "\"American Manufacturing is BOOMING. Jobs are coming HOME. ... Now Apple is committing to purchasing 100 MILLION DOLLARS of PENNSYLVANIA Titanium for its NEW iPhone. The Radical Left said it couldn't be done. We proved them wrong, AGAIN! ... Remember this Investment on Election Day!\"",
+  "note": "Trump posted the Oct 20 Reuters story that Apple committed up to $100 million over three years for titanium from Pennsylvania-based Perryman Company (Apple newsroom, Oct 20), crediting Rep. Guy Reschenthaler. The news was two days old and Donald Trump Jr. had already praised it on Oct 20 (tracked separately), so any move on day 0 (Thu Oct 22) reflects much more than this post; the row shows as not scored until that session closes. Apple's earlier tracked Trump mentions are Aug 6 2025 and Jan 21 2026. Rep. Pete Sessions' Sep 22 2026 AAPL sale stays under the Oct 20 Don Jr. row and is not double-counted; Quiver lists no other congressional AAPL trades in the window so far (checked 2026-10-22). No wrongdoing alleged."
  }
 ]

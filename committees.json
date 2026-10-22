@@ -734,6 +734,24 @@
     "committee": "Senate Committee on Armed Services",
     "why": "Department of War financing and defense supply chains"
    }
+  ],
+  "BETA": [
+   {
+    "committee": "House Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "Senate Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "House Committee on Transportation and Infrastructure",
+    "why": "aviation and the FAA"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "aviation and the FAA"
+   }
   ]
  }
 }
