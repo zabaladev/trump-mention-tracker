@@ -752,6 +752,54 @@
     "committee": "Senate Committee on Commerce, Science, and Transportation",
     "why": "aviation and the FAA"
    }
+  ],
+  "RTX": [
+   {
+    "committee": "House Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "Senate Committee on Armed Services",
+    "why": "defense contracts and the Pentagon budget"
+   },
+   {
+    "committee": "House Committee on Transportation and Infrastructure",
+    "why": "aviation and the FAA"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "aviation and the FAA"
+   }
+  ],
+  "IPI": [
+   {
+    "committee": "House Committee on Agriculture",
+    "why": "farm inputs and USDA programs"
+   },
+   {
+    "committee": "Senate Committee on Agriculture, Nutrition, and Forestry",
+    "why": "farm inputs and USDA programs"
+   }
+  ],
+  "ASIX": [
+   {
+    "committee": "House Committee on Agriculture",
+    "why": "farm inputs and USDA programs"
+   },
+   {
+    "committee": "Senate Committee on Agriculture, Nutrition, and Forestry",
+    "why": "farm inputs and USDA programs"
+   }
+  ],
+  "AEP": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "electricity and the power grid"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "electricity and the power grid"
+   }
   ]
  }
 }

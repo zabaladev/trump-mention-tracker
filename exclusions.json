@@ -403,5 +403,25 @@
   "item": "Truth Social and administration X posts, Oct 21 2026 (UK North Sea oil, Rapid Response GlobalFoundries repost, Melania women's health EO)",
   "reason": "Trump's UK North Sea drilling post names no company. Rapid Response 47's 'Japan is set to invest $21 billion to build two new chipmaking facilities in Upstate New York' repeats the Oct 14 GlobalFoundries deal, which is already tracked. Melania Trump's posts share coverage of the women's health executive order with no company named. Not scored; Duffy's Boeing and BETA posts and Trump's Apple post the same day are scored.",
   "kind": "tracked"
+ },
+ {
+  "item": "Cabinet and agency posts, Oct 22 2026 (Lutnick and Commerce on the GlobalFoundries New York fabs, Duffy Boeing repeat, Hegseth on the Lockheed F-35 contract, Burgum at Gunnison Copper, Vance on SpaceX)",
+  "reason": "Commerce Secretary Lutnick's and the Commerce Department's posts on the '$21 BILLION' Japan-funded GlobalFoundries fabs in upstate New York repeat the Oct 14 GlobalFoundries deal, which is already tracked. Transportation Secretary Duffy's 'NEW PLANES ARE COMING' post on the FAA's 737 MAX 10 approval repeats his Oct 21 Boeing post (tracked). War Secretary Hegseth quote-posted Lockheed Martin's new F-35 multiyear contract agreement with 'Arsenal of Freedom.' (same rule as his Oct 20 L3Harris quote-posts: no comment on the company, and a procurement contract is not an equity stake, loan or grant). Interior Secretary Burgum's 'Great visit to Gunnison Copper' is a site-visit post like Energy Secretary Wright's CenterPoint visit (not scored). Vice President Vance's rally line that European countries are 'running to SpaceX' is a point about European regulation. Not scored; Duffy's RTX posts the same day are scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Administration announcements and Iowa rally context, Oct 22 2026 (USDA FIELDS fertilizer grants and TalusAg, DOE $150M refinery DPA funding, wind turbine Section 232 proclamation, Commerce '$383 billion in deals')",
+  "reason": "Vice President Vance and Agriculture Secretary Rollins announced $1.34 billion across eight USDA FIELDS fertilizer projects, naming Nebraska's TalusAg, which is privately held. The Department of Energy's up-to-$150 million Defense Production Act refinery program (announced by Trump at the Sioux City, Iowa rally and by Secretary Wright) has not selected any company yet ('the selection process is ongoing'). Trump's proclamation adjusting imports of wind turbines and parts is a trade measure that names no company. The Commerce Department's '$383 BILLION in international deals' post names no company. Not scored. The Sioux City rally transcript was not yet posted when this was checked (Oct 23, 09:15 UTC).",
+  "kind": "notcall"
+ },
+ {
+  "item": "Fort Myers, Florida rally, gaggles and WINK-TV interview (Trump, Oct 23 2026)",
+  "reason": "In the gaggle before leaving for Florida Trump defended Elon Musk ('He's a very brilliant person or Starlink wouldn't exist') when asked about Musk's influence over Starlink in Ukraine; SpaceX is private and this is not a comment on its business. At the Fort Myers rally he repeated the Google Maps renaming story ('Sundar... he's incredible', same rule as Oct 17 and Oct 21), announced $250 million to hire 5,000 elder-care nurses (no company), and repeated stock-market and '$22.2 trillion of new investments' boasts naming no company. The WINK-TV interview and West Palm Beach gaggles name no company; the proclamation further modifying the Canada auto tariffs is a trade measure naming no company (Trump Archive transcripts and White House document). His Oct 22 11:41 PM ET Bombardier post is already tracked. Not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Administration and family X posts, Oct 23 2026 (Rapid Response 47 U.S. Steel and aluminum headlines, USDA SPUR loans and Peace Valley, Burgum at Colorado School of Mines, Kushner and Melania posts)",
+  "reason": "Rapid Response 47 shared headlines on Nippon's U.S. Steel investing nearly $3 billion near Pittsburgh (U.S. Steel is owned by Nippon Steel and no longer listed; see the U.S. Steel entry) and on aluminum jobs in five states (Daily Caller story, no company named in the post), and re-shared the Bombardier story (already tracked). USDA's $5 billion SPUR loan-guarantee program names no company; Vance and Rollins highlighted Peace Valley Products' $19.9 million FIELDS award in Florida (privately held). Burgum's Colorado School of Mines visit is about a university hub. Jared Kushner's post disputes a news story about himself, and Melania Trump's posts share the White House statement on the Oleshky ceasefire. Don Jr.'s post is political. Not scored; the same day's review added the Oct 22 FIELDS awards to the listed Intrepid Potash and AdvanSix and the Oct 16 DOE grant to AEP's Appalachian Power.",
+  "kind": "notcall"
  }
 ]
