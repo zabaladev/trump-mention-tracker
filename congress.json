@@ -3398,5 +3398,77 @@
   "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
   "note": "Quiver lists the filing date as Sep 22, 2026 too (before the comment).",
   "filed": "2026-09-22"
+ },
+ {
+  "mention": [
+   "2026-09-29",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Cleo Fields",
+  "chamber": "House",
+  "party": "D",
+  "state": "LA",
+  "date": "2026-10-01",
+  "days": 2,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2026-10-22",
+  "note": "Filed Oct 22, 2026 (after the comment). House Clerk PTR 20035669 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf) lists three separate NVDA purchases on Oct 1, one in each of three accounts; this row is the Morgan Stanley - E*TRADE #2 account."
+ },
+ {
+  "mention": [
+   "2026-09-29",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Cleo Fields",
+  "chamber": "House",
+  "party": "D",
+  "state": "LA",
+  "date": "2026-10-01",
+  "days": 2,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2026-10-22",
+  "note": "Filed Oct 22, 2026 (after the comment). House Clerk PTR 20035669 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf) lists three separate NVDA purchases on Oct 1, one in each of three accounts; this row is the Morgan Stanley - E*TRADE - Fields Law Firm 2, LLC account."
+ },
+ {
+  "mention": [
+   "2026-09-29",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Cleo Fields",
+  "chamber": "House",
+  "party": "D",
+  "state": "LA",
+  "date": "2026-10-01",
+  "days": 2,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2026-10-22",
+  "note": "Filed Oct 22, 2026 (after the comment). House Clerk PTR 20035669 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf) lists three separate NVDA purchases on Oct 1, one in each of three accounts; this row is the Morgan Stanley - E*TRADE IRA account."
+ },
+ {
+  "mention": [
+   "2026-10-14",
+   "TSM"
+  ],
+  "ticker": "TSM",
+  "member": "Cleo Fields",
+  "chamber": "House",
+  "party": "D",
+  "state": "LA",
+  "date": "2026-10-09",
+  "days": -5,
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSM",
+  "filed": "2026-10-22",
+  "note": "Filed Oct 22, 2026 (after the comment). Confirmed on House Clerk PTR 20035669 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf), Morgan Stanley - E*TRADE #2 account."
  }
 ]

@@ -433,5 +433,20 @@
   "item": "Administration X posts Oct 24 2026 (Duffy road and bridge funding, Rollins Mexico water treaty, Burgum Colorado School of Mines and memorial, Wright state energy policy, DOE Genesis Mission, Hegseth AUTOWARCOM)",
   "reason": "None names a listed company or makes a buy, sector or deal call about one: Duffy's $17.5 billion is federal highway funding, Rollins' post is about the 1944 water treaty, Burgum's posts are about a university and a memorial, Wright's post compares state energy policies, DOE quoted an official on AI in clinical trials, and Hegseth's post is a one-word video caption. Not scored.",
   "kind": "notcall"
+ },
+ {
+  "item": "Trump remarks Oct 25 2026 (Larry Kudlow Fox News phone interview, WJBK-TV Fox 2 Detroit interview, Marine One and Air Force One gaggles, Port Huron, Michigan rally) and the full Oct 24 Perry, Georgia rally transcript",
+  "reason": "To Kudlow, Trump repeated that the government's 10% Intel stake \"now it's worth $12 billion\" and that \"Intel now is doing great\" (the same stake boast already logged, not scored, on Aug 7, May 1/4 and Feb 20; Intel has four tracked mentions). At the Port Huron rally he recapped Ford's 1901 Detroit plant running three shifts (the recap logged since Jan 2026), then listed \"Stellantis is building a new $400 million factory\", \"Ford is pouring $3 billion into central Michigan\" and GM \"investing billions\" (an investment roll-call; Ford, GM and Stellantis are tracked), repeated the Peterbilt expansion line (logged Oct 1 and Oct 6) and the Eli Lilly, Merck and Pfizer plants line, and retold the Audi announcement (already tracked through VOW3.DE). Senate candidate Mike Rogers' Chevy Silverado and Detroit Diesel lines are not from an official. The Perry transcript adds a Meta data-center anecdote (paying neighbours $10,000), the same drugmaker line, thanks to CNN for two videos, and a remark that the U.S. oil and gas business is \"making hundreds of billions\" while he said oil prices \"will be falling dramatically\" (a description of the economy, not a call on oil stocks). In the WJBK interview he dismissed the Fox News poll and cited a CNN poll. None is a new buy, praise, sector or deal call. Not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Trump Truth Social posts Oct 25 to early Oct 26 2026 (Fox News coverage complaint, Bill Maher and HBO jab, Chiricahua National Park, Libya, Netanyahu endorsement, endorsements and video posts)",
+  "reason": "The 4:49 PM ET Oct 25 post said Fox News is \"spending far too much time\" on Republican candidates' opponents, and an overnight post called Bill Maher's show \"Low Rated\" on \"equally Low Rated HBO\" (Warner Bros. Discovery). Both are political complaints about media coverage, like the Oct 16 Fox News post that was not added; the tracker has no inclusion rule for media criticism, so neither is scored. The other posts were a national-park designation, foreign-policy and campaign posts, news links (Iran's oil minister, a New York logo ruling) and untitled video posts. Not scored.",
+  "kind": "notcall"
+ },
+ {
+  "item": "Administration and family X posts Oct 25 to early Oct 26 2026 (Duffy BETA Technologies repeat, White House energy release, Rollins, Burgum, Hegseth, Rubio, Vance, Don Jr., Eric Trump, Melania Trump)",
+  "reason": "Transportation Secretary Duffy's 8:47 PM ET Oct 25 post on BETA Technologies' FAA certificate (\"officially CLEARED to fly potential customers\") repeats the market-survey certificate news he already praised on Oct 21, which is tracked, so it is not a new event. The White House release \"President Trump Secures Major Deals to Unleash American Energy\" names no company. Rollins posted a weekly USDA recap (fertilizer grants already tracked) and a staff tribute; Burgum posted about a wildlife refuge and USGS sites; Hegseth reposted a Department of War video; Rubio marked the Kuala Lumpur accords; Vance posted about the Bengals and a fraud case. Don Jr. and Eric Trump quote-posted political content; Melania Trump posted photos. Not scored.",
+  "kind": "tracked"
  }
 ]
