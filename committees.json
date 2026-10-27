@@ -800,6 +800,24 @@
     "committee": "Senate Committee on Energy and Natural Resources",
     "why": "electricity and the power grid"
    }
+  ],
+  "DK": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "energy markets and fuel refining"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "oil and gas policy"
+   },
+   {
+    "committee": "House Committee on Armed Services",
+    "why": "Defense Production Act and military fuel"
+   },
+   {
+    "committee": "Senate Committee on Armed Services",
+    "why": "Defense Production Act and military fuel"
+   }
   ]
  }
 }

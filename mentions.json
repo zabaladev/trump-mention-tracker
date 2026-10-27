@@ -1822,6 +1822,21 @@
   "note": "Said about 39 minutes into a campaign rally speech in Youngstown, Ohio that began at 7:23 PM ET (after the close, per the White House travel pool report), so day 0 is the next session (Tue Oct 13). Vallourec announced the up-to-$48 million Youngstown premium threading line on Nov 10 2025 (company press release; JobsOhio said at least $39 million was committed); construction began Jul 2025 and is due to finish in early 2027. Paris-listed shares, priced in euros, so index comparisons include currency moves. Quiver: no congressional trades listed for Vallourec's US OTC tickers (VLOWY, VLOUF; checked 2026-10-17)."
  },
  {
+  "date": "2026-10-13",
+  "group": "Admin",
+  "who": "JD Vance (Vice President)",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/a452445d-07fc-466e-b7ed-b70d81869b28",
+  "archive_url": "https://tylerpaper.com/2026/10/13/during-tyler-stop-jd-vance-announces-partnership-with-delek-refinery/",
+  "time_et": "2026-10-13 14:40",
+  "time_src": "Said about 14 minutes into Vance's midterm rally at Tyler Pounds Regional Airport, Tyler, Texas, on Tue Oct 13 (Roll Call Factbase transcript via the Trump Archive). Bloomberg's story was published at 6:43 PM UTC (2:43 PM ET) and The Hill's at 2:45 PM ET, so the line came before about 2:43 PM ET, during market hours; day 0 is Oct 13",
+  "category": "Government stake/deal",
+  "asset": "Delek US Holdings",
+  "ticker": "DK",
+  "quote": "\"So today, I am pleased to announce that the Trump administration, working with the refinery at Delek, has used the Defense Production Act, and we are going to expand the refinery right here in Tyler, Texas. ... We want millions of gallons of commercial grade and military spec fuel to come out of this refinery in addition to what it's already producing.\" (Vice President JD Vance, Tyler, Texas rally, Oct 13 2026)",
+  "note": "Vice President Vance announced at an Oct 13 2026 campaign rally in Tyler, Texas that the administration, working with Delek US Holdings, has used the Defense Production Act to expand Delek's Tyler refinery (about 74,000 barrels a day) to produce more commercial and military-spec fuel, with 'hundreds of good paying new jobs' (Roll Call Factbase transcript; Reuters, Bloomberg, The Hill, Tyler Morning Telegraph). No funding amount, capacity increase, DPA mechanism or timeline has been published, and Delek has not released details (Reuters; Shale Magazine), so this is tracked as a government deal of unknown size. Trump's Oct 22 presidential determination under DPA Section 303 on petroleum refining (whitehouse.gov) covers such projects but names no company. Not tracked until Vance referred back to it at his Oct 26 Topeka, Kansas rally ('we just announced a major expansion in Texas of a refinery', Trump Archive transcript); found in the Oct 27 daily check. Quiver lists no congressional DK trades in the window (the only listed trade is from 2019; checked 2026-10-27). No wrongdoing alleged."
+ },
+ {
   "date": "2026-10-14",
   "who": "Donald Trump",
   "asset": "GlobalFoundries",
@@ -2154,5 +2169,20 @@
   "ticker": "VOW3.DE",
   "quote": "\"But today I'm thrilled to announce a massive auto manufacturing investment in the great state of Georgia by a fantastic company. Audi has just committed to invest $4.2 billion in nearby Macon, Georgia to being the construction next month on a massive plant that will produce 200,000 cars a year\" (Perry, Georgia rally, Roll Call Factbase transcript; his Truth Social/Rapid Response 47 version said $4.25 billion); earlier in the WANF-TV interview: \"We have the head of Audi worldwide ... he's gonna be spending billions of dollars on a new, uh, plant right about 20 minutes from here.\"",
   "note": "Trump announced at his Oct 24 2026 midterm rally at Guardian Centers in Perry, Georgia that Audi will build its first U.S. plant at the Middle Georgia Megasite in Peach County; Audi CEO Gernot Döllner joined him on stage (AP, CNBC, WSJ, FOX 5 Atlanta). Audi's own release (Oct 25) and Gov. Kemp's office (Oct 24) put the investment at about $4 billion and about 4,500 jobs, with capacity of up to 200,000 vehicles a year and production in the early 2030s; Trump said $4.2 billion at the rally and $4.25 billion in the clip caption. Audi AG has not been listed since Volkswagen's 2020 squeeze-out, so the row tracks Volkswagen AG preferred shares (VOW3, Xetra, euros; index comparisons include currency moves). Said on a Saturday, so day 0 is Mon Oct 26; not scored until that session closes. Quiver: no congressional trades for Volkswagen's US ADRs (VWAGY, VWAPY) or OTC lines (VLKAF, VLKPF) in the window; the only listed trades are from 2023. Source switched on Oct 26 to the full Roll Call Factbase rally transcript (Trump Archive item), which has Trump saying $4.2 billion; the Rapid Response 47 clip had $4.25 billion. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-26",
+  "group": "Admin",
+  "who": "Scott Bessent (Treasury Sec.)",
+  "type": "stock",
+  "source": "https://x.com/SecScottBessent/status/2114796573293174960",
+  "archive_url": "https://www.cnbc.com/2026/10/26/bessent-obama-cheesecake-trump-election.html",
+  "time_et": "2026-10-26 14:57",
+  "time_src": "Bessent spoke to a Fox Business reporter as he left a Cheesecake Factory near the White House after lunch; Rapid Response 47 posted the clip at 18:57 UTC (2:57 PM ET) and Bessent's own X post followed at 19:09 UTC (3:09 PM ET), both during market hours, so day 0 is Mon Oct 26. Trump's 'very successful company' rally line came after the close the same evening",
+  "category": "Product endorsement",
+  "asset": "The Cheesecake Factory",
+  "ticker": "CAKE",
+  "quote": "\"I had a great meal, always have a great meal, and I would just tell the Martha's Vineyard set to give it a try\" (Treasury Secretary Scott Bessent leaving the restaurant, Fox Business clip, via CNBC); on X: \"@BarackObama I recommend the Cheeseburger Spring Rolls.\" Trump at his Corinth, Mississippi rally that evening: \"he said this isn't a Cheesecake Factory, can you believe it, which is a very successful company ... he doesn't like successful companies.\"",
+  "note": "After former President Obama joked at an Oct 24 Ohio rally that Trump had the White House 'looking like Saddam Hussein opened a Cheesecake Factory', Treasury Secretary Scott Bessent ate lunch at a Cheesecake Factory near the White House on Mon Oct 26, praised the food to a Fox Business reporter and recommended a menu item on X (CNBC, Fox Business, The Hill, Axios). The White House X account also posted about the restaurant that afternoon, and Trump called it 'a very successful company' at his Corinth, Mississippi rally that evening (Roll Call Factbase transcript via the Trump Archive); his earlier Oct 26 Air Force One gaggle remarks were about the White House renovations, not the company. Tracked as one product-endorsement row from Bessent's in-session comments. The Cheesecake Factory was due to report third-quarter results on Tue Oct 27 (CNBC), so moves from day +1 on are mixed with earnings. Quiver lists no congressional CAKE trades (checked 2026-10-27). No wrongdoing alleged."
  }
 ]

@@ -343,6 +343,16 @@
    "sector": "Energy",
    "industry": "Oil & Gas Integrated",
    "etf": "XLE"
+  },
+  "DK": {
+   "sector": "Energy",
+   "industry": "Oil & Gas Refining & Marketing",
+   "etf": "XLE"
+  },
+  "CAKE": {
+   "sector": "Consumer Cyclical",
+   "industry": "Restaurants",
+   "etf": "XLY"
   }
  },
  "peer_etf_names": {
