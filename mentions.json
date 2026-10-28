@@ -2184,5 +2184,53 @@
   "ticker": "CAKE",
   "quote": "\"I had a great meal, always have a great meal, and I would just tell the Martha's Vineyard set to give it a try\" (Treasury Secretary Scott Bessent leaving the restaurant, Fox Business clip, via CNBC); on X: \"@BarackObama I recommend the Cheeseburger Spring Rolls.\" Trump at his Corinth, Mississippi rally that evening: \"he said this isn't a Cheesecake Factory, can you believe it, which is a very successful company ... he doesn't like successful companies.\"",
   "note": "After former President Obama joked at an Oct 24 Ohio rally that Trump had the White House 'looking like Saddam Hussein opened a Cheesecake Factory', Treasury Secretary Scott Bessent ate lunch at a Cheesecake Factory near the White House on Mon Oct 26, praised the food to a Fox Business reporter and recommended a menu item on X (CNBC, Fox Business, The Hill, Axios). The White House X account also posted about the restaurant that afternoon, and Trump called it 'a very successful company' at his Corinth, Mississippi rally that evening (Roll Call Factbase transcript via the Trump Archive); his earlier Oct 26 Air Force One gaggle remarks were about the White House renovations, not the company. Tracked as one product-endorsement row from Bessent's in-session comments. The Cheesecake Factory was due to report third-quarter results on Tue Oct 27 (CNBC), so moves from day +1 on are mixed with earnings. Quiver lists no congressional CAKE trades (checked 2026-10-27). No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-27",
+  "group": "Admin",
+  "who": "Department of Energy (Chris Wright)",
+  "type": "stock",
+  "source": "https://www.energy.gov/articles/energy-department-announces-5-billion-loan-boost-nuclear-power-and-help-lower-costs",
+  "archive_url": "https://x.com/ENERGY/status/2115138441537016263",
+  "time_et": "2026-10-27 12:00",
+  "time_src": "DOE's release carries a 16:00 UTC (12:00 PM ET) display time and the first X posts reporting the offer appeared at 16:00:21 UTC; wire headlines followed at 12:29 PM ET and Constellation's own release at about 1:35 PM ET, all during trading hours, so day 0 is Tue Oct 27",
+  "after_close": false,
+  "category": "Government stake/deal",
+  "asset": "Constellation Energy (DOE nuclear uprate loan)",
+  "ticker": "CEG",
+  "quote": "\"The U.S. Department of Energy's (DOE) Office of Energy Dominance Financing (EDF) today announced a conditional loan commitment of up to $5 billion to finance nuclear uprates and modernization across Constellation Energy's nuclear fleet in Illinois, Maryland, and Pennsylvania.\" (DOE release, Oct 27 2026); Energy Secretary Wright on X: \"Visited Byron Nuclear Station, where Energy Department announced a loan to produce more electricity from Byron and other existing Midwest plants\"",
+  "note": "The Energy Department offered Constellation Energy a conditional loan commitment of up to $5 billion on Tue Oct 27 2026 to uprate reactors at eight nuclear plants in Illinois, Maryland and Pennsylvania, adding nearly 1.1 GW, under the administration's UPRISE program; Energy Secretary Chris Wright marked it with a visit to Constellation's Byron Generating Station in Illinois (DOE release; Wright's X post at 7:39 PM ET; Constellation release). A conditional loan commitment, not a grant or an equity stake, and it closes only if conditions are met. Quiver lists no congressional CEG trades from 30 days before to the date checked (the latest listed is Sen. Boozman's Aug 13 2026 partial sale). First tracked Constellation mention. Trump's latest public OGE 278-T covers August, so no personal-account trades are listed for this window yet."
+ },
+ {
+  "date": "2026-10-27",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/12925476-a233-40cc-ab23-44622fad1d77",
+  "archive_url": "https://x.com/RapidResponse47/status/2115234631280677199",
+  "time_et": "2026-10-27 16:24",
+  "time_src": "Said about 44 to 45 minutes into the Corpus Christi, Texas rally at the Port of Corpus Christi (Roll Call Factbase transcript via the Trump Archive). White House out-of-town pool report 12 says Trump walked in at 2:39 PM CDT (3:39 PM ET) and report 15 says he finished at 3:55 PM CDT (4:55 PM ET), so the line came at about 4:24 PM ET, after the 4 PM close; Rapid Response 47 posted a clip of the investment roll-call at 20:35 UTC (4:35 PM ET). Day 0 is Wed Oct 28",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Texas Instruments",
+  "ticker": "TXN",
+  "quote": "\"Texas Instruments is investing $46 billion. ... you know, I had the head of Texas Instruments come in to see me. He has a big investment, almost $50 billion, great company.\" (Corpus Christi, Texas rally, Oct 27 2026); repeated at the Lubbock rally that evening: \"Texas Instruments is investing $46 billion in chip production in your state\"",
+  "note": "Trump cited Texas Instruments' Texas chip-plant spending, credited tariffs and called it a \"great company\" at his Oct 27 2026 Corpus Christi rally, and repeated the figure in Lubbock that night. The investment is not new: TI announced more than $60 billion of US fab spending in June 2025, most of it at its Sherman and Richardson, Texas sites. Said after the close, so day 0 is Wed Oct 28 and the row is not scored until that session closes. Quiver lists no congressional TXN trades from 30 days before to the date checked (the latest listed is Rep. Ro Khanna's Aug 24 2026 sale). First tracked Texas Instruments mention."
+ },
+ {
+  "date": "2026-10-27",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/12925476-a233-40cc-ab23-44622fad1d77",
+  "archive_url": "https://news.bms.com/news/details/2026/Bristol-Myers-Squibb-Advances-U-S--Manufacturing-Investment-with-New-2-3-Billion-Campus-in-Houston-Texas/default.aspx",
+  "time_et": "2026-10-27 16:24",
+  "time_src": "Said about 44 to 45 minutes into the Corpus Christi, Texas rally at the Port of Corpus Christi (Roll Call Factbase transcript via the Trump Archive). White House out-of-town pool report 12 says Trump walked in at 2:39 PM CDT (3:39 PM ET) and report 15 says he finished at 3:55 PM CDT (4:55 PM ET), so the line came at about 4:24 PM ET, after the 4 PM close; Rapid Response 47 posted a clip of the investment roll-call at 20:35 UTC (4:35 PM ET). Day 0 is Wed Oct 28",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Bristol Myers Squibb",
+  "ticker": "BMY",
+  "quote": "\"And pharmaceutical company Bristol-Myers Squibb just announced it's investing $2.3 billion to build a state of the art campus in Houston.\" (Corpus Christi, Texas rally, Oct 27 2026)",
+  "note": "Trump listed Bristol Myers Squibb's Houston manufacturing campus among tariff-driven investments at his Oct 27 2026 Corpus Christi rally. BMS announced the roughly $2.3 billion, 600,000 sq ft Generation Park campus on Aug 10 2026 (BMS release; Gov. Abbott's office), part of its $40 billion US commitment, so the investment is not new; included under the same rule as the Oct 17 GE Appliances rally line. Said after the close, so day 0 is Wed Oct 28 and the row is not scored until that session closes. Quiver lists no congressional BMY trades from 30 days before to the date checked (the latest listed is Rep. Ro Khanna's Jun 16 2026 sale). First tracked Bristol Myers Squibb mention."
  }
 ]
