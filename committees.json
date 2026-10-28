@@ -818,6 +818,56 @@
     "committee": "Senate Committee on Armed Services",
     "why": "Defense Production Act and military fuel"
    }
+  ],
+  "CEG": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "electricity and the power grid"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "electricity and the power grid"
+   }
+  ],
+  "TXN": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "consumer technology, telecoms and commerce"
+   },
+   {
+    "committee": "House Committee on Science, Space, and Technology",
+    "why": "federal research and technology programs"
+   },
+   {
+    "committee": "Senate Committee on Commerce, Science, and Transportation",
+    "why": "technology, commerce and communications"
+   },
+   {
+    "committee": "House Committee on Foreign Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
+    "why": "export controls on chips"
+   },
+   {
+    "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+    "why": "US–China technology competition, including chips"
+   }
+  ],
+  "BMY": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "public health, drugs and medical products"
+   },
+   {
+    "committee": "Senate Committee on Health, Education, Labor, and Pensions",
+    "why": "public health and FDA-regulated products"
+   },
+   {
+    "committee": "Senate Committee on Finance",
+    "why": "Medicare and drug pricing"
+   }
   ]
  }
 }

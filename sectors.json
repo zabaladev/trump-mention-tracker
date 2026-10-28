@@ -353,6 +353,23 @@
    "sector": "Consumer Cyclical",
    "industry": "Restaurants",
    "etf": "XLY"
+  },
+  "CEG": {
+   "sector": "Utilities",
+   "industry": "Utilities - Regulated Electric",
+   "etf": "XLU"
+  },
+  "TXN": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
+  "BMY": {
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "etf": "XLV",
+   "peer": "IHE"
   }
  },
  "peer_etf_names": {
