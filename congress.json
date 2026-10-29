@@ -3470,5 +3470,95 @@
   "source": "https://www.quiverquant.com/congresstrading/stock/TSM",
   "filed": "2026-10-22",
   "note": "Filed Oct 22, 2026 (after the comment). Confirmed on House Clerk PTR 20035669 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf), Morgan Stanley - E*TRADE #2 account."
+ },
+ {
+  "mention": [
+   "2026-10-28",
+   "WMT"
+  ],
+  "ticker": "WMT",
+  "member": "Jonathan Jackson",
+  "chamber": "House",
+  "party": "D",
+  "state": "IL",
+  "date": "2026-09-28",
+  "days": -30,
+  "type": "Sale",
+  "amount": "$50,001 - $100,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/WMT",
+  "filed": "2026-10-19",
+  "note": "Filed Oct 19, 2026, before the comment. Confirmed on House Clerk PTR 20035551 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf): joint account (Morgan Stanley Trust Account), notification date Oct 1, 2026."
+ },
+ {
+  "mention": [
+   "2026-10-28",
+   "WMT"
+  ],
+  "ticker": "WMT",
+  "member": "Pete Sessions",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2026-10-02",
+  "days": -26,
+  "type": "Sale",
+  "amount": "$50,001 - $100,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/WMT",
+  "filed": "2026-10-27",
+  "note": "Filed Oct 27, 2026, the day before the comment. Confirmed on House Clerk PTR 20035563 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf): spouse's account (Trust One), notification date Oct 5, 2026."
+ },
+ {
+  "mention": [
+   "2026-09-29",
+   "NVDA"
+  ],
+  "ticker": "NVDA",
+  "member": "Pete Sessions",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2026-10-02",
+  "days": 3,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/NVDA",
+  "filed": "2026-10-27",
+  "note": "Filed Oct 27, 2026 (after the comment). Confirmed on House Clerk PTR 20035563 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf): spouse's account (IRA One), notification date Oct 2, 2026."
+ },
+ {
+  "mention": [
+   "2026-10-16",
+   "TSLA"
+  ],
+  "ticker": "TSLA",
+  "member": "Pete Sessions",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2026-10-02",
+  "days": -14,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TSLA",
+  "filed": "2026-10-27",
+  "note": "Filed Oct 27, 2026 (after the comment). Confirmed on House Clerk PTR 20035563 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf): spouse's account (Trust One), notification date Oct 5, 2026."
+ },
+ {
+  "mention": [
+   "2026-10-20",
+   "AAPL"
+  ],
+  "ticker": "AAPL",
+  "member": "Pete Sessions",
+  "chamber": "House",
+  "party": "R",
+  "state": "TX",
+  "date": "2026-10-02",
+  "days": -18,
+  "type": "Sale",
+  "amount": "$250,001 - $500,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+  "filed": "2026-10-27",
+  "note": "Filed Oct 27, 2026 (after the comment; the Oct 21 Apple mention's window also covers it, but each trade is linked to one mention only, the earliest, as with his Sep 22 Apple sale). Confirmed on House Clerk PTR 20035563 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf): spouse's account (Trust One), notification date Oct 5, 2026."
  }
 ]
