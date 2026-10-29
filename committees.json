@@ -868,6 +868,26 @@
     "committee": "Senate Committee on Finance",
     "why": "Medicare and drug pricing"
    }
+  ],
+  "LNT": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "electricity and the power grid"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "electricity and the power grid"
+   }
+  ],
+  "FSLR": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "energy policy and solar manufacturing"
+   },
+   {
+    "committee": "Senate Committee on Energy and Natural Resources",
+    "why": "energy policy and solar manufacturing"
+   }
   ]
  }
 }
