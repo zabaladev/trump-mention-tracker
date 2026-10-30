@@ -2215,7 +2215,7 @@
   "asset": "Texas Instruments",
   "ticker": "TXN",
   "quote": "\"Texas Instruments is investing $46 billion. ... you know, I had the head of Texas Instruments come in to see me. He has a big investment, almost $50 billion, great company.\" (Corpus Christi, Texas rally, Oct 27 2026); repeated at the Lubbock rally that evening: \"Texas Instruments is investing $46 billion in chip production in your state\"",
-  "note": "Trump cited Texas Instruments' Texas chip-plant spending, credited tariffs and called it a \"great company\" at his Oct 27 2026 Corpus Christi rally, and repeated the figure in Lubbock that night. The investment is not new: TI announced more than $60 billion of US fab spending in June 2025, most of it at its Sherman and Richardson, Texas sites. Said after the close, so day 0 is Wed Oct 28 and the row is not scored until that session closes. Quiver lists no congressional TXN trades from 30 days before to the date checked (the latest listed is Rep. Ro Khanna's Aug 24 2026 sale). First tracked Texas Instruments mention."
+  "note": "Trump cited Texas Instruments' Texas chip-plant spending, credited tariffs and called it a \"great company\" at his Oct 27 2026 Corpus Christi rally, and repeated the figure in Lubbock that night. The investment is not new: TI announced more than $60 billion of US fab spending in June 2025, most of it at its Sherman and Richardson, Texas sites. Said after the close, so day 0 is Wed Oct 28 and the row is not scored until that session closes. Quiver lists one congressional TXN trade in the window, found on the Oct 30 re-check: Rep. Kevin Hern's family foundation sold $15,001 to $50,000 on Oct 14 (13 days before the comment), filed Oct 28 (after it), confirmed on House Clerk PTR 20035710. First tracked Texas Instruments mention."
  },
  {
   "date": "2026-10-27",
@@ -2312,5 +2312,21 @@
   "ticker": "9984.T",
   "quote": "\"SoftBank -- SoftBank is building one of the world's largest natural gas power plants in nearby Pike County, Ohio, $33 billion, $33 billion. That's great. $33 billion. That's big.\" (Chillicothe, Ohio rally, Oct 28 2026)",
   "note": "Trump cited SoftBank's planned gas power plants at the former Portsmouth uranium enrichment site in Pike County, Ohio. The project is not new: it was announced in Feb 2026 as part of the U.S.-Japan trade and investment agreement, with SoftBank's SB Energy building about 9.2 GW of gas generation backed by about $33 billion in Japanese funding to power a 10 GW AI data-center campus leased to OpenAI (DOE/Utility Dive; Pike County Commissioners, Oct 21 2026). The county says the gas generation is to be owned by the U.S. government, so SoftBank's direct share is unclear. Tracked through SoftBank Group's Tokyo listing (9984.T, priced in yen, so index comparisons include currency moves). The line came during Tokyo trading on Oct 29 (see timing), and the row is not scored until the next run. Quiver lists no congressional trades in SoftBank's US OTC tickers (SFTBY, SFTBF) in the window (the latest listed is Rep. Gilbert Cisneros's Jun 30 2026 SFTBF sale). First tracked SoftBank mention. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-29",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://www.youtube.com/watch?v=YgLEwkkV5hc",
+  "archive_url": "https://x.com/RapidResponse47/status/2115870905679159455",
+  "time_et": "2026-10-29 14:13",
+  "time_src": "Said about 61 minutes into the Rock Hill, South Carolina rally (Right Side Broadcasting Network full-event video, 1:00:54). White House out-of-town pool report 8 says Trump walked on stage at 1:12 PM ET and report 12 says he wrapped at 2:45 PM ET, so the line came at about 2:13 PM ET Thu Oct 29, during trading; Rapid Response 47 posted a clip of the same investment roll-call at 2:18 PM ET with a caption naming Century Aluminum.",
+  "after_close": false,
+  "category": "Company praise",
+  "asset": "Century Aluminum (Mt. Holly smelter)",
+  "ticker": "CENX",
+  "quote": "\"No, they're great, they're great. Century Aluminum company is bringing its idle plant, Berkeley County back to full speed. ... it was decimated, as you know. Now it's gonna be back up to full speed. They're investing a lot of money.\" (Rock Hill, South Carolina rally, Oct 29 2026; our transcription of the RSBN full-event video, as the Roll Call Factbase transcript is not posted yet)",
+  "note": "Trump credited his steel and aluminum tariffs for Century Aluminum's restart of idled capacity at its Mt. Holly smelter in Berkeley County, South Carolina. The project is not new: Century announced the roughly $50 million restart on Aug 7 2025, citing the Section 232 tariffs, and finished bringing the last idle pots online in late June 2026 (Century's Aug 6 2026 results); Commerce Secretary Lutnick and Peter Navarro attended a Jul 27 2026 ribbon-cutting at the plant (Century release; Post and Courier). He named it in the same roll-call as Octapharma's $1.5 billion Rock Hill plant and Re:Build's Rock Hill expansion, both privately held (see exclusions). Said during trading, so day 0 is Oct 29. Quiver lists no congressional CENX trades. First tracked Century Aluminum mention. No wrongdoing alleged."
  }
 ]

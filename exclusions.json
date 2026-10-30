@@ -503,5 +503,15 @@
   "item": "Backlog sweep of Vice President Vance's speeches and remarks Sep 3 to Oct 27 2026 for missed deals (23 Roll Call Factbase transcripts via the Trump Archive, incl. Olathe KS Webco, Brownsville and Harlingen TX Saronic, Lima OH Stellantis, North Carolina Helene funding)",
   "reason": "After the Oct 13 Delek refinery deal was found late (tracked Oct 27), this run re-read every Vance speech or remarks transcript on the Trump Archive from Sep 3 to Oct 27 for announcements naming a listed company. No new qualifying item was found. The Sep 14 Olathe, Kansas event was at Webco, which Vance said is 100% worker-owned (not listed). The Sep 30 Brownsville groundbreaking and Harlingen rally praised Saronic Technologies' $3.2 billion Port Alpha shipyard (privately held; also logged with Trump's Oct 27 Corpus Christi rally). At Lima, Ohio on Oct 9 Vance cited 'Stellantis is investing $400 million' in Toledo, the same investment Trump named on Oct 3 (tracked), inside that row's window. On Oct 19 in North Carolina he announced $858 million of federal Helene disaster-relief funding (no company). The other speeches mention companies only in general (pharmaceutical companies, social media companies, 'foreign corporations'). Not scored.",
   "kind": "tracked"
+ },
+ {
+  "item": "Trump Oct 29 2026 Rock Hill, South Carolina rally: Octapharma $1.5 billion Rock Hill plant and Re:Build tripling its Rock Hill facilities ('It's a good company'), plus the Oct 29 pre-departure gaggle and Truth Social posts Oct 29 to early Oct 30",
+  "reason": "In the same investment roll-call as Century Aluminum (tracked as CENX), Trump named Octapharma, a Swiss plasma-medicines maker that is privately held, and Re:Build Manufacturing, a privately held U.S. engineering and manufacturing company (Rock Hill Herald, Oct 29 2026; pool report 11). Neither has listed shares. The morning gaggle covered GDP, the Alaska and California elections and Brazil and named no company; Trump's Truth Social posts that day were endorsements, a GDP post, Fox News opinion links and a Potomac golf course repost. Not scored.",
+  "kind": "private"
+ },
+ {
+  "item": "Administration X posts Oct 29 2026: Agriculture Secretary Rollins thanking Aldi for an under-$39 Thanksgiving meal, Vice President Vance's USDA-backed Dimmitt, Texas beef plant ($24.6 million guaranteed loan), Energy Secretary Wright on the Palisades nuclear restart, Transportation Secretary Duffy's ST LNG port license",
+  "reason": "Aldi U.S. is owned by Germany's privately held Aldi Sud. The Dimmitt beef plant is owned by 36 local cattle investors and the USDA release names no company (USDA, Oct 29 2026; Meatingplace). The Palisades plant is owned by Holtec International, which is privately held; Wright's posts repeat the earlier DOE loan. The $8.2 billion ST LNG deepwater port is a private project already logged on Oct 28. Not scored.",
+  "kind": "private"
  }
 ]

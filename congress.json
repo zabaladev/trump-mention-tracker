@@ -3560,5 +3560,23 @@
   "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
   "filed": "2026-10-27",
   "note": "Filed Oct 27, 2026 (after the comment; the Oct 21 Apple mention's window also covers it, but each trade is linked to one mention only, the earliest, as with his Sep 22 Apple sale). Confirmed on House Clerk PTR 20035563 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf): spouse's account (Trust One), notification date Oct 5, 2026."
+ },
+ {
+  "mention": [
+   "2026-10-27",
+   "TXN"
+  ],
+  "ticker": "TXN",
+  "member": "Kevin Hern",
+  "chamber": "House",
+  "party": "R",
+  "state": "OK",
+  "date": "2026-10-14",
+  "days": -13,
+  "type": "Sale",
+  "amount": "$15,001 - $50,000",
+  "source": "https://www.quiverquant.com/congresstrading/stock/TXN",
+  "filed": "2026-10-28",
+  "note": "Filed Oct 28, 2026, after the comment. Confirmed on House Clerk PTR 20035710 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf): partial sale by the Hern Family Foundation (joint), notification date Oct 27, 2026."
  }
 ]

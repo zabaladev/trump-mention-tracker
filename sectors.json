@@ -385,6 +385,11 @@
    "sector": "Consumer Defensive",
    "industry": "Discount Stores",
    "etf": "XLP"
+  },
+  "CENX": {
+   "sector": "Basic Materials",
+   "industry": "Aluminum",
+   "etf": "XLB"
   }
  },
  "peer_etf_names": {
