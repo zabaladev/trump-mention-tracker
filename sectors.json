@@ -390,6 +390,12 @@
    "sector": "Basic Materials",
    "industry": "Aluminum",
    "etf": "XLB"
+  },
+  "JNJ": {
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "etf": "XLV",
+   "peer": "IHE"
   }
  },
  "peer_etf_names": {

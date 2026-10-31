@@ -1287,6 +1287,22 @@
   "note": "Said to the pool during a garage tour at GM's Milford Proving Ground (2:20-2:31 PM ET) and again in a speech there that began at 3:10 PM ET, both before the 4 PM close, so day 0 is the same session (Mon Jul 27). In the speech he also cited GM's figures that truck and SUV output rose 20% in 2026 and that it invested $9 billion in US factories over two years (his figures, as stated). GM had reported quarterly results on Jul 21, six days earlier (Yahoo Finance earnings calendar). Quiver: no congressional GM trades within 30 days before to 7 days after (last listed trade Apr 13 2026; checked 2026-10-17)."
  },
  {
+  "date": "2026-07-27",
+  "group": "Admin",
+  "who": "Howard Lutnick (Commerce Sec.)",
+  "type": "stock",
+  "source": "https://www.globenewswire.com/news-release/2026/07/27/3333944/0/en/commerce-secretary-howard-lutnick-visits-century-aluminum-mt-holly-celebrate-expansion-with-south-carolina-leaders.html",
+  "archive_url": "https://x.com/CommerceGov/status/2082078255570391440",
+  "time_et": "2026-07-27 19:09",
+  "time_src": "Lutnick spoke at Century Aluminum's Mt. Holly ribbon-cutting, scheduled for 2:00 to 3:00 PM ET Mon Jul 27 (Century's media advisory), but the quote below was first published in Century's GlobeNewswire release at 7:09 PM ET, after the 4 PM close; the Commerce Department's X post repeating it came at 8:18 AM ET Tue Jul 28, before the open. The exact wording of his live remarks isn't published, so day 0 is Tue Jul 28",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Century Aluminum (Mt. Holly smelter)",
+  "ticker": "CENX",
+  "quote": "\"President Trump knows that American strength depends on a strong domestic aluminum industry. Century Aluminum's $50 million investment will increase American aluminum production by 10% and further cement South Carolina as a leader in American manufacturing.\" (Commerce Secretary Howard Lutnick, Century Aluminum release, Jul 27 2026); Commerce Department on X, Jul 28: \"Today, we celebrated a win for American manufacturing at Century Aluminum's Mt. Holly facility. Thanks to their $50 million investment, their plant is back to running at full capacity\"",
+  "note": "Commerce Secretary Howard Lutnick and trade adviser Peter Navarro joined Century Aluminum's CEO at the ribbon-cutting marking the Mt. Holly smelter in Berkeley County, South Carolina returning to full production for the first time since 2015, after a roughly $50 million restart of idle capacity that Century credits to the Section 232 aluminum tariffs (Century release; SC Daily Gazette). Found as a backlog lead while checking Trump's Oct 29 Rock Hill line about the same plant, so this row was added late (Oct 31 2026). Quiver lists no congressional CENX trades. No wrongdoing alleged."
+ },
+ {
   "date": "2026-07-28",
   "who": "Donald Trump",
   "asset": "Toyota",
@@ -2318,15 +2334,31 @@
   "group": "Trump",
   "who": "Donald Trump",
   "type": "stock",
-  "source": "https://www.youtube.com/watch?v=YgLEwkkV5hc",
+  "source": "https://trump-archive.com/item/e55f5585-70ae-42bd-9f33-a626a0d58246",
   "archive_url": "https://x.com/RapidResponse47/status/2115870905679159455",
   "time_et": "2026-10-29 14:13",
-  "time_src": "Said about 61 minutes into the Rock Hill, South Carolina rally (Right Side Broadcasting Network full-event video, 1:00:54). White House out-of-town pool report 8 says Trump walked on stage at 1:12 PM ET and report 12 says he wrapped at 2:45 PM ET, so the line came at about 2:13 PM ET Thu Oct 29, during trading; Rapid Response 47 posted a clip of the same investment roll-call at 2:18 PM ET with a caption naming Century Aluminum.",
+  "time_src": "Said about 61 minutes into the Rock Hill, South Carolina rally (Roll Call Factbase transcript via the Trump Archive, clip timestamp 01:03:03; Right Side Broadcasting Network full-event video, 1:00:54). White House out-of-town pool report 8 says Trump walked on stage at 1:12 PM ET and report 12 says he wrapped at 2:45 PM ET, so the line came at about 2:13 PM ET Thu Oct 29, during trading; Rapid Response 47 posted a clip of the same investment roll-call at 2:18 PM ET with a caption naming Century Aluminum.",
   "after_close": false,
   "category": "Company praise",
   "asset": "Century Aluminum (Mt. Holly smelter)",
   "ticker": "CENX",
-  "quote": "\"No, they're great, they're great. Century Aluminum company is bringing its idle plant, Berkeley County back to full speed. ... it was decimated, as you know. Now it's gonna be back up to full speed. They're investing a lot of money.\" (Rock Hill, South Carolina rally, Oct 29 2026; our transcription of the RSBN full-event video, as the Roll Call Factbase transcript is not posted yet)",
+  "quote": "\"No, they're great, they're great. Century Aluminum Company is bringing its idle plant, Berkeley County, back to full speed. It's going to bring a plant to Berkeley and it's going to be a -- it was -- it was decimated, as you know. Now it's going to be back up to full speed. They're investing a lot of money.\" (Rock Hill, South Carolina rally, Oct 29 2026)",
   "note": "Trump credited his steel and aluminum tariffs for Century Aluminum's restart of idled capacity at its Mt. Holly smelter in Berkeley County, South Carolina. The project is not new: Century announced the roughly $50 million restart on Aug 7 2025, citing the Section 232 tariffs, and finished bringing the last idle pots online in late June 2026 (Century's Aug 6 2026 results); Commerce Secretary Lutnick and Peter Navarro attended a Jul 27 2026 ribbon-cutting at the plant (Century release; Post and Courier). He named it in the same roll-call as Octapharma's $1.5 billion Rock Hill plant and Re:Build's Rock Hill expansion, both privately held (see exclusions). Said during trading, so day 0 is Oct 29. Quiver lists no congressional CENX trades. First tracked Century Aluminum mention. No wrongdoing alleged."
+ },
+ {
+  "date": "2026-10-30",
+  "group": "Trump",
+  "who": "Donald Trump",
+  "type": "stock",
+  "source": "https://trump-archive.com/item/db2d5171-eab5-46cf-a8b4-a41892105a30",
+  "archive_url": "https://x.com/RapidResponse47/status/2116331221714162041",
+  "time_et": "2026-10-30 20:36",
+  "time_src": "Said about 35 minutes into the Daytona Beach, Florida rally (Roll Call Factbase transcript via the Trump Archive, clip timestamp 00:35:33). White House out-of-town pool report 4 says Trump took the stage at 7:57 PM ET, began speaking a few minutes later and ended at 9:32 PM ET, so the line came at about 8:36 PM ET Fri Oct 30, after the 4 PM close; Rapid Response 47 posted the clip at 8:47 PM ET. A White House Florida fact sheet sent to the pool at 2:15 PM ET the same day listed the same investment without praise (see exclusions). Day 0 is Mon Nov 2",
+  "after_close": true,
+  "category": "Company praise",
+  "asset": "Johnson & Johnson (Jacksonville vision plant)",
+  "ticker": "JNJ",
+  "quote": "\"So in much less than two years, we secured commitments for $22.2 trillion of new investments ... Johnson and Johnson is investing $1 billion to build a brand-new, massive, new distribution facility in Jacksonville.\" (Daytona Beach, Florida rally, Oct 30 2026)",
+  "note": "Trump listed Johnson & Johnson's Jacksonville investment among the new investments he credits to his policies. The investment is not new: J&J announced it on Jun 15 2026 (more than $1 billion for ACUVUE contact-lens manufacturing, packaging and a new distribution center near Jacksonville airport, part of its $55 billion US commitment; J&J release; Jax Daily Record). Included under the same rule as the Oct 27 Bristol Myers Squibb rally line. Said after the close, so day 0 is Mon Nov 2 and the row is not scored until that session closes. Quiver lists no congressional JNJ trades from 30 days before to the date checked (the latest listed is Rep. Lloyd Doggett's Sep 8 2026 purchase, outside the window). First tracked Johnson & Johnson mention. No wrongdoing alleged."
  }
 ]

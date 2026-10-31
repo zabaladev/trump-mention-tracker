@@ -888,6 +888,20 @@
     "committee": "Senate Committee on Energy and Natural Resources",
     "why": "energy policy and solar manufacturing"
    }
+  ],
+  "JNJ": [
+   {
+    "committee": "House Committee on Energy and Commerce",
+    "why": "public health, drugs and medical products"
+   },
+   {
+    "committee": "Senate Committee on Health, Education, Labor, and Pensions",
+    "why": "public health and FDA-regulated products"
+   },
+   {
+    "committee": "Senate Committee on Finance",
+    "why": "Medicare and drug pricing"
+   }
   ]
  }
 }
