@@ -301,7 +301,7 @@
     "date": "2025-04-08",
     "days": -1,
     "type": "Purchase",
-    "amount": "~$21,000–$315,000 total across Apr 8–9 (plus T-bill sale $50,001–$100,000 on Apr 8)",
+    "amount": "~$21,000\u2013$315,000 total across Apr 8\u20139 (plus T-bill sale $50,001\u2013$100,000 on Apr 8)",
     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029138.pdf",
     "note": "Filed Apr 11 2025; reported by NYT/Bloomberg/AP. Bought stocks during the selloff the day before and the day of the pause.",
     "filed": "2025-04-11"
@@ -686,7 +686,7 @@
       "status": "Original report (no amendment listed on eFD)",
       "owner": "Spouse",
       "checked": "2026-10-17",
-      "note": "Checked against the official Senate eFD report (Periodic Transaction Report filed Jan 26, 2026): an original report with no amendment listed. It covers 22 trades, all in the spouse's name, dated from Apr 14, 2025 to Nov 7, 2025; the Apr 14, 2025 NVDA purchase ($1,001–$15,000) is one of 11 spouse purchases made that day. (Senate eFD asks you to accept its terms before showing the report.)"
+      "note": "Checked against the official Senate eFD report (Periodic Transaction Report filed Jan 26, 2026): an original report with no amendment listed. It covers 22 trades, all in the spouse's name, dated from Apr 14, 2025 to Nov 7, 2025; the Apr 14, 2025 NVDA purchase ($1,001\u2013$15,000) is one of 11 spouse purchases made that day. (Senate eFD asks you to accept its terms before showing the report.)"
     }
   },
   {
@@ -1329,7 +1329,7 @@
       "status": "Original report (no amendment listed on eFD)",
       "owner": "Self",
       "checked": "2026-10-17",
-      "note": "Checked against the official Senate eFD report (Periodic Transaction Report filed Jul 21, 2026): an original report with no amendment listed. It covers 703 trades, 701 of them dated Mar 24–31, 2026; the Mar 27, 2026 PLTR purchase ($15,001–$50,000, own account) is one of them. eFD lists his New Filer Report as dated Mar 24, 2026 and filed the same day as this report, Jul 21, 2026. (Senate eFD asks you to accept its terms before showing the report.)"
+      "note": "Checked against the official Senate eFD report (Periodic Transaction Report filed Jul 21, 2026): an original report with no amendment listed. It covers 703 trades, 701 of them dated Mar 24\u201331, 2026; the Mar 27, 2026 PLTR purchase ($15,001\u2013$50,000, own account) is one of them. eFD lists his New Filer Report as dated Mar 24, 2026 and filed the same day as this report, Jul 21, 2026. (Senate eFD asks you to accept its terms before showing the report.)"
     }
   },
   {
@@ -3650,5 +3650,41 @@
     "source": "https://www.quiverquant.com/congresstrading/stock/MU",
     "filed": "2026-11-01",
     "note": "Filed Nov 1, 2026 (after the comment). Confirmed on House Clerk PTR 20035484 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035484.pdf): spouse's Merrill Lynch SEP IRA, notification date Oct 2, 2026."
+  },
+  {
+    "mention": [
+      "2026-11-03",
+      "AMZN"
+    ],
+    "ticker": "AMZN",
+    "member": "Pete Sessions",
+    "chamber": "House",
+    "party": "R",
+    "state": "TX",
+    "date": "2026-10-27",
+    "days": -7,
+    "type": "Sale",
+    "amount": "$15,001 - $50,000",
+    "source": "https://www.quiverquant.com/congresstrading/stock/AMZN",
+    "filed": "2026-10-27",
+    "note": "Filed Oct 27, 2026, seven days before the comment. Confirmed on House Clerk PTR 20035563 (https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf): own account sale Oct 27 (notification same day). The same PTR also lists a spouse Trust One AMZN sale on Oct 2 ($100,001-$250,000), outside this mention's 30-day window."
+  },
+  {
+    "mention": [
+      "2026-10-20",
+      "AAPL"
+    ],
+    "ticker": "AAPL",
+    "member": "Capito, Shelley Moore",
+    "chamber": "Senate",
+    "party": "R",
+    "state": "WV",
+    "date": "2026-10-21",
+    "days": 1,
+    "type": "Sale (Partial)",
+    "amount": "$1,001 - $15,000",
+    "source": "https://www.quiverquant.com/congresstrading/stock/AAPL",
+    "filed": "2026-11-04",
+    "note": "Filed Nov 4, 2026 on Quiver (Senate efdsearch blocked to automated fetch this run). Partial sale Oct 21, the day-0 session after Donald Trump Jr.'s Oct 20 after-close Apple comment. Linked only to that Oct 20 row (not double-counted under Trump's Oct 21 Apple post). No wrongdoing alleged."
   }
 ]
