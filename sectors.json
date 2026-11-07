@@ -1,422 +1,427 @@
 {
-  "_note": "Sector per Yahoo Finance company profile (retrieved 2026-10-17), mapped to the matching Select Sector SPDR ETF. Where a tighter industry ETF exists, 'peer' maps to that fund (SMH semiconductors, URA uranium, REMX rare earths/strategic metals, ITA aerospace & defense, CARZ autos, IGV software, IHE pharmaceuticals, IHI medical devices, SLX steel, FDN internet, KCE capital markets) \u2014 idea from TipRanks' industry/sector ETF tags. X (U.S. Steel) is no longer listed after its 2025 acquisition by Nippon Steel; it is classed as Basic Materials (steel). Skipped for sector/peer: ALTS and TZUP (no Yahoo profile under the old symbols; the profiles under their new symbols, AIFC and DTCX, describe the businesses the companies became after renaming, not the ones that were mentioned), 3350.T (Tokyo-listed), BBD-B.TO (Toronto-listed, CAD), UCB.BR (Brussels-listed, EUR), PIRC.MI (Milan-listed, EUR), VK.PA (Paris-listed, EUR), 042660.KS (Seoul-listed, KRW), MBG.DE (Frankfurt-listed, EUR), 010130.KS (Seoul-listed, KRW), VOLV-B.ST (Stockholm-listed, SEK), 6690.HK (Hong Kong-listed, HKD), 9984.T (Tokyo-listed, JPY). KMB, CLF, PCAR, LLY, MT and NB and TMO profiles retrieved 2026-10-17; XOM and COP retrieved 2026-10-18; MRK and WMB retrieved 2026-10-20; BETA retrieved 2026-10-22; RTX retrieved 2026-10-23; LNT, FSLR and WMT retrieved 2026-10-29. No peer ETF assigned for Consumer Electronics, Computer Hardware, Apparel Retail, Beverages, Electrical Equipment, or Diagnostics & Research (no clean liquid industry fund).",
-  "etf_names": {
-    "XLK": "Technology Select Sector SPDR (XLK)",
-    "XLC": "Communication Services Select Sector SPDR (XLC)",
-    "XLY": "Consumer Cyclical Select Sector SPDR (XLY)",
-    "XLP": "Consumer Defensive Select Sector SPDR (XLP)",
-    "XLE": "Energy Select Sector SPDR (XLE)",
-    "XLF": "Financial Services Select Sector SPDR (XLF)",
-    "XLV": "Healthcare Select Sector SPDR (XLV)",
-    "XLI": "Industrials Select Sector SPDR (XLI)",
-    "XLB": "Basic Materials Select Sector SPDR (XLB)",
-    "XLRE": "Real Estate Select Sector SPDR (XLRE)",
-    "XLU": "Utilities Select Sector SPDR (XLU)"
+ "_note": "Sector per Yahoo Finance company profile (retrieved 2026-10-17), mapped to the matching Select Sector SPDR ETF. Where a tighter industry ETF exists, 'peer' maps to that fund (SMH semiconductors, URA uranium, REMX rare earths/strategic metals, ITA aerospace & defense, CARZ autos, IGV software, IHE pharmaceuticals, IHI medical devices, SLX steel, FDN internet, KCE capital markets) — idea from TipRanks' industry/sector ETF tags. X (U.S. Steel) is no longer listed after its 2025 acquisition by Nippon Steel; it is classed as Basic Materials (steel). Skipped for sector/peer: ALTS and TZUP (no Yahoo profile under the old symbols; the profiles under their new symbols, AIFC and DTCX, describe the businesses the companies became after renaming, not the ones that were mentioned), 3350.T (Tokyo-listed), BBD-B.TO (Toronto-listed, CAD), UCB.BR (Brussels-listed, EUR), PIRC.MI (Milan-listed, EUR), VK.PA (Paris-listed, EUR), 042660.KS (Seoul-listed, KRW), MBG.DE (Frankfurt-listed, EUR), 010130.KS (Seoul-listed, KRW), VOLV-B.ST (Stockholm-listed, SEK), 6690.HK (Hong Kong-listed, HKD), 9984.T (Tokyo-listed, JPY). KMB, CLF, PCAR, LLY, MT and NB and TMO profiles retrieved 2026-10-17; XOM and COP retrieved 2026-10-18; MRK and WMB retrieved 2026-10-20; BETA retrieved 2026-10-22; RTX retrieved 2026-10-23; LNT, FSLR and WMT retrieved 2026-10-29. No peer ETF assigned for Consumer Electronics, Computer Hardware, Apparel Retail, Beverages, Electrical Equipment, or Diagnostics & Research (no clean liquid industry fund).",
+ "etf_names": {
+  "XLK": "Technology Select Sector SPDR (XLK)",
+  "XLC": "Communication Services Select Sector SPDR (XLC)",
+  "XLY": "Consumer Cyclical Select Sector SPDR (XLY)",
+  "XLP": "Consumer Defensive Select Sector SPDR (XLP)",
+  "XLE": "Energy Select Sector SPDR (XLE)",
+  "XLF": "Financial Services Select Sector SPDR (XLF)",
+  "XLV": "Healthcare Select Sector SPDR (XLV)",
+  "XLI": "Industrials Select Sector SPDR (XLI)",
+  "XLB": "Basic Materials Select Sector SPDR (XLB)",
+  "XLRE": "Real Estate Select Sector SPDR (XLRE)",
+  "XLU": "Utilities Select Sector SPDR (XLU)"
+ },
+ "tickers": {
+  "AAPL": {
+   "sector": "Technology",
+   "industry": "Consumer Electronics",
+   "etf": "XLK"
   },
-  "tickers": {
-    "AAPL": {
-      "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "etf": "XLK"
-    },
-    "ABTC": {
-      "sector": "Financial Services",
-      "industry": "Capital Markets",
-      "etf": "XLF",
-      "peer": "KCE"
-    },
-    "AEO": {
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel Retail",
-      "etf": "XLY"
-    },
-    "AEP": {
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "etf": "XLU"
-    },
-    "ASIX": {
-      "sector": "Basic Materials",
-      "industry": "Chemicals",
-      "etf": "XLB"
-    },
-    "BA": {
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "etf": "XLI",
-      "peer": "ITA"
-    },
-    "BAYRY": {
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "etf": "XLV",
-      "peer": "IHE"
-    },
-    "BDX": {
-      "sector": "Healthcare",
-      "industry": "Medical Instruments & Supplies",
-      "etf": "XLV",
-      "peer": "IHI"
-    },
-    "BETA": {
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "etf": "XLI",
-      "peer": "ITA"
-    },
-    "BTU": {
-      "sector": "Energy",
-      "industry": "Thermal Coal",
-      "etf": "XLE"
-    },
-    "CCJ": {
-      "sector": "Energy",
-      "industry": "Uranium",
-      "etf": "XLE",
-      "peer": "URA"
-    },
-    "CLF": {
-      "sector": "Basic Materials",
-      "industry": "Steel",
-      "etf": "XLB",
-      "peer": "SLX"
-    },
-    "COP": {
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "etf": "XLE"
-    },
-    "CVX": {
-      "sector": "Energy",
-      "industry": "Oil & Gas Integrated",
-      "etf": "XLE"
-    },
-    "DE": {
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "etf": "XLI"
-    },
-    "DELL": {
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "etf": "XLK"
-    },
-    "DJT": {
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "etf": "XLC",
-      "peer": "FDN"
-    },
-    "DOMH": {
-      "sector": "Financial Services",
-      "industry": "Capital Markets",
-      "etf": "XLF",
-      "peer": "KCE"
-    },
-    "F": {
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Manufacturers",
-      "etf": "XLY",
-      "peer": "CARZ"
-    },
-    "GFS": {
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "etf": "XLK",
-      "peer": "SMH"
-    },
-    "GM": {
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Manufacturers",
-      "etf": "XLY",
-      "peer": "CARZ"
-    },
-    "GOOGL": {
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "etf": "XLC",
-      "peer": "FDN"
-    },
-    "IBM": {
-      "sector": "Technology",
-      "industry": "Information Technology Services",
-      "etf": "XLK",
-      "peer": "IGV"
-    },
-    "IE": {
-      "sector": "Basic Materials",
-      "industry": "Copper",
-      "etf": "XLB",
-      "peer": "COPX"
-    },
-    "INFQ": {
-      "sector": "Technology",
-      "industry": "Quantum computing",
-      "etf": "XLK",
-      "peer": "QTUM"
-    },
-    "INTC": {
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "etf": "XLK",
-      "peer": "SMH"
-    },
-    "IPI": {
-      "sector": "Basic Materials",
-      "industry": "Agricultural Inputs",
-      "etf": "XLB"
-    },
-    "KMB": {
-      "sector": "Consumer Defensive",
-      "industry": "Household & Personal Products",
-      "etf": "XLP"
-    },
-    "KO": {
-      "sector": "Consumer Defensive",
-      "industry": "Beverages - Non-Alcoholic",
-      "etf": "XLP"
-    },
-    "LAC": {
-      "sector": "Basic Materials",
-      "industry": "Other Industrial Metals & Mining",
-      "etf": "XLB",
-      "peer": "REMX"
-    },
-    "LLY": {
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "etf": "XLV",
-      "peer": "IHE"
-    },
-    "LMT": {
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "etf": "XLI",
-      "peer": "ITA"
-    },
-    "MP": {
-      "sector": "Basic Materials",
-      "industry": "Other Industrial Metals & Mining",
-      "etf": "XLB",
-      "peer": "REMX"
-    },
-    "MRK": {
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "etf": "XLV",
-      "peer": "IHE"
-    },
-    "MT": {
-      "sector": "Basic Materials",
-      "industry": "Steel",
-      "etf": "XLB",
-      "peer": "SLX"
-    },
-    "MU": {
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "etf": "XLK",
-      "peer": "SMH"
-    },
-    "NB": {
-      "sector": "Basic Materials",
-      "industry": "Other Industrial Metals & Mining",
-      "etf": "XLB",
-      "peer": "REMX"
-    },
-    "NEE": {
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "etf": "XLU"
-    },
-    "NVDA": {
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "etf": "XLK",
-      "peer": "SMH"
-    },
-    "PCAR": {
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "etf": "XLI"
-    },
-    "PEW": {
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "etf": "XLI",
-      "peer": "ITA"
-    },
-    "PLTR": {
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "etf": "XLK",
-      "peer": "IGV"
-    },
-    "PRYMY": {
-      "sector": "Industrials",
-      "industry": "Electrical Equipment & Parts",
-      "etf": "XLI"
-    },
-    "PSQH": {
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "etf": "XLK",
-      "peer": "IGV"
-    },
-    "QBTS": {
-      "sector": "Technology",
-      "industry": "Quantum computing",
-      "etf": "XLK",
-      "peer": "QTUM"
-    },
-    "RGTI": {
-      "sector": "Technology",
-      "industry": "Quantum computing",
-      "etf": "XLK",
-      "peer": "QTUM"
-    },
-    "RTX": {
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "etf": "XLI",
-      "peer": "ITA"
-    },
-    "STLA": {
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Manufacturers",
-      "etf": "XLY",
-      "peer": "CARZ"
-    },
-    "TM": {
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Manufacturers",
-      "etf": "XLY",
-      "peer": "CARZ"
-    },
-    "TMO": {
-      "sector": "Healthcare",
-      "industry": "Diagnostics & Research",
-      "etf": "XLV"
-    },
-    "TMQ": {
-      "sector": "Basic Materials",
-      "industry": "Other Industrial Metals & Mining",
-      "etf": "XLB",
-      "peer": "REMX"
-    },
-    "TSLA": {
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Manufacturers",
-      "etf": "XLY",
-      "peer": "CARZ"
-    },
-    "TSM": {
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "etf": "XLK",
-      "peer": "SMH"
-    },
-    "USAR": {
-      "sector": "Basic Materials",
-      "industry": "Other Industrial Metals & Mining",
-      "etf": "XLB",
-      "peer": "REMX"
-    },
-    "WMB": {
-      "sector": "Energy",
-      "industry": "Oil & Gas Midstream",
-      "etf": "XLE"
-    },
-    "WOLF": {
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "etf": "XLK",
-      "peer": "SMH"
-    },
-    "X": {
-      "sector": "Basic Materials",
-      "industry": "Steel",
-      "etf": "XLB",
-      "peer": "SLX"
-    },
-    "XOM": {
-      "sector": "Energy",
-      "industry": "Oil & Gas Integrated",
-      "etf": "XLE"
-    },
-    "DK": {
-      "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "etf": "XLE"
-    },
-    "CAKE": {
-      "sector": "Consumer Cyclical",
-      "industry": "Restaurants",
-      "etf": "XLY"
-    },
-    "CEG": {
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "etf": "XLU"
-    },
-    "TXN": {
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "etf": "XLK",
-      "peer": "SMH"
-    },
-    "BMY": {
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "etf": "XLV",
-      "peer": "IHE"
-    },
-    "LNT": {
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "etf": "XLU"
-    },
-    "FSLR": {
-      "sector": "Technology",
-      "industry": "Solar",
-      "etf": "XLK"
-    },
-    "WMT": {
-      "sector": "Consumer Defensive",
-      "industry": "Discount Stores",
-      "etf": "XLP"
-    },
-    "CENX": {
-      "sector": "Basic Materials",
-      "industry": "Aluminum",
-      "etf": "XLB"
-    },
-    "JNJ": {
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - General",
-      "etf": "XLV",
-      "peer": "IHE"
-    },
-    "AMZN": {
-      "sector": "Consumer Cyclical",
-      "industry": "Internet Retail",
-      "etf": "XLY",
-      "peer": "FDN"
-    }
+  "ABTC": {
+   "sector": "Financial Services",
+   "industry": "Capital Markets",
+   "etf": "XLF",
+   "peer": "KCE"
   },
-  "peer_etf_names": {
-    "SMH": "VanEck Semiconductor ETF (SMH)",
-    "URA": "Global X Uranium ETF (URA)",
-    "REMX": "VanEck Rare Earth/Strategic Metals ETF (REMX)",
-    "ITA": "iShares U.S. Aerospace & Defense ETF (ITA)",
-    "CARZ": "First Trust NASDAQ Global Auto Index Fund (CARZ)",
-    "IGV": "iShares Expanded Tech-Software Sector ETF (IGV)",
-    "IHE": "iShares U.S. Pharmaceuticals ETF (IHE)",
-    "IHI": "iShares U.S. Medical Devices ETF (IHI)",
-    "SLX": "VanEck Steel ETF (SLX)",
-    "FDN": "First Trust Dow Jones Internet Index Fund (FDN)",
-    "KCE": "SPDR S&P Capital Markets ETF (KCE)",
-    "COPX": "Global X Copper Miners ETF (COPX)",
-    "QTUM": "Defiance Quantum ETF (QTUM)"
+  "AEO": {
+   "sector": "Consumer Cyclical",
+   "industry": "Apparel Retail",
+   "etf": "XLY"
+  },
+  "AEP": {
+   "sector": "Utilities",
+   "industry": "Utilities - Regulated Electric",
+   "etf": "XLU"
+  },
+  "ASIX": {
+   "sector": "Basic Materials",
+   "industry": "Chemicals",
+   "etf": "XLB"
+  },
+  "BA": {
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "etf": "XLI",
+   "peer": "ITA"
+  },
+  "BAYRY": {
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "etf": "XLV",
+   "peer": "IHE"
+  },
+  "BDX": {
+   "sector": "Healthcare",
+   "industry": "Medical Instruments & Supplies",
+   "etf": "XLV",
+   "peer": "IHI"
+  },
+  "BETA": {
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "etf": "XLI",
+   "peer": "ITA"
+  },
+  "BTU": {
+   "sector": "Energy",
+   "industry": "Thermal Coal",
+   "etf": "XLE"
+  },
+  "CCJ": {
+   "sector": "Energy",
+   "industry": "Uranium",
+   "etf": "XLE",
+   "peer": "URA"
+  },
+  "CLF": {
+   "sector": "Basic Materials",
+   "industry": "Steel",
+   "etf": "XLB",
+   "peer": "SLX"
+  },
+  "COP": {
+   "sector": "Energy",
+   "industry": "Oil & Gas E&P",
+   "etf": "XLE"
+  },
+  "CVX": {
+   "sector": "Energy",
+   "industry": "Oil & Gas Integrated",
+   "etf": "XLE"
+  },
+  "DE": {
+   "sector": "Industrials",
+   "industry": "Farm & Heavy Construction Machinery",
+   "etf": "XLI"
+  },
+  "DELL": {
+   "sector": "Technology",
+   "industry": "Computer Hardware",
+   "etf": "XLK"
+  },
+  "DJT": {
+   "sector": "Communication Services",
+   "industry": "Internet Content & Information",
+   "etf": "XLC",
+   "peer": "FDN"
+  },
+  "DOMH": {
+   "sector": "Financial Services",
+   "industry": "Capital Markets",
+   "etf": "XLF",
+   "peer": "KCE"
+  },
+  "F": {
+   "sector": "Consumer Cyclical",
+   "industry": "Auto Manufacturers",
+   "etf": "XLY",
+   "peer": "CARZ"
+  },
+  "GFS": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
+  "GM": {
+   "sector": "Consumer Cyclical",
+   "industry": "Auto Manufacturers",
+   "etf": "XLY",
+   "peer": "CARZ"
+  },
+  "GOOGL": {
+   "sector": "Communication Services",
+   "industry": "Internet Content & Information",
+   "etf": "XLC",
+   "peer": "FDN"
+  },
+  "IBM": {
+   "sector": "Technology",
+   "industry": "Information Technology Services",
+   "etf": "XLK",
+   "peer": "IGV"
+  },
+  "IE": {
+   "sector": "Basic Materials",
+   "industry": "Copper",
+   "etf": "XLB",
+   "peer": "COPX"
+  },
+  "INFQ": {
+   "sector": "Technology",
+   "industry": "Quantum computing",
+   "etf": "XLK",
+   "peer": "QTUM"
+  },
+  "INTC": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
+  "IPI": {
+   "sector": "Basic Materials",
+   "industry": "Agricultural Inputs",
+   "etf": "XLB"
+  },
+  "KMB": {
+   "sector": "Consumer Defensive",
+   "industry": "Household & Personal Products",
+   "etf": "XLP"
+  },
+  "KO": {
+   "sector": "Consumer Defensive",
+   "industry": "Beverages - Non-Alcoholic",
+   "etf": "XLP"
+  },
+  "LAC": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB",
+   "peer": "REMX"
+  },
+  "LLY": {
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "etf": "XLV",
+   "peer": "IHE"
+  },
+  "LMT": {
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "etf": "XLI",
+   "peer": "ITA"
+  },
+  "MP": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB",
+   "peer": "REMX"
+  },
+  "MRK": {
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "etf": "XLV",
+   "peer": "IHE"
+  },
+  "MT": {
+   "sector": "Basic Materials",
+   "industry": "Steel",
+   "etf": "XLB",
+   "peer": "SLX"
+  },
+  "MU": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
+  "NB": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB",
+   "peer": "REMX"
+  },
+  "NEE": {
+   "sector": "Utilities",
+   "industry": "Utilities - Regulated Electric",
+   "etf": "XLU"
+  },
+  "NVDA": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
+  "PCAR": {
+   "sector": "Industrials",
+   "industry": "Farm & Heavy Construction Machinery",
+   "etf": "XLI"
+  },
+  "PEW": {
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "etf": "XLI",
+   "peer": "ITA"
+  },
+  "PLTR": {
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "etf": "XLK",
+   "peer": "IGV"
+  },
+  "PRYMY": {
+   "sector": "Industrials",
+   "industry": "Electrical Equipment & Parts",
+   "etf": "XLI"
+  },
+  "PSQH": {
+   "sector": "Technology",
+   "industry": "Software - Application",
+   "etf": "XLK",
+   "peer": "IGV"
+  },
+  "QBTS": {
+   "sector": "Technology",
+   "industry": "Quantum computing",
+   "etf": "XLK",
+   "peer": "QTUM"
+  },
+  "RGTI": {
+   "sector": "Technology",
+   "industry": "Quantum computing",
+   "etf": "XLK",
+   "peer": "QTUM"
+  },
+  "RTX": {
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "etf": "XLI",
+   "peer": "ITA"
+  },
+  "STLA": {
+   "sector": "Consumer Cyclical",
+   "industry": "Auto Manufacturers",
+   "etf": "XLY",
+   "peer": "CARZ"
+  },
+  "TM": {
+   "sector": "Consumer Cyclical",
+   "industry": "Auto Manufacturers",
+   "etf": "XLY",
+   "peer": "CARZ"
+  },
+  "TMO": {
+   "sector": "Healthcare",
+   "industry": "Diagnostics & Research",
+   "etf": "XLV"
+  },
+  "TMQ": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB",
+   "peer": "REMX"
+  },
+  "TSLA": {
+   "sector": "Consumer Cyclical",
+   "industry": "Auto Manufacturers",
+   "etf": "XLY",
+   "peer": "CARZ"
+  },
+  "TSM": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
+  "USAR": {
+   "sector": "Basic Materials",
+   "industry": "Other Industrial Metals & Mining",
+   "etf": "XLB",
+   "peer": "REMX"
+  },
+  "WMB": {
+   "sector": "Energy",
+   "industry": "Oil & Gas Midstream",
+   "etf": "XLE"
+  },
+  "WOLF": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
+  "X": {
+   "sector": "Basic Materials",
+   "industry": "Steel",
+   "etf": "XLB",
+   "peer": "SLX"
+  },
+  "XOM": {
+   "sector": "Energy",
+   "industry": "Oil & Gas Integrated",
+   "etf": "XLE"
+  },
+  "DK": {
+   "sector": "Energy",
+   "industry": "Oil & Gas Refining & Marketing",
+   "etf": "XLE"
+  },
+  "CAKE": {
+   "sector": "Consumer Cyclical",
+   "industry": "Restaurants",
+   "etf": "XLY"
+  },
+  "CEG": {
+   "sector": "Utilities",
+   "industry": "Utilities - Regulated Electric",
+   "etf": "XLU"
+  },
+  "TXN": {
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "etf": "XLK",
+   "peer": "SMH"
+  },
+  "BMY": {
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "etf": "XLV",
+   "peer": "IHE"
+  },
+  "LNT": {
+   "sector": "Utilities",
+   "industry": "Utilities - Regulated Electric",
+   "etf": "XLU"
+  },
+  "FSLR": {
+   "sector": "Technology",
+   "industry": "Solar",
+   "etf": "XLK"
+  },
+  "WMT": {
+   "sector": "Consumer Defensive",
+   "industry": "Discount Stores",
+   "etf": "XLP"
+  },
+  "CENX": {
+   "sector": "Basic Materials",
+   "industry": "Aluminum",
+   "etf": "XLB"
+  },
+  "JNJ": {
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "etf": "XLV",
+   "peer": "IHE"
+  },
+  "AMZN": {
+   "sector": "Consumer Cyclical",
+   "industry": "Internet Retail",
+   "etf": "XLY",
+   "peer": "FDN"
+  },
+  "DG": {
+   "sector": "Consumer Defensive",
+   "industry": "Discount Stores",
+   "etf": "XLP"
   }
+ },
+ "peer_etf_names": {
+  "SMH": "VanEck Semiconductor ETF (SMH)",
+  "URA": "Global X Uranium ETF (URA)",
+  "REMX": "VanEck Rare Earth/Strategic Metals ETF (REMX)",
+  "ITA": "iShares U.S. Aerospace & Defense ETF (ITA)",
+  "CARZ": "First Trust NASDAQ Global Auto Index Fund (CARZ)",
+  "IGV": "iShares Expanded Tech-Software Sector ETF (IGV)",
+  "IHE": "iShares U.S. Pharmaceuticals ETF (IHE)",
+  "IHI": "iShares U.S. Medical Devices ETF (IHI)",
+  "SLX": "VanEck Steel ETF (SLX)",
+  "FDN": "First Trust Dow Jones Internet Index Fund (FDN)",
+  "KCE": "SPDR S&P Capital Markets ETF (KCE)",
+  "COPX": "Global X Copper Miners ETF (COPX)",
+  "QTUM": "Defiance Quantum ETF (QTUM)"
+ }
 }
