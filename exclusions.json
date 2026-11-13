@@ -607,5 +607,9 @@
  {
   "item": "Truth Social posts Nov 8 to early Nov 9 2026 (energy permitting bill S. 5653, Iran blockade, 60 Minutes notice, post-election stock market comment)",
   "reason": "Trump's Nov 8 post urging Senate passage of the American Affordability and Jobs Act is about permitting legislation and data-center electricity pledges, with no listed company named; the other posts name no listed company. No new scoreable mentions."
+ },
+ {
+  "item": "Trump Truth Social post Nov 12 2026 10:29 AM ET on Nvidia CEO Jensen Huang's resignation and Tim Cook of Apple as successor (MarketTrace archive)",
+  "reason": "The post praises two executives and suggests a CEO succession; it is a personnel comment, not a buy call or a comment on either company's business or investment, so it is not scored (NVDA and AAPL already tracked separately). Other Nov 11-12 checks (Truth Social BBC court ruling, CNBC report on administration equity stakes) named no new listed-company calls."
  }
 ]
